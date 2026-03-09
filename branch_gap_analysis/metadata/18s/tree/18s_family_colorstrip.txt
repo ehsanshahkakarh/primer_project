@@ -1,0 +1,313 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	18S Family NF
+COLOR	#CCCCCC
+STRIP_WIDTH	25
+MARGIN	0
+BORDER_WIDTH	0
+SHOW_INTERNAL	0
+
+# All genera colored by their family's NF value
+LEGEND_TITLE	Novelty Factor
+LEGEND_SHAPES	1	1	1	1	1	1
+LEGEND_COLORS	#228B22	#FF8C00	#DC143C	#000080	#4B0082	#AAAAAA
+LEGEND_LABELS	NF < 1.1	NF 1.1-2	NF 2-10	NF > 10	Census Only	No Census Data
+
+DATA
+Acanthamoeba_G	#DC143C	5.9
+Acanthamoebidae_X_G	#DC143C	5.9
+Acantharea_3a_X_G	#AAAAAA	
+Acartia_G	#AAAAAA	
+Acineta_1_G	#AAAAAA	
+Actinosphaerium_G	#AAAAAA	
+Aculops_G	#AAAAAA	
+Acyrthosiphon_G	#AAAAAA	
+Adelina_G	#4B0082	inf
+Agaricomycetes_X_G	#AAAAAA	
+Alaimus_G	#AAAAAA	
+Allantion_G	#4B0082	inf
+Allobodo_G	#DC143C	10.0
+Allogromiina_G	#AAAAAA	
+Allomyces_G	#AAAAAA	
+Alphamonadea_ALPH1_G	#AAAAAA	
+Amphitrema_G	#4B0082	inf
+Ankistrodesmus_G	#228B22	0.2
+Anolis_G	#AAAAAA	
+Anomalocera_G	#AAAAAA	
+Anthoptilum_G	#AAAAAA	
+Aphelidium_G	#000080	12.0
+Apis_G	#AAAAAA	
+Arabidopsis_G	#AAAAAA	
+Articulospora_G	#AAAAAA	
+Ascomorpha_G	#AAAAAA	
+Aspergillus_G	#AAAAAA	
+Astrorhiza_G	#AAAAAA	
+Aureococcus_G	#DC143C	7.2
+Auxenochlorella_G	#AAAAAA	
+Babesia6_G	#FF8C00	1.9
+Balamuthia_G	#DC143C	8.0
+Bathycoccus_G	#000080	13.4
+Batrachochytrium_G	#AAAAAA	
+Bellemerea_G	#AAAAAA	
+Bicoecaceae_X_G	#AAAAAA	
+Blastocystis_G	#AAAAAA	
+Bodo_G	#DC143C	10.0
+Bosmina_G	#AAAAAA	
+Botryococcus_G	#AAAAAA	
+Brachypodium_G	#AAAAAA	
+Bullinularia_G	#AAAAAA	
+Caenorhabditis_G	#AAAAAA	
+Cafeteria_G	#DC143C	6.0
+Campanella_G	#AAAAAA	
+Candida_G	#AAAAAA	
+Cavernomonas_G	#4B0082	inf
+Centropages_G	#AAAAAA	
+Ceratiomyxella_G	#4B0082	inf
+Ceratium_G	#4B0082	inf
+Cercomonadidae_X_G	#4B0082	inf
+Cercomonas_G	#4B0082	inf
+Chaetonotus_G	#AAAAAA	
+Chaos_G	#4B0082	inf
+Chlamydomonas_G	#AAAAAA	
+Chlorociboria_G	#AAAAAA	
+Chloroparva_G	#AAAAAA	
+Chloropicon_G	#DC143C	3.8
+Choanocystis_G	#AAAAAA	
+Chrysaora_G	#AAAAAA	
+Chydorus_G	#AAAAAA	
+Cladophialophora_G	#AAAAAA	
+Clavicaudoides_G	#AAAAAA	
+Coccidioides_G	#AAAAAA	
+Coccomyxa_G	#AAAAAA	
+Coelomomyces_G	#AAAAAA	
+Coemansia_G	#AAAAAA	
+Colletotrichum_G	#AAAAAA	
+Collophidium_G	#4B0082	inf
+Colpodellida_CHR1_X_G	#AAAAAA	
+Coniophora_G	#AAAAAA	
+Conus_G	#AAAAAA	
+Copromyxa_G	#AAAAAA	
+Corallicolla_G	#AAAAAA	
+Corynespora_G	#AAAAAA	
+Crassostrea_G	#AAAAAA	
+Cryothecomonas_G	#AAAAAA	
+Cryptococcus_G	#AAAAAA	
+Cryptodifflugia_G	#AAAAAA	
+Cryptosporidium1_G	#DC143C	3.2
+Cryptosporidium13_G	#DC143C	3.2
+Cryptosporidium15_G	#DC143C	3.2
+Cryptosporidium4_G	#DC143C	3.2
+Culex_G	#AAAAAA	
+Culiseta_G	#AAAAAA	
+Cyanidioschyzon_G	#AAAAAA	
+Cyclops_G	#AAAAAA	
+Cyclotrichium_G	#AAAAAA	
+Danio_G	#AAAAAA	
+Daphnia_G	#AAAAAA	
+Debaryomyces_G	#AAAAAA	
+Diaphanosoma_G	#AAAAAA	
+Dileptidae_X_G	#4B0082	inf
+Diplophrys_G	#AAAAAA	
+Diptilomiopus_G	#AAAAAA	
+Distigma_G	#4B0082	inf
+Ditylenchus_G	#AAAAAA	
+Dothideomycetes_X_G	#AAAAAA	
+Drosophila_G	#AAAAAA	
+Echinamoeba_G	#4B0082	inf
+Ectocarpus_G	#AAAAAA	
+Eimeria1_G	#DC143C	3.8
+Encentrum_G	#AAAAAA	
+Endostelium_G	#AAAAAA	
+Eudiaptomus_G	#AAAAAA	
+Eurytemora_G	#AAAAAA	
+Evaginogenida_X_G	#AAAAAA	
+Exophiala_G	#AAAAAA	
+Farlowiella_G	#AAAAAA	
+Filoreta_G	#AAAAAA	
+Flamella_G	#AAAAAA	
+Flectomonas_G	#4B0082	inf
+Fusiforma_G	#4B0082	inf
+Gadixcellia_G	#4B0082	inf
+Gibberella_G	#AAAAAA	
+Glycine_G	#AAAAAA	
+Gregarina3_G	#000080	130.0
+Gromia_G	#4B0082	inf
+Guepiniopsis_G	#AAAAAA	
+Gyropaigne_G	#AAAAAA	
+Halodaphnea_G	#AAAAAA	
+Hartmannella_G	#4B0082	inf
+Hartmannulidae_X_G	#4B0082	inf
+Hemimastix_G	#4B0082	inf
+Heterodera_G	#AAAAAA	
+Heterolepidoderma_G	#AAAAAA	
+Hexamita_G	#000080	143.2
+Homo_G	#AAAAAA	
+Hyaloscypha_G	#AAAAAA	
+Hyphodiscus_G	#AAAAAA	
+Hyplorynchus_G	#AAAAAA	
+Ichthyophthirius_G	#AAAAAA	
+Isaria_G	#AAAAAA	
+Korotnevella_G	#000080	27.0
+Labyrinthula_G	#000080	62.0
+Lecanicillium_G	#AAAAAA	
+Lecidea_G	#AAAAAA	
+Leidyana1_G	#AAAAAA	
+Leidyana2_G	#AAAAAA	
+Leohumicola_G	#AAAAAA	
+Leptodora_G	#AAAAAA	
+Leptomonas_G	#FF8C00	1.4
+Limnofilidae_X_G	#4B0082	inf
+Limulus_G	#AAAAAA	
+Lipomyces_G	#228B22	0.1
+Loimia_G	#AAAAAA	
+MAST-12C_G	#AAAAAA	
+MAST-3E_G	#AAAAAA	
+Malassezia_G	#AAAAAA	
+Mammalia_X_G	#AAAAAA	
+Massaria_G	#AAAAAA	
+Massisteria_G	#AAAAAA	
+Mastigamoeba_G	#000080	1609.0
+Mastigella_G	#AAAAAA	
+Mattesia_G	#AAAAAA	
+Maxillopoda_X_G	#AAAAAA	
+Mayetiola_G	#AAAAAA	
+Metridia_G	#AAAAAA	
+Micractinium_G	#AAAAAA	
+Micronuclearia_G	#AAAAAA	
+Mitosporidium_G	#AAAAAA	
+Monocystis_G	#AAAAAA	
+Monoraphidium_G	#228B22	0.2
+Mortierella_G	#AAAAAA	
+Mrakia_G	#AAAAAA	
+Nannochloropsis_G	#AAAAAA	
+Nebulomonas_G	#4B0082	inf
+Nematostelium_G	#4B0082	inf
+Nematostella_G	#AAAAAA	
+Nemogullmia_G	#4B0082	inf
+Neobodo_G	#AAAAAA	
+Neocallimastix_G	#FF8C00	1.1
+Neocercomonas_G	#4B0082	inf
+Neofabraea_G	#AAAAAA	
+Neovahlkampfia_G	#000080	211.0
+Neurospora_G	#AAAAAA	
+Nibbleromonas_G	#4B0082	inf
+Nolandellidae_X_G	#AAAAAA	
+Notosolenus_G	#4B0082	inf
+Nucleariidae_Nuclearia_2_X_G	#AAAAAA	
+Oribatida_G	#AAAAAA	
+Oryza_G	#AAAAAA	
+Ostreococcus_G	#000080	13.4
+Panellus_G	#AAAAAA	
+Paracalanus_G	#AAAAAA	
+Paracercomonas_G	#4B0082	inf
+Paradinium_G	#AAAAAA	
+Paramecium_G	#DC143C	6.5
+Paramicrosporidium_G	#AAAAAA	
+Paramoeba_G	#000080	27.0
+Parhypochthonius_G	#AAAAAA	
+Paulinella_G	#000080	17.0
+Penicillium_G	#AAAAAA	
+Pentapharsodinium_G	#AAAAAA	
+Penthaleus_G	#AAAAAA	
+Petalomonas_G	#4B0082	inf
+Phaeodactylum_G	#000080	15.0
+Phaeosphaeria_G	#AAAAAA	
+Phialophora_G	#AAAAAA	
+Philaenus_G	#AAAAAA	
+Phryganella_G	#AAAAAA	
+Physcomitrella_G	#AAAAAA	
+Physochila_G	#AAAAAA	
+Phytomonas_G	#FF8C00	1.4
+Phytophthora_G	#AAAAAA	
+Picomonas_G	#4B0082	inf
+Piromyces_G	#FF8C00	1.1
+Plagiostomum_G	#AAAAAA	
+Plasmodium1_G	#DC143C	4.0
+Plasmodium2_G	#DC143C	4.0
+Plasmodium4_G	#DC143C	4.0
+Plectonchus_G	#AAAAAA	
+Podospora_G	#AAAAAA	
+Polychaos_G	#4B0082	inf
+Polychytrium_G	#AAAAAA	
+Populus_G	#AAAAAA	
+Pristionchus_G	#AAAAAA	
+Prodesmodora_G	#AAAAAA	
+Protacanthamoeba_G	#DC143C	5.9
+Protaspa_G	#AAAAAA	
+Pseudovorticella_G	#AAAAAA	
+Psora_G	#AAAAAA	
+Ptolemeba_G	#4B0082	inf
+Pycnora_G	#AAAAAA	
+Pythium_G	#AAAAAA	
+Raphidocelis_G	#228B22	0.2
+Rattus_G	#AAAAAA	
+Rehmannia_G	#AAAAAA	
+Reophax_G	#4B0082	inf
+Rhizoclosmatium_G	#AAAAAA	
+Rhizophagus_G	#AAAAAA	
+Rhizopus_G	#AAAAAA	
+Rhynchomonas_G	#4B0082	inf
+Ricinus_G	#AAAAAA	
+Rigifila_G	#AAAAAA	
+Ripidomyxa_G	#AAAAAA	
+Russula_G	#AAAAAA	
+Sabatieria_G	#AAAAAA	
+Saccamoeba_G	#4B0082	inf
+Saccharomyces_G	#AAAAAA	
+Salpingoecidae_Group_C1_X_G	#AAAAAA	
+Sandona_G	#4B0082	inf
+Saprolegnia_G	#AAAAAA	
+Sarcocystis10_G	#000080	12.7
+Sawyeria_G	#4B0082	inf
+Schistosoma_G	#AAAAAA	
+Schizoplasmodium_G	#4B0082	inf
+Schizosaccharomyces_G	#AAAAAA	
+Scrippsiella_G	#AAAAAA	
+Scytomonas_G	#4B0082	inf
+Simocephalus_G	#AAAAAA	
+Skeletonema_G	#AAAAAA	
+Smittium_G	#AAAAAA	
+Sorghum_G	#AAAAAA	
+Spadicoides_G	#AAAAAA	
+Spermatozopsis_G	#AAAAAA	
+Sphaerozoum_G	#4B0082	inf
+Spinibdella_G	#AAAAAA	
+Spizellomyces_G	#000080	13.0
+Spumella_G	#AAAAAA	
+Strigomonas_G	#FF8C00	1.4
+Stylonychia_G	#000080	160.0
+Surapoda_G	#AAAAAA	
+Taphrina_G	#AAAAAA	
+Tectonidula_G	#AAAAAA	
+Teratosphaeria_G	#AAAAAA	
+Tetrachaetum_G	#AAAAAA	
+Thalassiosira_G	#000080	11.9
+Thamnocephalis_G	#AAAAAA	
+Thaumatomonas_G	#AAAAAA	
+Theileria1_G	#000080	12.6
+Tholomura_G	#AAAAAA	
+Tilletiopsis_G	#AAAAAA	
+Tobrilus_G	#AAAAAA	
+Tokophrya_G	#4B0082	inf
+Trachelomonas_G	#000080	470.0
+Tremellomycetes_X_G	#AAAAAA	
+Trepomonas_G	#000080	143.2
+Trichocladium_G	#AAAAAA	
+Trichosporon_G	#AAAAAA	
+Trimitus_G	#000080	143.2
+Trochilia_G	#4B0082	inf
+Trypanosoma_G	#FF8C00	1.4
+Tuckermannopsis_G	#AAAAAA	
+Ubysseya_G	#4B0082	inf
+Ulva_G	#AAAAAA	
+Urotricha_G	#4B0082	inf
+Ustanciosporium_G	#AAAAAA	
+Vampyrella_G	#4B0082	inf
+Vannella_G	#000080	56.0
+Ventrifissura_G	#4B0082	inf
+Venturia_G	#AAAAAA	
+Vorticella_G	#AAAAAA	
+Xenopus_G	#AAAAAA	
+Xiphocephalus_G	#4B0082	inf
+Zea_G	#AAAAAA	
+Zymoseptoria_G	#AAAAAA	

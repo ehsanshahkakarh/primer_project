@@ -1,0 +1,189 @@
+{
+  "source_cluster_tsv": "/Users/ehsankakarh/PROJA/eukcensus_metadata/eukcensus_18S.clusters.97.tsv",
+  "source_merger_csv": "/Users/ehsankakarh/PROJA/_project_pulls/otu_assembly_comparative_pipeline-/Eukcensus_merge/18s_merged/csv_results/18s_ncbi_merged_clean_phylum.csv",
+  "filters": {
+    "rank": "phylum",
+    "match_status": null,
+    "min_nf": null
+  },
+  "results": {
+    "taxa_in_merger": 24,
+    "taxa_found_in_clusters": 22,
+    "total_cluster_rows": 70899,
+    "total_sequences": 401342
+  },
+  "taxa_details": {
+    "Opisthokonta": {
+      "census_otu_count": 24345,
+      "ncbi_genome_count": 41803,
+      "novelty_factor": "1.401",
+      "match_status": "matched",
+      "clusters_found": 24345
+    },
+    "Streptophyta": {
+      "census_otu_count": 2252,
+      "ncbi_genome_count": 5885,
+      "novelty_factor": "0.959",
+      "match_status": "matched",
+      "clusters_found": 2252
+    },
+    "Stramenopiles": {
+      "census_otu_count": 3668,
+      "ncbi_genome_count": 684,
+      "novelty_factor": "11.115",
+      "match_status": "matched",
+      "clusters_found": 3668
+    },
+    "Alveolata": {
+      "census_otu_count": 9042,
+      "ncbi_genome_count": 570,
+      "novelty_factor": "51.669",
+      "match_status": "matched",
+      "clusters_found": 9042
+    },
+    "Chlorophyta": {
+      "census_otu_count": 1505,
+      "ncbi_genome_count": 440,
+      "novelty_factor": "6.749",
+      "match_status": "matched",
+      "clusters_found": 1505
+    },
+    "Discoba": {
+      "census_otu_count": 5496,
+      "ncbi_genome_count": 328,
+      "novelty_factor": "45.421",
+      "match_status": "matched",
+      "clusters_found": 5496
+    },
+    "Rhizaria": {
+      "census_otu_count": 5126,
+      "ncbi_genome_count": 68,
+      "novelty_factor": "341.733",
+      "match_status": "matched",
+      "clusters_found": 5126
+    },
+    "Rhodophyta": {
+      "census_otu_count": 2,
+      "ncbi_genome_count": 68,
+      "novelty_factor": "0.043",
+      "match_status": "matched",
+      "clusters_found": 2
+    },
+    "Metamonada": {
+      "census_otu_count": 573,
+      "ncbi_genome_count": 66,
+      "novelty_factor": "26.045",
+      "match_status": "matched",
+      "clusters_found": 573
+    },
+    "Evosea": {
+      "census_otu_count": 2431,
+      "ncbi_genome_count": 46,
+      "novelty_factor": "78.419",
+      "match_status": "matched",
+      "clusters_found": 2431
+    },
+    "Discosea": {
+      "census_otu_count": 399,
+      "ncbi_genome_count": 39,
+      "novelty_factor": "15.346",
+      "match_status": "matched",
+      "clusters_found": 399
+    },
+    "Tubulinea": {
+      "census_otu_count": 1323,
+      "ncbi_genome_count": 2,
+      "novelty_factor": "1323.0",
+      "match_status": "matched",
+      "clusters_found": 1323
+    },
+    "Haptophyta": {
+      "census_otu_count": 0,
+      "ncbi_genome_count": 15,
+      "novelty_factor": "",
+      "match_status": "ncbi_only",
+      "clusters_found": 0
+    },
+    "Prasinodermophyta": {
+      "census_otu_count": 0,
+      "ncbi_genome_count": 1,
+      "novelty_factor": "",
+      "match_status": "ncbi_only",
+      "clusters_found": 0
+    },
+    "Eukaryota.U.division": {
+      "census_otu_count": 9333,
+      "ncbi_genome_count": 0,
+      "novelty_factor": "inf",
+      "match_status": "census_only",
+      "clusters_found": 9333
+    },
+    "Amoebozoa.U.division": {
+      "census_otu_count": 4214,
+      "ncbi_genome_count": 0,
+      "novelty_factor": "inf",
+      "match_status": "census_only",
+      "clusters_found": 4214
+    },
+    "Archaeplastida.U.division": {
+      "census_otu_count": 342,
+      "ncbi_genome_count": 0,
+      "novelty_factor": "inf",
+      "match_status": "census_only",
+      "clusters_found": 342
+    },
+    "TSAR.U.division": {
+      "census_otu_count": 509,
+      "ncbi_genome_count": 0,
+      "novelty_factor": "inf",
+      "match_status": "census_only",
+      "clusters_found": 509
+    },
+    "Centroplasthelida": {
+      "census_otu_count": 185,
+      "ncbi_genome_count": 0,
+      "novelty_factor": "inf",
+      "match_status": "census_only",
+      "clusters_found": 185
+    },
+    "Rigifilida": {
+      "census_otu_count": 79,
+      "ncbi_genome_count": 0,
+      "novelty_factor": "inf",
+      "match_status": "census_only",
+      "clusters_found": 79
+    },
+    "Hemimastigophora": {
+      "census_otu_count": 20,
+      "ncbi_genome_count": 0,
+      "novelty_factor": "inf",
+      "match_status": "census_only",
+      "clusters_found": 20
+    },
+    "Picozoa": {
+      "census_otu_count": 51,
+      "ncbi_genome_count": 0,
+      "novelty_factor": "inf",
+      "match_status": "census_only",
+      "clusters_found": 51
+    },
+    "Nebulidia": {
+      "census_otu_count": 1,
+      "ncbi_genome_count": 0,
+      "novelty_factor": "inf",
+      "match_status": "census_only",
+      "clusters_found": 1
+    },
+    "Nibbleridia": {
+      "census_otu_count": 3,
+      "ncbi_genome_count": 0,
+      "novelty_factor": "inf",
+      "match_status": "census_only",
+      "clusters_found": 3
+    }
+  },
+  "output_files": {
+    "subset_clusters": "metadata/18S_subsets/phylum_clusters.tsv",
+    "taxa_list": "metadata/18S_subsets/phylum_taxa_list.txt"
+  }
+}

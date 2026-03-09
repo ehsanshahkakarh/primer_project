@@ -1,0 +1,22 @@
+# Large data files - regenerate with scripts
+18S_subset/output/*.fna
+18S_division_subset/output/*.fna
+
+# Primer results - regenerate with scripts
+18S_subset/primer_results/
+18S_division_subset/primer_results/
+
+# Test data (large)
+primer_design_pipeline/test_data/
+
+# Logs
+*.log
+pipeline.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Archive (old files)
+branch_gap_analysis/_archive/
+

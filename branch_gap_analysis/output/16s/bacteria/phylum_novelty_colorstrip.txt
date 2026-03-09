@@ -1,0 +1,46 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Phylum Novelty
+COLOR	#cc0000
+STRIP_WIDTH	30
+MARGIN	5
+SHOW_INTERNAL	1
+DATA
+Abditibacteriota_P	#000080	36.7
+Acidobacteriota_P	#000080	24.7
+Actinomycetota_P	#888888	0.9
+Aquificota_P	#fa4800	2.8
+Armatimonadota_P	#000080	15.3
+Atribacterota_P	#f44000	3.7
+Bacillota_P	#f54200	3.5
+Bacteroidota_P	#f03b00	4.3
+Bdellovibrionota_P	#c90200	10.7
+Caldisericota_P	#ec3500	5.0
+Calditrichota_P	#000080	35.0
+Campylobacterota_P	#f84600	3.1
+Chlamydiota_P	#888888	0.1
+Chlorobiota_P	#888888	0.1
+Chloroflexota_P	#000080	18.4
+Chrysiogenota_P	#888888	0.8
+Coprothermobacterota_P	#d20f00	9.3
+Cyanobacteriota_P	#888888	0.6
+Deferribacterota_P	#fa4900	2.7
+Deinococcota_P	#fb4a00	2.6
+Dictyoglomota_P	#888888	0.9
+Elusimicrobiota_P	#f03a00	4.4
+Fibrobacterota_P	#d91800	8.2
+Fusobacteriota_P	#ef3800	4.6
+Gemmatimonadota_P	#000080	20.0
+Ignavibacteriota_P	#888888	0.1
+Mycoplasmatota_P	#fb4b00	2.5
+Myxococcota_P	#000080	14.3
+Nitrospinota_P	#d31000	9.1
+Nitrospirota_P	#ea3200	5.3
+Planctomycetota_P	#000080	26.3
+Pseudomonadota_P	#FF8000	1.6
+Spirochaetota_P	#e12500	6.8
+Synergistota_P	#ed3600	4.9
+Thermodesulfobacteriota_P	#e12400	6.9
+Thermomicrobiota_P	#000080	25.6
+Thermotogota_P	#FF8000	1.2
+Verrucomicrobiota_P	#000080	16.9

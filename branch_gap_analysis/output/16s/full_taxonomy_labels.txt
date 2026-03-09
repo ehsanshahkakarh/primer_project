@@ -1,0 +1,4169 @@
+LABELS
+SEPARATOR TAB
+DATA
+cellular_organisms_C	cellular organisms (C)
+Bacteria_D	Bacteria (D)
+Pseudomonadati_K	Pseudomonadati (K)
+Pseudomonadota_P	Pseudomonadota (P) NF=1.6
+Gammaproteobacteria_C	Gammaproteobacteria (C)
+Enterobacterales_O	Enterobacterales (O)
+Enterobacteriaceae_F	Enterobacteriaceae (F) NF=0.5
+Salmonella_G	Salmonella (G) NF=0.1
+Escherichia_G	Escherichia (G) NF=0.6
+Klebsiella/Raoultella_group_N	Klebsiella/Raoultella group (N)
+Klebsiella_G	Klebsiella (G) NF=0.5
+Raoultella_G	Raoultella (G) NF=0.4
+Shigella_G	Shigella (G) NF=0.2
+Enterobacter_G	Enterobacter (G) NF=0.7
+Citrobacter_G	Citrobacter (G) NF=0.2
+Cronobacter_G	Cronobacter (G) NF=2.2
+Leclercia_G	Leclercia (G) NF=0.2
+Kluyvera_G	Kluyvera (G) NF=0.5
+Atlantibacter_G	Atlantibacter (G) NF=1.0
+Kosakonia_G	Kosakonia (G) NF=0.7
+Pluralibacter_G	Pluralibacter (G) NF=0.7
+Lelliottia_G	Lelliottia (G) NF=0.4
+Plesiomonas_G	Plesiomonas (G) NF=4.8
+Pseudescherichia_G	Pseudescherichia (G) NF=0.2
+Buttiauxella_G	Buttiauxella (G) NF=0.5
+Cedecea_G	Cedecea (G) NF=0.2
+Pseudocitrobacter_G	Pseudocitrobacter (G) NF=0.4
+Phytobacter_G	Phytobacter (G) NF=0.1
+Franconibacter_G	Franconibacter (G) NF=0.4
+Yokenella_G	Yokenella (G) NF=5.0
+Siccibacter_G	Siccibacter (G) NF=0.5
+Trabulsiella_G	Trabulsiella (G) NF=2.0
+Mangrovibacter_G	Mangrovibacter (G) NF=0.6
+Shimwellia_G	Shimwellia (G) NF=4.5
+Yersiniaceae_F	Yersiniaceae (F) NF=1.2
+Rahnella_G	Rahnella (G) NF=0.6
+Rouxiella_G	Rouxiella (G) NF=0.1
+Ewingella_G	Ewingella (G) NF=0.8
+Gibbsiella_G	Gibbsiella (G) NF=0.7
+Chania_G	Chania (G) NF=0.5
+Morganellaceae_F	Morganellaceae (F) NF=1.0
+Providencia_G	Providencia (G) NF=0.2
+Xenorhabdus_G	Xenorhabdus (G) NF=0.7
+Photorhabdus_G	Photorhabdus (G) NF=1.0
+Arsenophonus_G	Arsenophonus (G) NF=2.2
+Erwiniaceae_F	Erwiniaceae (F) NF=1.1
+Pantoea_G	Pantoea (G) NF=0.8
+Erwinia_G	Erwinia (G) NF=0.7
+Mixta_G	Mixta (G) NF=0.1
+Rosenbergiella_G	Rosenbergiella (G) NF=1.3
+Tatumella_G	Tatumella (G) NF=0.4
+Wigglesworthia_G	Wigglesworthia (G) NF=2.0
+Izhakiella_G	Izhakiella (G) NF=8.0
+Phaseolibacter_G	Phaseolibacter (G) NF=2.0
+Pectobacteriaceae_F	Pectobacteriaceae (F) NF=0.9
+Pectobacterium_G	Pectobacterium (G) NF=0.8
+Dickeya_G	Dickeya (G) NF=1.7
+Lonsdalea_G	Lonsdalea (G) NF=1.0
+Brenneria_G	Brenneria (G) NF=0.5
+Samsonia_G	Samsonia (G) NF=1.0
+Hafniaceae_F	Hafniaceae (F) NF=2.6
+Hafnia_G	Hafnia (G) NF=0.9
+Obesumbacterium_G	Obesumbacterium (G) NF=2.0
+Enterobacillus_G	Enterobacillus (G) NF=1.0
+Bruguierivoracaceae_F	Bruguierivoracaceae (F) NF=1.6
+Sodalis_G	Sodalis (G) NF=1.6
+Biostraticola_G	Biostraticola (G) NF=1.0
+Budviciaceae_F	Budviciaceae (F) NF=0.6
+Leminorella_G	Leminorella (G) NF=1.5
+Budvicia_G	Budvicia (G) NF=0.7
+Pragia_G	Pragia (G) NF=2.0
+Thorselliaceae_F	Thorselliaceae (F) NF=2.0
+Thorsellia_G	Thorsellia (G) NF=1.5
+Gallaecimonadaceae_F	Gallaecimonadaceae (F)
+Gallaecimonas_G	Gallaecimonas (G) NF=1.0
+Pseudomonadales_O	Pseudomonadales (O)
+Pseudomonadaceae_F	Pseudomonadaceae (F) NF=0.8
+Pseudomonas_G	Pseudomonas (G) NF=0.8
+Thiopseudomonas_G	Thiopseudomonas (G) NF=0.9
+Azotobacter_group_sF	Azotobacter group (sF)
+Azotobacter_G	Azotobacter (G) NF=3.9
+Azomonas_G	Azomonas (G) NF=3.5
+Permianibacter_G	Permianibacter (G) NF=1.7
+Marinobacteraceae_F	Marinobacteraceae (F) NF=1.4
+Marinobacter_G	Marinobacter (G) NF=1.4
+Tamilnaduibacter_G	Tamilnaduibacter (G) NF=1.0
+Perlucidibacaceae_F	Perlucidibacaceae (F) NF=1.5
+Perlucidibaca_G	Perlucidibaca (G) NF=1.5
+Ventosimonadaceae_F	Ventosimonadaceae (F) NF=3.5
+Ventosimonas_G	Ventosimonas (G) NF=3.5
+Pseudohongiellaceae_F	Pseudohongiellaceae (F)
+Pseudohongiella_G	Pseudohongiella (G) NF=31.0
+Ketobacteraceae_F	Ketobacteraceae (F)
+Ketobacter_G	Ketobacter (G) NF=4.6
+Moraxellales_O	Moraxellales (O)
+Moraxellaceae_F	Moraxellaceae (F) NF=1.0
+Acinetobacter_G	Acinetobacter (G) NF=0.9
+Psychrobacter_G	Psychrobacter (G) NF=1.0
+Moraxella_G	Moraxella (G) NF=1.5
+Agitococcus_G	Agitococcus (G) NF=0.3
+Paraperlucidibaca_G	Paraperlucidibaca (G) NF=0.5
+Alkanindiges_G	Alkanindiges (G) NF=5.8
+Fluviicoccus_G	Fluviicoccus (G) NF=0.5
+Faucicola_G	Faucicola (G) NF=1.0
+Vibrionales_O	Vibrionales (O)
+Vibrionaceae_F	Vibrionaceae (F) NF=0.8
+Vibrio_G	Vibrio (G) NF=0.8
+Photobacterium_G	Photobacterium (G) NF=1.3
+Aliivibrio_G	Aliivibrio (G) NF=0.5
+Enterovibrio_G	Enterovibrio (G) NF=0.8
+Salinivibrio_G	Salinivibrio (G) NF=0.8
+Grimontia_G	Grimontia (G) NF=0.3
+Thaumasiovibrio_G	Thaumasiovibrio (G) NF=3.0
+Paraphotobacterium_G	Paraphotobacterium (G) NF=3.0
+Lysobacterales_O	Lysobacterales (O)
+Lysobacteraceae_F	Lysobacteraceae (F) NF=1.1
+Xanthomonas_G	Xanthomonas (G) NF=0.2
+Stenotrophomonas_G	Stenotrophomonas (G) NF=0.7
+Xylella_G	Xylella (G) NF=2.0
+Pseudoxanthomonas_G	Pseudoxanthomonas (G) NF=0.9
+Lysobacter_G	Lysobacter (G) NF=2.4
+Luteimonas_G	Luteimonas (G) NF=1.2
+Thermomonas_G	Thermomonas (G) NF=3.2
+Arenimonas_G	Arenimonas (G) NF=10.6
+Aquimonas_G	Aquimonas (G) NF=5.0
+Chiayiivirga_G	Chiayiivirga (G) NF=1.3
+Silanimonas_G	Silanimonas (G) NF=9.5
+Vulcaniibacterium_G	Vulcaniibacterium (G) NF=2.7
+Rehaibacterium_G	Rehaibacterium (G) NF=5.0
+Coralloluteibacterium_G	Coralloluteibacterium (G) NF=0.5
+Rhodanobacteraceae_F	Rhodanobacteraceae (F) NF=2.0
+Rhodanobacter_G	Rhodanobacter (G) NF=1.5
+Dokdonella_G	Dokdonella (G) NF=9.1
+Dyella_G	Dyella (G) NF=0.6
+Luteibacter_G	Luteibacter (G) NF=1.1
+Metallibacterium_G	Metallibacterium (G) NF=3.0
+Rudaea_G	Rudaea (G) NF=1.2
+Frateuria_G	Frateuria (G) NF=0.7
+Tahibacter_G	Tahibacter (G) NF=2.0
+Oleiagrimonas_G	Oleiagrimonas (G) NF=0.8
+Mizugakiibacter_G	Mizugakiibacter (G) NF=2.0
+Fulvimonas_G	Fulvimonas (G) NF=1.0
+Pseudofulvimonas_G	Pseudofulvimonas (G) NF=20.0
+Ahniella_G	Ahniella (G) NF=30.5
+Marinicellaceae_F	Marinicellaceae (F)
+Marinicella_G	Marinicella (G) NF=3.0
+Pasteurellales_O	Pasteurellales (O)
+Pasteurellaceae_F	Pasteurellaceae (F) NF=3.1
+Mannheimia_G	Mannheimia (G) NF=0.9
+Haemophilus_G	Haemophilus (G) NF=8.8
+Pasteurella_G	Pasteurella (G) NF=1.6
+Glaesserella_G	Glaesserella (G) NF=0.8
+Aggregatibacter_G	Aggregatibacter (G) NF=5.0
+Actinobacillus_G	Actinobacillus (G) NF=3.4
+Avibacterium_G	Avibacterium (G) NF=0.4
+Gallibacterium_G	Gallibacterium (G) NF=0.9
+Histophilus_G	Histophilus (G) NF=3.0
+Rodentibacter_G	Rodentibacter (G) NF=0.6
+Mesocricetibacter_G	Mesocricetibacter (G) NF=0.3
+Ursidibacter_G	Ursidibacter (G) NF=1.5
+Lonepinella_G	Lonepinella (G) NF=0.4
+Testudinibacter_G	Testudinibacter (G) NF=0.5
+Bibersteinia_G	Bibersteinia (G) NF=3.0
+Muribacter_G	Muribacter (G) NF=2.0
+Basfia_G	Basfia (G) NF=0.5
+Otariodibacter_G	Otariodibacter (G) NF=1.5
+Necropsobacter_G	Necropsobacter (G) NF=0.5
+Nicoletella_G	Nicoletella (G) NF=1.0
+Phocoenobacter_G	Phocoenobacter (G) NF=18.0
+Vespertiliibacter_G	Vespertiliibacter (G) NF=1.0
+Volucribacter_G	Volucribacter (G) NF=0.5
+Frederiksenia_G	Frederiksenia (G) NF=2.0
+Bisgaardia_G	Bisgaardia (G) NF=3.0
+Chelonobacter_G	Chelonobacter (G) NF=3.0
+Seminibacterium_G	Seminibacterium (G) NF=1.0
+Caviibacterium_G	Caviibacterium (G) NF=3.0
+Conservatibacter_G	Conservatibacter (G) NF=1.0
+Legionellales_O	Legionellales (O)
+Legionellaceae_F	Legionellaceae (F) NF=4.6
+Legionella_G	Legionella (G) NF=4.4
+Coxiellaceae_F	Coxiellaceae (F) NF=17.3
+Rickettsiella_G	Rickettsiella (G) NF=2.4
+Aquicella_G	Aquicella (G) NF=130.5
+Aeromonadales_O	Aeromonadales (O)
+Aeromonadaceae_F	Aeromonadaceae (F) NF=1.0
+Aeromonas_G	Aeromonas (G) NF=1.0
+Tolumonas_G	Tolumonas (G) NF=2.6
+Oceanisphaera_G	Oceanisphaera (G) NF=1.1
+Oceanimonas_G	Oceanimonas (G) NF=0.8
+Zobellella_G	Zobellella (G) NF=0.9
+Pseudaeromonas_G	Pseudaeromonas (G) NF=0.7
+Succinivibrionaceae_F	Succinivibrionaceae (F) NF=2.7
+Succinivibrio_G	Succinivibrio (G) NF=9.8
+Succinatimonas_G	Succinatimonas (G) NF=0.3
+Anaerobiospirillum_G	Anaerobiospirillum (G) NF=1.1
+Ruminobacter_G	Ruminobacter (G) NF=7.0
+Succinimonas_G	Succinimonas (G) NF=1.5
+Thiotrichales_O	Thiotrichales (O)
+Francisellaceae_F	Francisellaceae (F) NF=1.3
+Francisella_G	Francisella (G) NF=0.7
+Allofrancisella_G	Allofrancisella (G) NF=0.7
+Piscirickettsiaceae_F	Piscirickettsiaceae (F) NF=1.4
+Methylophaga_G	Methylophaga (G) NF=1.1
+Piscirickettsia_G	Piscirickettsia (G) NF=2.5
+Cycloclasticus_G	Cycloclasticus (G) NF=0.9
+Thiomicrorhabdus_G	Thiomicrorhabdus (G) NF=2.8
+Thiomicrospira_G	Thiomicrospira (G) NF=1.2
+Hydrogenovibrio_G	Hydrogenovibrio (G) NF=0.1
+Sulfurivirga_G	Sulfurivirga (G) NF=3.0
+Thiotrichaceae_F	Thiotrichaceae (F) NF=6.3
+Thiothrix_G	Thiothrix (G) NF=5.4
+Cocleimonas_G	Cocleimonas (G) NF=6.7
+Thiomargarita_G	Thiomargarita (G) NF=2.7
+Beggiatoa_G	Beggiatoa (G) NF=3.8
+Thioploca_G	Thioploca (G) NF=0.5
+Achromatium_G	Achromatium (G) NF=4.2
+Fastidiosibacteraceae_F	Fastidiosibacteraceae (F) NF=2.2
+Cysteiniphilum_G	Cysteiniphilum (G) NF=0.7
+Caedibacter_G	Caedibacter (G) NF=4.0
+Fangia_G	Fangia (G) NF=4.0
+Fastidiosibacter_G	Fastidiosibacter (G) NF=3.0
+Alteromonadales_O	Alteromonadales (O)
+Alteromonadaceae_F	Alteromonadaceae (F) NF=1.8
+Alteromonas/Salinimonas_group_N	Alteromonas/Salinimonas group (N)
+Alteromonas_G	Alteromonas (G) NF=2.5
+Salinimonas_G	Salinimonas (G) NF=3.0
+Glaciecola_G	Glaciecola (G) NF=2.1
+Paraglaciecola_G	Paraglaciecola (G) NF=1.4
+Alishewanella_G	Alishewanella (G) NF=1.1
+Agarivorans_G	Agarivorans (G) NF=0.5
+Aliiglaciecola_G	Aliiglaciecola (G) NF=0.8
+Aestuariibacter_G	Aestuariibacter (G) NF=7.2
+Catenovulum_G	Catenovulum (G) NF=2.0
+Bowmanella_G	Bowmanella (G) NF=0.6
+Alkalimarinus_G	Alkalimarinus (G) NF=0.7
+Lacimicrobium_G	Lacimicrobium (G) NF=1.0
+Planctobacterium_G	Planctobacterium (G) NF=1.0
+Halioxenophilus_G	Halioxenophilus (G) NF=1.5
+Pseudobowmanella_G	Pseudobowmanella (G) NF=2.0
+Agaribacter_G	Agaribacter (G) NF=5.5
+Aliagarivorans_G	Aliagarivorans (G) NF=1.0
+Gayadomonas_G	Gayadomonas (G) NF=1.0
+Shewanellaceae_F	Shewanellaceae (F) NF=0.7
+Shewanella_G	Shewanella (G) NF=0.7
+Psychrobium_G	Psychrobium (G) NF=3.7
+Pseudoalteromonadaceae_F	Pseudoalteromonadaceae (F) NF=0.7
+Pseudoalteromonas_G	Pseudoalteromonas (G) NF=0.7
+Psychrosphaera_G	Psychrosphaera (G) NF=0.2
+Algicola_G	Algicola (G) NF=3.0
+Colwelliaceae_F	Colwelliaceae (F) NF=1.9
+Colwellia_G	Colwellia (G) NF=2.0
+Thalassotalea_G	Thalassotalea (G) NF=1.5
+Thalassomonas_G	Thalassomonas (G) NF=1.7
+Litorilituus_G	Litorilituus (G) NF=0.3
+Idiomarinaceae_F	Idiomarinaceae (F) NF=1.1
+Idiomarina_G	Idiomarina (G) NF=1.4
+Pseudidiomarina_G	Pseudidiomarina (G) NF=0.3
+Aliidiomarina_G	Aliidiomarina (G) NF=1.7
+Psychromonadaceae_F	Psychromonadaceae (F) NF=0.7
+Psychromonas_G	Psychromonas (G) NF=0.9
+Moritellaceae_F	Moritellaceae (F) NF=1.5
+Moritella_G	Moritella (G) NF=0.9
+Ferrimonadaceae_F	Ferrimonadaceae (F) NF=1.1
+Ferrimonas_G	Ferrimonas (G) NF=1.2
+Paraferrimonas_G	Paraferrimonas (G) NF=0.3
+Alteromonadales_genera_incertae_sedis_N	Alteromonadales genera incertae sedis (N)
+Motilimonas_G	Motilimonas (G) NF=0.8
+Echinimonadaceae_F	Echinimonadaceae (F)
+Neiella_G	Neiella (G) NF=0.3
+Echinimonas_G	Echinimonas (G) NF=1.0
+Methylococcales_O	Methylococcales (O)
+Methylococcaceae_F	Methylococcaceae (F) NF=2.2
+Methylobacter_G	Methylobacter (G) NF=2.6
+Methylomonas_G	Methylomonas (G) NF=1.2
+Methylococcus_G	Methylococcus (G) NF=1.0
+Methylomarinum_G	Methylomarinum (G) NF=2.2
+Methyloprofundus_G	Methyloprofundus (G) NF=12.0
+Methylovulum_G	Methylovulum (G) NF=3.7
+Methylomagnum_G	Methylomagnum (G) NF=4.5
+Methyloglobulus_G	Methyloglobulus (G) NF=7.5
+Methylomicrobium_G	Methylomicrobium (G) NF=2.6
+Methylocaldum_G	Methylocaldum (G) NF=1.9
+Methylocucumis_G	Methylocucumis (G) NF=0.5
+Methylogaea_G	Methylogaea (G) NF=1.0
+Methylosarcina_G	Methylosarcina (G) NF=6.0
+Methyloterricola_G	Methyloterricola (G) NF=10.0
+Crenotrichaceae_F	Crenotrichaceae (F) NF=13.0
+Crenothrix_G	Crenothrix (G) NF=16.2
+Methylothermaceae_F	Methylothermaceae (F) NF=3.0
+Methylohalobius_G	Methylohalobius (G) NF=1.0
+Methylomarinovum_G	Methylomarinovum (G) NF=5.0
+Oceanospirillales_O	Oceanospirillales (O)
+Halomonadaceae_F	Halomonadaceae (F) NF=1.3
+Halomonas_G	Halomonas (G) NF=1.7
+Cobetia_G	Cobetia (G) NF=0.5
+Chromohalobacter_G	Chromohalobacter (G) NF=1.9
+Salinicola_G	Salinicola (G) NF=0.4
+Modicisalibacter_G	Modicisalibacter (G) NF=0.1
+Kushneria_G	Kushneria (G) NF=0.5
+Larsenimonas_G	Larsenimonas (G) NF=0.3
+Halovibrio_G	Halovibrio (G) NF=0.8
+Aidingimonas_G	Aidingimonas (G) NF=2.0
+Zymobacter_group_N	Zymobacter group (N)
+Zymobacter_G	Zymobacter (G) NF=0.3
+Pistricoccus_G	Pistricoccus (G) NF=1.0
+Halotalea_G	Halotalea (G) NF=3.0
+Carnimonas_G	Carnimonas (G) NF=5.0
+Salicola_G	Salicola (G) NF=3.0
+Oceanospirillaceae_F	Oceanospirillaceae (F) NF=1.3
+Marinomonas_G	Marinomonas (G) NF=1.1
+Thalassolituus_G	Thalassolituus (G) NF=0.7
+Marinobacterium_G	Marinobacterium (G) NF=1.7
+Neptunomonas_G	Neptunomonas (G) NF=2.0
+Neptuniibacter_G	Neptuniibacter (G) NF=0.8
+Motiliproteus_G	Motiliproteus (G) NF=4.0
+Amphritea_G	Amphritea (G) NF=1.1
+Oleispira_G	Oleispira (G) NF=5.5
+Bermanella_G	Bermanella (G) NF=0.6
+Oceanospirillum_G	Oceanospirillum (G) NF=3.0
+Nitrincola_G	Nitrincola (G) NF=0.5
+Marinospirillum_G	Marinospirillum (G) NF=1.2
+Pontibacterium_G	Pontibacterium (G) NF=1.0
+Oceanobacter_G	Oceanobacter (G) NF=1.8
+Bacterioplanes_G	Bacterioplanes (G) NF=1.0
+Litoribrevibacter_G	Litoribrevibacter (G) NF=1.5
+Litoribacillus_G	Litoribacillus (G) NF=1.0
+Allopseudospirillum_G	Allopseudospirillum (G) NF=2.0
+Oceaniserpentilla_G	Oceaniserpentilla (G) NF=3.0
+Alcanivoracaceae_F	Alcanivoracaceae (F) NF=1.7
+Alcanivorax_G	Alcanivorax (G) NF=1.6
+Endozoicomonadaceae_F	Endozoicomonadaceae (F) NF=2.2
+Endozoicomonas_G	Endozoicomonas (G) NF=2.6
+Kistimonas_G	Kistimonas (G) NF=2.0
+Saccharospirillaceae_F	Saccharospirillaceae (F) NF=2.6
+Reinekea_G	Reinekea (G) NF=2.4
+Saccharospirillum_G	Saccharospirillum (G) NF=1.1
+Salinispirillum_G	Salinispirillum (G) NF=1.0
+Gynuella_G	Gynuella (G) NF=1.5
+Oleiphilaceae_F	Oleiphilaceae (F) NF=0.9
+Oleiphilus_G	Oleiphilus (G) NF=1.0
+Hahellaceae_F	Hahellaceae (F) NF=1.3
+Hahella_G	Hahella (G) NF=2.0
+Allohahella_G	Allohahella (G) NF=0.5
+Pleioneaceae_F	Pleioneaceae (F) NF=1.7
+Aliikangiella_G	Aliikangiella (G) NF=3.2
+Pleionea_G	Pleionea (G) NF=0.2
+Balneatrichaceae_F	Balneatrichaceae (F) NF=0.4
+Balneatrix_G	Balneatrix (G) NF=1.0
+Zooshikellaceae_F	Zooshikellaceae (F) NF=0.2
+Zooshikella_G	Zooshikella (G) NF=0.5
+Oceanospirillales_incertae_sedis_N	Oceanospirillales incertae sedis (N)
+Terasakiispira_G	Terasakiispira (G) NF=4.0
+Cellvibrionales_O	Cellvibrionales (O)
+Halieaceae_F	Halieaceae (F) NF=4.7
+Luminiphilus_G	Luminiphilus (G) NF=8.7
+Halioglobus_G	Halioglobus (G) NF=15.0
+Haliea_G	Haliea (G) NF=1.6
+Congregibacter_G	Congregibacter (G) NF=1.4
+Parahaliea_G	Parahaliea (G) NF=6.0
+Chromatocurvus_G	Chromatocurvus (G) NF=2.0
+Pseudohaliea_G	Pseudohaliea (G) NF=10.5
+Marimicrobium_G	Marimicrobium (G) NF=4.0
+Porticoccaceae_F	Porticoccaceae (F) NF=4.3
+Porticoccus_G	Porticoccus (G) NF=6.0
+Cellvibrionaceae_F	Cellvibrionaceae (F) NF=2.5
+Cellvibrio_G	Cellvibrio (G) NF=3.4
+Teredinibacter_G	Teredinibacter (G) NF=1.2
+Gilvimarinus_G	Gilvimarinus (G) NF=0.7
+Marinimicrobium_G	Marinimicrobium (G) NF=1.8
+Saccharophagus_G	Saccharophagus (G) NF=1.3
+Marinagarivorans_G	Marinagarivorans (G) NF=0.7
+Simiduia_G	Simiduia (G) NF=0.6
+Pseudoteredinibacter_G	Pseudoteredinibacter (G) NF=1.5
+Pseudomaricurvus_G	Pseudomaricurvus (G) NF=2.2
+Agarilytica_G	Agarilytica (G) NF=1.7
+Marinibactrum_G	Marinibactrum (G) NF=1.0
+Agaribacterium_G	Agaribacterium (G) NF=1.5
+Umboniibacter_G	Umboniibacter (G) NF=1.5
+Maricurvus_G	Maricurvus (G) NF=3.0
+Spongiibacteraceae_F	Spongiibacteraceae (F) NF=4.2
+Spongiibacter_G	Spongiibacter (G) NF=1.1
+Zhongshania_G	Zhongshania (G) NF=1.0
+Oceanicoccus_G	Oceanicoccus (G) NF=1.0
+Dasania_G	Dasania (G) NF=2.0
+Sinobacterium_G	Sinobacterium (G) NF=1.3
+Microbulbiferaceae_F	Microbulbiferaceae (F) NF=0.4
+Microbulbifer_G	Microbulbifer (G) NF=0.4
+Steroidobacterales_O	Steroidobacterales (O)
+Steroidobacteraceae_F	Steroidobacteraceae (F) NF=15.3
+Steroidobacter_G	Steroidobacter (G) NF=8.6
+Povalibacter_G	Povalibacter (G) NF=1.0
+Woeseiales_O	Woeseiales (O)
+Woeseiaceae_F	Woeseiaceae (F) NF=36.1
+Woeseia_G	Woeseia (G) NF=82.7
+Chromatiales_O	Chromatiales (O)
+Chromatiaceae_F	Chromatiaceae (F) NF=1.9
+Rheinheimera_G	Rheinheimera (G) NF=1.9
+Thiocapsa_G	Thiocapsa (G) NF=0.6
+Thiodictyon_G	Thiodictyon (G) NF=0.7
+Thiohalocapsa_G	Thiohalocapsa (G) NF=6.2
+Halochromatium_G	Halochromatium (G) NF=5.2
+Marichromatium_G	Marichromatium (G) NF=0.6
+Nitrosococcus_G	Nitrosococcus (G) NF=1.2
+Thiocystis_G	Thiocystis (G) NF=2.0
+Chromatium_G	Chromatium (G) NF=3.0
+Thiorhodovibrio_G	Thiorhodovibrio (G) NF=1.2
+Allochromatium_G	Allochromatium (G) NF=1.4
+Thiorhodococcus_G	Thiorhodococcus (G) NF=0.6
+Thiococcus_G	Thiococcus (G) NF=2.0
+Rhabdochromatium_G	Rhabdochromatium (G) NF=1.0
+Thioflavicoccus_G	Thioflavicoccus (G) NF=2.0
+Thioalkalicoccus_G	Thioalkalicoccus (G) NF=3.0
+Imhoffiella_G	Imhoffiella (G) NF=1.0
+Thiobaca_G	Thiobaca (G) NF=1.0
+Ectothiorhodospiraceae_F	Ectothiorhodospiraceae (F) NF=2.2
+Thioalkalivibrio_G	Thioalkalivibrio (G) NF=0.3
+Spiribacter_G	Spiribacter (G) NF=0.6
+Halorhodospira_G	Halorhodospira (G) NF=2.0
+Ectothiorhodospira_G	Ectothiorhodospira (G) NF=0.8
+Thiogranum_G	Thiogranum (G) NF=21.3
+Alkalilimnicola_G	Alkalilimnicola (G) NF=0.5
+Acidihalobacter_G	Acidihalobacter (G) NF=1.7
+Aquisalimonas_G	Aquisalimonas (G) NF=1.0
+Arhodomonas_G	Arhodomonas (G) NF=1.2
+Nitrococcus_G	Nitrococcus (G) NF=1.5
+Ectothiorhodosinus_G	Ectothiorhodosinus (G) NF=1.0
+Thioalbus_G	Thioalbus (G) NF=10.0
+Thiorhodospira_G	Thiorhodospira (G) NF=2.0
+Inmirania_G	Inmirania (G) NF=11.0
+Granulosicoccaceae_F	Granulosicoccaceae (F) NF=3.4
+Granulosicoccus_G	Granulosicoccus (G) NF=8.3
+Sulfuriflexus_G	Sulfuriflexus (G) NF=1.0
+Wenzhouxiangellaceae_F	Wenzhouxiangellaceae (F) NF=0.9
+Wenzhouxiangella_G	Wenzhouxiangella (G) NF=1.2
+Halothiobacillaceae_F	Halothiobacillaceae (F) NF=3.5
+Halothiobacillus_G	Halothiobacillus (G) NF=1.1
+Thiofaba_G	Thiofaba (G) NF=13.0
+Thioalkalibacteraceae_F	Thioalkalibacteraceae (F) NF=0.6
+Guyparkeria_G	Guyparkeria (G) NF=0.4
+Thioalkalispiraceae_F	Thioalkalispiraceae (F) NF=156.0
+Sedimenticolaceae_F	Sedimenticolaceae (F)
+Thiolapillus_G	Thiolapillus (G) NF=2.0
+Sedimenticola_G	Sedimenticola (G) NF=4.1
+Oceanococcaceae_F	Oceanococcaceae (F)
+Oceanococcus_G	Oceanococcus (G) NF=1.8
+Orbales_O	Orbales (O)
+Orbaceae_F	Orbaceae (F) NF=0.2
+Gilliamella_G	Gilliamella (G) NF=0.1
+Frischella_G	Frischella (G) NF=1.0
+Orbus_G	Orbus (G) NF=1.2
+Nevskiales_O	Nevskiales (O)
+Nevskiaceae_F	Nevskiaceae (F) NF=2.7
+Nevskia_G	Nevskia (G) NF=6.0
+Sinimarinibacterium_G	Sinimarinibacterium (G) NF=0.2
+Solimonas_G	Solimonas (G) NF=1.1
+Hydrocarboniphaga_G	Hydrocarboniphaga (G) NF=2.5
+Polycyclovorans_G	Polycyclovorans (G) NF=11.3
+Panacagrimonas_G	Panacagrimonas (G) NF=2.0
+Fontimonas_G	Fontimonas (G) NF=3.0
+Algiphilaceae_F	Algiphilaceae (F) NF=1.5
+Algiphilus_G	Algiphilus (G) NF=2.0
+Acidiferrobacterales_O	Acidiferrobacterales (O)
+Acidiferrobacteraceae_F	Acidiferrobacteraceae (F) NF=10.6
+Acidiferrobacter_G	Acidiferrobacter (G) NF=0.2
+Sulfuricaulis_G	Sulfuricaulis (G) NF=3.0
+Sulfurifustis_G	Sulfurifustis (G) NF=38.0
+Cardiobacteriales_O	Cardiobacteriales (O)
+Cardiobacteriaceae_F	Cardiobacteriaceae (F) NF=11.6
+Cardiobacterium_G	Cardiobacterium (G) NF=9.0
+Dichelobacter_G	Dichelobacter (G) NF=1.0
+Suttonella_G	Suttonella (G) NF=2.7
+Ignatzschineriaceae_F	Ignatzschineriaceae (F) NF=0.2
+Wohlfahrtiimonas_G	Wohlfahrtiimonas (G) NF=0.2
+Ignatzschineria_G	Ignatzschineria (G) NF=0.3
+Kangiellales_O	Kangiellales (O)
+Kangiellaceae_F	Kangiellaceae (F) NF=1.3
+Kangiella_G	Kangiella (G) NF=0.9
+Arenicellales_O	Arenicellales (O)
+Arenicellaceae_F	Arenicellaceae (F) NF=28.4
+Arenicella_G	Arenicella (G) NF=3.2
+Salinisphaerales_O	Salinisphaerales (O)
+Salinisphaeraceae_F	Salinisphaeraceae (F) NF=1.6
+Salinisphaera_G	Salinisphaera (G) NF=1.9
+Immundisolibacterales_O	Immundisolibacterales (O)
+Immundisolibacteraceae_F	Immundisolibacteraceae (F) NF=12.3
+Immundisolibacter_G	Immundisolibacter (G) NF=5.5
+Gammaproteobacteria_incertae_sedis_N	Gammaproteobacteria incertae sedis (N)
+Celerinatantimonadaceae_F	Celerinatantimonadaceae (F) NF=0.8
+Celerinatantimonas_G	Celerinatantimonas (G) NF=0.8
+Litorivivens_G	Litorivivens (G) NF=2.5
+Candidatus_Competibacteraceae_F	Candidatus Competibacteraceae (F)
+Plasticicumulans_G	Plasticicumulans (G) NF=2.7
+Acidibacter_G	Acidibacter (G) NF=83.0
+Alkalimonas_G	Alkalimonas (G) NF=0.7
+Halospina_G	Halospina (G) NF=1.3
+Methylonatrum_G	Methylonatrum (G) NF=6.0
+Thiohalobacterales_O	Thiohalobacterales (O)
+Thiohalobacteraceae_F	Thiohalobacteraceae (F)
+Thiohalobacter_G	Thiohalobacter (G) NF=2.0
+Thiohalomonadales_O	Thiohalomonadales (O)
+Thiohalophilaceae_F	Thiohalophilaceae (F)
+Thiohalophilus_G	Thiohalophilus (G) NF=20.7
+Thiohalomonadaceae_F	Thiohalomonadaceae (F)
+Thiohalomonas_G	Thiohalomonas (G) NF=2.7
+Thiohalospirales_O	Thiohalospirales (O)
+Thiohalospiraceae_F	Thiohalospiraceae (F)
+Thiohalospira_G	Thiohalospira (G) NF=1.0
+Thiohalorhabdales_O	Thiohalorhabdales (O)
+Thiohalorhabdaceae_F	Thiohalorhabdaceae (F)
+Thiohalorhabdus_G	Thiohalorhabdus (G) NF=9.0
+Methylohalomonadales_O	Methylohalomonadales (O)
+Methylohalomonadaceae_F	Methylohalomonadaceae (F)
+Methylohalomonas_G	Methylohalomonas (G) NF=5.0
+Betaproteobacteria_C	Betaproteobacteria (C)
+Neisseriales_O	Neisseriales (O)
+Neisseriaceae_F	Neisseriaceae (F) NF=2.1
+Neisseria_G	Neisseria (G) NF=2.0
+Snodgrassella_G	Snodgrassella (G) NF=0.1
+Simonsiella_G	Simonsiella (G) NF=2.5
+Eikenella_G	Eikenella (G) NF=0.5
+Vitreoscilla_G	Vitreoscilla (G) NF=1.0
+Conchiformibius_G	Conchiformibius (G) NF=3.7
+Crenobacter_G	Crenobacter (G) NF=1.6
+Alysiella_G	Alysiella (G) NF=3.0
+Uruburuella_G	Uruburuella (G) NF=0.5
+Prolinoborus_G	Prolinoborus (G) NF=2.0
+Stenoxybacter_G	Stenoxybacter (G) NF=3.0
+Chromobacteriaceae_F	Chromobacteriaceae (F) NF=1.6
+Chromobacterium_G	Chromobacterium (G) NF=0.7
+Vogesella_G	Vogesella (G) NF=1.1
+Aquitalea_G	Aquitalea (G) NF=0.4
+Paludibacterium_G	Paludibacterium (G) NF=2.4
+Pseudogulbenkiania_G	Pseudogulbenkiania (G) NF=0.8
+Gulbenkiania_G	Gulbenkiania (G) NF=0.5
+Aquaspirillaceae_F	Aquaspirillaceae (F)
+Laribacter_G	Laribacter (G) NF=1.0
+Rivihabitans_G	Rivihabitans (G) NF=4.0
+Aquaspirillum_G	Aquaspirillum (G) NF=3.2
+Microvirgula_G	Microvirgula (G) NF=0.5
+Chitinibacteraceae_F	Chitinibacteraceae (F)
+Chitinimonas_G	Chitinimonas (G) NF=2.4
+Iodobacter_G	Iodobacter (G) NF=0.1
+Deefgea_G	Deefgea (G) NF=0.9
+Chitinibacter_G	Chitinibacter (G) NF=0.4
+Silvimonas_G	Silvimonas (G) NF=0.3
+Chitiniphilus_G	Chitiniphilus (G) NF=0.3
+Jeongeupia_G	Jeongeupia (G) NF=0.2
+Chitinilyticum_G	Chitinilyticum (G) NF=0.7
+Formivibrio_G	Formivibrio (G) NF=3.5
+Andreprevotia_G	Andreprevotia (G) NF=0.7
+Chitinolyticbacter_G	Chitinolyticbacter (G) NF=0.7
+Leeiaceae_F	Leeiaceae (F)
+Leeia_G	Leeia (G) NF=3.2
+Burkholderiales_O	Burkholderiales (O)
+Burkholderiaceae_F	Burkholderiaceae (F) NF=0.9
+Burkholderia_G	Burkholderia (G) NF=0.6
+Ralstonia_G	Ralstonia (G) NF=1.5
+Paraburkholderia_G	Paraburkholderia (G) NF=0.3
+Polynucleobacter_G	Polynucleobacter (G) NF=0.7
+Cupriavidus_G	Cupriavidus (G) NF=0.7
+Caballeronia_G	Caballeronia (G) NF=0.1
+Pandoraea_G	Pandoraea (G) NF=0.3
+Limnobacter_G	Limnobacter (G) NF=5.4
+Lautropia_G	Lautropia (G) NF=15.1
+Mycoavidus_G	Mycoavidus (G) NF=0.2
+Hydromonas_G	Hydromonas (G) NF=1.0
+Paucimonas_G	Paucimonas (G) NF=1.5
+Robbsia_G	Robbsia (G) NF=1.5
+Comamonadaceae_F	Comamonadaceae (F) NF=1.7
+Rhodoferax_G	Rhodoferax (G) NF=2.7
+Comamonas_G	Comamonas (G) NF=2.1
+Polaromonas_G	Polaromonas (G) NF=1.4
+Variovorax_G	Variovorax (G) NF=0.4
+Acidovorax_G	Acidovorax (G) NF=1.8
+Limnohabitans_G	Limnohabitans (G) NF=1.9
+Hydrogenophaga_G	Hydrogenophaga (G) NF=1.8
+Delftia_G	Delftia (G) NF=1.1
+Ramlibacter_G	Ramlibacter (G) NF=2.2
+Ottowia_G	Ottowia (G) NF=2.9
+Giesbergeria_G	Giesbergeria (G) NF=0.8
+Brachymonas_G	Brachymonas (G) NF=9.7
+Curvibacter_G	Curvibacter (G) NF=1.6
+Hylemonella_G	Hylemonella (G) NF=0.6
+Diaphorobacter_G	Diaphorobacter (G) NF=3.6
+Alicycliphilus_G	Alicycliphilus (G) NF=1.7
+Verminephrobacter_G	Verminephrobacter (G) NF=1.2
+Simplicispira_G	Simplicispira (G) NF=2.0
+Pseudacidovorax_G	Pseudacidovorax (G) NF=0.5
+Xenophilus_G	Xenophilus (G) NF=0.4
+Macromonas_G	Macromonas (G) NF=0.5
+Pseudorhodoferax_G	Pseudorhodoferax (G) NF=0.9
+Malikia_G	Malikia (G) NF=1.3
+Caenimonas_G	Caenimonas (G) NF=2.7
+Melaminivora_G	Melaminivora (G) NF=0.8
+Extensimonas_G	Extensimonas (G) NF=1.0
+Lampropedia_G	Lampropedia (G) NF=1.0
+Tibeticola_G	Tibeticola (G) NF=1.0
+Corticibacter_G	Corticibacter (G) NF=4.0
+Alcaligenaceae_F	Alcaligenaceae (F) NF=1.3
+Bordetella_G	Bordetella (G) NF=0.8
+Achromobacter_G	Achromobacter (G) NF=1.1
+Alcaligenes_G	Alcaligenes (G) NF=3.7
+Castellaniella_G	Castellaniella (G) NF=1.5
+Pelistega_G	Pelistega (G) NF=0.4
+Taylorella_G	Taylorella (G) NF=1.5
+Pusillimonas_G	Pusillimonas (G) NF=0.8
+Oligella_G	Oligella (G) NF=0.7
+Pigmentiphaga_G	Pigmentiphaga (G) NF=0.3
+Paenalcaligenes_G	Paenalcaligenes (G) NF=0.9
+Advenella_G	Advenella (G) NF=0.7
+Kerstersia_G	Kerstersia (G) NF=4.5
+Candidimonas_G	Candidimonas (G) NF=1.4
+Orrella_G	Orrella (G) NF=0.1
+Eoetvoesiella_G	Eoetvoesiella (G) NF=1.5
+Verticiella_G	Verticiella (G) NF=4.0
+Paralcaligenes_G	Paralcaligenes (G) NF=0.3
+Derxia_G	Derxia (G) NF=1.0
+Parapusillimonas_G	Parapusillimonas (G) NF=5.0
+Basilea_G	Basilea (G) NF=1.0
+Brackiella_G	Brackiella (G) NF=1.0
+Parvibium_G	Parvibium (G) NF=8.0
+Sutterellaceae_F	Sutterellaceae (F) NF=3.8
+Sutterella_G	Sutterella (G) NF=2.2
+Parasutterella_G	Parasutterella (G) NF=9.8
+Oxalobacteraceae_F	Oxalobacteraceae (F) NF=1.5
+Telluria_group_N	Telluria group (N)
+Massilia_G	Massilia (G) NF=1.8
+Duganella_G	Duganella (G) NF=0.5
+Telluria_G	Telluria (G) NF=0.2
+Rugamonas_G	Rugamonas (G) NF=0.1
+Janthinobacterium_G	Janthinobacterium (G) NF=0.7
+Herbaspirillum_G	Herbaspirillum (G) NF=0.8
+Oxalobacter_G	Oxalobacter (G) NF=1.8
+Undibacterium_G	Undibacterium (G) NF=1.4
+Noviherbaspirillum_G	Noviherbaspirillum (G) NF=4.0
+Herminiimonas_G	Herminiimonas (G) NF=3.4
+Collimonas_G	Collimonas (G) NF=0.3
+Glaciimonas_G	Glaciimonas (G) NF=0.2
+Oxalicibacterium_G	Oxalicibacterium (G) NF=1.0
+Actimicrobium_G	Actimicrobium (G) NF=0.5
+Sphaerotilaceae_F	Sphaerotilaceae (F) NF=0.6
+Rubrivivax_G	Rubrivivax (G) NF=0.5
+Roseateles_G	Roseateles (G) NF=0.1
+Caldimonas_G	Caldimonas (G) NF=0.4
+Piscinibacter_G	Piscinibacter (G) NF=0.7
+Ideonella_G	Ideonella (G) NF=1.3
+Methylibium_G	Methylibium (G) NF=1.9
+Sphaerotilus_G	Sphaerotilus (G) NF=2.7
+Inhella_G	Inhella (G) NF=0.4
+Aquincola_G	Aquincola (G) NF=0.8
+Azohydromonas_G	Azohydromonas (G) NF=0.5
+Burkholderiales_genera_incertae_sedis_N	Burkholderiales genera incertae sedis (N)
+Thiomonas_G	Thiomonas (G) NF=0.8
+Aquabacterium_G	Aquabacterium (G) NF=5.3
+Rhizobacter_G	Rhizobacter (G) NF=4.2
+Tepidimonas_G	Tepidimonas (G) NF=1.8
+Rivibacter_G	Rivibacter (G) NF=0.7
+Piscinibacterium_G	Piscinibacterium (G) NF=1.0
+Tepidicella_G	Tepidicella (G) NF=0.5
+Thiobacteraceae_F	Thiobacteraceae (F)
+Thiobacter_G	Thiobacter (G) NF=5.0
+Nitrosomonadales_O	Nitrosomonadales (O)
+Methylophilaceae_F	Methylophilaceae (F) NF=3.3
+Methylotenera_G	Methylotenera (G) NF=5.4
+Methylophilus_G	Methylophilus (G) NF=1.1
+Methylobacillus_G	Methylobacillus (G) NF=1.1
+Methylovorus_G	Methylovorus (G) NF=0.6
+Nitrosomonadaceae_F	Nitrosomonadaceae (F) NF=11.3
+Nitrosomonas_G	Nitrosomonas (G) NF=2.5
+Nitrosospira_G	Nitrosospira (G) NF=0.6
+Nitrosovibrio_G	Nitrosovibrio (G) NF=0.5
+Gallionellaceae_F	Gallionellaceae (F) NF=5.4
+Gallionella_G	Gallionella (G) NF=10.6
+Sideroxydans_G	Sideroxydans (G) NF=16.0
+Ferriphaselus_G	Ferriphaselus (G) NF=3.0
+Thiobacillaceae_F	Thiobacillaceae (F) NF=4.4
+Thiobacillus_G	Thiobacillus (G) NF=5.0
+Sulfuritortus_G	Sulfuritortus (G) NF=1.5
+Sterolibacteriaceae_F	Sterolibacteriaceae (F) NF=4.8
+Sulfuritalea_G	Sulfuritalea (G) NF=22.7
+Sterolibacterium_G	Sterolibacterium (G) NF=6.7
+Methyloversatilis_G	Methyloversatilis (G) NF=2.2
+Rugosibacter_G	Rugosibacter (G) NF=0.5
+Denitratisoma_G	Denitratisoma (G) NF=14.0
+Sulfurisoma_G	Sulfurisoma (G) NF=0.5
+Georgfuchsia_G	Georgfuchsia (G) NF=2.0
+Sulfuricellaceae_F	Sulfuricellaceae (F) NF=3.3
+Sulfuricella_G	Sulfuricella (G) NF=2.2
+Sulfuriferula_G	Sulfuriferula (G) NF=4.7
+Sulfurirhabdus_G	Sulfurirhabdus (G) NF=6.0
+Rhodocyclales_O	Rhodocyclales (O)
+Rhodocyclaceae_F	Rhodocyclaceae (F) NF=6.2
+Propionivibrio_G	Propionivibrio (G) NF=6.1
+Azospira_G	Azospira (G) NF=3.5
+Niveibacterium_G	Niveibacterium (G) NF=0.9
+Azovibrio_G	Azovibrio (G) NF=8.0
+Rhodocyclus_G	Rhodocyclus (G) NF=0.3
+Zoogloeaceae_F	Zoogloeaceae (F) NF=2.9
+Thauera_G	Thauera (G) NF=3.0
+Zoogloea_G	Zoogloea (G) NF=7.8
+Azoarcus_G	Azoarcus (G) NF=4.6
+Uliginosibacterium_G	Uliginosibacterium (G) NF=1.8
+Denitromonas_G	Denitromonas (G) NF=2.2
+Azonexaceae_F	Azonexaceae (F) NF=3.2
+Dechloromonas_G	Dechloromonas (G) NF=3.7
+Azonexus_G	Azonexus (G) NF=1.9
+Ferribacterium_G	Ferribacterium (G) NF=15.0
+Ferrovales_O	Ferrovales (O)
+Ferrovaceae_F	Ferrovaceae (F) NF=3.2
+Ferrovum_G	Ferrovum (G) NF=3.6
+Betaproteobacteria_incertae_sedis_N	Betaproteobacteria incertae sedis (N)
+Chitinivorax_G	Chitinivorax (G) NF=1.5
+Alphaproteobacteria_C	Alphaproteobacteria (C)
+Rhodobacterales_O	Rhodobacterales (O)
+Paracoccaceae_F	Paracoccaceae (F) NF=1.2
+Planktomarina_G	Planktomarina (G) NF=9.0
+Amylibacter_G	Amylibacter (G) NF=5.3
+Yoonia_G	Yoonia (G) NF=0.3
+Pseudooceanicola_G	Pseudooceanicola (G) NF=1.1
+Gemmobacter_G	Gemmobacter (G) NF=1.9
+Rhodovulum_G	Rhodovulum (G) NF=1.4
+Aliiroseovarius_G	Aliiroseovarius (G) NF=0.5
+Tabrizicola_G	Tabrizicola (G) NF=3.1
+Pseudorhodobacter_G	Pseudorhodobacter (G) NF=2.8
+Cereibacter_G	Cereibacter (G) NF=0.6
+Limimaricola_G	Limimaricola (G) NF=0.3
+Ascidiaceihabitans_G	Ascidiaceihabitans (G) NF=5.0
+Thioclava_G	Thioclava (G) NF=0.5
+Marivivens_group_N	Marivivens group (N)
+Marivivens_G	Marivivens (G) NF=0.9
+Pseudophaeobacter_G	Pseudophaeobacter (G) NF=0.7
+Boseongicola_G	Boseongicola (G) NF=0.5
+Amaricoccus_G	Amaricoccus (G) NF=4.1
+Nioella_G	Nioella (G) NF=1.8
+Silicimonas_G	Silicimonas (G) NF=4.5
+Roseinatronobacter_G	Roseinatronobacter (G) NF=0.1
+Planktotalea_G	Planktotalea (G) NF=3.5
+Cognatishimia_G	Cognatishimia (G) NF=1.0
+Albidovulum_G	Albidovulum (G) NF=2.6
+Aestuariivita_G	Aestuariivita (G) NF=0.3
+Natronohydrobacter_G	Natronohydrobacter (G) NF=0.3
+Sedimentitalea_G	Sedimentitalea (G) NF=1.1
+Halocynthiibacter_G	Halocynthiibacter (G) NF=0.5
+Limibaculum_G	Limibaculum (G) NF=38.5
+Haematobacter_G	Haematobacter (G) NF=1.0
+Cognatiyoonia_G	Cognatiyoonia (G) NF=0.7
+Puniceibacterium_G	Puniceibacterium (G) NF=0.2
+Falsirhodobacter_G	Falsirhodobacter (G) NF=1.7
+Pontivivens_G	Pontivivens (G) NF=1.2
+Flavimaricola_G	Flavimaricola (G) NF=5.0
+Brevirhabdus_G	Brevirhabdus (G) NF=0.5
+Albimonas_G	Albimonas (G) NF=3.2
+Thalassobium_G	Thalassobium (G) NF=0.5
+Cribrihabitans_G	Cribrihabitans (G) NF=1.5
+Oceaniglobus_G	Oceaniglobus (G) NF=0.4
+Marinibacterium_G	Marinibacterium (G) NF=3.0
+Rubrimonas_G	Rubrimonas (G) NF=4.5
+Oceanicella_G	Oceanicella (G) NF=4.5
+Pseudooctadecabacter_G	Pseudooctadecabacter (G) NF=0.5
+Jhaorihella_G	Jhaorihella (G) NF=3.0
+Halovulum_G	Halovulum (G) NF=5.0
+Pseudaestuariivita_G	Pseudaestuariivita (G) NF=1.0
+Aestuariibius_G	Aestuariibius (G) NF=0.7
+Psychromarinibacter_G	Psychromarinibacter (G) NF=1.0
+Polymorphum_G	Polymorphum (G) NF=0.5
+Roseicitreum_G	Roseicitreum (G) NF=2.0
+Agaricicola_G	Agaricicola (G) NF=2.0
+Marimonas_G	Marimonas (G) NF=0.5
+Pseudoroseicyclus_G	Pseudoroseicyclus (G) NF=0.5
+Litorisediminicola_G	Litorisediminicola (G) NF=1.0
+Rubricella_G	Rubricella (G) NF=1.0
+Lacimonas_G	Lacimonas (G) NF=3.0
+Aquimixticola_G	Aquimixticola (G) NF=2.0
+Aestuariicoccus_G	Aestuariicoccus (G) NF=10.0
+Rhodobaculum_G	Rhodobaculum (G) NF=22.0
+Halodurantibacterium_G	Halodurantibacterium (G) NF=9.0
+Albirhodobacter_G	Albirhodobacter (G) NF=5.0
+Plastorhodobacter_G	Plastorhodobacter (G) NF=1.0
+Roseobacteraceae_F	Roseobacteraceae (F) NF=0.8
+Sulfitobacter_G	Sulfitobacter (G) NF=0.7
+Ruegeria_G	Ruegeria (G) NF=0.6
+Roseobacter_G	Roseobacter (G) NF=0.4
+Phaeobacter_G	Phaeobacter (G) NF=0.1
+Roseovarius_G	Roseovarius (G) NF=1.4
+Salipiger_G	Salipiger (G) NF=0.2
+Tateyamaria_G	Tateyamaria (G) NF=1.5
+Marinovum_G	Marinovum (G) NF=1.0
+Loktanella_G	Loktanella (G) NF=0.9
+Marivita_G	Marivita (G) NF=1.4
+Celeribacter_G	Celeribacter (G) NF=1.0
+Shimia_G	Shimia (G) NF=0.1
+Leisingera_G	Leisingera (G) NF=0.3
+Octadecabacter_G	Octadecabacter (G) NF=1.3
+Dinoroseobacter_G	Dinoroseobacter (G) NF=4.2
+Maritimibacter_G	Maritimibacter (G) NF=0.9
+Roseicyclus_G	Roseicyclus (G) NF=0.5
+Lentibacter_G	Lentibacter (G) NF=4.5
+Litoreibacter_G	Litoreibacter (G) NF=0.5
+Jannaschia_G	Jannaschia (G) NF=0.9
+Mameliella_G	Mameliella (G) NF=0.5
+Sagittula_G	Sagittula (G) NF=1.1
+Thalassovita_G	Thalassovita (G) NF=0.1
+Actibacterium_G	Actibacterium (G) NF=1.4
+Rubellimicrobium_G	Rubellimicrobium (G) NF=5.7
+Roseivivax_G	Roseivivax (G) NF=2.8
+Donghicola_G	Donghicola (G) NF=1.7
+Palleronia_G	Palleronia (G) NF=0.2
+Epibacterium_G	Epibacterium (G) NF=1.4
+Thalassococcus_G	Thalassococcus (G) NF=1.9
+Tropicimonas_G	Tropicimonas (G) NF=3.2
+Pelagimonas_G	Pelagimonas (G) NF=0.4
+Seohaeicola_G	Seohaeicola (G) NF=0.4
+Pseudoruegeria_G	Pseudoruegeria (G) NF=2.1
+Lutimaribacter_G	Lutimaribacter (G) NF=1.8
+Nereida_G	Nereida (G) NF=0.3
+Oceanicola_G	Oceanicola (G) NF=1.9
+Primorskyibacter_G	Primorskyibacter (G) NF=1.2
+Tropicibacter_G	Tropicibacter (G) NF=1.8
+Ketogulonicigenium_G	Ketogulonicigenium (G) NF=1.0
+Citreicella_G	Citreicella (G) NF=0.2
+Antarctobacter_G	Antarctobacter (G) NF=1.0
+Wenxinia_G	Wenxinia (G) NF=3.5
+Sediminimonas_G	Sediminimonas (G) NF=8.5
+Tranquillimonas_G	Tranquillimonas (G) NF=0.5
+Pontibaca_G	Pontibaca (G) NF=1.0
+Poseidonocella_G	Poseidonocella (G) NF=1.0
+Hasllibacter_G	Hasllibacter (G) NF=0.7
+Citreimonas_G	Citreimonas (G) NF=0.5
+Pelagibaca_G	Pelagibaca (G) NF=6.0
+Oceaniovalibus_G	Oceaniovalibus (G) NF=1.5
+Roseisalinus_G	Roseisalinus (G) NF=3.0
+Salinihabitans_G	Salinihabitans (G) NF=3.0
+Profundibacterium_G	Profundibacterium (G) NF=3.0
+Nautella_G	Nautella (G) NF=4.0
+Neomegalonemataceae_F	Neomegalonemataceae (F) NF=0.7
+Neomegalonema_G	Neomegalonema (G) NF=0.7
+Rhodobacter_group_N	Rhodobacter group (N)
+Rhodobacter_G	Rhodobacter (G) NF=4.5
+Paenirhodobacter_G	Paenirhodobacter (G) NF=0.1
+Hyphomicrobiales_O	Hyphomicrobiales (O)
+Rhizobiaceae_F	Rhizobiaceae (F) NF=1.0
+Rhizobium/Agrobacterium_group_N	Rhizobium/Agrobacterium group (N)
+Rhizobium_G	Rhizobium (G) NF=0.5
+Agrobacterium_G	Agrobacterium (G) NF=0.7
+Neorhizobium_G	Neorhizobium (G) NF=0.2
+Allorhizobium_G	Allorhizobium (G) NF=0.4
+Pararhizobium_G	Pararhizobium (G) NF=0.4
+Pseudorhizobium_G	Pseudorhizobium (G) NF=0.1
+Sinorhizobium/Ensifer_group_N	Sinorhizobium/Ensifer group (N)
+Sinorhizobium_G	Sinorhizobium (G) NF=0.5
+Ensifer_G	Ensifer (G) NF=0.6
+Liberibacter_G	Liberibacter (G) NF=0.1
+Lentilitoribacter_G	Lentilitoribacter (G) NF=1.3
+Shinella_G	Shinella (G) NF=0.4
+Hoeflea_G	Hoeflea (G) NF=0.3
+Ciceribacter_G	Ciceribacter (G) NF=0.2
+Mycoplana_G	Mycoplana (G) NF=0.6
+Phyllobacteriaceae_F	Phyllobacteriaceae (F) NF=0.3
+Mesorhizobium_G	Mesorhizobium (G) NF=0.2
+Nitratireductor_G	Nitratireductor (G) NF=1.9
+Phyllobacterium_G	Phyllobacterium (G) NF=0.9
+Aminobacter_G	Aminobacter (G) NF=1.0
+Aquamicrobium_G	Aquamicrobium (G) NF=1.8
+Chelativorans_G	Chelativorans (G) NF=0.8
+Pseudaminobacter_G	Pseudaminobacter (G) NF=3.8
+Tianweitania_G	Tianweitania (G) NF=0.2
+Aliihoeflea_G	Aliihoeflea (G) NF=1.2
+Nitrobacteraceae_F	Nitrobacteraceae (F) NF=0.3
+Bradyrhizobium_G	Bradyrhizobium (G) NF=0.3
+Afipia_G	Afipia (G) NF=1.1
+Rhodopseudomonas_G	Rhodopseudomonas (G) NF=0.8
+Tardiphaga_G	Tardiphaga (G) NF=0.3
+Rhodoplanes_G	Rhodoplanes (G) NF=5.3
+Nitrobacter_G	Nitrobacter (G) NF=0.8
+Variibacter_G	Variibacter (G) NF=1.0
+Brucellaceae_F	Brucellaceae (F) NF=0.6
+Brucella/Ochrobactrum_group_N	Brucella/Ochrobactrum group (N)
+Brucella_G	Brucella (G) NF=0.1
+Ochrobactrum_G	Ochrobactrum (G) NF=1.2
+Pseudochrobactrum_G	Pseudochrobactrum (G) NF=1.2
+Paenochrobactrum_G	Paenochrobactrum (G) NF=1.5
+Falsochrobactrum_G	Falsochrobactrum (G) NF=0.7
+Daeguia_G	Daeguia (G) NF=1.0
+Hyphomicrobiaceae_F	Hyphomicrobiaceae (F) NF=6.8
+Hyphomicrobium_G	Hyphomicrobium (G) NF=6.7
+Methyloceanibacter_G	Methyloceanibacter (G) NF=2.4
+Rhodomicrobium_G	Rhodomicrobium (G) NF=8.1
+Filomicrobium_G	Filomicrobium (G) NF=12.5
+Methyloligella_G	Methyloligella (G) NF=0.3
+Dichotomicrobium_G	Dichotomicrobium (G) NF=10.0
+Xanthobacteraceae_F	Xanthobacteraceae (F) NF=3.3
+Pseudolabrys_G	Pseudolabrys (G) NF=22.2
+Xanthobacter_G	Xanthobacter (G) NF=0.2
+Ancylobacter_G	Ancylobacter (G) NF=0.0
+Azorhizobium_G	Azorhizobium (G) NF=0.4
+Aquabacter_G	Aquabacter (G) NF=0.1
+Starkeya_G	Starkeya (G) NF=0.5
+Methylobacteriaceae_F	Methylobacteriaceae (F) NF=0.6
+Methylobacterium_G	Methylobacterium (G) NF=0.4
+Microvirga_G	Microvirga (G) NF=1.3
+Methylorubrum_G	Methylorubrum (G) NF=0.7
+Enterovirga_G	Enterovirga (G) NF=0.2
+Bartonellaceae_F	Bartonellaceae (F) NF=0.1
+Bartonella_G	Bartonella (G) NF=0.1
+Devosiaceae_F	Devosiaceae (F) NF=2.0
+Devosia_G	Devosia (G) NF=1.6
+Pelagibacterium_G	Pelagibacterium (G) NF=1.4
+Maritalea_G	Maritalea (G) NF=1.5
+Cucumibacter_G	Cucumibacter (G) NF=2.5
+Arsenicitalea_G	Arsenicitalea (G) NF=5.0
+Stappiaceae_F	Stappiaceae (F) NF=0.6
+Roseibium_G	Roseibium (G) NF=0.1
+Pseudovibrio_G	Pseudovibrio (G) NF=0.5
+Labrenzia_G	Labrenzia (G) NF=1.0
+Pannonibacter_G	Pannonibacter (G) NF=0.7
+Stappia_G	Stappia (G) NF=0.8
+Breoghania_G	Breoghania (G) NF=1.8
+Beijerinckiaceae_F	Beijerinckiaceae (F) NF=11.3
+Methylovirgula_G	Methylovirgula (G) NF=1.8
+Methylocella_G	Methylocella (G) NF=1.8
+Methylocapsa_G	Methylocapsa (G) NF=0.6
+Beijerinckia_G	Beijerinckia (G) NF=1.3
+Methyloferula_G	Methyloferula (G) NF=9.0
+Rhodobiaceae_F	Rhodobiaceae (F) NF=0.5
+Parvibaculaceae_F	Parvibaculaceae (F) NF=4.5
+Parvibaculum_G	Parvibaculum (G) NF=5.8
+Anderseniella_G	Anderseniella (G) NF=4.0
+Pyruvatibacter_G	Pyruvatibacter (G) NF=1.7
+Tepidicaulis_G	Tepidicaulis (G) NF=1.5
+Methylocystaceae_F	Methylocystaceae (F) NF=1.1
+Methylocystis_G	Methylocystis (G) NF=1.0
+Methylosinus_G	Methylosinus (G) NF=1.0
+Aurantimonadaceae_F	Aurantimonadaceae (F) NF=0.7
+Aurantimonas_G	Aurantimonas (G) NF=0.7
+Aureimonas_G	Aureimonas (G) NF=1.0
+Martelella_G	Martelella (G) NF=0.8
+Jiella_G	Jiella (G) NF=0.1
+Fulvimarina_G	Fulvimarina (G) NF=0.4
+Boseaceae_F	Boseaceae (F) NF=0.7
+Reyranellaceae_F	Reyranellaceae (F) NF=12.2
+Reyranella_G	Reyranella (G) NF=10.9
+Kaistiaceae_F	Kaistiaceae (F) NF=4.2
+Bauldia_G	Bauldia (G) NF=24.3
+Kaistia_G	Kaistia (G) NF=1.0
+Prosthecomicrobium_G	Prosthecomicrobium (G) NF=2.3
+Ahrensiaceae_F	Ahrensiaceae (F) NF=2.7
+Roseitalea_G	Roseitalea (G) NF=1.2
+Ahrensia_G	Ahrensia (G) NF=0.7
+Oricola_G	Oricola (G) NF=0.4
+Pseudahrensia_G	Pseudahrensia (G) NF=51.0
+Roseiarcaceae_F	Roseiarcaceae (F) NF=14.5
+Roseiarcus_G	Roseiarcus (G) NF=19.3
+Chelatococcaceae_F	Chelatococcaceae (F) NF=0.7
+Chelatococcus_G	Chelatococcus (G) NF=0.7
+Camelimonas_G	Camelimonas (G) NF=1.3
+Pseudochelatococcus_G	Pseudochelatococcus (G) NF=2.0
+Cohaesibacteraceae_F	Cohaesibacteraceae (F) NF=3.3
+Cohaesibacter_G	Cohaesibacter (G) NF=3.7
+Pleomorphomonadaceae_F	Pleomorphomonadaceae (F) NF=1.7
+Pleomorphomonas_G	Pleomorphomonas (G) NF=1.1
+Oharaeibacter_G	Oharaeibacter (G) NF=1.0
+Methylobrevis_G	Methylobrevis (G) NF=1.0
+Chthonobacter_G	Chthonobacter (G) NF=2.5
+Hartmannibacter_G	Hartmannibacter (G) NF=1.0
+Alsobacteraceae_F	Alsobacteraceae (F) NF=1.0
+Alsobacter_G	Alsobacter (G) NF=1.0
+Afifellaceae_F	Afifellaceae (F) NF=1.1
+Afifella_G	Afifella (G) NF=1.4
+Phreatobacteraceae_F	Phreatobacteraceae (F) NF=5.6
+Phreatobacter_G	Phreatobacter (G) NF=7.5
+Salinarimonadaceae_F	Salinarimonadaceae (F) NF=1.0
+Salinarimonas_G	Salinarimonas (G) NF=1.5
+Blastochloridaceae_F	Blastochloridaceae (F) NF=0.5
+Blastochloris_G	Blastochloris (G) NF=0.6
+Ancalomicrobiaceae_F	Ancalomicrobiaceae (F) NF=0.1
+Amorphaceae_F	Amorphaceae (F) NF=1.4
+Acuticoccus_G	Acuticoccus (G) NF=1.4
+Amorphus_G	Amorphus (G) NF=1.3
+Tepidamorphaceae_F	Tepidamorphaceae (F) NF=2.4
+Tepidamorphus_G	Tepidamorphus (G) NF=3.8
+Microbaculum_G	Microbaculum (G) NF=0.5
+Lutibaculum_G	Lutibaculum (G) NF=1.0
+Segnochrobactraceae_F	Segnochrobactraceae (F) NF=0.8
+Pseudoxanthobacter_G	Pseudoxanthobacter (G) NF=1.3
+Rhodoblastaceae_F	Rhodoblastaceae (F)
+Rhodoblastus_G	Rhodoblastus (G) NF=1.8
+Hyphomicrobiales_incertae_sedis_N	Hyphomicrobiales incertae sedis (N)
+Enhydrobacter_G	Enhydrobacter (G) NF=2.6
+Pseudorhodoplanes_G	Pseudorhodoplanes (G) NF=3.3
+Nordella_G	Nordella (G) NF=21.5
+Methylopilaceae_F	Methylopilaceae (F)
+Methylopila_G	Methylopila (G) NF=0.3
+Hansschlegelia_G	Hansschlegelia (G) NF=0.8
+Notoacmeibacteraceae_F	Notoacmeibacteraceae (F)
+Zhengella_G	Zhengella (G) NF=0.3
+Rhodoligotrophaceae_F	Rhodoligotrophaceae (F)
+Rhodoligotrophos_G	Rhodoligotrophos (G) NF=1.7
+Sphingomonadales_O	Sphingomonadales (O)
+Sphingomonadaceae_F	Sphingomonadaceae (F) NF=1.3
+Sphingomonas_G	Sphingomonas (G) NF=1.3
+Novosphingobium_G	Novosphingobium (G) NF=1.1
+Sphingobium_G	Sphingobium (G) NF=0.9
+Sphingopyxis_G	Sphingopyxis (G) NF=0.7
+Sphingomicrobium_G	Sphingomicrobium (G) NF=0.4
+Sphingorhabdus_G	Sphingorhabdus (G) NF=2.1
+Citromicrobium_G	Citromicrobium (G) NF=0.1
+Blastomonas_G	Blastomonas (G) NF=0.4
+Rhizorhabdus_G	Rhizorhabdus (G) NF=0.2
+Stakelama_G	Stakelama (G) NF=0.5
+Parasphingopyxis_G	Parasphingopyxis (G) NF=1.5
+Rhizorhapis_G	Rhizorhapis (G) NF=7.0
+Erythrobacteraceae_F	Erythrobacteraceae (F) NF=1.0
+Erythrobacter/Porphyrobacter_group_N	Erythrobacter/Porphyrobacter group (N)
+Erythrobacter_G	Erythrobacter (G) NF=1.1
+Porphyrobacter_G	Porphyrobacter (G) NF=1.9
+Qipengyuania_G	Qipengyuania (G) NF=0.0
+Altererythrobacter_G	Altererythrobacter (G) NF=5.6
+Croceicoccus_G	Croceicoccus (G) NF=0.2
+Sphingosinicellaceae_F	Sphingosinicellaceae (F) NF=1.4
+Sandarakinorhabdus_G	Sandarakinorhabdus (G) NF=0.9
+Sphingosinicella_G	Sphingosinicella (G) NF=0.8
+Polymorphobacter_G	Polymorphobacter (G) NF=1.9
+Sandaracinobacter_G	Sandaracinobacter (G) NF=6.0
+Pacificimonas_G	Pacificimonas (G) NF=0.2
+Sphingoaurantiacus_G	Sphingoaurantiacus (G) NF=17.0
+Zymomonadaceae_F	Zymomonadaceae (F) NF=3.0
+Zymomonas_G	Zymomonas (G) NF=3.0
+Acetobacterales_O	Acetobacterales (O)
+Acetobacteraceae_F	Acetobacteraceae (F) NF=3.4
+Acetobacter_G	Acetobacter (G) NF=0.8
+Gluconobacter_G	Gluconobacter (G) NF=0.3
+Komagataeibacter_G	Komagataeibacter (G) NF=0.7
+Acidisphaera_G	Acidisphaera (G) NF=6.4
+Asaia_G	Asaia (G) NF=0.3
+Commensalibacter_G	Commensalibacter (G) NF=0.3
+Rhodopila_G	Rhodopila (G) NF=5.7
+Gluconacetobacter_G	Gluconacetobacter (G) NF=0.3
+Bombella_G	Bombella (G) NF=0.1
+Parasaccharibacter_G	Parasaccharibacter (G) NF=0.2
+Granulibacter_G	Granulibacter (G) NF=9.0
+Saccharibacter_G	Saccharibacter (G) NF=0.1
+Kozakia_G	Kozakia (G) NF=3.0
+Acidomonas_G	Acidomonas (G) NF=1.0
+Neokomagataea_G	Neokomagataea (G) NF=0.2
+Rhodovastum_G	Rhodovastum (G) NF=37.0
+Neoasaia_G	Neoasaia (G) NF=1.0
+Endobacter_G	Endobacter (G) NF=8.0
+Craurococcus_G	Craurococcus (G) NF=3.0
+Swaminathania_G	Swaminathania (G) NF=1.0
+Tanticharoenia_G	Tanticharoenia (G) NF=1.0
+Acidicaldus_G	Acidicaldus (G) NF=19.0
+Elioraeaceae_F	Elioraeaceae (F) NF=0.6
+Elioraea_G	Elioraea (G) NF=0.6
+Roseomonadaceae_F	Roseomonadaceae (F)
+Roseomonas_G	Roseomonas (G) NF=4.4
+Roseococcus_G	Roseococcus (G) NF=0.6
+Paracraurococcus_G	Paracraurococcus (G) NF=1.0
+Rubritepida_G	Rubritepida (G) NF=3.3
+Rhodovarius_G	Rhodovarius (G) NF=3.5
+Belnapia_G	Belnapia (G) NF=1.2
+Siccirubricoccus_G	Siccirubricoccus (G) NF=0.2
+Crenalkalicoccus_G	Crenalkalicoccus (G) NF=1.0
+Caldovatus_G	Caldovatus (G) NF=1.5
+Humitalea_G	Humitalea (G) NF=1.0
+Acidocellaceae_F	Acidocellaceae (F)
+Acidiphilium_G	Acidiphilium (G) NF=4.9
+Acidocella_G	Acidocella (G) NF=1.4
+Acidisoma_G	Acidisoma (G) NF=1.2
+Rickettsiales_O	Rickettsiales (O)
+Anaplasmataceae_F	Anaplasmataceae (F) NF=0.8
+Wolbachieae_T	Wolbachieae (T)
+Wolbachia_G	Wolbachia (G) NF=0.5
+Anaplasma_G	Anaplasma (G) NF=1.6
+Ehrlichia_G	Ehrlichia (G) NF=3.1
+Neorickettsia_G	Neorickettsia (G) NF=4.0
+Rickettsiaceae_F	Rickettsiaceae (F) NF=2.8
+Rickettsieae_T	Rickettsieae (T)
+Rickettsia_G	Rickettsia (G) NF=0.6
+Orientia_G	Orientia (G) NF=6.0
+Rickettsiales_genera_incertae_sedis_N	Rickettsiales genera incertae sedis (N)
+Lyticum_G	Lyticum (G) NF=3.0
+Caulobacterales_O	Caulobacterales (O)
+Caulobacteraceae_F	Caulobacteraceae (F) NF=1.8
+Brevundimonas_G	Brevundimonas (G) NF=1.6
+Phenylobacterium_G	Phenylobacterium (G) NF=3.4
+Caulobacter_G	Caulobacter (G) NF=1.1
+Asticcacaulis_G	Asticcacaulis (G) NF=0.7
+Rhodospirillales_O	Rhodospirillales (O)
+Rhodospirillaceae_F	Rhodospirillaceae (F) NF=3.1
+Magnetospirillum_G	Magnetospirillum (G) NF=1.5
+Ferrovibrio_G	Ferrovibrio (G) NF=1.2
+Defluviicoccus_G	Defluviicoccus (G) NF=16.2
+Telmatospirillum_G	Telmatospirillum (G) NF=7.5
+Rhodospirillum_G	Rhodospirillum (G) NF=1.3
+Tagaea_G	Tagaea (G) NF=2.5
+Inquilinus_G	Inquilinus (G) NF=3.1
+Elstera_G	Elstera (G) NF=1.0
+Roseospira_G	Roseospira (G) NF=0.6
+Rhodospira_G	Rhodospira (G) NF=1.0
+Marivibrio_G	Marivibrio (G) NF=1.5
+Phaeospirillum_G	Phaeospirillum (G) NF=3.5
+Pararhodospirillum_G	Pararhodospirillum (G) NF=1.0
+Roseospirillum_G	Roseospirillum (G) NF=4.0
+Lacibacterium_G	Lacibacterium (G) NF=2.0
+Marinibaculum_G	Marinibaculum (G) NF=1.0
+Phaeovibrio_G	Phaeovibrio (G) NF=1.0
+Azospirillaceae_F	Azospirillaceae (F) NF=2.3
+Azospirillum_G	Azospirillum (G) NF=2.0
+Nitrospirillum_G	Nitrospirillum (G) NF=0.6
+Niveispirillum_G	Niveispirillum (G) NF=1.2
+Skermanella_G	Skermanella (G) NF=6.1
+Rhodocista_G	Rhodocista (G) NF=4.0
+Thalassospiraceae_F	Thalassospiraceae (F) NF=2.6
+Thalassospira_G	Thalassospira (G) NF=1.0
+Magnetospira_G	Magnetospira (G) NF=31.0
+Stellaceae_F	Stellaceae (F) NF=4.2
+Stella_G	Stella (G) NF=2.5
+Constrictibacter_G	Constrictibacter (G) NF=15.0
+Kiloniellaceae_F	Kiloniellaceae (F) NF=11.0
+Kiloniella_G	Kiloniella (G) NF=0.3
+Aestuariispira_G	Aestuariispira (G) NF=1.5
+Thalassobaculaceae_F	Thalassobaculaceae (F) NF=1.8
+Nisaea_G	Nisaea (G) NF=1.0
+Thalassobaculum_G	Thalassobaculum (G) NF=1.7
+Rhodovibrionaceae_F	Rhodovibrionaceae (F) NF=3.3
+Pelagibius_G	Pelagibius (G) NF=3.9
+Rhodovibrio_G	Rhodovibrio (G) NF=4.0
+Fodinicurvata_G	Fodinicurvata (G) NF=0.8
+Tistlia_G	Tistlia (G) NF=10.5
+Limibacillus_G	Limibacillus (G) NF=3.7
+Limimonas_G	Limimonas (G) NF=4.0
+Terasakiellaceae_F	Terasakiellaceae (F) NF=14.2
+Terasakiella_G	Terasakiella (G) NF=2.0
+Zavarziniaceae_F	Zavarziniaceae (F) NF=1.2
+Zavarzinia_G	Zavarzinia (G) NF=0.8
+Magnetovibrionaceae_F	Magnetovibrionaceae (F)
+Magnetovibrio_G	Magnetovibrio (G) NF=7.8
+Varunaivibrio_G	Varunaivibrio (G) NF=3.0
+Dongiaceae_F	Dongiaceae (F)
+Dongia_G	Dongia (G) NF=7.9
+Aliidongia_G	Aliidongia (G) NF=6.0
+Novispirillaceae_F	Novispirillaceae (F)
+Haematospirillum_G	Haematospirillum (G) NF=0.4
+Caenispirillum_G	Caenispirillum (G) NF=1.0
+Novispirillum_G	Novispirillum (G) NF=1.0
+Insolitispirillum_G	Insolitispirillum (G) NF=5.0
+Oceanibaculaceae_F	Oceanibaculaceae (F)
+Oceanibaculum_G	Oceanibaculum (G) NF=2.0
+Hyphomonadales_O	Hyphomonadales (O)
+Hyphomonadaceae_F	Hyphomonadaceae (F) NF=2.9
+Hyphomonas_G	Hyphomonas (G) NF=1.0
+Henriciella_G	Henriciella (G) NF=0.4
+Ponticaulis_G	Ponticaulis (G) NF=1.5
+Hirschia_G	Hirschia (G) NF=7.4
+Micropepsales_O	Micropepsales (O)
+Micropepsaceae_F	Micropepsaceae (F) NF=32.2
+Rhizomicrobium_G	Rhizomicrobium (G) NF=2.0
+Maricaulales_O	Maricaulales (O)
+Maricaulaceae_F	Maricaulaceae (F) NF=1.4
+Maricaulis_G	Maricaulis (G) NF=1.7
+Oceanicaulis_G	Oceanicaulis (G) NF=2.6
+Hyphobacterium_G	Hyphobacterium (G) NF=0.6
+Marinicauda_G	Marinicauda (G) NF=1.0
+Glycocaulis_G	Glycocaulis (G) NF=0.4
+Euryhalocaulis_G	Euryhalocaulis (G) NF=3.0
+Woodsholea_G	Woodsholea (G) NF=1.0
+Robiginitomaculaceae_F	Robiginitomaculaceae (F) NF=3.2
+Hellea_G	Hellea (G) NF=2.7
+Robiginitomaculum_G	Robiginitomaculum (G) NF=10.3
+Algimonas_G	Algimonas (G) NF=1.2
+Litorimonas_G	Litorimonas (G) NF=1.2
+Fretibacter_G	Fretibacter (G) NF=1.0
+Parvularculales_O	Parvularculales (O)
+Parvularculaceae_F	Parvularculaceae (F) NF=3.1
+Parvularcula_G	Parvularcula (G) NF=1.2
+Amphiplicatus_G	Amphiplicatus (G) NF=21.0
+Aquisalinus_G	Aquisalinus (G) NF=1.0
+Hyphococcus_G	Hyphococcus (G) NF=0.8
+Geminicoccales_O	Geminicoccales (O)
+Geminicoccaceae_F	Geminicoccaceae (F) NF=10.5
+Tistrella_G	Tistrella (G) NF=2.8
+Geminicoccus_G	Geminicoccus (G) NF=1.2
+Arboricoccus_G	Arboricoccus (G) NF=4.0
+Kordiimonadales_O	Kordiimonadales (O)
+Kordiimonadaceae_F	Kordiimonadaceae (F) NF=3.6
+Kordiimonas_G	Kordiimonas (G) NF=5.5
+Eilatimonas_G	Eilatimonas (G) NF=2.0
+Temperatibacteraceae_F	Temperatibacteraceae (F) NF=1.0
+Temperatibacter_G	Temperatibacter (G) NF=2.0
+Holosporales_O	Holosporales (O)
+Holosporaceae_F	Holosporaceae (F) NF=15.1
+Holospora_G	Holospora (G) NF=18.8
+Caedimonadaceae_F	Caedimonadaceae (F) NF=0.2
+Caedimonas_G	Caedimonas (G) NF=0.5
+Emcibacterales_O	Emcibacterales (O)
+Emcibacteraceae_F	Emcibacteraceae (F) NF=0.5
+Emcibacter_G	Emcibacter (G) NF=1.3
+Sneathiellales_O	Sneathiellales (O)
+Sneathiellaceae_F	Sneathiellaceae (F) NF=2.9
+Sneathiella_G	Sneathiella (G) NF=2.8
+Oceanibacterium_G	Oceanibacterium (G) NF=1.0
+Iodidimonadales_O	Iodidimonadales (O)
+Iodidimonadaceae_F	Iodidimonadaceae (F) NF=1.6
+Iodidimonas_G	Iodidimonas (G) NF=1.6
+Rhodothalassiales_O	Rhodothalassiales (O)
+Rhodothalassiaceae_F	Rhodothalassiaceae (F) NF=1.0
+Rhodothalassium_G	Rhodothalassium (G) NF=2.0
+Alphaproteobacteria_incertae_sedis_N	Alphaproteobacteria incertae sedis (N)
+Thermopetrobacter_G	Thermopetrobacter (G) NF=6.0
+Acidithiobacillia_C	Acidithiobacillia (C)
+Acidithiobacillales_O	Acidithiobacillales (O)
+Acidithiobacillaceae_F	Acidithiobacillaceae (F) NF=3.5
+Acidithiobacillus_G	Acidithiobacillus (G) NF=2.4
+Thermithiobacillaceae_F	Thermithiobacillaceae (F) NF=0.5
+Thermithiobacillus_G	Thermithiobacillus (G) NF=0.5
+Candidatius_Mariprofundia_C	Candidatius Mariprofundia (C)
+Mariprofundales_O	Mariprofundales (O)
+Mariprofundaceae_F	Mariprofundaceae (F) NF=7.4
+Mariprofundus_G	Mariprofundus (G) NF=7.9
+Hydrogenophilia_C	Hydrogenophilia (C)
+Hydrogenophilales_O	Hydrogenophilales (O)
+Hydrogenophilaceae_F	Hydrogenophilaceae (F) NF=14.2
+Tepidiphilus_G	Tepidiphilus (G) NF=1.6
+Hydrogenophilus_G	Hydrogenophilus (G) NF=3.7
+Magnetococcia_C	Magnetococcia (C)
+Magnetococcales_O	Magnetococcales (O)
+Magnetococcaceae_F	Magnetococcaceae (F) NF=10.8
+Magnetococcus_G	Magnetococcus (G) NF=11.7
+Magnetofaba_G	Magnetofaba (G) NF=1.0
+Campylobacterota_P	Campylobacterota (P) NF=3.1
+Epsilonproteobacteria_C	Epsilonproteobacteria (C)
+Campylobacterales_O	Campylobacterales (O)
+Campylobacteraceae_F	Campylobacteraceae (F) NF=0.6
+Campylobacter_G	Campylobacter (G) NF=0.6
+Helicobacteraceae_F	Helicobacteraceae (F) NF=1.2
+Helicobacter_G	Helicobacter (G) NF=1.0
+Wolinella_G	Wolinella (G) NF=2.0
+Arcobacteraceae_F	Arcobacteraceae (F) NF=4.8
+Arcobacter_G	Arcobacter (G) NF=1.0
+Halarcobacter_G	Halarcobacter (G) NF=4.0
+Malaciobacter_G	Malaciobacter (G) NF=2.8
+Poseidonibacter_G	Poseidonibacter (G) NF=0.2
+Sulfurimonadaceae_F	Sulfurimonadaceae (F) NF=5.7
+Sulfurimonas_G	Sulfurimonas (G) NF=6.4
+Sulfuricurvum_G	Sulfuricurvum (G) NF=4.0
+Thiovulum_G	Thiovulum (G) NF=2.4
+Sulfurovaceae_F	Sulfurovaceae (F) NF=15.9
+Sulfurovum_G	Sulfurovum (G) NF=15.4
+Nitratifractor_G	Nitratifractor (G) NF=27.7
+Sulfurospirillaceae_F	Sulfurospirillaceae (F) NF=3.1
+Sulfurospirillum_G	Sulfurospirillum (G) NF=3.2
+Hydrogenimonadaceae_F	Hydrogenimonadaceae (F)
+Hydrogenimonas_G	Hydrogenimonas (G) NF=4.4
+Nautiliales_O	Nautiliales (O)
+Nautiliaceae_F	Nautiliaceae (F) NF=7.3
+Lebetimonas_G	Lebetimonas (G) NF=1.3
+Caminibacter_G	Caminibacter (G) NF=16.5
+Nautilia_G	Nautilia (G) NF=3.3
+Nitratiruptoraceae_F	Nitratiruptoraceae (F) NF=2.2
+Nitratiruptor_G	Nitratiruptor (G) NF=3.1
+Desulfurellia_C	Desulfurellia (C)
+Desulfurellales_O	Desulfurellales (O)
+Desulfurellaceae_F	Desulfurellaceae (F) NF=3.9
+Desulfurella_G	Desulfurella (G) NF=2.2
+Hippeaceae_F	Hippeaceae (F)
+Hippea_G	Hippea (G) NF=3.0
+FCB_group_C	FCB group (C)
+Bacteroidota/Chlorobiota_group_C	Bacteroidota/Chlorobiota group (C)
+Bacteroidota_P	Bacteroidota (P) NF=4.3
+Bacteroidia_C	Bacteroidia (C)
+Bacteroidales_O	Bacteroidales (O)
+Muribaculaceae_F	Muribaculaceae (F) NF=24.2
+Muribaculum_G	Muribaculum (G) NF=1.2
+Bacteroidaceae_F	Bacteroidaceae (F) NF=3.2
+Bacteroides_G	Bacteroides (G) NF=4.1
+Phocaeicola_G	Phocaeicola (G) NF=0.0
+Prevotellaceae_F	Prevotellaceae (F) NF=6.2
+Prevotella_G	Prevotella (G) NF=6.4
+Alloprevotella_G	Alloprevotella (G) NF=29.9
+Paraprevotella_G	Paraprevotella (G) NF=6.3
+Marseilla_G	Marseilla (G) NF=2.0
+Rikenellaceae_F	Rikenellaceae (F) NF=16.2
+Alistipes_G	Alistipes (G) NF=5.0
+Rikenella_G	Rikenella (G) NF=9.5
+Mucinivorans_G	Mucinivorans (G) NF=2.5
+Acetobacteroides_G	Acetobacteroides (G) NF=5.0
+Porphyromonadaceae_F	Porphyromonadaceae (F) NF=1.3
+Porphyromonas_G	Porphyromonas (G) NF=6.1
+Macellibacteroides_G	Macellibacteroides (G) NF=16.7
+Sanguibacteroides_G	Sanguibacteroides (G) NF=2.3
+Microbacter_G	Microbacter (G) NF=3.0
+Gabonibacter_G	Gabonibacter (G) NF=0.3
+Falsiporphyromonas_G	Falsiporphyromonas (G) NF=1.0
+Tannerellaceae_F	Tannerellaceae (F) NF=2.8
+Parabacteroides_G	Parabacteroides (G) NF=2.2
+Tannerella_G	Tannerella (G) NF=6.3
+Odoribacteraceae_F	Odoribacteraceae (F) NF=2.2
+Odoribacter_G	Odoribacter (G) NF=3.1
+Butyricimonas_G	Butyricimonas (G) NF=1.7
+Paludibacteraceae_F	Paludibacteraceae (F) NF=16.8
+Paludibacter_G	Paludibacter (G) NF=14.5
+Dysgonomonadaceae_F	Dysgonomonadaceae (F) NF=5.5
+Proteiniphilum_G	Proteiniphilum (G) NF=2.5
+Dysgonomonas_G	Dysgonomonas (G) NF=2.8
+Petrimonas_G	Petrimonas (G) NF=5.2
+Fermentimonas_G	Fermentimonas (G) NF=29.5
+Barnesiellaceae_F	Barnesiellaceae (F) NF=4.8
+Barnesiella_G	Barnesiella (G) NF=3.6
+Coprobacter_G	Coprobacter (G) NF=3.4
+Lentimicrobiaceae_F	Lentimicrobiaceae (F) NF=66.9
+Lentimicrobium_G	Lentimicrobium (G) NF=38.2
+Salinivirgaceae_F	Salinivirgaceae (F) NF=23.0
+Williamwhitmaniaceae_F	Williamwhitmaniaceae (F) NF=74.5
+Williamwhitmania_G	Williamwhitmania (G) NF=2.0
+Balneicellaceae_F	Balneicellaceae (F) NF=1.0
+Balneicella_G	Balneicella (G) NF=1.0
+Marinilabiliales_O	Marinilabiliales (O)
+Prolixibacteraceae_F	Prolixibacteraceae (F) NF=14.0
+Draconibacterium_G	Draconibacterium (G) NF=9.8
+Mariniphaga_G	Mariniphaga (G) NF=2.5
+Tangfeifania_G	Tangfeifania (G) NF=7.3
+Sunxiuqinia_G	Sunxiuqinia (G) NF=3.8
+Mangrovibacterium_G	Mangrovibacterium (G) NF=1.0
+Prolixibacter_G	Prolixibacter (G) NF=2.2
+Marinilabiliaceae_F	Marinilabiliaceae (F) NF=8.2
+Saccharicrinis_G	Saccharicrinis (G) NF=0.3
+Carboxylicivirga_G	Carboxylicivirga (G) NF=5.4
+Marinilabilia_G	Marinilabilia (G) NF=2.0
+Anaerophaga_G	Anaerophaga (G) NF=7.0
+Alkaliflexus_G	Alkaliflexus (G) NF=3.3
+Alkalitalea_G	Alkalitalea (G) NF=1.5
+Thermophagus_G	Thermophagus (G) NF=1.0
+Labilibacter_G	Labilibacter (G) NF=5.5
+Marinifilaceae_F	Marinifilaceae (F) NF=7.1
+Marinifilum_G	Marinifilum (G) NF=6.8
+Ancylomarina_G	Ancylomarina (G) NF=0.1
+Flavobacteriia_C	Flavobacteriia (C)
+Flavobacteriales_O	Flavobacteriales (O)
+Flavobacteriaceae_F	Flavobacteriaceae (F) NF=1.7
+Flavobacterium_G	Flavobacterium (G) NF=1.8
+Polaribacter_G	Polaribacter (G) NF=1.1
+Tenacibaculum_G	Tenacibaculum (G) NF=1.3
+Capnocytophaga_G	Capnocytophaga (G) NF=4.1
+Maribacter_G	Maribacter (G) NF=0.9
+Winogradskyella_G	Winogradskyella (G) NF=1.1
+Nonlabens_G	Nonlabens (G) NF=1.0
+Aquimarina_G	Aquimarina (G) NF=0.6
+Myroides_G	Myroides (G) NF=1.1
+Aequorivita_G	Aequorivita (G) NF=0.8
+Allomuricauda_G	Allomuricauda (G) NF=1.6
+Lutibacter_G	Lutibacter (G) NF=2.5
+Leeuwenhoekiella_G	Leeuwenhoekiella (G) NF=0.2
+Flagellimonas_G	Flagellimonas (G) NF=0.2
+Christiangramia_G	Christiangramia (G) NF=0.5
+Algibacter_G	Algibacter (G) NF=1.6
+Arenibacter_G	Arenibacter (G) NF=0.6
+Dokdonia_G	Dokdonia (G) NF=0.9
+Cellulophaga_G	Cellulophaga (G) NF=0.7
+Mesonia_G	Mesonia (G) NF=0.7
+Sediminicola_G	Sediminicola (G) NF=0.7
+Psychroserpens_G	Psychroserpens (G) NF=0.7
+Formosa_G	Formosa (G) NF=4.0
+Muriicola_G	Muriicola (G) NF=0.9
+Salegentibacter_G	Salegentibacter (G) NF=1.6
+Salinimicrobium_G	Salinimicrobium (G) NF=1.7
+Mesoflavibacter_G	Mesoflavibacter (G) NF=2.2
+Gillisia_G	Gillisia (G) NF=1.0
+Ulvibacter_G	Ulvibacter (G) NF=9.2
+Eudoraea_G	Eudoraea (G) NF=1.0
+Psychroflexus_G	Psychroflexus (G) NF=3.0
+Robiginitalea_G	Robiginitalea (G) NF=2.5
+Olleya_G	Olleya (G) NF=0.5
+Zunongwangia_G	Zunongwangia (G) NF=1.0
+Mariniflexile_G	Mariniflexile (G) NF=0.4
+Xanthomarina_G	Xanthomarina (G) NF=0.6
+Zobellia_G	Zobellia (G) NF=0.5
+Gilvibacter_G	Gilvibacter (G) NF=2.3
+Gelidibacter_G	Gelidibacter (G) NF=1.2
+Lacinutrix_G	Lacinutrix (G) NF=0.8
+Bizionia_G	Bizionia (G) NF=0.9
+Croceitalea_G	Croceitalea (G) NF=1.2
+Mangrovimonas_G	Mangrovimonas (G) NF=0.5
+Kordia_G	Kordia (G) NF=1.8
+Croceibacter_G	Croceibacter (G) NF=0.7
+Flaviramulus_G	Flaviramulus (G) NF=0.3
+Galbibacter_G	Galbibacter (G) NF=0.7
+Wenyingzhuangia_G	Wenyingzhuangia (G) NF=0.8
+Lutimonas_G	Lutimonas (G) NF=2.8
+Gaetbulibacter_G	Gaetbulibacter (G) NF=1.5
+Flavivirga_G	Flavivirga (G) NF=0.2
+Hyunsoonleella_G	Hyunsoonleella (G) NF=0.6
+Seonamhaeicola_G	Seonamhaeicola (G) NF=0.9
+Aquaticitalea_G	Aquaticitalea (G) NF=0.5
+Flavicella_G	Flavicella (G) NF=4.7
+Pricia_G	Pricia (G) NF=4.3
+Oceanihabitans_G	Oceanihabitans (G) NF=0.2
+Tamlana_G	Tamlana (G) NF=1.4
+Zeaxanthinibacter_G	Zeaxanthinibacter (G) NF=3.7
+Aestuariibaculum_G	Aestuariibaculum (G) NF=0.6
+Altibacter/Constantimarinum_group_N	Altibacter/Constantimarinum group (N)
+Altibacter_G	Altibacter (G) NF=1.2
+Sinomicrobium_G	Sinomicrobium (G) NF=0.8
+Aestuariivivens_G	Aestuariivivens (G) NF=0.4
+Antarcticibacterium_G	Antarcticibacterium (G) NF=2.3
+Jejuia_G	Jejuia (G) NF=1.8
+Meridianimaribacter_G	Meridianimaribacter (G) NF=1.0
+Robertkochia_G	Robertkochia (G) NF=1.2
+Yeosuana_G	Yeosuana (G) NF=1.0
+Hanstruepera_G	Hanstruepera (G) NF=0.5
+Planktosalinus_G	Planktosalinus (G) NF=4.0
+Marixanthomonas_G	Marixanthomonas (G) NF=2.0
+Hwangdonia_G	Hwangdonia (G) NF=0.7
+Zhouia_G	Zhouia (G) NF=0.7
+Aureitalea_G	Aureitalea (G) NF=1.8
+Confluentibacter_G	Confluentibacter (G) NF=1.2
+Corallibacter_G	Corallibacter (G) NF=0.5
+Euzebyella_G	Euzebyella (G) NF=3.0
+Pseudozobellia_G	Pseudozobellia (G) NF=0.7
+Imtechella_G	Imtechella (G) NF=1.0
+Joostella_G	Joostella (G) NF=0.7
+Spongiivirga_G	Spongiivirga (G) NF=1.0
+Subsaximicrobium_G	Subsaximicrobium (G) NF=3.0
+Leptobacterium_G	Leptobacterium (G) NF=0.5
+Aureivirga_G	Aureivirga (G) NF=1.0
+Flavimarina_G	Flavimarina (G) NF=2.5
+Gelatiniphilus_G	Gelatiniphilus (G) NF=1.0
+Snuella_G	Snuella (G) NF=1.0
+Neptunitalea_G	Neptunitalea (G) NF=1.5
+Spongiimicrobium_G	Spongiimicrobium (G) NF=2.0
+Ascidiimonas_G	Ascidiimonas (G) NF=1.0
+Marinirhabdus_G	Marinirhabdus (G) NF=1.0
+Kriegella_G	Kriegella (G) NF=0.5
+Pseudofulvibacter_G	Pseudofulvibacter (G) NF=43.0
+Geojedonia_G	Geojedonia (G) NF=1.0
+Pustulibacterium_G	Pustulibacterium (G) NF=1.0
+Postechiella_G	Postechiella (G) NF=3.0
+Aureicoccus_G	Aureicoccus (G) NF=1.0
+Jejudonia_G	Jejudonia (G) NF=3.0
+Changchengzhania_G	Changchengzhania (G) NF=3.0
+Gangjinia_G	Gangjinia (G) NF=7.0
+Sediminibacter_G	Sediminibacter (G) NF=9.0
+Ichthyenterobacterium_G	Ichthyenterobacterium (G) NF=3.0
+Aureisphaera_G	Aureisphaera (G) NF=3.0
+Costertonia_G	Costertonia (G) NF=2.0
+Saonia_G	Saonia (G) NF=1.0
+Ochrovirga_G	Ochrovirga (G) NF=1.0
+Namhaeicola_G	Namhaeicola (G) NF=2.0
+Litoribaculum_G	Litoribaculum (G) NF=1.0
+Subsaxibacter_G	Subsaxibacter (G) NF=8.0
+Siansivirga_G	Siansivirga (G) NF=3.0
+Sungkyunkwania_G	Sungkyunkwania (G) NF=1.0
+Weeksellaceae_F	Weeksellaceae (F) NF=1.0
+Elizabethkingia_G	Elizabethkingia (G) NF=0.5
+Chryseobacterium_group_N	Chryseobacterium group (N)
+Chryseobacterium_G	Chryseobacterium (G) NF=0.8
+Kaistella_G	Kaistella (G) NF=0.0
+Soonwooa_G	Soonwooa (G) NF=1.5
+Riemerella_G	Riemerella (G) NF=2.2
+Empedobacter_G	Empedobacter (G) NF=0.5
+Bergeyella_G	Bergeyella (G) NF=11.3
+Ornithobacterium_G	Ornithobacterium (G) NF=5.5
+Cloacibacterium_G	Cloacibacterium (G) NF=7.2
+Apibacter_G	Apibacter (G) NF=0.3
+Moheibacter_G	Moheibacter (G) NF=6.4
+Algoriella_G	Algoriella (G) NF=1.0
+Weeksella_G	Weeksella (G) NF=1.8
+Chishuiella_G	Chishuiella (G) NF=2.5
+Cruoricaptor_G	Cruoricaptor (G) NF=1.0
+Crocinitomicaceae_F	Crocinitomicaceae (F) NF=11.3
+Fluviicola_G	Fluviicola (G) NF=30.4
+Lishizhenia_G	Lishizhenia (G) NF=1.0
+Crocinitomix_G	Crocinitomix (G) NF=14.0
+Brumimicrobium_G	Brumimicrobium (G) NF=2.4
+Wandonia_G	Wandonia (G) NF=7.0
+Cryomorphaceae_F	Cryomorphaceae (F) NF=14.1
+Cryomorpha_G	Cryomorpha (G) NF=17.0
+Schleiferiaceae_F	Schleiferiaceae (F) NF=16.6
+Schleiferia_G	Schleiferia (G) NF=45.0
+Blattabacteriaceae_F	Blattabacteriaceae (F) NF=10.4
+Blattabacterium_G	Blattabacterium (G) NF=1.0
+Vicingaceae_F	Vicingaceae (F) NF=17.2
+Vicingus_G	Vicingus (G) NF=23.0
+Salibacteraceae_F	Salibacteraceae (F) NF=0.3
+Salibacter_G	Salibacter (G) NF=0.5
+Ichthyobacteriaceae_F	Ichthyobacteriaceae (F) NF=12.5
+Ichthyobacterium_G	Ichthyobacterium (G) NF=25.0
+Luteibaculaceae_F	Luteibaculaceae (F) NF=3.0
+Luteibaculum_G	Luteibaculum (G) NF=4.5
+Owenweeksiaceae_F	Owenweeksiaceae (F)
+Owenweeksia_G	Owenweeksia (G) NF=8.2
+Phaeocystidibacteraceae_F	Phaeocystidibacteraceae (F)
+Phaeocystidibacter_G	Phaeocystidibacter (G) NF=2.5
+Chitinophagia_C	Chitinophagia (C)
+Chitinophagales_O	Chitinophagales (O)
+Chitinophagaceae_F	Chitinophagaceae (F) NF=6.2
+Chitinophaga_G	Chitinophaga (G) NF=0.8
+Ferruginibacter_G	Ferruginibacter (G) NF=27.7
+Sediminibacterium_G	Sediminibacterium (G) NF=5.9
+Puia_G	Puia (G) NF=40.3
+Niabella_G	Niabella (G) NF=2.0
+Flavisolibacter_G	Flavisolibacter (G) NF=19.6
+Segetibacter_G	Segetibacter (G) NF=15.2
+Flavihumibacter_G	Flavihumibacter (G) NF=0.8
+Hydrotalea_G	Hydrotalea (G) NF=0.5
+Parafilimonas_G	Parafilimonas (G) NF=6.0
+Taibaiella_G	Taibaiella (G) NF=11.8
+Lacibacter_G	Lacibacter (G) NF=1.1
+Terrimonas_G	Terrimonas (G) NF=22.6
+Niastella_G	Niastella (G) NF=3.8
+Flavitalea_G	Flavitalea (G) NF=7.3
+Panacibacter_G	Panacibacter (G) NF=0.3
+Arachidicoccus_G	Arachidicoccus (G) NF=2.0
+Filimonas_G	Filimonas (G) NF=3.0
+Asinibacterium_G	Asinibacterium (G) NF=1.2
+Flaviaestuariibacter_G	Flaviaestuariibacter (G) NF=3.5
+Dinghuibacter_G	Dinghuibacter (G) NF=27.0
+Parasediminibacterium_G	Parasediminibacterium (G) NF=8.0
+Parasegetibacter_G	Parasegetibacter (G) NF=7.0
+Pseudoflavitalea_G	Pseudoflavitalea (G) NF=3.0
+Cnuella_G	Cnuella (G) NF=15.0
+Haoranjiania_G	Haoranjiania (G) NF=4.0
+Rurimicrobium_G	Rurimicrobium (G) NF=10.0
+Nemorincola_G	Nemorincola (G) NF=1.0
+Sphingobacteriia_C	Sphingobacteriia (C)
+Sphingobacteriales_O	Sphingobacteriales (O)
+Sphingobacteriaceae_F	Sphingobacteriaceae (F) NF=1.5
+Sphingobacterium_G	Sphingobacterium (G) NF=1.2
+Pedobacter_G	Pedobacter (G) NF=1.5
+Mucilaginibacter_G	Mucilaginibacter (G) NF=1.5
+Parapedobacter_G	Parapedobacter (G) NF=1.6
+Olivibacter_G	Olivibacter (G) NF=1.4
+Pelobium_G	Pelobium (G) NF=2.0
+Arcticibacter_G	Arcticibacter (G) NF=3.5
+Solitalea_G	Solitalea (G) NF=4.9
+Pseudopedobacter_G	Pseudopedobacter (G) NF=3.7
+Anseongella_G	Anseongella (G) NF=1.5
+Pseudosphingobacterium_G	Pseudosphingobacterium (G) NF=1.0
+Nubsella_G	Nubsella (G) NF=11.0
+Saprospiria_C	Saprospiria (C)
+Saprospirales_O	Saprospirales (O)
+Saprospiraceae_F	Saprospiraceae (F) NF=30.3
+Aureispira_G	Aureispira (G) NF=6.4
+Saprospira_G	Saprospira (G) NF=8.3
+Lewinellaceae_F	Lewinellaceae (F) NF=6.5
+Lewinella_G	Lewinella (G) NF=17.4
+Haliscomenobacteraceae_F	Haliscomenobacteraceae (F) NF=18.5
+Haliscomenobacter_G	Haliscomenobacter (G) NF=10.3
+Phaeodactylibacter_G	Phaeodactylibacter (G) NF=34.0
+Portibacter_G	Portibacter (G) NF=18.3
+Cytophagia_C	Cytophagia (C)
+Cytophagales_O	Cytophagales (O)
+Cyclobacteriaceae_F	Cyclobacteriaceae (F) NF=4.1
+Algoriphagus_G	Algoriphagus (G) NF=1.8
+Cyclobacterium_G	Cyclobacterium (G) NF=1.3
+Echinicola_G	Echinicola (G) NF=0.9
+Belliella_G	Belliella (G) NF=0.6
+Aquiflexum_G	Aquiflexum (G) NF=1.5
+Cecembia_G	Cecembia (G) NF=1.2
+Lunatimonas_G	Lunatimonas (G) NF=1.7
+Mongoliitalea_G	Mongoliitalea (G) NF=1.0
+Litoribacter_G	Litoribacter (G) NF=0.5
+Mongoliibacter_G	Mongoliibacter (G) NF=0.5
+Mariniradius_G	Mariniradius (G) NF=2.0
+Shivajiella_G	Shivajiella (G) NF=2.0
+Nitritalea_G	Nitritalea (G) NF=1.0
+Indibacter_G	Indibacter (G) NF=3.0
+Fontibacter_G	Fontibacter (G) NF=3.0
+Negadavirga_G	Negadavirga (G) NF=5.0
+Hymenobacteraceae_F	Hymenobacteraceae (F) NF=1.8
+Hymenobacter_G	Hymenobacter (G) NF=1.6
+Pontibacter_G	Pontibacter (G) NF=1.4
+Rufibacter_G	Rufibacter (G) NF=0.8
+Adhaeribacter_G	Adhaeribacter (G) NF=7.5
+Nibribacter_G	Nibribacter (G) NF=2.0
+Cytophagaceae_F	Cytophagaceae (F) NF=4.2
+Spirosoma_G	Spirosoma (G) NF=2.6
+Siphonobacter_G	Siphonobacter (G) NF=1.4
+Cytophaga_G	Cytophaga (G) NF=18.8
+Rhodonellum_G	Rhodonellum (G) NF=0.3
+Sporocytophaga_G	Sporocytophaga (G) NF=21.0
+Rudanella_G	Rudanella (G) NF=1.3
+Anditalea_G	Anditalea (G) NF=1.0
+Rhabdobacter_G	Rhabdobacter (G) NF=4.0
+Reichenbachiellaceae_F	Reichenbachiellaceae (F) NF=5.8
+Ekhidna_G	Ekhidna (G) NF=7.2
+Marinoscillum_G	Marinoscillum (G) NF=10.6
+Reichenbachiella_G	Reichenbachiella (G) NF=2.5
+Flammeovirgaceae_F	Flammeovirgaceae (F) NF=1.3
+Flammeovirga_G	Flammeovirga (G) NF=0.5
+Imperialibacter_G	Imperialibacter (G) NF=2.8
+Algivirga_G	Algivirga (G) NF=4.0
+Flexithrix_G	Flexithrix (G) NF=19.0
+Rapidithrix_G	Rapidithrix (G) NF=9.0
+Limibacter_G	Limibacter (G) NF=1.0
+Sediminitomix_G	Sediminitomix (G) NF=1.0
+Roseivirgaceae_F	Roseivirgaceae (F) NF=0.7
+Roseivirga_G	Roseivirga (G) NF=0.7
+Fulvivirgaceae_F	Fulvivirgaceae (F) NF=5.3
+Chryseolinea_G	Chryseolinea (G) NF=11.6
+Ohtaekwangia_G	Ohtaekwangia (G) NF=13.5
+Fulvivirga_G	Fulvivirga (G) NF=2.1
+Amoebophilaceae_F	Amoebophilaceae (F) NF=6.8
+Marivirgaceae_F	Marivirgaceae (F) NF=1.8
+Marivirga_G	Marivirga (G) NF=1.8
+Catalimonadaceae_F	Catalimonadaceae (F) NF=2.4
+Catalinimonas_G	Catalinimonas (G) NF=2.3
+Tunicatimonas_G	Tunicatimonas (G) NF=7.5
+Bernardetiaceae_F	Bernardetiaceae (F) NF=2.2
+Bernardetia_G	Bernardetia (G) NF=0.8
+Hugenholtzia_G	Hugenholtzia (G) NF=9.0
+Microscillaceae_F	Microscillaceae (F) NF=102.8
+Microscilla_G	Microscilla (G) NF=4.0
+Eisenibacter_G	Eisenibacter (G) NF=2.0
+Raineyaceae_F	Raineyaceae (F) NF=5.0
+Raineya_G	Raineya (G) NF=7.5
+Persicobacteraceae_F	Persicobacteraceae (F) NF=0.6
+Persicobacter_G	Persicobacter (G) NF=0.4
+Aureibacter_G	Aureibacter (G) NF=1.0
+Fulvitalea_G	Fulvitalea (G) NF=1.0
+Thermonemataceae_F	Thermonemataceae (F) NF=0.5
+Thermonema_G	Thermonema (G) NF=0.7
+Cesiribacteraceae_F	Cesiribacteraceae (F) NF=2.2
+Cesiribacter_G	Cesiribacter (G) NF=2.0
+Nafulsella_G	Nafulsella (G) NF=5.0
+Thermoflexibacteraceae_F	Thermoflexibacteraceae (F) NF=3.2
+Thermoflexibacter_G	Thermoflexibacter (G) NF=6.5
+Flexibacteraceae_F	Flexibacteraceae (F) NF=7.7
+Flexibacter_G	Flexibacter (G) NF=9.5
+Spirosomataceae_F	Spirosomataceae (F)
+Dyadobacter_G	Dyadobacter (G) NF=0.9
+Runella_G	Runella (G) NF=2.2
+Fibrella_G	Fibrella (G) NF=1.2
+Larkinella_G	Larkinella (G) NF=1.7
+Telluribacter_G	Telluribacter (G) NF=0.7
+Persicitalea_G	Persicitalea (G) NF=5.7
+Arsenicibacter_G	Arsenicibacter (G) NF=1.0
+Nibrella_G	Nibrella (G) NF=2.5
+Fibrisoma_G	Fibrisoma (G) NF=3.5
+Ravibacter_G	Ravibacter (G) NF=1.0
+Leadbetterellaceae_F	Leadbetterellaceae (F)
+Emticicia_G	Emticicia (G) NF=1.2
+Leadbetterella_G	Leadbetterella (G) NF=3.2
+Lacihabitans_G	Lacihabitans (G) NF=2.7
+Arcticibacterium_G	Arcticibacterium (G) NF=1.3
+Jiulongibacter_G	Jiulongibacter (G) NF=0.5
+Flectobacillaceae_F	Flectobacillaceae (F)
+Arcicella_G	Arcicella (G) NF=1.8
+Flectobacillus_G	Flectobacillus (G) NF=2.2
+Pseudarcicella_G	Pseudarcicella (G) NF=11.7
+Rhodocytophagaceae_F	Rhodocytophagaceae (F)
+Rhodocytophaga_G	Rhodocytophaga (G) NF=17.0
+Ignavibacteriota_P	Ignavibacteriota (P) NF=0.1
+Ignavibacteria_C	Ignavibacteria (C)
+Ignavibacteriales_O	Ignavibacteriales (O)
+Melioribacteraceae_F	Melioribacteraceae (F) NF=0.2
+Chlorobiota_P	Chlorobiota (P) NF=0.1
+Chlorobiia_C	Chlorobiia (C)
+Chlorobiales_O	Chlorobiales (O)
+Chlorobiaceae_F	Chlorobiaceae (F) NF=0.1
+Prosthecochloris_G	Prosthecochloris (G) NF=0.2
+Chloroherpetonaceae_F	Chloroherpetonaceae (F) NF=0.2
+Rhodothermota_P	Rhodothermota (P)
+Rhodothermia_C	Rhodothermia (C)
+Rhodothermales_O	Rhodothermales (O)
+Rhodothermaceae_F	Rhodothermaceae (F) NF=73.4
+Rhodothermus_G	Rhodothermus (G) NF=2.6
+Salinibacteraceae_F	Salinibacteraceae (F)
+Salinibacter_G	Salinibacter (G) NF=92.4
+Gemmatimonadota_P	Gemmatimonadota (P) NF=20.0
+Gemmatimonadia_C	Gemmatimonadia (C)
+Gemmatimonadales_O	Gemmatimonadales (O)
+Gemmatimonadaceae_F	Gemmatimonadaceae (F) NF=67.9
+Gemmatimonas_G	Gemmatimonas (G) NF=33.2
+Gemmatirosa_G	Gemmatirosa (G) NF=9.0
+Roseisolibacter_G	Roseisolibacter (G) NF=7.7
+Longimicrobiia_C	Longimicrobiia (C)
+Longimicrobiales_O	Longimicrobiales (O)
+Longimicrobiaceae_F	Longimicrobiaceae (F) NF=100.3
+Longimicrobium_G	Longimicrobium (G) NF=11.5
+Fibrobacterota_P	Fibrobacterota (P) NF=8.2
+Fibrobacteria_C	Fibrobacteria (C)
+Fibrobacterales_O	Fibrobacterales (O)
+Fibrobacteraceae_F	Fibrobacteraceae (F) NF=5.2
+Fibrobacter_G	Fibrobacter (G) NF=1.8
+Chitinispirillia_C	Chitinispirillia (C)
+Chitinispirillales_O	Chitinispirillales (O)
+Chitinispirillaceae_F	Chitinispirillaceae (F) NF=0.3
+Chitinispirillum_G	Chitinispirillum (G) NF=0.5
+Chitinivibrionia_C	Chitinivibrionia (C)
+Chitinivibrionales_O	Chitinivibrionales (O)
+Chitinivibrionaceae_F	Chitinivibrionaceae (F) NF=22.0
+Chitinivibrio_G	Chitinivibrio (G) NF=2.0
+Acidobacteriota_P	Acidobacteriota (P) NF=24.7
+Terriglobia_C	Terriglobia (C)
+Terriglobales_O	Terriglobales (O)
+Acidobacteriaceae_F	Acidobacteriaceae (F) NF=3.1
+Terracidiphilus_G	Terracidiphilus (G) NF=0.7
+Granulicella_G	Granulicella (G) NF=3.1
+Chloracidobacterium_G	Chloracidobacterium (G) NF=0.8
+Edaphobacter_G	Edaphobacter (G) NF=0.9
+Terriglobus_G	Terriglobus (G) NF=1.2
+Acidobacterium_G	Acidobacterium (G) NF=1.5
+Silvibacterium_G	Silvibacterium (G) NF=0.2
+Bryocella_G	Bryocella (G) NF=3.7
+Acidipila_G	Acidipila (G) NF=0.5
+Acidicapsa_G	Acidicapsa (G) NF=1.7
+Occallatibacter_G	Occallatibacter (G) NF=27.5
+Telmatobacter_G	Telmatobacter (G) NF=0.5
+Bryobacterales_O	Bryobacterales (O)
+Bryobacteraceae_F	Bryobacteraceae (F) NF=65.0
+Bryobacter_G	Bryobacter (G) NF=130.0
+Paludibaculum_G	Paludibaculum (G) NF=43.3
+Solibacteraceae_F	Solibacteraceae (F) NF=31.9
+Blastocatellia_C	Blastocatellia (C)
+Blastocatellales_O	Blastocatellales (O)
+Pyrinomonadaceae_F	Pyrinomonadaceae (F) NF=109.8
+Pyrinomonas_G	Pyrinomonas (G) NF=1.0
+Blastocatellaceae_F	Blastocatellaceae (F) NF=143.3
+Aridibacter_G	Aridibacter (G) NF=11.0
+Holophagae_C	Holophagae (C)
+Holophagales_O	Holophagales (O)
+Holophagaceae_F	Holophagaceae (F) NF=5.0
+Geothrix_G	Geothrix (G) NF=1.3
+Holophaga_G	Holophaga (G) NF=7.0
+Acanthopleuribacterales_O	Acanthopleuribacterales (O)
+Acanthopleuribacteraceae_F	Acanthopleuribacteraceae (F) NF=15.0
+Acanthopleuribacter_G	Acanthopleuribacter (G) NF=45.0
+Thermotomaculales_O	Thermotomaculales (O)
+Thermotomaculaceae_F	Thermotomaculaceae (F) NF=20.0
+Thermotomaculum_G	Thermotomaculum (G) NF=20.0
+Vicinamibacteria_C	Vicinamibacteria (C)
+Vicinamibacterales_O	Vicinamibacterales (O)
+Vicinamibacteraceae_F	Vicinamibacteraceae (F) NF=91.5
+Luteitalea_G	Luteitalea (G) NF=8.8
+Thermoanaerobaculia_C	Thermoanaerobaculia (C)
+Thermoanaerobaculales_O	Thermoanaerobaculales (O)
+Thermoanaerobaculaceae_F	Thermoanaerobaculaceae (F) NF=177.0
+Thermoanaerobaculum_G	Thermoanaerobaculum (G) NF=14.0
+PVC_group_C	PVC group (C)
+Verrucomicrobiota_P	Verrucomicrobiota (P) NF=16.9
+Verrucomicrobiia_C	Verrucomicrobiia (C)
+Verrucomicrobiales_O	Verrucomicrobiales (O)
+Akkermansiaceae_F	Akkermansiaceae (F) NF=1.6
+Akkermansia_G	Akkermansia (G) NF=2.1
+Verrucomicrobiaceae_F	Verrucomicrobiaceae (F) NF=8.7
+Luteolibacter_G	Luteolibacter (G) NF=13.8
+Prosthecobacter_G	Prosthecobacter (G) NF=5.7
+Roseibacillus_G	Roseibacillus (G) NF=16.0
+Haloferula_G	Haloferula (G) NF=3.6
+Verrucomicrobium_G	Verrucomicrobium (G) NF=3.7
+Brevifollis_G	Brevifollis (G) NF=2.5
+Roseimicrobium_G	Roseimicrobium (G) NF=14.3
+Persicirhabdus_G	Persicirhabdus (G) NF=38.0
+Rubritaleaceae_F	Rubritaleaceae (F) NF=7.8
+Rubritalea_G	Rubritalea (G) NF=5.6
+Limisphaerales_O	Limisphaerales (O)
+Limisphaeraceae_F	Limisphaeraceae (F)
+Limisphaera_G	Limisphaera (G) NF=6.0
+Opitutia_C	Opitutia (C)
+Opitutales_O	Opitutales (O)
+Opitutaceae_F	Opitutaceae (F) NF=8.5
+Opitutus_G	Opitutus (G) NF=27.4
+Lacunisphaera_G	Lacunisphaera (G) NF=61.0
+Cephaloticoccus_G	Cephaloticoccus (G) NF=18.0
+Ereboglobus_G	Ereboglobus (G) NF=2.5
+Puniceicoccales_O	Puniceicoccales (O)
+Puniceicoccaceae_F	Puniceicoccaceae (F) NF=41.8
+Puniceicoccus_G	Puniceicoccus (G) NF=65.0
+Coraliomargaritaceae_F	Coraliomargaritaceae (F)
+Coraliomargarita_G	Coraliomargarita (G) NF=3.9
+Pelagicoccaceae_F	Pelagicoccaceae (F)
+Pelagicoccus_G	Pelagicoccus (G) NF=4.0
+Cerasicoccaceae_F	Cerasicoccaceae (F)
+Cerasicoccus_G	Cerasicoccus (G) NF=12.8
+Ruficoccus_G	Ruficoccus (G) NF=1.0
+Spartobacteria_C	Spartobacteria (C)
+Chthoniobacterales_O	Chthoniobacterales (O)
+Chthoniobacteraceae_F	Chthoniobacteraceae (F) NF=98.9
+Chthoniobacter_G	Chthoniobacter (G) NF=82.0
+Terrimicrobiia_C	Terrimicrobiia (C)
+Terrimicrobiales_O	Terrimicrobiales (O)
+Terrimicrobiaceae_F	Terrimicrobiaceae (F) NF=33.0
+Terrimicrobium_G	Terrimicrobium (G) NF=38.0
+Methylacidiphilae_C	Methylacidiphilae (C)
+Methylacidiphilales_O	Methylacidiphilales (O)
+Methylacidiphilaceae_F	Methylacidiphilaceae (F) NF=13.3
+Methylacidiphilum_ex_Ratnadevi_et_al._2023_G	Methylacidiphilum (ex Ratnadevi et al. 2023) (G) NF=0.1
+Pedosphaerae_C	Pedosphaerae (C)
+Pedosphaerales_O	Pedosphaerales (O)
+Pedosphaeraceae_F	Pedosphaeraceae (F)
+Pedosphaera_G	Pedosphaera (G) NF=8.0
+Verrucomicrobiota_incertae_sedis_N	Verrucomicrobiota incertae sedis (N)
+Lentimonas_G	Lentimonas (G) NF=7.5
+Methylacidimicrobium_G	Methylacidimicrobium (G) NF=0.4
+Planctomycetota_P	Planctomycetota (P) NF=26.3
+Planctomycetia_C	Planctomycetia (C)
+Planctomycetales_O	Planctomycetales (O)
+Planctomycetaceae_F	Planctomycetaceae (F) NF=2.6
+Planctomyces_G	Planctomyces (G) NF=3.2
+Schlesneria_G	Schlesneria (G) NF=9.0
+Gimesia_G	Gimesia (G) NF=1.0
+Planctomicrobium_G	Planctomicrobium (G) NF=22.3
+Rubinisphaera_G	Rubinisphaera (G) NF=3.3
+Planctopirus_G	Planctopirus (G) NF=19.3
+Pirellulales_O	Pirellulales (O)
+Pirellulaceae_F	Pirellulaceae (F) NF=30.3
+Pirellula_G	Pirellula (G) NF=104.5
+Rhodopirellula_G	Rhodopirellula (G) NF=14.2
+Rubripirellula_G	Rubripirellula (G) NF=5.3
+Blastopirellula_G	Blastopirellula (G) NF=89.9
+Roseimaritima_G	Roseimaritima (G) NF=1.0
+Thermoguttaceae_F	Thermoguttaceae (F) NF=4.6
+Thermogutta_G	Thermogutta (G) NF=7.3
+Lacipirellulaceae_F	Lacipirellulaceae (F) NF=1.1
+Bythopirellula_G	Bythopirellula (G) NF=5.2
+Gemmatales_O	Gemmatales (O)
+Gemmataceae_F	Gemmataceae (F) NF=55.7
+Fimbriiglobus_G	Fimbriiglobus (G) NF=28.0
+Gemmata_G	Gemmata (G) NF=30.1
+Zavarzinella_G	Zavarzinella (G) NF=2.5
+Telmatocola_G	Telmatocola (G) NF=4.0
+Tuwongella_G	Tuwongella (G) NF=9.0
+Isosphaerales_O	Isosphaerales (O)
+Isosphaeraceae_F	Isosphaeraceae (F) NF=21.4
+Singulisphaera_G	Singulisphaera (G) NF=14.2
+Paludisphaera_G	Paludisphaera (G) NF=2.2
+Aquisphaera_G	Aquisphaera (G) NF=21.3
+Isosphaera_G	Isosphaera (G) NF=11.5
+Phycisphaerae_C	Phycisphaerae (C)
+Phycisphaerales_O	Phycisphaerales (O)
+Phycisphaeraceae_F	Phycisphaeraceae (F) NF=66.2
+Phycisphaera_G	Phycisphaera (G) NF=4.9
+Algisphaera_G	Algisphaera (G) NF=6.7
+Tepidisphaerales_O	Tepidisphaerales (O)
+Tepidisphaeraceae_F	Tepidisphaeraceae (F) NF=10.4
+Tepidisphaera_G	Tepidisphaera (G) NF=24.0
+Sedimentisphaerales_O	Sedimentisphaerales (O)
+Sedimentisphaeraceae_F	Sedimentisphaeraceae (F) NF=0.4
+Sedimentisphaera_G	Sedimentisphaera (G) NF=1.0
+Chlamydiota_P	Chlamydiota (P) NF=0.1
+Chlamydiia_C	Chlamydiia (C)
+Chlamydiales_O	Chlamydiales (O)
+Chlamydiaceae_F	Chlamydiaceae (F) NF=0.2
+Chlamydia/Chlamydophila_group_N	Chlamydia/Chlamydophila group (N)
+Chlamydia_G	Chlamydia (G) NF=0.2
+Parachlamydiales_O	Parachlamydiales (O)
+Parachlamydiaceae_F	Parachlamydiaceae (F) NF=0.3
+Simkaniaceae_F	Simkaniaceae (F) NF=0.1
+Thermodesulfobacteriota_P	Thermodesulfobacteriota (P) NF=6.9
+Desulfovibrionia_C	Desulfovibrionia (C)
+Desulfovibrionales_O	Desulfovibrionales (O)
+Desulfovibrionaceae_F	Desulfovibrionaceae (F) NF=3.3
+Desulfovibrio_G	Desulfovibrio (G) NF=5.9
+Mailhella_G	Mailhella (G) NF=1.3
+Bilophila_G	Bilophila (G) NF=5.2
+Pseudodesulfovibrio_G	Pseudodesulfovibrio (G) NF=0.4
+Halodesulfovibrio_G	Halodesulfovibrio (G) NF=2.0
+Desulfocurvus_G	Desulfocurvus (G) NF=1.7
+Desulfobaculum_G	Desulfobaculum (G) NF=0.7
+Desulfohalobiaceae_F	Desulfohalobiaceae (F) NF=9.6
+Desulfovermiculus_G	Desulfovermiculus (G) NF=32.5
+Desulfohalobium_G	Desulfohalobium (G) NF=2.0
+Desulfonatronovibrionaceae_F	Desulfonatronovibrionaceae (F) NF=1.5
+Desulfonatronovibrio_G	Desulfonatronovibrio (G) NF=1.0
+Desulfonatronospira_G	Desulfonatronospira (G) NF=2.0
+Desulfomicrobiaceae_F	Desulfomicrobiaceae (F) NF=3.5
+Desulfomicrobium_G	Desulfomicrobium (G) NF=4.6
+Desulfonatronaceae_F	Desulfonatronaceae (F) NF=1.9
+Desulfonatronum_G	Desulfonatronum (G) NF=2.1
+Desulfonauticaceae_F	Desulfonauticaceae (F) NF=0.6
+Desulfonauticus_G	Desulfonauticus (G) NF=0.8
+Desulfoplanaceae_F	Desulfoplanaceae (F) NF=6.5
+Desulfoplanes_G	Desulfoplanes (G) NF=6.5
+Desulfothermaceae_F	Desulfothermaceae (F)
+Desulfothermus_G	Desulfothermus (G) NF=6.0
+Desulfobacteria_C	Desulfobacteria (C)
+Desulfobacterales_O	Desulfobacterales (O)
+Desulfobacteraceae_F	Desulfobacteraceae (F) NF=9.4
+Desulfobacula_G	Desulfobacula (G) NF=2.0
+Desulfobacter_G	Desulfobacter (G) NF=6.4
+Desulfotignum_G	Desulfotignum (G) NF=6.5
+Desulfospira_G	Desulfospira (G) NF=1.0
+Desulfobotulus_G	Desulfobotulus (G) NF=2.2
+Desulfosarcinaceae_F	Desulfosarcinaceae (F) NF=37.2
+Desulfosarcina_G	Desulfosarcina (G) NF=2.2
+Desulfatitalea_G	Desulfatitalea (G) NF=3.8
+Desulfococcaceae_F	Desulfococcaceae (F) NF=14.6
+Desulfonema_G	Desulfonema (G) NF=25.2
+Desulfococcus_G	Desulfococcus (G) NF=1.8
+Desulfosalsimonadaceae_F	Desulfosalsimonadaceae (F) NF=5.3
+Desulfosalsimonas_G	Desulfosalsimonas (G) NF=3.5
+Desulfobacteriaceae_F	Desulfobacteriaceae (F) NF=10.7
+Desulfobacterium_G	Desulfobacterium (G) NF=10.7
+Desulfatibacillaceae_F	Desulfatibacillaceae (F) NF=1.6
+Desulfatibacillum_G	Desulfatibacillum (G) NF=2.0
+Desulfatirhabdiaceae_F	Desulfatirhabdiaceae (F) NF=8.7
+Desulfatirhabdium_G	Desulfatirhabdium (G) NF=13.0
+Desulfolunaceae_F	Desulfolunaceae (F) NF=3.6
+Desulfoluna_G	Desulfoluna (G) NF=0.8
+Desulforegulaceae_F	Desulforegulaceae (F) NF=1.5
+Desulforegula_G	Desulforegula (G) NF=3.0
+Desulfoarculaceae_F	Desulfoarculaceae (F) NF=2.0
+Desulfatiglandales_O	Desulfatiglandales (O)
+Desulfatiglandaceae_F	Desulfatiglandaceae (F)
+Desulfatiglans_G	Desulfatiglans (G) NF=123.7
+Desulfobulbia_C	Desulfobulbia (C)
+Desulfobulbales_O	Desulfobulbales (O)
+Desulfobulbaceae_F	Desulfobulbaceae (F) NF=4.3
+Desulfobulbus_G	Desulfobulbus (G) NF=6.0
+Desulfurivibrio_G	Desulfurivibrio (G) NF=5.8
+Desulfoprunum_G	Desulfoprunum (G) NF=2.5
+Desulfocapsaceae_F	Desulfocapsaceae (F) NF=21.6
+Desulfocapsa_G	Desulfocapsa (G) NF=24.4
+Desulfofustis_G	Desulfofustis (G) NF=2.8
+Desulfopila_G	Desulfopila (G) NF=7.7
+Desulforhopalus_G	Desulforhopalus (G) NF=9.8
+Desulfotalea_G	Desulfotalea (G) NF=7.0
+Desulfuromonadia_C	Desulfuromonadia (C)
+Geobacterales_O	Geobacterales (O)
+Geobacteraceae_F	Geobacteraceae (F) NF=4.9
+Geobacter_G	Geobacter (G) NF=4.4
+Trichlorobacter_G	Trichlorobacter (G) NF=2.0
+Geotalea_G	Geotalea (G) NF=0.8
+Citrifermentans_G	Citrifermentans (G) NF=37.5
+Desulfuromonadales_O	Desulfuromonadales (O)
+Desulfuromonadaceae_F	Desulfuromonadaceae (F) NF=4.9
+Desulfuromonas_G	Desulfuromonas (G) NF=6.2
+Pelobacter_G	Pelobacter (G) NF=2.7
+Geopsychrobacteraceae_F	Geopsychrobacteraceae (F) NF=6.7
+Desulfuromusa_G	Desulfuromusa (G) NF=13.3
+Geopsychrobacter_G	Geopsychrobacter (G) NF=3.7
+Malonomonas_G	Malonomonas (G) NF=4.0
+Syntrophotaleaceae_F	Syntrophotaleaceae (F) NF=3.5
+Syntrophotalea_G	Syntrophotalea (G) NF=4.2
+Geoalkalibacteraceae_F	Geoalkalibacteraceae (F) NF=4.5
+Geoalkalibacter_G	Geoalkalibacter (G) NF=4.5
+Geothermobacteraceae_F	Geothermobacteraceae (F) NF=8.0
+Geothermobacter_G	Geothermobacter (G) NF=10.7
+Syntrophia_C	Syntrophia (C)
+Syntrophales_O	Syntrophales (O)
+Syntrophaceae_F	Syntrophaceae (F) NF=2.4
+Smithellaceae_F	Smithellaceae (F) NF=5.6
+Smithella_G	Smithella (G) NF=5.9
+Syntrophobacteria_C	Syntrophobacteria (C)
+Syntrophobacterales_O	Syntrophobacterales (O)
+Syntrophobacteraceae_F	Syntrophobacteraceae (F) NF=8.5
+Syntrophobacter_G	Syntrophobacter (G) NF=19.2
+Desulfosoma_G	Desulfosoma (G) NF=0.3
+Desulforhabdus_G	Desulforhabdus (G) NF=3.7
+Desulfacinum_G	Desulfacinum (G) NF=0.7
+Desulfoglaeba_G	Desulfoglaeba (G) NF=1.0
+Thermodesulforhabdaceae_F	Thermodesulforhabdaceae (F) NF=6.0
+Thermodesulforhabdus_G	Thermodesulforhabdus (G) NF=12.0
+Syntrophorhabdia_C	Syntrophorhabdia (C)
+Syntrophorhabdales_O	Syntrophorhabdales (O)
+Syntrophorhabdaceae_F	Syntrophorhabdaceae (F) NF=11.6
+Syntrophorhabdus_G	Syntrophorhabdus (G) NF=14.7
+Thermodesulfobacteria_C	Thermodesulfobacteria (C)
+Thermodesulfobacteriales_O	Thermodesulfobacteriales (O)
+Thermodesulfobacteriaceae_F	Thermodesulfobacteriaceae (F) NF=3.8
+Thermodesulfobacterium_G	Thermodesulfobacterium (G) NF=0.9
+Caldimicrobium_G	Caldimicrobium (G) NF=9.0
+Thermosulfurimonas_G	Thermosulfurimonas (G) NF=0.8
+Thermosulfuriphilus_G	Thermosulfuriphilus (G) NF=1.0
+Thermodesulfatatoraceae_F	Thermodesulfatatoraceae (F) NF=1.2
+Thermodesulfatator_G	Thermodesulfatator (G) NF=1.2
+Desulfomonilia_C	Desulfomonilia (C)
+Desulfomonilales_O	Desulfomonilales (O)
+Desulfomonilaceae_F	Desulfomonilaceae (F) NF=15.5
+Desulfomonile_G	Desulfomonile (G) NF=20.7
+Desulfarculia_C	Desulfarculia (C)
+Desulfarculales_O	Desulfarculales (O)
+Desulfarculaceae_F	Desulfarculaceae (F) NF=3.0
+Desulfarculus_G	Desulfarculus (G) NF=1.0
+Dethiosulfatarculus_G	Dethiosulfatarculus (G) NF=2.0
+Desulfocarbo_G	Desulfocarbo (G) NF=17.0
+Desulfobaccia_C	Desulfobaccia (C)
+Desulfobaccales_O	Desulfobaccales (O)
+Desulfobaccaceae_F	Desulfobaccaceae (F) NF=16.5
+Desulfobacca_G	Desulfobacca (G) NF=16.5
+Deferrisomatia_C	Deferrisomatia (C)
+Deferrisomatales_O	Deferrisomatales (O)
+Deferrisomataceae_F	Deferrisomataceae (F) NF=48.0
+Deferrisoma_G	Deferrisoma (G) NF=48.0
+Dissulfuribacteria_C	Dissulfuribacteria (C)
+Dissulfuribacterales_O	Dissulfuribacterales (O)
+Dissulfuribacteraceae_F	Dissulfuribacteraceae (F) NF=41.0
+Dissulfuribacter_G	Dissulfuribacter (G) NF=6.0
+Spirochaetota_P	Spirochaetota (P) NF=6.8
+Spirochaetia_C	Spirochaetia (C)
+Spirochaetales_O	Spirochaetales (O)
+Treponemataceae_F	Treponemataceae (F) NF=5.0
+Treponema_G	Treponema (G) NF=7.7
+Borreliaceae_F	Borreliaceae (F) NF=0.5
+Borreliella_G	Borreliella (G) NF=0.1
+Borrelia_G	Borrelia (G) NF=0.6
+Spirochaetaceae_F	Spirochaetaceae (F) NF=27.3
+Spirochaeta_G	Spirochaeta (G) NF=65.9
+Alkalispirochaeta_G	Alkalispirochaeta (G) NF=3.8
+Sediminispirochaeta_G	Sediminispirochaeta (G) NF=45.2
+Oceanispirochaeta_G	Oceanispirochaeta (G) NF=0.8
+Salinispira_G	Salinispira (G) NF=9.7
+Sphaerochaetaceae_F	Sphaerochaetaceae (F) NF=7.9
+Sphaerochaeta_G	Sphaerochaeta (G) NF=9.7
+Pleomorphochaeta_G	Pleomorphochaeta (G) NF=1.5
+Rectinemataceae_F	Rectinemataceae (F) NF=0.3
+Rectinema_G	Rectinema (G) NF=0.5
+Spirochaetales_incertae_sedis_N	Spirochaetales incertae sedis (N)
+Exilispira_G	Exilispira (G) NF=17.0
+Leptospirales_O	Leptospirales (O)
+Leptospiraceae_F	Leptospiraceae (F) NF=2.7
+Leptospira_G	Leptospira (G) NF=0.7
+Turneriella_G	Turneriella (G) NF=14.0
+Brachyspirales_O	Brachyspirales (O)
+Brachyspiraceae_F	Brachyspiraceae (F) NF=1.3
+Brachyspira_G	Brachyspira (G) NF=1.4
+Brevinematales_O	Brevinematales (O)
+Brevinemataceae_F	Brevinemataceae (F) NF=20.3
+Brevinema_G	Brevinema (G) NF=20.3
+Myxococcota_P	Myxococcota (P) NF=14.3
+Polyangia_sC	Polyangia (sC)
+Polyangiales_O	Polyangiales (O)
+Polyangiaceae_F	Polyangiaceae (F) NF=10.3
+Sorangium_G	Sorangium (G) NF=6.6
+Polyangium_G	Polyangium (G) NF=1.2
+Byssovorax_G	Byssovorax (G) NF=0.5
+Minicystis_G	Minicystis (G) NF=8.0
+Chondromyces_G	Chondromyces (G) NF=1.7
+Aetherobacter_G	Aetherobacter (G) NF=19.0
+Pajaroellobacter_G	Pajaroellobacter (G) NF=195.0
+Sandaracinaceae_F	Sandaracinaceae (F) NF=60.0
+Sandaracinus_G	Sandaracinus (G) NF=26.0
+Labilitrichaceae_F	Labilitrichaceae (F) NF=1.7
+Labilithrix_G	Labilithrix (G) NF=1.7
+Haliangiales_O	Haliangiales (O)
+Kofleriaceae_F	Kofleriaceae (F) NF=124.8
+Haliangium_G	Haliangium (G) NF=187.0
+Nannocystales_O	Nannocystales (O)
+Nannocystaceae_F	Nannocystaceae (F) NF=6.6
+Nannocystis_G	Nannocystis (G) NF=5.8
+Enhygromyxa_G	Enhygromyxa (G) NF=4.3
+Pseudenhygromyxa_G	Pseudenhygromyxa (G) NF=4.0
+Plesiocystis_G	Plesiocystis (G) NF=2.0
+Myxococcia_C	Myxococcia (C)
+Myxococcales_O	Myxococcales (O)
+Cystobacterineae_sO	Cystobacterineae (sO)
+Myxococcaceae_F	Myxococcaceae (F) NF=4.5
+Corallococcus_G	Corallococcus (G) NF=0.2
+Myxococcus_G	Myxococcus (G) NF=0.5
+Aggregicoccus_G	Aggregicoccus (G) NF=1.0
+Anaeromyxobacteraceae_F	Anaeromyxobacteraceae (F) NF=8.5
+Anaeromyxobacter_G	Anaeromyxobacter (G) NF=9.4
+Archangiaceae_F	Archangiaceae (F) NF=1.4
+Archangium_G	Archangium (G) NF=1.1
+Cystobacter_G	Cystobacter (G) NF=2.0
+Hyalangium_G	Hyalangium (G) NF=0.4
+Stigmatella_G	Stigmatella (G) NF=1.5
+Melittangium_G	Melittangium (G) NF=3.0
+Vitiosangium_G	Vitiosangium (G) NF=5.0
+Vulgatibacteraceae_F	Vulgatibacteraceae (F) NF=10.0
+Vulgatibacter_G	Vulgatibacter (G) NF=15.0
+Nitrospirota_P	Nitrospirota (P) NF=5.3
+Nitrospiria_C	Nitrospiria (C)
+Nitrospirales_O	Nitrospirales (O)
+Nitrospiraceae_F	Nitrospiraceae (F) NF=5.2
+Leptospirillum_G	Leptospirillum (G) NF=13.8
+Thermodesulfovibrionia_C	Thermodesulfovibrionia (C)
+Thermodesulfovibrionales_O	Thermodesulfovibrionales (O)
+Thermodesulfovibrionaceae_F	Thermodesulfovibrionaceae (F) NF=3.5
+Thermodesulfovibrio_G	Thermodesulfovibrio (G) NF=3.8
+Bdellovibrionota_P	Bdellovibrionota (P) NF=10.7
+Bdellovibrionia_C	Bdellovibrionia (C)
+Bdellovibrionales_O	Bdellovibrionales (O)
+Pseudobdellovibrionaceae_F	Pseudobdellovibrionaceae (F) NF=4.5
+Micavibrio_G	Micavibrio (G) NF=0.0
+Bdellovibrio_G	Bdellovibrio (G) NF=14.3
+Bacteriovoracia_C	Bacteriovoracia (C)
+Bacteriovoracales_O	Bacteriovoracales (O)
+Bacteriovoracaceae_F	Bacteriovoracaceae (F) NF=10.3
+Bacteriovorax_G	Bacteriovorax (G) NF=8.6
+Peredibacter_G	Peredibacter (G) NF=85.7
+Halobacteriovoraceae_F	Halobacteriovoraceae (F) NF=0.8
+Halobacteriovorax_G	Halobacteriovorax (G) NF=0.8
+Oligoflexia_C	Oligoflexia (C)
+Silvanigrellales_O	Silvanigrellales (O)
+Silvanigrellaceae_F	Silvanigrellaceae (F) NF=8.4
+Silvanigrella_G	Silvanigrella (G) NF=8.5
+Silvanigrellales_incertae_sedis_N	Silvanigrellales incertae sedis (N)
+Spirobacillus_G	Spirobacillus (G) NF=2.0
+Oligoflexales_O	Oligoflexales (O)
+Oligoflexaceae_F	Oligoflexaceae (F) NF=74.8
+Oligoflexus_G	Oligoflexus (G) NF=7.3
+Pseudobacteriovoracaceae_F	Pseudobacteriovoracaceae (F) NF=5.5
+Pseudobacteriovorax_G	Pseudobacteriovorax (G) NF=5.5
+Elusimicrobiota_P	Elusimicrobiota (P) NF=4.4
+Elusimicrobia_C	Elusimicrobia (C)
+Elusimicrobiales_O	Elusimicrobiales (O)
+Elusimicrobiaceae_F	Elusimicrobiaceae (F) NF=2.0
+Elusimicrobium_G	Elusimicrobium (G) NF=7.0
+Endomicrobiia_C	Endomicrobiia (C)
+Endomicrobiales_O	Endomicrobiales (O)
+Endomicrobiaceae_F	Endomicrobiaceae (F) NF=3.5
+Endomicrobium_G	Endomicrobium (G) NF=17.1
+Deferribacterota_P	Deferribacterota (P) NF=2.7
+Deferribacteres_C	Deferribacteres (C)
+Deferribacterales_O	Deferribacterales (O)
+Mucispirillaceae_F	Mucispirillaceae (F) NF=4.2
+Mucispirillum_G	Mucispirillum (G) NF=5.2
+Deferribacteraceae_F	Deferribacteraceae (F) NF=5.9
+Deferribacter_G	Deferribacter (G) NF=3.5
+Geovibrionaceae_F	Geovibrionaceae (F) NF=1.6
+Seleniivibrio_G	Seleniivibrio (G) NF=1.0
+Geovibrio_G	Geovibrio (G) NF=1.0
+Denitrovibrio_G	Denitrovibrio (G) NF=4.0
+Flexistipitaceae_F	Flexistipitaceae (F) NF=2.0
+Flexistipes_G	Flexistipes (G) NF=2.0
+Calditerrivibrionaceae_F	Calditerrivibrionaceae (F) NF=6.0
+Calditerrivibrio_G	Calditerrivibrio (G) NF=6.0
+Aquificota_P	Aquificota (P) NF=2.8
+Aquificia_C	Aquificia (C)
+Aquificales_O	Aquificales (O)
+Aquificaceae_F	Aquificaceae (F) NF=2.6
+Hydrogenobacter_G	Hydrogenobacter (G) NF=1.8
+Aquifex_G	Aquifex (G) NF=2.0
+Thermocrinis_G	Thermocrinis (G) NF=2.2
+Hydrogenobaculum_G	Hydrogenobaculum (G) NF=3.0
+Hydrogenivirga_G	Hydrogenivirga (G) NF=3.0
+Hydrogenothermaceae_F	Hydrogenothermaceae (F) NF=3.7
+Persephonella_G	Persephonella (G) NF=3.5
+Sulfurihydrogenibium_G	Sulfurihydrogenibium (G) NF=3.8
+Venenivibrio_G	Venenivibrio (G) NF=9.0
+Hydrogenothermus_G	Hydrogenothermus (G) NF=2.0
+Desulfurobacteriales_O	Desulfurobacteriales (O)
+Desulfurobacteriaceae_F	Desulfurobacteriaceae (F) NF=2.1
+Desulfurobacterium_G	Desulfurobacterium (G) NF=1.7
+Thermovibrio_G	Thermovibrio (G) NF=3.0
+Phorcysia_G	Phorcysia (G) NF=2.0
+Balnearium_G	Balnearium (G) NF=4.0
+Nitrospinota/Tectimicrobiota_group_C	Nitrospinota/Tectimicrobiota group (C)
+Nitrospinota_P	Nitrospinota (P) NF=9.1
+Nitrospinia_C	Nitrospinia (C)
+Nitrospinales_O	Nitrospinales (O)
+Nitrospinaceae_F	Nitrospinaceae (F) NF=13.6
+Nitrospina_G	Nitrospina (G) NF=21.6
+Thermomicrobiota_P	Thermomicrobiota (P) NF=25.6
+Thermomicrobia_C	Thermomicrobia (C)
+Thermomicrobiales_O	Thermomicrobiales (O)
+Thermomicrobiaceae_F	Thermomicrobiaceae (F) NF=1.4
+Thermomicrobium_G	Thermomicrobium (G) NF=1.8
+Sphaerobacterales_O	Sphaerobacterales (O)
+Sphaerobacterineae_sO	Sphaerobacterineae (sO)
+Sphaerobacteraceae_F	Sphaerobacteraceae (F) NF=7.7
+Nitrolancea_G	Nitrolancea (G) NF=17.0
+Sphaerobacter_G	Sphaerobacter (G) NF=6.0
+Thermomicrobia_incertae_sedis_N	Thermomicrobia incertae sedis (N)
+Thermorudis_G	Thermorudis (G) NF=1.0
+Calditrichota_P	Calditrichota (P) NF=35.0
+Calditrichia_C	Calditrichia (C)
+Calditrichales_O	Calditrichales (O)
+Calditrichaceae_F	Calditrichaceae (F) NF=66.5
+Caldithrix_G	Caldithrix (G) NF=10.2
+Atribacterota_P	Atribacterota (P) NF=3.7
+Caldisericota/Cryosericota_group_C	Caldisericota/Cryosericota group (C)
+Caldisericota_P	Caldisericota (P) NF=5.0
+Caldisericia_C	Caldisericia (C)
+Caldisericales_O	Caldisericales (O)
+Caldisericaceae_F	Caldisericaceae (F) NF=7.0
+Caldisericum_G	Caldisericum (G) NF=8.4
+Abditibacteriota_P	Abditibacteriota (P) NF=36.7
+Abditibacteriia_C	Abditibacteriia (C)
+Abditibacteriales_O	Abditibacteriales (O)
+Abditibacteriaceae_F	Abditibacteriaceae (F)
+Abditibacterium_G	Abditibacterium (G) NF=85.7
+Coprothermobacterota_P	Coprothermobacterota (P) NF=9.3
+Coprothermobacteria_C	Coprothermobacteria (C)
+Coprothermobacterales_O	Coprothermobacterales (O)
+Coprothermobacteraceae_F	Coprothermobacteraceae (F) NF=11.2
+Coprothermobacter_G	Coprothermobacter (G) NF=14.0
+Dictyoglomota_P	Dictyoglomota (P) NF=0.9
+Dictyoglomia_C	Dictyoglomia (C)
+Dictyoglomales_O	Dictyoglomales (O)
+Dictyoglomaceae_F	Dictyoglomaceae (F) NF=1.2
+Dictyoglomus_G	Dictyoglomus (G) NF=1.4
+Chrysiogenota_P	Chrysiogenota (P) NF=0.8
+Chrysiogenia_C	Chrysiogenia (C)
+Chrysiogenales_O	Chrysiogenales (O)
+Chrysiogenaceae_F	Chrysiogenaceae (F) NF=1.7
+Desulfurispirillum_G	Desulfurispirillum (G) NF=2.0
+Desulfurispira_G	Desulfurispira (G) NF=1.0
+Chrysiogenes_G	Chrysiogenes (G) NF=2.0
+Thermodesulfobiota_P	Thermodesulfobiota (P)
+Thermodesulfobiia_C	Thermodesulfobiia (C)
+Thermodesulfobiales_O	Thermodesulfobiales (O)
+Thermodesulfobiaceae_F	Thermodesulfobiaceae (F) NF=0.8
+Thermodesulfobium_G	Thermodesulfobium (G) NF=0.8
+Thermosulfidibacterota_P	Thermosulfidibacterota (P)
+Thermosulfidibacteria_C	Thermosulfidibacteria (C)
+Thermosulfidibacterales_O	Thermosulfidibacterales (O)
+Thermosulfidibacteraceae_F	Thermosulfidibacteraceae (F)
+Thermosulfidibacter_G	Thermosulfidibacter (G) NF=4.5
+Bacillati_K	Bacillati (K)
+Bacillota_P	Bacillota (P) NF=3.5
+Bacilli_C	Bacilli (C)
+Lactobacillales_O	Lactobacillales (O)
+Streptococcaceae_F	Streptococcaceae (F) NF=2.3
+Streptococcus_G	Streptococcus (G) NF=2.2
+Lactococcus_G	Lactococcus (G) NF=3.1
+Lactovum_G	Lactovum (G) NF=5.5
+Floricoccus_G	Floricoccus (G) NF=2.0
+Enterococcaceae_F	Enterococcaceae (F) NF=0.9
+Enterococcus_G	Enterococcus (G) NF=1.0
+Vagococcus_G	Vagococcus (G) NF=0.8
+Tetragenococcus_G	Tetragenococcus (G) NF=0.8
+Melissococcus_G	Melissococcus (G) NF=0.5
+Bavariicoccus_G	Bavariicoccus (G) NF=1.0
+Catellicoccus_G	Catellicoccus (G) NF=5.0
+Pilibacter_G	Pilibacter (G) NF=5.0
+Lactobacillaceae_F	Lactobacillaceae (F) NF=1.9
+Lactobacillus_G	Lactobacillus (G) NF=4.1
+Ligilactobacillus_G	Ligilactobacillus (G) NF=1.8
+Limosilactobacillus_G	Limosilactobacillus (G) NF=2.2
+Lactiplantibacillus_G	Lactiplantibacillus (G) NF=0.6
+Lacticaseibacillus_G	Lacticaseibacillus (G) NF=0.5
+Leuconostoc_G	Leuconostoc (G) NF=2.4
+Pediococcus_G	Pediococcus (G) NF=4.2
+Weissella_G	Weissella (G) NF=3.0
+Oenococcus_G	Oenococcus (G) NF=0.9
+Latilactobacillus_G	Latilactobacillus (G) NF=3.0
+Levilactobacillus_G	Levilactobacillus (G) NF=0.1
+Lentilactobacillus_G	Lentilactobacillus (G) NF=0.3
+Apilactobacillus_G	Apilactobacillus (G) NF=0.4
+Liquorilactobacillus_G	Liquorilactobacillus (G) NF=0.5
+Companilactobacillus_G	Companilactobacillus (G) NF=0.1
+Fructilactobacillus_G	Fructilactobacillus (G) NF=0.4
+Fructobacillus_G	Fructobacillus (G) NF=0.6
+Secundilactobacillus_G	Secundilactobacillus (G) NF=0.2
+Loigolactobacillus_G	Loigolactobacillus (G) NF=1.2
+Schleiferilactobacillus_G	Schleiferilactobacillus (G) NF=0.3
+Bombilactobacillus_G	Bombilactobacillus (G) NF=0.9
+Dellaglioa_G	Dellaglioa (G) NF=0.3
+Paucilactobacillus_G	Paucilactobacillus (G) NF=0.2
+Amylolactobacillus_G	Amylolactobacillus (G) NF=1.0
+Carnobacteriaceae_F	Carnobacteriaceae (F) NF=2.3
+Carnobacterium_G	Carnobacterium (G) NF=0.9
+Jeotgalibaca_G	Jeotgalibaca (G) NF=0.9
+Granulicatella_G	Granulicatella (G) NF=3.3
+Trichococcus_G	Trichococcus (G) NF=2.1
+Dolosigranulum_G	Dolosigranulum (G) NF=23.0
+Alkalibacterium_G	Alkalibacterium (G) NF=1.2
+Marinilactibacillus_G	Marinilactibacillus (G) NF=1.4
+Atopostipes_G	Atopostipes (G) NF=8.0
+Desemzia_G	Desemzia (G) NF=1.2
+Alloiococcus_G	Alloiococcus (G) NF=4.5
+Atopococcus_G	Atopococcus (G) NF=2.7
+Pisciglobus_G	Pisciglobus (G) NF=2.0
+Atopobacter_G	Atopobacter (G) NF=0.5
+Isobaculum_G	Isobaculum (G) NF=1.0
+Lacticigenium_G	Lacticigenium (G) NF=4.0
+Allofustis_G	Allofustis (G) NF=2.0
+Aerococcaceae_F	Aerococcaceae (F) NF=1.2
+Aerococcus_G	Aerococcus (G) NF=1.1
+Abiotrophia_G	Abiotrophia (G) NF=5.2
+Facklamia_G	Facklamia (G) NF=2.4
+Globicatella_G	Globicatella (G) NF=1.8
+Ignavigranum_G	Ignavigranum (G) NF=10.0
+Dolosicoccus_G	Dolosicoccus (G) NF=1.0
+Lactobacillales_incertae_sedis_N	Lactobacillales incertae sedis (N)
+Chungangia_G	Chungangia (G) NF=1.0
+Bacillales_O	Bacillales (O)
+Staphylococcaceae_F	Staphylococcaceae (F) NF=1.1
+Staphylococcus_G	Staphylococcus (G) NF=1.3
+Macrococcus_G	Macrococcus (G) NF=0.5
+Salinicoccus_G	Salinicoccus (G) NF=1.0
+Jeotgalicoccus_G	Jeotgalicoccus (G) NF=1.1
+Nosocomiicoccus_G	Nosocomiicoccus (G) NF=0.7
+Aliicoccus_G	Aliicoccus (G) NF=1.0
+Listeriaceae_F	Listeriaceae (F) NF=0.7
+Listeria_G	Listeria (G) NF=0.6
+Brochothrix_G	Brochothrix (G) NF=2.3
+Bacillaceae_F	Bacillaceae (F) NF=1.7
+Lysinibacillus_G	Lysinibacillus (G) NF=1.4
+Virgibacillus_G	Virgibacillus (G) NF=1.7
+Oceanobacillus_G	Oceanobacillus (G) NF=1.1
+Halobacillus_G	Halobacillus (G) NF=0.9
+Psychrobacillus_G	Psychrobacillus (G) NF=0.2
+Terribacillus_G	Terribacillus (G) NF=0.7
+Aeribacillus_G	Aeribacillus (G) NF=0.5
+Gracilibacillus_G	Gracilibacillus (G) NF=0.7
+Lentibacillus_G	Lentibacillus (G) NF=0.7
+Caldibacillus_G	Caldibacillus (G) NF=1.5
+Pseudogracilibacillus_G	Pseudogracilibacillus (G) NF=1.5
+Domibacillus_G	Domibacillus (G) NF=0.6
+Ornithinibacillus_G	Ornithinibacillus (G) NF=0.9
+Pontibacillus_G	Pontibacillus (G) NF=1.0
+Pseudobacillus_G	Pseudobacillus (G) NF=0.2
+Paraliobacillus_G	Paraliobacillus (G) NF=1.1
+Anaerobacillus_G	Anaerobacillus (G) NF=2.3
+Salipaludibacillus_G	Salipaludibacillus (G) NF=1.5
+Thalassobacillus_G	Thalassobacillus (G) NF=1.0
+Alkalibacillus_G	Alkalibacillus (G) NF=0.9
+Allobacillus_G	Allobacillus (G) NF=0.6
+Salimicrobium_G	Salimicrobium (G) NF=0.9
+Amphibacillus_G	Amphibacillus (G) NF=1.1
+Marinococcus_G	Marinococcus (G) NF=4.4
+Aquibacillus_G	Aquibacillus (G) NF=0.6
+Alkalicoccus_G	Alkalicoccus (G) NF=0.3
+Halolactibacillus_G	Halolactibacillus (G) NF=1.8
+Caldalkalibacillus_G	Caldalkalibacillus (G) NF=1.4
+Salibacterium_G	Salibacterium (G) NF=0.6
+Tepidibacillus_G	Tepidibacillus (G) NF=0.6
+Sediminibacillus_G	Sediminibacillus (G) NF=0.7
+Alteribacillus_G	Alteribacillus (G) NF=0.7
+Salisediminibacterium_G	Salisediminibacterium (G) NF=0.3
+Salirhabdus_G	Salirhabdus (G) NF=1.0
+Terrilactibacillus_G	Terrilactibacillus (G) NF=0.3
+Piscibacillus_G	Piscibacillus (G) NF=1.5
+Calditerricola_G	Calditerricola (G) NF=3.5
+Cerasibacillus_G	Cerasibacillus (G) NF=1.3
+Salinibacillus_G	Salinibacillus (G) NF=1.0
+Paucisalibacillus_G	Paucisalibacillus (G) NF=1.0
+Salsuginibacillus_G	Salsuginibacillus (G) NF=1.5
+Halalkalibacillus_G	Halalkalibacillus (G) NF=1.0
+Falsibacillus_G	Falsibacillus (G) NF=1.0
+Tenuibacillus_G	Tenuibacillus (G) NF=1.0
+Microaerobacter_G	Microaerobacter (G) NF=1.0
+Pelagirhabdus_G	Pelagirhabdus (G) NF=1.0
+Compostibacillus_G	Compostibacillus (G) NF=1.0
+Vulcanibacillus_G	Vulcanibacillus (G) NF=20.0
+Aureibacillus_G	Aureibacillus (G) NF=2.0
+Melghiribacillus_G	Melghiribacillus (G) NF=2.0
+Saliterribacillus_G	Saliterribacillus (G) NF=2.0
+Aquisalibacillus_G	Aquisalibacillus (G) NF=1.0
+Natribacillus_G	Natribacillus (G) NF=3.0
+Streptohalobacillus_G	Streptohalobacillus (G) NF=1.0
+Desertibacillus_G	Desertibacillus (G) NF=1.0
+Natronobacillus_G	Natronobacillus (G) NF=1.0
+Filobacillus_G	Filobacillus (G) NF=2.0
+Paenibacillaceae_F	Paenibacillaceae (F) NF=1.1
+Paenibacillus_G	Paenibacillus (G) NF=1.0
+Brevibacillus_G	Brevibacillus (G) NF=1.3
+Cohnella_G	Cohnella (G) NF=1.8
+Aneurinibacillus_group_N	Aneurinibacillus group (N)
+Aneurinibacillus_G	Aneurinibacillus (G) NF=1.9
+Ammoniphilus_G	Ammoniphilus (G) NF=1.0
+Saccharibacillus_G	Saccharibacillus (G) NF=0.5
+Gorillibacterium_G	Gorillibacterium (G) NF=0.5
+Fontibacillus_G	Fontibacillus (G) NF=0.8
+Thermobacillus_G	Thermobacillus (G) NF=14.8
+Marinicrinis_G	Marinicrinis (G) NF=1.0
+Xylanibacillus_G	Xylanibacillus (G) NF=7.0
+Caryophanaceae_F	Caryophanaceae (F) NF=1.1
+Sporosarcina_G	Sporosarcina (G) NF=0.8
+Solibacillus_G	Solibacillus (G) NF=1.5
+Kurthia_G	Kurthia (G) NF=1.2
+Ureibacillus_G	Ureibacillus (G) NF=0.8
+Paenisporosarcina_G	Paenisporosarcina (G) NF=0.8
+Rummeliibacillus_G	Rummeliibacillus (G) NF=0.9
+Jeotgalibacillus_G	Jeotgalibacillus (G) NF=0.3
+Planomicrobium_G	Planomicrobium (G) NF=4.4
+Viridibacillus_G	Viridibacillus (G) NF=0.3
+Bhargavaea_G	Bhargavaea (G) NF=1.3
+Savagea_G	Savagea (G) NF=0.7
+Chryseomicrobium_G	Chryseomicrobium (G) NF=2.2
+Caryophanon_G	Caryophanon (G) NF=1.3
+Alicyclobacillaceae_F	Alicyclobacillaceae (F) NF=3.1
+Alicyclobacillus_G	Alicyclobacillus (G) NF=1.9
+Tumebacillus_G	Tumebacillus (G) NF=8.2
+Kyrpidia_G	Kyrpidia (G) NF=1.3
+Effusibacillus_G	Effusibacillus (G) NF=3.2
+Acidibacillus_G	Acidibacillus (G) NF=27.0
+Thermoactinomycetaceae_F	Thermoactinomycetaceae (F) NF=1.8
+Thermoactinomyces_G	Thermoactinomyces (G) NF=0.6
+Laceyella_G	Laceyella (G) NF=1.2
+Kroppenstedtia_G	Kroppenstedtia (G) NF=1.4
+Planifilum_G	Planifilum (G) NF=5.0
+Melghirimyces_G	Melghirimyces (G) NF=1.7
+Novibacillus_G	Novibacillus (G) NF=4.0
+Desmospora_G	Desmospora (G) NF=1.0
+Polycladomyces_G	Polycladomyces (G) NF=0.3
+Shimazuella_G	Shimazuella (G) NF=3.0
+Risungbinella_G	Risungbinella (G) NF=1.0
+Lihuaxuella_G	Lihuaxuella (G) NF=1.0
+Thermoflavimicrobium_G	Thermoflavimicrobium (G) NF=3.5
+Marininema_G	Marininema (G) NF=0.5
+Hazenella_G	Hazenella (G) NF=1.0
+Marinithermofilum_G	Marinithermofilum (G) NF=1.0
+Salinithrix_G	Salinithrix (G) NF=1.0
+Baia_G	Baia (G) NF=3.0
+Mechercharimyces_G	Mechercharimyces (G) NF=1.0
+Seinonella_G	Seinonella (G) NF=2.0
+Sporolactobacillaceae_F	Sporolactobacillaceae (F) NF=1.0
+Sporolactobacillus_G	Sporolactobacillus (G) NF=0.9
+Scopulibacillus_G	Scopulibacillus (G) NF=0.7
+Pullulanibacillus_G	Pullulanibacillus (G) NF=2.3
+Tuberibacillus_G	Tuberibacillus (G) NF=1.5
+Sinobaca_G	Sinobaca (G) NF=1.0
+Pasteuriaceae_F	Pasteuriaceae (F) NF=9.5
+Pasteuria_G	Pasteuria (G) NF=9.5
+Bacillales_incertae_sedis_N	Bacillales incertae sedis (N)
+Bacillales_Family_XII._Incertae_Sedis_N	Bacillales Family XII. Incertae Sedis (N)
+Exiguobacterium_G	Exiguobacterium (G) NF=0.7
+Bacillales_Family_X._Incertae_Sedis_F	Bacillales Family X. Incertae Sedis (F)
+Hydrogenibacillus_G	Hydrogenibacillus (G) NF=1.3
+Brockia_G	Brockia (G) NF=7.0
+Thermicanus_G	Thermicanus (G) NF=5.5
+Geomicrobium_G	Geomicrobium (G) NF=1.0
+Anoxybacillaceae_F	Anoxybacillaceae (F)
+Geobacillus_G	Geobacillus (G) NF=1.6
+Anoxybacillus_G	Anoxybacillus (G) NF=3.3
+Parageobacillus_G	Parageobacillus (G) NF=1.9
+Saccharococcus_G	Saccharococcus (G) NF=0.3
+Thermolongibacillus_G	Thermolongibacillus (G) NF=2.0
+Gemellaceae_F	Gemellaceae (F)
+Gemella_G	Gemella (G) NF=6.9
+Fictibacillaceae_F	Fictibacillaceae (F)
+Fictibacillus_G	Fictibacillus (G) NF=0.7
+Abyssicoccaceae_F	Abyssicoccaceae (F)
+Abyssicoccus_G	Abyssicoccus (G) NF=1.0
+Clostridia_C	Clostridia (C)
+Lachnospirales_O	Lachnospirales (O)
+Lachnospiraceae_F	Lachnospiraceae (F) NF=8.5
+Acetatifactor_G	Acetatifactor (G) NF=3.0
+Blautia_G	Blautia (G) NF=6.9
+Dorea_G	Dorea (G) NF=4.7
+Roseburia_G	Roseburia (G) NF=14.2
+Agathobacter_G	Agathobacter (G) NF=76.8
+Coprococcus_G	Coprococcus (G) NF=2.9
+Lachnospira_G	Lachnospira (G) NF=2.9
+Hungatella_G	Hungatella (G) NF=1.7
+Lachnoclostridium_G	Lachnoclostridium (G) NF=9.8
+Anaerostipes_G	Anaerostipes (G) NF=9.6
+Fusicatenibacter_G	Fusicatenibacter (G) NF=17.2
+Butyrivibrio_G	Butyrivibrio (G) NF=3.3
+Oribacterium_G	Oribacterium (G) NF=4.9
+Eisenbergiella_G	Eisenbergiella (G) NF=2.9
+Pseudobutyrivibrio_G	Pseudobutyrivibrio (G) NF=1.7
+Lachnobacterium_G	Lachnobacterium (G) NF=1.0
+Sellimonas_G	Sellimonas (G) NF=4.3
+Lachnoanaerobaculum_G	Lachnoanaerobaculum (G) NF=2.3
+Faecalicatena_G	Faecalicatena (G) NF=0.3
+Tyzzerella_G	Tyzzerella (G) NF=33.1
+Stomatobaculum_G	Stomatobaculum (G) NF=1.2
+Anaerocolumna_G	Anaerocolumna (G) NF=3.1
+Marvinbryantia_G	Marvinbryantia (G) NF=51.3
+Frisingicoccus_G	Frisingicoccus (G) NF=10.5
+Robinsoniella_G	Robinsoniella (G) NF=3.4
+Johnsonella_G	Johnsonella (G) NF=5.0
+Herbinix_G	Herbinix (G) NF=5.0
+Niameybacter_G	Niameybacter (G) NF=0.2
+Lachnotalea_G	Lachnotalea (G) NF=1.5
+Catonella_G	Catonella (G) NF=7.2
+Parasporobacterium_G	Parasporobacterium (G) NF=0.3
+Shuttleworthella_G	Shuttleworthella (G) NF=14.2
+Anaerosporobacter_G	Anaerosporobacter (G) NF=10.5
+Mobilitalea_G	Mobilitalea (G) NF=5.5
+Catenibacillus_G	Catenibacillus (G) NF=1.7
+Cuneatibacter_G	Cuneatibacter (G) NF=0.2
+Hespellia_G	Hespellia (G) NF=2.0
+Acetitomaculum_G	Acetitomaculum (G) NF=60.5
+Mobilisporobacter_G	Mobilisporobacter (G) NF=0.5
+Moryella_G	Moryella (G) NF=49.0
+Anaerobium_G	Anaerobium (G) NF=3.0
+Defluviitaleaceae_F	Defluviitaleaceae (F) NF=27.8
+Defluviitalea_G	Defluviitalea (G) NF=10.0
+Cellulosilyticaceae_F	Cellulosilyticaceae (F) NF=3.6
+Cellulosilyticum_G	Cellulosilyticum (G) NF=4.5
+Vallitaleaceae_F	Vallitaleaceae (F) NF=1.3
+Vallitalea_G	Vallitalea (G) NF=1.7
+Anaerotignaceae_F	Anaerotignaceae (F)
+Anaerotignum_G	Anaerotignum (G) NF=0.6
+Natranaerovirgaceae_F	Natranaerovirgaceae (F)
+Natranaerovirga_G	Natranaerovirga (G) NF=3.5
+Eubacteriales_O	Eubacteriales (O)
+Oscillospiraceae_F	Oscillospiraceae (F) NF=5.5
+Ruminococcus_G	Ruminococcus (G) NF=3.6
+Faecalibacterium_G	Faecalibacterium (G) NF=9.5
+Oscillibacter_G	Oscillibacter (G) NF=6.7
+Angelakisella_G	Angelakisella (G) NF=1.3
+Anaerotruncus_G	Anaerotruncus (G) NF=2.2
+Subdoligranulum_G	Subdoligranulum (G) NF=35.2
+Flavonifractor_G	Flavonifractor (G) NF=1.0
+Ruthenibacterium_G	Ruthenibacterium (G) NF=0.2
+Ruminiclostridium_G	Ruminiclostridium (G) NF=10.4
+Pseudoflavonifractor_G	Pseudoflavonifractor (G) NF=0.1
+Saccharofermentans_G	Saccharofermentans (G) NF=63.0
+Allofournierella_G	Allofournierella (G) NF=1.5
+Acetivibrio_G	Acetivibrio (G) NF=2.5
+Mageeibacillus_G	Mageeibacillus (G) NF=0.2
+Hydrogenoanaerobacterium_G	Hydrogenoanaerobacterium (G) NF=8.0
+Anaerofilum_G	Anaerofilum (G) NF=1.8
+Thermoclostridium_G	Thermoclostridium (G) NF=4.0
+Pygmaiobacter_G	Pygmaiobacter (G) NF=2.8
+Fastidiosipila_G	Fastidiosipila (G) NF=48.7
+Ethanoligenens_G	Ethanoligenens (G) NF=3.3
+Sporobacter_G	Sporobacter (G) NF=2.5
+Papillibacter_G	Papillibacter (G) NF=20.0
+Acetanaerobacterium_G	Acetanaerobacterium (G) NF=3.7
+Pseudobacteroides_G	Pseudobacteroides (G) NF=3.5
+Harryflintia_G	Harryflintia (G) NF=3.5
+Anaerobacterium_G	Anaerobacterium (G) NF=17.0
+Clostridiaceae_F	Clostridiaceae (F) NF=2.3
+Clostridium_G	Clostridium (G) NF=1.8
+Sarcina_G	Sarcina (G) NF=9.4
+Proteiniclasticum_G	Proteiniclasticum (G) NF=4.9
+Caloramator_G	Caloramator (G) NF=3.0
+Lactonifactor_G	Lactonifactor (G) NF=0.1
+Mordavella_G	Mordavella (G) NF=1.0
+Hathewaya_G	Hathewaya (G) NF=0.5
+Haloimpatiens_G	Haloimpatiens (G) NF=1.2
+Crassaminicella_G	Crassaminicella (G) NF=1.3
+Youngiibacter_G	Youngiibacter (G) NF=1.3
+Anoxynatronum_G	Anoxynatronum (G) NF=6.0
+Oceanirhabdus_G	Oceanirhabdus (G) NF=1.5
+Thermobrachium_G	Thermobrachium (G) NF=15.0
+Oxobacter_G	Oxobacter (G) NF=29.0
+Fervidicella_G	Fervidicella (G) NF=2.0
+Fonticella_G	Fonticella (G) NF=52.0
+Eubacteriaceae_F	Eubacteriaceae (F) NF=1.2
+Eubacterium_G	Eubacterium (G) NF=0.7
+Acetobacterium_G	Acetobacterium (G) NF=2.1
+Anaerofustis_G	Anaerofustis (G) NF=8.2
+Pseudoramibacter_G	Pseudoramibacter (G) NF=1.7
+Alkalibaculum_G	Alkalibaculum (G) NF=0.5
+Garciella_G	Garciella (G) NF=2.0
+Alkalibacter_G	Alkalibacter (G) NF=2.8
+Irregularibacter_G	Irregularibacter (G) NF=11.0
+Peptococcaceae_F	Peptococcaceae (F) NF=7.8
+Peptococcus_G	Peptococcus (G) NF=8.5
+Desulfofundulus_G	Desulfofundulus (G) NF=2.1
+Dehalobacterium_G	Dehalobacterium (G) NF=9.5
+Desulfonispora_G	Desulfonispora (G) NF=2.0
+Desulfofarcimen_G	Desulfofarcimen (G) NF=249.0
+Syntrophomonadaceae_F	Syntrophomonadaceae (F) NF=5.7
+Syntrophomonas_G	Syntrophomonas (G) NF=3.4
+Syntrophothermus_G	Syntrophothermus (G) NF=2.5
+Thermosyntropha_G	Thermosyntropha (G) NF=2.2
+Thermohydrogenium_G	Thermohydrogenium (G) NF=1.0
+Desulfitobacteriaceae_F	Desulfitobacteriaceae (F) NF=4.7
+Desulfosporosinus_G	Desulfosporosinus (G) NF=6.5
+Desulfitobacterium_G	Desulfitobacterium (G) NF=4.2
+Dehalobacter_G	Dehalobacter (G) NF=1.6
+Syntrophobotulus_G	Syntrophobotulus (G) NF=2.0
+Desulfotomaculaceae_F	Desulfotomaculaceae (F) NF=5.0
+Pelotomaculum_G	Pelotomaculum (G) NF=2.7
+Desulfotomaculum_G	Desulfotomaculum (G) NF=4.7
+Heliobacteriaceae_F	Heliobacteriaceae (F) NF=2.3
+Heliobacterium_G	Heliobacterium (G) NF=1.3
+Heliorestis_G	Heliorestis (G) NF=1.5
+Heliophilum_G	Heliophilum (G) NF=1.0
+Symbiobacteriaceae_F	Symbiobacteriaceae (F) NF=37.2
+Symbiobacterium_G	Symbiobacterium (G) NF=8.7
+Caldinitratiruptor_G	Caldinitratiruptor (G) NF=4.0
+Gracilibacteraceae_F	Gracilibacteraceae (F) NF=13.3
+Gracilibacter_G	Gracilibacter (G) NF=8.4
+Desulfallaceae_F	Desulfallaceae (F) NF=1.8
+Desulfallas_G	Desulfallas (G) NF=5.5
+Sporotomaculum_G	Sporotomaculum (G) NF=3.0
+Thermincolaceae_F	Thermincolaceae (F) NF=16.0
+Thermincola_G	Thermincola (G) NF=16.0
+Proteinivoracaceae_F	Proteinivoracaceae (F) NF=1.9
+Anaerobranca_G	Anaerobranca (G) NF=2.8
+Proteinivorax_G	Proteinivorax (G) NF=1.0
+Desulfocucumaceae_F	Desulfocucumaceae (F) NF=1.0
+Desulfocucumis_G	Desulfocucumis (G) NF=2.0
+Butyricicoccaceae_F	Butyricicoccaceae (F)
+Butyricicoccus_G	Butyricicoccus (G) NF=2.3
+Agathobaculum_G	Agathobaculum (G) NF=0.1
+Intestinibacillus_G	Intestinibacillus (G) NF=0.4
+Acutalibacteraceae_F	Acutalibacteraceae (F)
+Acutalibacter_G	Acutalibacter (G) NF=0.1
+Caproiciproducens_G	Caproiciproducens (G) NF=10.9
+Eubacteriales_incertae_sedis_N	Eubacteriales incertae sedis (N)
+Intestinimonas_G	Intestinimonas (G) NF=2.6
+Clostridiales_Family_XVII._Incertae_Sedis_F	Clostridiales Family XVII. Incertae Sedis (F)
+Sulfobacillus_G	Sulfobacillus (G) NF=6.4
+Thermaerobacter_G	Thermaerobacter (G) NF=2.2
+Eubacteriales_Family_XII._Incertae_Sedis_F	Eubacteriales Family XII. Incertae Sedis (F)
+Fusibacter_G	Fusibacter (G) NF=21.3
+Fenollaria_G	Fenollaria (G) NF=2.4
+Proteiniborus_G	Proteiniborus (G) NF=2.2
+Clostridiales_Family_XVI._Incertae_Sedis_F	Clostridiales Family XVI. Incertae Sedis (F)
+Carboxydocella_G	Carboxydocella (G) NF=0.2
+Colidextribacter_G	Colidextribacter (G) NF=79.0
+Desulfurisporaceae_F	Desulfurisporaceae (F)
+Desulfurispora_G	Desulfurispora (G) NF=18.5
+Peptostreptococcales_O	Peptostreptococcales (O)
+Peptostreptococcaceae_F	Peptostreptococcaceae (F) NF=3.2
+Clostridioides_G	Clostridioides (G) NF=0.3
+Romboutsia_G	Romboutsia (G) NF=3.4
+Paraclostridium_G	Paraclostridium (G) NF=1.8
+Peptostreptococcus_G	Peptostreptococcus (G) NF=3.5
+Intestinibacter_G	Intestinibacter (G) NF=2.0
+Terrisporobacter_G	Terrisporobacter (G) NF=2.5
+Tepidibacter_G	Tepidibacter (G) NF=1.6
+Paeniclostridium_G	Paeniclostridium (G) NF=2.7
+Asaccharospora_G	Asaccharospora (G) NF=2.0
+Anaerovoracaceae_F	Anaerovoracaceae (F) NF=6.9
+Mogibacterium_G	Mogibacterium (G) NF=13.1
+Aminipila_G	Aminipila (G) NF=0.2
+Mobilibacterium_G	Mobilibacterium (G) NF=0.5
+Anaerovorax_G	Anaerovorax (G) NF=48.5
+Aminicella_G	Aminicella (G) NF=3.0
+Casaltella_G	Casaltella (G) NF=1.0
+Bacilliculturomica_G	Bacilliculturomica (G) NF=1.0
+Ihubacter_G	Ihubacter (G) NF=2.0
+Filifactoraceae_F	Filifactoraceae (F)
+Filifactor_G	Filifactor (G) NF=2.5
+Acetoanaerobium_G	Acetoanaerobium (G) NF=5.5
+Peptoanaerobacter_G	Peptoanaerobacter (G) NF=0.5
+Proteocatella_G	Proteocatella (G) NF=4.5
+Criibacterium_G	Criibacterium (G) NF=0.5
+Natronincolaceae_F	Natronincolaceae (F)
+Alkaliphilus_G	Alkaliphilus (G) NF=4.5
+Serpentinicella_G	Serpentinicella (G) NF=4.0
+Natronincola_G	Natronincola (G) NF=3.0
+Anaerovirgula_G	Anaerovirgula (G) NF=3.0
+Acidaminobacteraceae_F	Acidaminobacteraceae (F)
+Acidaminobacter_G	Acidaminobacter (G) NF=10.8
+Peptoclostridiaceae_F	Peptoclostridiaceae (F)
+Peptoclostridium_G	Peptoclostridium (G) NF=9.0
+Tindalliaceae_F	Tindalliaceae (F)
+Tindallia_G	Tindallia (G) NF=2.2
+Thermotaleaceae_F	Thermotaleaceae (F)
+Anaerosolibacter_G	Anaerosolibacter (G) NF=0.7
+Geosporobacter_G	Geosporobacter (G) NF=1.7
+Marinisporobacter_G	Marinisporobacter (G) NF=1.5
+Anaeromicrobium_G	Anaeromicrobium (G) NF=1.0
+Thermotalea_G	Thermotalea (G) NF=2.0
+Caminicellaceae_F	Caminicellaceae (F)
+Maledivibacter_G	Maledivibacter (G) NF=0.5
+Caminicella_G	Caminicella (G) NF=20.0
+Paramaledivibacter_G	Paramaledivibacter (G) NF=8.0
+Christensenellales_O	Christensenellales (O)
+Christensenellaceae_F	Christensenellaceae (F) NF=15.7
+Christensenella_G	Christensenella (G) NF=0.0
+Thermoanaerobacterales_O	Thermoanaerobacterales (O)
+Thermoanaerobacteraceae_F	Thermoanaerobacteraceae (F) NF=3.4
+Thermoanaerobacter_G	Thermoanaerobacter (G) NF=2.3
+Thermoanaerobacterium_G	Thermoanaerobacterium (G) NF=1.1
+Caldanaerobacter_G	Caldanaerobacter (G) NF=14.0
+Thermacetogenium_G	Thermacetogenium (G) NF=3.0
+Carboxydothermus_G	Carboxydothermus (G) NF=1.8
+Desulfovirgula_G	Desulfovirgula (G) NF=0.7
+Ammonifex_G	Ammonifex (G) NF=0.3
+Gelria_G	Gelria (G) NF=12.0
+Caldanaerobius_G	Caldanaerobius (G) NF=2.0
+Thermodesulfitimonas_G	Thermodesulfitimonas (G) NF=10.0
+Thermoanaerobacterales_Family_III._Incertae_Sedis_F	Thermoanaerobacterales Family III. Incertae Sedis (F)
+Syntrophaceticus_G	Syntrophaceticus (G) NF=8.0
+Thermoanaerobacterales_Family_IV._Incertae_Sedis_F	Thermoanaerobacterales Family IV. Incertae Sedis (F)
+Mahella_G	Mahella (G) NF=1.5
+Halanaerobiales_O	Halanaerobiales (O)
+Halanaerobiaceae_F	Halanaerobiaceae (F) NF=5.8
+Halanaerobium_G	Halanaerobium (G) NF=5.3
+Halocella_G	Halocella (G) NF=24.0
+Halobacteroidaceae_F	Halobacteroidaceae (F) NF=4.2
+Orenia_G	Orenia (G) NF=10.0
+Natroniella_G	Natroniella (G) NF=1.0
+Halanaerobacter_G	Halanaerobacter (G) NF=3.5
+Selenihalanaerobacter_G	Selenihalanaerobacter (G) NF=1.0
+Fuchsiella_G	Fuchsiella (G) NF=4.0
+Sporohalobacter_G	Sporohalobacter (G) NF=2.0
+Halobacteroides_G	Halobacteroides (G) NF=3.0
+Halonatronum_G	Halonatronum (G) NF=3.0
+Acetohalobium_G	Acetohalobium (G) NF=3.0
+Halothermotrichaceae_F	Halothermotrichaceae (F)
+Halothermothrix_G	Halothermothrix (G) NF=1.0
+Halanaerobiales_incertae_sedis_N	Halanaerobiales incertae sedis (N)
+Anoxybacter_G	Anoxybacter (G) NF=1.0
+Halarsenatibacteraceae_F	Halarsenatibacteraceae (F)
+Halarsenatibacter_G	Halarsenatibacter (G) NF=8.0
+Thermosediminibacterales_O	Thermosediminibacterales (O)
+Tepidanaerobacteraceae_F	Tepidanaerobacteraceae (F) NF=2.9
+Tepidanaerobacter_G	Tepidanaerobacter (G) NF=3.6
+Thermosediminibacteraceae_F	Thermosediminibacteraceae (F) NF=1.7
+Thermosediminibacter_G	Thermosediminibacter (G) NF=2.5
+Caldanaerovirga_G	Caldanaerovirga (G) NF=1.0
+Fervidicola_G	Fervidicola (G) NF=1.0
+Thermovenabulum_G	Thermovenabulum (G) NF=5.0
+Caldicoprobacterales_O	Caldicoprobacterales (O)
+Caldicoprobacteraceae_F	Caldicoprobacteraceae (F) NF=21.4
+Caldicoprobacter_G	Caldicoprobacter (G) NF=25.0
+Natranaerobiales_O	Natranaerobiales (O)
+Natranaerobiaceae_F	Natranaerobiaceae (F) NF=14.0
+Natranaerobius_G	Natranaerobius (G) NF=5.5
+Neomorellales_O	Neomorellales (O)
+Neomoorellaceae_F	Neomoorellaceae (F)
+Neomoorella_G	Neomoorella (G) NF=2.8
+Thermanaeromonas_G	Thermanaeromonas (G) NF=5.0
+Desulfitibacteraceae_F	Desulfitibacteraceae (F)
+Desulfitibacter_G	Desulfitibacter (G) NF=29.0
+Calderihabitantaceae_F	Calderihabitantaceae (F)
+Calderihabitans_G	Calderihabitans (G) NF=1.0
+Monoglobales_O	Monoglobales (O)
+Monoglobaceae_F	Monoglobaceae (F)
+Monoglobus_G	Monoglobus (G) NF=115.0
+Lutisporales_O	Lutisporales (O)
+Lutisporaceae_F	Lutisporaceae (F)
+Lutispora_G	Lutispora (G) NF=27.3
+Erysipelotrichia_C	Erysipelotrichia (C)
+Erysipelotrichales_O	Erysipelotrichales (O)
+Erysipelotrichaceae_F	Erysipelotrichaceae (F) NF=3.9
+Faecalibaculum_G	Faecalibaculum (G) NF=75.5
+Dubosiella_G	Dubosiella (G) NF=6.7
+Erysipelothrix_G	Erysipelothrix (G) NF=6.9
+Solobacterium_G	Solobacterium (G) NF=4.7
+Holdemanella_G	Holdemanella (G) NF=9.4
+Bulleidia_G	Bulleidia (G) NF=0.6
+Longicatena_G	Longicatena (G) NF=0.1
+Allobaculum_G	Allobaculum (G) NF=1.9
+Faecalitalea_G	Faecalitalea (G) NF=1.5
+Merdibacter_G	Merdibacter (G) NF=0.3
+Faecalicoccus_G	Faecalicoccus (G) NF=0.6
+Holdemania_G	Holdemania (G) NF=0.6
+Anaerorhabdus_G	Anaerorhabdus (G) NF=0.5
+Breznakia_G	Breznakia (G) NF=0.5
+Amedibacterium_G	Amedibacterium (G) NF=0.4
+Dielma_G	Dielma (G) NF=22.0
+Catenisphaera_G	Catenisphaera (G) NF=19.0
+Coprobacillaceae_F	Coprobacillaceae (F) NF=0.6
+Catenibacterium_G	Catenibacterium (G) NF=6.2
+Coprobacillus_G	Coprobacillus (G) NF=0.1
+Kandleria_G	Kandleria (G) NF=0.1
+Sharpea_G	Sharpea (G) NF=0.7
+Eggerthia_G	Eggerthia (G) NF=2.0
+Turicibacteraceae_F	Turicibacteraceae (F) NF=5.8
+Turicibacter_G	Turicibacter (G) NF=6.1
+Negativicutes_C	Negativicutes (C)
+Veillonellales_O	Veillonellales (O)
+Veillonellaceae_F	Veillonellaceae (F) NF=3.2
+Veillonella_G	Veillonella (G) NF=3.7
+Dialister_G	Dialister (G) NF=9.7
+Megasphaera_G	Megasphaera (G) NF=1.3
+Negativicoccus_G	Negativicoccus (G) NF=1.7
+Allisonella_G	Allisonella (G) NF=2.0
+Anaeroglobus_G	Anaeroglobus (G) NF=0.2
+Quinella_G	Quinella (G) NF=13.0
+Acidaminococcales_O	Acidaminococcales (O)
+Acidaminococcaceae_F	Acidaminococcaceae (F) NF=7.6
+Phascolarctobacterium_G	Phascolarctobacterium (G) NF=11.5
+Acidaminococcus_G	Acidaminococcus (G) NF=1.6
+Succiniclasticum_G	Succiniclasticum (G) NF=34.0
+Succinispira_G	Succinispira (G) NF=4.0
+Selenomonadales_O	Selenomonadales (O)
+Selenomonadaceae_F	Selenomonadaceae (F) NF=4.3
+Selenomonas_G	Selenomonas (G) NF=4.6
+Mitsuokella_G	Mitsuokella (G) NF=1.9
+Megamonas_G	Megamonas (G) NF=4.7
+Anaerovibrio_G	Anaerovibrio (G) NF=5.8
+Pectinatus_G	Pectinatus (G) NF=1.3
+Propionispira_G	Propionispira (G) NF=7.5
+Sporomusaceae_F	Sporomusaceae (F) NF=6.0
+Sporomusa_G	Sporomusa (G) NF=2.8
+Pelosinus_G	Pelosinus (G) NF=5.9
+Anaerospora_G	Anaerospora (G) NF=18.0
+Anaeromusa_G	Anaeromusa (G) NF=0.3
+Methylomusa_G	Methylomusa (G) NF=1.0
+Propionispora_G	Propionispora (G) NF=2.0
+Dendrosporobacter_G	Dendrosporobacter (G) NF=4.0
+Thermosinus_G	Thermosinus (G) NF=9.0
+Negativicutes_incertae_sedis_N	Negativicutes incertae sedis (N)
+Acetonemataceae_F	Acetonemataceae (F)
+Anaerosporomusa_G	Anaerosporomusa (G) NF=7.5
+Acetonema_G	Acetonema (G) NF=1.5
+Tissierellia_C	Tissierellia (C)
+Tissierellales_O	Tissierellales (O)
+Peptoniphilaceae_F	Peptoniphilaceae (F) NF=2.8
+Anaerococcus_G	Anaerococcus (G) NF=3.4
+Peptoniphilus_G	Peptoniphilus (G) NF=2.5
+Finegoldia_G	Finegoldia (G) NF=5.6
+Parvimonas_G	Parvimonas (G) NF=3.0
+Helcococcus_G	Helcococcus (G) NF=4.9
+Murdochiella_G	Murdochiella (G) NF=2.2
+Gallicola_G	Gallicola (G) NF=7.0
+Anaerosphaera_G	Anaerosphaera (G) NF=1.0
+Tissierellaceae_F	Tissierellaceae (F) NF=3.8
+Tissierella_G	Tissierella (G) NF=6.0
+Soehngenia_G	Soehngenia (G) NF=4.2
+Sporanaerobacteraceae_F	Sporanaerobacteraceae (F) NF=2.9
+Anaerosalibacter_G	Anaerosalibacter (G) NF=2.8
+Sporanaerobacter_G	Sporanaerobacter (G) NF=3.0
+Thermohalobacteraceae_F	Thermohalobacteraceae (F) NF=3.6
+Caloranaerobacter_G	Caloranaerobacter (G) NF=2.0
+Sporosalibacterium_G	Sporosalibacterium (G) NF=3.0
+Caldisalinibacter_G	Caldisalinibacter (G) NF=1.0
+Thermohalobacter_G	Thermohalobacter (G) NF=1.0
+Clostridiisalibacter_G	Clostridiisalibacter (G) NF=17.0
+Tepidimicrobiaceae_F	Tepidimicrobiaceae (F) NF=11.7
+Tepidimicrobium_G	Tepidimicrobium (G) NF=32.0
+Keratinibaculum_G	Keratinibaculum (G) NF=6.0
+Gottschalkiaceae_F	Gottschalkiaceae (F) NF=2.4
+Gottschalkia_G	Gottschalkia (G) NF=6.0
+Tissierellia_incertae_sedis_N	Tissierellia incertae sedis (N)
+Sedimentibacter_G	Sedimentibacter (G) NF=11.9
+Ezakiella_G	Ezakiella (G) NF=4.2
+Dethiosulfatibacter_G	Dethiosulfatibacter (G) NF=15.5
+Kallipyga_G	Kallipyga (G) NF=0.5
+Limnochordia_C	Limnochordia (C)
+Limnochordales_O	Limnochordales (O)
+Limnochordaceae_F	Limnochordaceae (F) NF=35.0
+Limnochorda_G	Limnochorda (G) NF=3.5
+Desulfuribacillia_C	Desulfuribacillia (C)
+Desulfuribacillales_O	Desulfuribacillales (O)
+Desulfuribacillaceae_F	Desulfuribacillaceae (F) NF=5.0
+Desulfuribacillus_G	Desulfuribacillus (G) NF=5.0
+Bacillota_sensu_stricto_incertae_sedis_N	Bacillota sensu stricto incertae sedis (N)
+Negativibacillus_G	Negativibacillus (G) NF=10.0
+Ndongobacter_G	Ndongobacter (G) NF=0.5
+Hydrogenispora_G	Hydrogenispora (G) NF=63.5
+Bacillota_incertae_sedis_N	Bacillota incertae sedis (N)
+Caldicellulosiruptorales_O	Caldicellulosiruptorales (O)
+Caldicellulosiruptoraceae_F	Caldicellulosiruptoraceae (F)
+Caldicellulosiruptor_G	Caldicellulosiruptor (G) NF=5.8
+Dethiobacteria_C	Dethiobacteria (C)
+Dethiobacterales_O	Dethiobacterales (O)
+Dethiobacteraceae_F	Dethiobacteraceae (F)
+Dethiobacter_G	Dethiobacter (G) NF=25.3
+Actinomycetota_P	Actinomycetota (P) NF=0.9
+Actinomycetes_C	Actinomycetes (C)
+Mycobacteriales_O	Mycobacteriales (O)
+Mycobacteriaceae_F	Mycobacteriaceae (F) NF=0.5
+Mycobacterium_G	Mycobacterium (G) NF=0.8
+Mycolicibacterium_G	Mycolicibacterium (G) NF=0.0
+Mycolicibacter_G	Mycolicibacter (G) NF=0.0
+Corynebacteriaceae_F	Corynebacteriaceae (F) NF=1.3
+Corynebacterium_G	Corynebacterium (G) NF=1.3
+Nocardiaceae_F	Nocardiaceae (F) NF=0.3
+Nocardia_G	Nocardia (G) NF=0.3
+Williamsia_G	Williamsia (G) NF=0.7
+Smaragdicoccus_G	Smaragdicoccus (G) NF=2.0
+Gordoniaceae_F	Gordoniaceae (F) NF=0.4
+Skermania_G	Skermania (G) NF=0.5
+Millisia_G	Millisia (G) NF=1.0
+Dietziaceae_F	Dietziaceae (F) NF=0.8
+Dietzia_G	Dietzia (G) NF=0.8
+Tsukamurellaceae_F	Tsukamurellaceae (F) NF=0.4
+Tsukamurella_G	Tsukamurella (G) NF=0.4
+Lawsonellaceae_F	Lawsonellaceae (F) NF=14.0
+Lawsonella_G	Lawsonella (G) NF=14.0
+Segniliparaceae_F	Segniliparaceae (F) NF=1.5
+Segniliparus_G	Segniliparus (G) NF=0.5
+Corynebacteriales_incertae_sedis_N	Corynebacteriales incertae sedis (N)
+Tomitella_G	Tomitella (G) NF=0.6
+Fodinicola_G	Fodinicola (G) NF=0.5
+Hoyosellaceae_F	Hoyosellaceae (F)
+Hoyosella_G	Hoyosella (G) NF=0.5
+Kitasatosporales_O	Kitasatosporales (O)
+Streptomycetaceae_F	Streptomycetaceae (F) NF=0.2
+Streptomyces_G	Streptomyces (G) NF=0.2
+Kitasatospora_G	Kitasatospora (G) NF=0.1
+Streptacidiphilus_G	Streptacidiphilus (G) NF=0.7
+Embleya_G	Embleya (G) NF=0.1
+Yinghuangia_G	Yinghuangia (G) NF=0.2
+Bifidobacteriales_O	Bifidobacteriales (O)
+Bifidobacteriaceae_F	Bifidobacteriaceae (F) NF=0.4
+Bifidobacterium_G	Bifidobacterium (G) NF=0.6
+Gardnerella_G	Gardnerella (G) NF=0.0
+Aeriscardovia_G	Aeriscardovia (G) NF=1.0
+Alloscardovia_G	Alloscardovia (G) NF=0.8
+Scardovia_G	Scardovia (G) NF=1.3
+Parascardovia_G	Parascardovia (G) NF=0.5
+Pseudoscardovia_G	Pseudoscardovia (G) NF=1.0
+Bombiscardovia_G	Bombiscardovia (G) NF=0.3
+Galliscardovia_G	Galliscardovia (G) NF=1.0
+Micrococcales_O	Micrococcales (O)
+Microbacteriaceae_F	Microbacteriaceae (F) NF=0.5
+Microbacterium_G	Microbacterium (G) NF=0.5
+Clavibacter_G	Clavibacter (G) NF=0.2
+Curtobacterium_G	Curtobacterium (G) NF=0.2
+Rathayibacter_G	Rathayibacter (G) NF=0.1
+Cryobacterium_G	Cryobacterium (G) NF=0.1
+Leucobacter_G	Leucobacter (G) NF=1.1
+Luna_cluster_N	Luna cluster (N)
+Luna-1_subcluster_C	Luna-1 subcluster (C)
+Rhodoluna_G	Rhodoluna (G) NF=1.5
+Agromyces_G	Agromyces (G) NF=0.8
+Leifsonia_G	Leifsonia (G) NF=0.4
+Pontimonas_G	Pontimonas (G) NF=0.3
+Frigoribacterium_G	Frigoribacterium (G) NF=0.1
+Salinibacterium_G	Salinibacterium (G) NF=0.2
+Pseudoclavibacter_G	Pseudoclavibacter (G) NF=0.7
+Agrococcus_G	Agrococcus (G) NF=0.7
+Aurantimicrobium_G	Aurantimicrobium (G) NF=1.8
+Microcella_G	Microcella (G) NF=0.2
+Gulosibacter_G	Gulosibacter (G) NF=0.4
+Plantibacter_G	Plantibacter (G) NF=0.1
+Mycetocola_G	Mycetocola (G) NF=0.4
+Herbiconiux_G	Herbiconiux (G) NF=0.1
+Amnibacterium_G	Amnibacterium (G) NF=0.9
+Subtercola_G	Subtercola (G) NF=0.6
+Agreia_G	Agreia (G) NF=0.2
+Naasia_G	Naasia (G) NF=0.5
+Galbitalea_G	Galbitalea (G) NF=3.0
+Frondihabitans_G	Frondihabitans (G) NF=0.5
+Schumannella_G	Schumannella (G) NF=0.6
+Gryllotalpicola_G	Gryllotalpicola (G) NF=0.9
+Marisediminicola_G	Marisediminicola (G) NF=0.7
+Humibacter_G	Humibacter (G) NF=0.8
+Homoserinimonas_G	Homoserinimonas (G) NF=0.3
+Microterricola_G	Microterricola (G) NF=0.5
+Labedella_G	Labedella (G) NF=0.2
+Canibacter_G	Canibacter (G) NF=0.3
+Glaciibacter_G	Glaciibacter (G) NF=0.3
+Diaminobutyricimonas_G	Diaminobutyricimonas (G) NF=0.8
+Conyzicola_G	Conyzicola (G) NF=0.7
+Cnuibacter_G	Cnuibacter (G) NF=0.5
+Parafrigoribacterium_G	Parafrigoribacterium (G) NF=7.3
+Homoserinibacter_G	Homoserinibacter (G) NF=0.3
+Alpinimonas_G	Alpinimonas (G) NF=0.5
+Okibacterium_G	Okibacterium (G) NF=1.5
+Klugiella_G	Klugiella (G) NF=2.0
+Lysinimonas_G	Lysinimonas (G) NF=5.0
+Compostimonas_G	Compostimonas (G) NF=1.0
+Luethyella_G	Luethyella (G) NF=1.0
+Micrococcaceae_F	Micrococcaceae (F) NF=0.9
+Arthrobacter_G	Arthrobacter (G) NF=0.7
+Micrococcus_G	Micrococcus (G) NF=2.0
+Kocuria_G	Kocuria (G) NF=1.2
+Pseudarthrobacter_G	Pseudarthrobacter (G) NF=0.8
+Paenarthrobacter_G	Paenarthrobacter (G) NF=0.2
+Glutamicibacter_G	Glutamicibacter (G) NF=1.2
+Nesterenkonia_G	Nesterenkonia (G) NF=0.6
+Citricoccus_G	Citricoccus (G) NF=0.5
+Sinomonas_G	Sinomonas (G) NF=0.5
+Paeniglutamicibacter_G	Paeniglutamicibacter (G) NF=0.3
+Auritidibacter_G	Auritidibacter (G) NF=0.3
+Yaniella_G	Yaniella (G) NF=0.8
+Pseudoglutamicibacter_G	Pseudoglutamicibacter (G) NF=1.0
+Enteractinococcus_G	Enteractinococcus (G) NF=1.2
+Zhihengliuella_G	Zhihengliuella (G) NF=0.5
+Neomicrococcus_G	Neomicrococcus (G) NF=0.3
+Renibacterium_G	Renibacterium (G) NF=0.5
+Psychromicrobium_G	Psychromicrobium (G) NF=0.5
+Falsarthrobacter_G	Falsarthrobacter (G) NF=1.0
+Acaricomes_G	Acaricomes (G) NF=2.0
+Haematomicrobium_G	Haematomicrobium (G) NF=1.0
+Garicola_G	Garicola (G) NF=5.0
+Intrasporangiaceae_F	Intrasporangiaceae (F) NF=1.1
+Janibacter_G	Janibacter (G) NF=0.5
+Phycicoccus_G	Phycicoccus (G) NF=0.2
+Ornithinibacter_G	Ornithinibacter (G) NF=0.5
+Pedococcus_G	Pedococcus (G) NF=0.2
+Terrabacter_G	Terrabacter (G) NF=0.4
+Knoellia_G	Knoellia (G) NF=0.4
+Lapillicoccus_G	Lapillicoccus (G) NF=6.0
+Arsenicicoccus_G	Arsenicicoccus (G) NF=0.3
+Intrasporangium_G	Intrasporangium (G) NF=1.1
+Humibacillus_G	Humibacillus (G) NF=1.7
+Aquipuribacter_G	Aquipuribacter (G) NF=1.0
+Ornithinicoccus_G	Ornithinicoccus (G) NF=3.0
+Marihabitans_G	Marihabitans (G) NF=0.5
+Oryzihumus_G	Oryzihumus (G) NF=12.0
+Kribbia_G	Kribbia (G) NF=3.0
+Fodinibacter_ex_Wang_et_al._2009_G	Fodinibacter (ex Wang et al. 2009) (G) NF=1.0
+Cellulomonadaceae_F	Cellulomonadaceae (F) NF=0.6
+Cellulomonas_G	Cellulomonas (G) NF=0.6
+Actinotalea_G	Actinotalea (G) NF=0.8
+Oerskovia_G	Oerskovia (G) NF=0.5
+Pseudactinotalea_G	Pseudactinotalea (G) NF=0.7
+Paraoerskovia_G	Paraoerskovia (G) NF=2.0
+Brevibacteriaceae_F	Brevibacteriaceae (F) NF=0.8
+Brevibacterium_G	Brevibacterium (G) NF=0.8
+Sediminivirga_G	Sediminivirga (G) NF=1.0
+Spelaeicoccus_G	Spelaeicoccus (G) NF=2.0
+Promicromonosporaceae_F	Promicromonosporaceae (F) NF=0.6
+Cellulosimicrobium_G	Cellulosimicrobium (G) NF=0.8
+Isoptericola_G	Isoptericola (G) NF=0.5
+Promicromonospora_G	Promicromonospora (G) NF=0.5
+Xylanimonas_G	Xylanimonas (G) NF=0.3
+Myceligenerans_G	Myceligenerans (G) NF=1.6
+Krasilnikoviella_G	Krasilnikoviella (G) NF=1.0
+Dermabacteraceae_F	Dermabacteraceae (F) NF=0.9
+Brachybacterium_G	Brachybacterium (G) NF=0.9
+Dermabacter_G	Dermabacter (G) NF=0.7
+Helcobacillus_G	Helcobacillus (G) NF=3.5
+Devriesea_G	Devriesea (G) NF=1.0
+Dermatophilaceae_F	Dermatophilaceae (F) NF=3.0
+Dermatophilus_G	Dermatophilus (G) NF=1.5
+Austwickia_G	Austwickia (G) NF=0.5
+Mobilicoccus_G	Mobilicoccus (G) NF=1.0
+Kineosphaera_G	Kineosphaera (G) NF=0.5
+Demequinaceae_F	Demequinaceae (F) NF=0.6
+Demequina_G	Demequina (G) NF=0.5
+Dermacoccaceae_F	Dermacoccaceae (F) NF=0.4
+Dermacoccus_G	Dermacoccus (G) NF=0.3
+Yimella_G	Yimella (G) NF=0.2
+Flexivirga_G	Flexivirga (G) NF=0.3
+Branchiibius_G	Branchiibius (G) NF=0.2
+Barrientosiimonas_G	Barrientosiimonas (G) NF=0.5
+Luteipulveratus_G	Luteipulveratus (G) NF=0.3
+Calidifontibacter_G	Calidifontibacter (G) NF=0.5
+Demetria_G	Demetria (G) NF=2.0
+Rudaeicoccus_G	Rudaeicoccus (G) NF=1.0
+Ornithinimicrobiaceae_F	Ornithinimicrobiaceae (F) NF=0.6
+Ornithinimicrobium_G	Ornithinimicrobium (G) NF=0.7
+Serinicoccus_G	Serinicoccus (G) NF=0.4
+Bogoriellaceae_F	Bogoriellaceae (F) NF=1.1
+Georgenia_G	Georgenia (G) NF=0.9
+Ruaniaceae_F	Ruaniaceae (F) NF=0.3
+Ruania_G	Ruania (G) NF=0.3
+Sanguibacteraceae_F	Sanguibacteraceae (F) NF=2.1
+Sanguibacter_G	Sanguibacter (G) NF=1.0
+Kytococcaceae_F	Kytococcaceae (F) NF=0.3
+Kytococcus_G	Kytococcus (G) NF=0.3
+Tropherymataceae_F	Tropherymataceae (F) NF=1.0
+Tropheryma_G	Tropheryma (G) NF=1.0
+Beutenbergiaceae_F	Beutenbergiaceae (F) NF=1.1
+Salana_G	Salana (G) NF=4.0
+Miniimonas_G	Miniimonas (G) NF=0.5
+Serinibacter_G	Serinibacter (G) NF=0.5
+Beutenbergia_G	Beutenbergia (G) NF=1.0
+Jonesiaceae_F	Jonesiaceae (F) NF=0.4
+Flavimobilis_G	Flavimobilis (G) NF=0.2
+Jonesia_G	Jonesia (G) NF=2.0
+Rarobacteraceae_F	Rarobacteraceae (F) NF=1.5
+Rarobacter_G	Rarobacter (G) NF=1.5
+Micrococcales_incertae_sedis_N	Micrococcales incertae sedis (N)
+Luteimicrobium_G	Luteimicrobium (G) NF=0.4
+Timonella_G	Timonella (G) NF=5.0
+Propionibacteriales_O	Propionibacteriales (O)
+Propionibacteriaceae_F	Propionibacteriaceae (F) NF=3.7
+Cutibacterium_G	Cutibacterium (G) NF=33.5
+Propionibacterium_G	Propionibacterium (G) NF=0.6
+Tessaracoccus_G	Tessaracoccus (G) NF=1.3
+Microlunatus_G	Microlunatus (G) NF=1.7
+Acidipropionibacterium_G	Acidipropionibacterium (G) NF=0.7
+Propioniciclava_G	Propioniciclava (G) NF=3.8
+Luteococcus_G	Luteococcus (G) NF=1.0
+Propionimicrobium_G	Propionimicrobium (G) NF=0.6
+Brooklawnia_G	Brooklawnia (G) NF=1.0
+Granulicoccus_G	Granulicoccus (G) NF=1.0
+Raineyella_G	Raineyella (G) NF=0.7
+Aestuariimicrobium_G	Aestuariimicrobium (G) NF=6.2
+Auraticoccus_G	Auraticoccus (G) NF=0.2
+Naumannella_G	Naumannella (G) NF=0.7
+Propioniferax_G	Propioniferax (G) NF=2.0
+Nocardioidaceae_F	Nocardioidaceae (F) NF=1.6
+Nocardioides_G	Nocardioides (G) NF=1.7
+Aeromicrobium_G	Aeromicrobium (G) NF=0.5
+Marmoricola_G	Marmoricola (G) NF=4.8
+Micropruina_G	Micropruina (G) NF=0.8
+Propionicimonas_G	Propionicimonas (G) NF=3.7
+Mumia_G	Mumia (G) NF=0.3
+Friedmanniella_G	Friedmanniella (G) NF=4.7
+Tenggerimyces_G	Tenggerimyces (G) NF=2.0
+Propionicicella_G	Propionicicella (G) NF=5.5
+Thermasporomyces_G	Thermasporomyces (G) NF=2.0
+Kribbellaceae_F	Kribbellaceae (F) NF=0.3
+Kribbella_G	Kribbella (G) NF=0.3
+Actinopolymorphaceae_F	Actinopolymorphaceae (F) NF=0.7
+Actinopolymorpha_G	Actinopolymorpha (G) NF=0.8
+Actinomycetales_O	Actinomycetales (O)
+Actinomycetaceae_F	Actinomycetaceae (F) NF=1.4
+Actinomyces_G	Actinomyces (G) NF=2.4
+Trueperella_G	Trueperella (G) NF=1.1
+Schaalia_G	Schaalia (G) NF=0.6
+Arcanobacterium_G	Arcanobacterium (G) NF=0.7
+Mobiluncus_G	Mobiluncus (G) NF=0.6
+Actinotignum_G	Actinotignum (G) NF=1.0
+Varibaculum_G	Varibaculum (G) NF=1.3
+Pauljensenia_G	Pauljensenia (G) NF=0.1
+Actinobaculum_G	Actinobaculum (G) NF=0.8
+Winkia_G	Winkia (G) NF=0.1
+Gleimia_G	Gleimia (G) NF=0.2
+Flaviflexus_G	Flaviflexus (G) NF=1.2
+Buchananella_G	Buchananella (G) NF=0.5
+Bowdeniella_G	Bowdeniella (G) NF=1.5
+Boudabousia_G	Boudabousia (G) NF=0.3
+Micromonosporales_O	Micromonosporales (O)
+Micromonosporaceae_F	Micromonosporaceae (F) NF=0.5
+Micromonospora_G	Micromonospora (G) NF=0.2
+Actinoplanes_G	Actinoplanes (G) NF=0.7
+Dactylosporangium_G	Dactylosporangium (G) NF=0.3
+Salinispora_G	Salinispora (G) NF=2.4
+Catellatospora_G	Catellatospora (G) NF=0.4
+Plantactinospora_G	Plantactinospora (G) NF=0.6
+Asanoa_G	Asanoa (G) NF=1.2
+Catenuloplanes_G	Catenuloplanes (G) NF=0.3
+Phytohabitans_G	Phytohabitans (G) NF=1.6
+Hamadaea_G	Hamadaea (G) NF=0.4
+Actinocatenispora_G	Actinocatenispora (G) NF=0.4
+Pilimelia_G	Pilimelia (G) NF=0.5
+Planosporangium_G	Planosporangium (G) NF=1.5
+Rugosimonospora_G	Rugosimonospora (G) NF=1.0
+Couchioplanes_G	Couchioplanes (G) NF=2.0
+Virgisporangium_G	Virgisporangium (G) NF=1.7
+Krasilnikovia_G	Krasilnikovia (G) NF=3.5
+Phytomonospora_G	Phytomonospora (G) NF=0.3
+Luedemannella_G	Luedemannella (G) NF=11.0
+Allocatelliglobosispora_G	Allocatelliglobosispora (G) NF=3.0
+Catelliglobosispora_G	Catelliglobosispora (G) NF=2.0
+Rhizocola_G	Rhizocola (G) NF=1.0
+Actinorhabdospora_G	Actinorhabdospora (G) NF=1.0
+Pseudonocardiales_O	Pseudonocardiales (O)
+Pseudonocardiaceae_F	Pseudonocardiaceae (F) NF=0.8
+Amycolatopsis_G	Amycolatopsis (G) NF=0.4
+Pseudonocardia_G	Pseudonocardia (G) NF=1.8
+Saccharopolyspora_G	Saccharopolyspora (G) NF=0.7
+Lentzea_G	Lentzea (G) NF=0.2
+Saccharothrix_G	Saccharothrix (G) NF=0.3
+Actinomycetospora_G	Actinomycetospora (G) NF=0.2
+Saccharomonospora_G	Saccharomonospora (G) NF=1.2
+Actinokineospora_G	Actinokineospora (G) NF=0.5
+Prauserella_G	Prauserella (G) NF=0.4
+Actinophytocola_G	Actinophytocola (G) NF=3.5
+Actinosynnema_G	Actinosynnema (G) NF=0.2
+Kutzneria_G	Kutzneria (G) NF=0.3
+Kibdelosporangium_G	Kibdelosporangium (G) NF=0.4
+Umezawaea_G	Umezawaea (G) NF=0.2
+Actinoalloteichus_G	Actinoalloteichus (G) NF=0.7
+Crossiella_G	Crossiella (G) NF=10.7
+Haloechinothrix_G	Haloechinothrix (G) NF=0.2
+Allokutzneria_G	Allokutzneria (G) NF=0.8
+Thermocrispum_G	Thermocrispum (G) NF=1.0
+Sciscionella_G	Sciscionella (G) NF=0.3
+Streptoalloteichus_G	Streptoalloteichus (G) NF=1.0
+Actinocrispum_G	Actinocrispum (G) NF=0.5
+Goodfellowiella_G	Goodfellowiella (G) NF=4.0
+Labedaea_G	Labedaea (G) NF=0.5
+Herbihabitans_G	Herbihabitans (G) NF=4.0
+Alloactinosynnema_G	Alloactinosynnema (G) NF=1.0
+Longimycelium_G	Longimycelium (G) NF=8.0
+Tamaricihabitans_G	Tamaricihabitans (G) NF=1.0
+Streptosporangiales_O	Streptosporangiales (O)
+Streptosporangiaceae_F	Streptosporangiaceae (F) NF=0.4
+Nonomuraea_G	Nonomuraea (G) NF=0.3
+Streptosporangium_G	Streptosporangium (G) NF=0.3
+Microbispora_G	Microbispora (G) NF=0.3
+Sphaerisporangium_G	Sphaerisporangium (G) NF=1.0
+Planomonospora_G	Planomonospora (G) NF=0.1
+Planotetraspora_G	Planotetraspora (G) NF=0.1
+Microtetraspora_G	Microtetraspora (G) NF=0.1
+Planobispora_G	Planobispora (G) NF=0.5
+Herbidospora_G	Herbidospora (G) NF=0.2
+Thermobispora_G	Thermobispora (G) NF=7.5
+Thermopolyspora_G	Thermopolyspora (G) NF=3.7
+Sphaerimonospora_G	Sphaerimonospora (G) NF=1.0
+Thermocatellispora_G	Thermocatellispora (G) NF=3.0
+Sinosporangium_G	Sinosporangium (G) NF=0.5
+Thermoactinospora_G	Thermoactinospora (G) NF=0.5
+Thermomonosporaceae_F	Thermomonosporaceae (F) NF=0.8
+Actinomadura_G	Actinomadura (G) NF=0.7
+Spirillospora_G	Spirillospora (G) NF=0.1
+Actinoallomurus_G	Actinoallomurus (G) NF=0.5
+Actinocorallia_G	Actinocorallia (G) NF=0.7
+Thermomonospora_G	Thermomonospora (G) NF=2.1
+Thermostaphylospora_G	Thermostaphylospora (G) NF=7.0
+Nocardiopsidaceae_F	Nocardiopsidaceae (F) NF=0.9
+Nocardiopsis_G	Nocardiopsis (G) NF=0.7
+Thermobifida_G	Thermobifida (G) NF=2.7
+Streptomonospora_G	Streptomonospora (G) NF=0.8
+Spinactinospora_G	Spinactinospora (G) NF=1.0
+Marinactinospora_G	Marinactinospora (G) NF=1.0
+Lipingzhangella_G	Lipingzhangella (G) NF=1.0
+Murinocardiopsis_G	Murinocardiopsis (G) NF=1.0
+Actinorugispora_G	Actinorugispora (G) NF=1.0
+Haloactinospora_G	Haloactinospora (G) NF=2.0
+Allosalinactinospora_G	Allosalinactinospora (G) NF=2.0
+Salinactinospora_G	Salinactinospora (G) NF=1.0
+Streptosporangiales_incertae_sedis_N	Streptosporangiales incertae sedis (N)
+Allonocardiopsis_G	Allonocardiopsis (G) NF=1.0
+Geodermatophilales_O	Geodermatophilales (O)
+Geodermatophilaceae_F	Geodermatophilaceae (F) NF=0.9
+Blastococcus_G	Blastococcus (G) NF=1.2
+Modestobacter_G	Modestobacter (G) NF=0.3
+Geodermatophilus_G	Geodermatophilus (G) NF=1.2
+Klenkia_G	Klenkia (G) NF=0.4
+Antricoccaceae_F	Antricoccaceae (F) NF=3.0
+Antricoccus_G	Antricoccus (G) NF=3.0
+Frankiales_O	Frankiales (O)
+Frankiaceae_F	Frankiaceae (F) NF=0.3
+Frankia_G	Frankia (G) NF=0.5
+Kineosporiales_O	Kineosporiales (O)
+Kineosporiaceae_F	Kineosporiaceae (F) NF=1.5
+Kineococcus_G	Kineococcus (G) NF=0.6
+Kineosporia_G	Kineosporia (G) NF=1.4
+Quadrisphaera_G	Quadrisphaera (G) NF=3.6
+Pseudokineococcus_G	Pseudokineococcus (G) NF=0.3
+Angustibacter_G	Angustibacter (G) NF=2.8
+Jatrophihabitantales_O	Jatrophihabitantales (O)
+Jatrophihabitantaceae_F	Jatrophihabitantaceae (F) NF=7.0
+Jatrophihabitans_G	Jatrophihabitans (G) NF=9.0
+Glycomycetales_O	Glycomycetales (O)
+Glycomycetaceae_F	Glycomycetaceae (F) NF=0.9
+Glycomyces_G	Glycomyces (G) NF=0.7
+Stackebrandtia_G	Stackebrandtia (G) NF=0.7
+Salininema_G	Salininema (G) NF=1.0
+Haloglycomyces_G	Haloglycomyces (G) NF=1.0
+Nakamurellales_O	Nakamurellales (O)
+Nakamurellaceae_F	Nakamurellaceae (F) NF=2.9
+Nakamurella_G	Nakamurella (G) NF=2.9
+Jiangellales_O	Jiangellales (O)
+Jiangellaceae_F	Jiangellaceae (F) NF=1.1
+Jiangella_G	Jiangella (G) NF=0.8
+Phytoactinopolyspora_G	Phytoactinopolyspora (G) NF=0.8
+Haloactinopolyspora_G	Haloactinopolyspora (G) NF=5.0
+Catenulisporales_O	Catenulisporales (O)
+Actinospicaceae_F	Actinospicaceae (F) NF=7.9
+Actinospica_G	Actinospica (G) NF=10.6
+Actinocrinis_G	Actinocrinis (G) NF=1.0
+Catenulisporaceae_F	Catenulisporaceae (F) NF=0.5
+Catenulispora_G	Catenulispora (G) NF=0.5
+Sporichthyales_O	Sporichthyales (O)
+Sporichthyaceae_F	Sporichthyaceae (F) NF=47.2
+Sporichthya_G	Sporichthya (G) NF=5.7
+Longivirga_G	Longivirga (G) NF=9.0
+Acidothermales_O	Acidothermales (O)
+Acidothermaceae_F	Acidothermaceae (F) NF=38.2
+Acidothermus_G	Acidothermus (G) NF=76.5
+Actinopolysporales_O	Actinopolysporales (O)
+Actinopolysporaceae_F	Actinopolysporaceae (F) NF=0.6
+Actinopolyspora_G	Actinopolyspora (G) NF=0.6
+Haloactinomyces_G	Haloactinomyces (G) NF=1.0
+Cryptosporangiales_O	Cryptosporangiales (O)
+Cryptosporangiaceae_F	Cryptosporangiaceae (F) NF=0.2
+Cryptosporangium_G	Cryptosporangium (G) NF=0.3
+Motilibacterales_O	Motilibacterales (O)
+Motilibacteraceae_F	Motilibacteraceae (F) NF=0.5
+Motilibacter_G	Motilibacter (G) NF=0.8
+Actinomycetes_incertae_sedis_N	Actinomycetes incertae sedis (N)
+Halopolyspora_G	Halopolyspora (G) NF=1.0
+Coriobacteriia_C	Coriobacteriia (C)
+Coriobacteriales_O	Coriobacteriales (O)
+Coriobacteriaceae_F	Coriobacteriaceae (F) NF=0.9
+Collinsella_G	Collinsella (G) NF=0.8
+Senegalimassilia_G	Senegalimassilia (G) NF=3.2
+Enorma_G	Enorma (G) NF=0.9
+Parvibacter_G	Parvibacter (G) NF=2.0
+Coriobacterium_G	Coriobacterium (G) NF=4.0
+Atopobiaceae_F	Atopobiaceae (F) NF=0.7
+Olsenella_G	Olsenella (G) NF=1.2
+Atopobium_G	Atopobium (G) NF=1.3
+Eggerthellales_O	Eggerthellales (O)
+Eggerthellaceae_F	Eggerthellaceae (F) NF=2.0
+Eggerthella_G	Eggerthella (G) NF=0.8
+Adlercreutzia_G	Adlercreutzia (G) NF=0.5
+Slackia_G	Slackia (G) NF=2.4
+Gordonibacter_G	Gordonibacter (G) NF=0.9
+Raoultibacter_G	Raoultibacter (G) NF=2.4
+Enterorhabdus_G	Enterorhabdus (G) NF=21.5
+Cryptobacterium_G	Cryptobacterium (G) NF=0.2
+Paraeggerthella_G	Paraeggerthella (G) NF=0.2
+Phoenicibacter_G	Phoenicibacter (G) NF=3.0
+Enteroscipio_G	Enteroscipio (G) NF=0.3
+Denitrobacterium_G	Denitrobacterium (G) NF=1.0
+Asaccharobacter_G	Asaccharobacter (G) NF=1.0
+Acidimicrobiia_C	Acidimicrobiia (C)
+Acidimicrobiales_O	Acidimicrobiales (O)
+Acidimicrobiaceae_F	Acidimicrobiaceae (F) NF=1.0
+Acidimicrobium_G	Acidimicrobium (G) NF=0.4
+Ferrimicrobium_G	Ferrimicrobium (G) NF=0.8
+Ferrithrix_G	Ferrithrix (G) NF=1.7
+Acidithrix_G	Acidithrix (G) NF=1.7
+Aciditerrimonas_G	Aciditerrimonas (G) NF=9.0
+Ilumatobacteraceae_F	Ilumatobacteraceae (F) NF=41.8
+Ilumatobacter_G	Ilumatobacter (G) NF=8.2
+Iamiaceae_F	Iamiaceae (F) NF=7.0
+Aquihabitans_G	Aquihabitans (G) NF=0.2
+Iamia_G	Iamia (G) NF=32.3
+Thermoleophilia_C	Thermoleophilia (C)
+Solirubrobacterales_O	Solirubrobacterales (O)
+Solirubrobacteraceae_F	Solirubrobacteraceae (F) NF=14.2
+Solirubrobacter_G	Solirubrobacter (G) NF=12.4
+Conexibacteraceae_F	Conexibacteraceae (F) NF=9.8
+Conexibacter_G	Conexibacter (G) NF=11.1
+Patulibacteraceae_F	Patulibacteraceae (F) NF=1.3
+Patulibacter_G	Patulibacter (G) NF=1.3
+Gaiellales_O	Gaiellales (O)
+Gaiellaceae_F	Gaiellaceae (F) NF=26.6
+Gaiella_G	Gaiella (G) NF=46.5
+Thermoleophilales_O	Thermoleophilales (O)
+Thermoleophilaceae_F	Thermoleophilaceae (F) NF=1.0
+Thermoleophilum_G	Thermoleophilum (G) NF=2.0
+Rubrobacteria_C	Rubrobacteria (C)
+Rubrobacterales_O	Rubrobacterales (O)
+Rubrobacteraceae_F	Rubrobacteraceae (F) NF=15.1
+Rubrobacter_G	Rubrobacter (G) NF=17.6
+Nitriliruptoria_C	Nitriliruptoria (C)
+Nitriliruptorales_O	Nitriliruptorales (O)
+Nitriliruptoraceae_F	Nitriliruptoraceae (F) NF=12.0
+Nitriliruptor_G	Nitriliruptor (G) NF=1.5
+Euzebyales_O	Euzebyales (O)
+Euzebyaceae_F	Euzebyaceae (F) NF=16.4
+Euzebya_G	Euzebya (G) NF=1.2
+Egibacterales_O	Egibacterales (O)
+Egibacteraceae_F	Egibacteraceae (F) NF=3.0
+Egibacter_G	Egibacter (G) NF=4.5
+Egicoccales_O	Egicoccales (O)
+Egicoccaceae_F	Egicoccaceae (F) NF=1.0
+Egicoccus_G	Egicoccus (G) NF=1.0
+Chloroflexota_P	Chloroflexota (P) NF=18.4
+Anaerolineae_C	Anaerolineae (C)
+Anaerolineales_O	Anaerolineales (O)
+Anaerolineaceae_F	Anaerolineaceae (F) NF=26.0
+Anaerolinea_G	Anaerolinea (G) NF=28.0
+Flexilinea_G	Flexilinea (G) NF=17.0
+Leptolinea_G	Leptolinea (G) NF=14.3
+Pelolinea_G	Pelolinea (G) NF=17.7
+Bellilinea_G	Bellilinea (G) NF=5.7
+Longilinea_G	Longilinea (G) NF=67.3
+Levilinea_G	Levilinea (G) NF=8.0
+Thermanaerothrix_G	Thermanaerothrix (G) NF=0.5
+Ornatilinea_G	Ornatilinea (G) NF=14.0
+Caldilineae_C	Caldilineae (C)
+Caldilineales_O	Caldilineales (O)
+Caldilineaceae_F	Caldilineaceae (F) NF=16.1
+Caldilinea_G	Caldilinea (G) NF=1.0
+Litorilinea_G	Litorilinea (G) NF=10.7
+Dehalococcoidia_C	Dehalococcoidia (C)
+Dehalococcoidales_O	Dehalococcoidales (O)
+Dehalococcoidaceae_F	Dehalococcoidaceae (F) NF=0.9
+Dehalococcoides_G	Dehalococcoides (G) NF=1.9
+Dehalogenimonas_G	Dehalogenimonas (G) NF=0.9
+Ktedonobacteria_C	Ktedonobacteria (C)
+Ktedonobacterales_O	Ktedonobacterales (O)
+Ktedonobacteraceae_F	Ktedonobacteraceae (F) NF=53.7
+Ktedonobacter_G	Ktedonobacter (G) NF=2.4
+Dictyobacteraceae_F	Dictyobacteraceae (F) NF=0.3
+Dictyobacter_G	Dictyobacter (G) NF=0.3
+Thermosporotrichaceae_F	Thermosporotrichaceae (F) NF=13.0
+Thermosporothrix_G	Thermosporothrix (G) NF=13.0
+Thermogemmatisporales_O	Thermogemmatisporales (O)
+Thermogemmatisporaceae_F	Thermogemmatisporaceae (F) NF=0.8
+Thermogemmatispora_G	Thermogemmatispora (G) NF=0.8
+Chloroflexia_C	Chloroflexia (C)
+Chloroflexales_O	Chloroflexales (O)
+Roseiflexineae_sO	Roseiflexineae (sO)
+Roseiflexaceae_F	Roseiflexaceae (F) NF=26.5
+Roseiflexus_G	Roseiflexus (G) NF=5.8
+Kouleothrix_G	Kouleothrix (G) NF=5.5
+Chloroflexineae_sO	Chloroflexineae (sO)
+Chloroflexaceae_F	Chloroflexaceae (F) NF=14.5
+Chloroflexus_G	Chloroflexus (G) NF=2.8
+Oscillochloridaceae_F	Oscillochloridaceae (F) NF=1.4
+Oscillochloris_G	Oscillochloris (G) NF=1.4
+Herpetosiphonales_O	Herpetosiphonales (O)
+Herpetosiphonaceae_F	Herpetosiphonaceae (F) NF=2.5
+Herpetosiphon_G	Herpetosiphon (G) NF=2.9
+Kallotenuales_O	Kallotenuales (O)
+Kallotenuaceae_F	Kallotenuaceae (F) NF=2.0
+Kallotenue_G	Kallotenue (G) NF=2.0
+Candidatus_Thermobaculales_O	Candidatus Thermobaculales (O)
+Candidatus_Thermobaculaceae_F	Candidatus Thermobaculaceae (F)
+Thermobaculum_G	Thermobaculum (G) NF=7.5
+Thermoflexia_C	Thermoflexia (C)
+Thermoflexales_O	Thermoflexales (O)
+Thermoflexaceae_F	Thermoflexaceae (F) NF=10.6
+Thermoflexus_G	Thermoflexus (G) NF=12.3
+Ardenticatenia_C	Ardenticatenia (C)
+Ardenticatenales_O	Ardenticatenales (O)
+Ardenticatenaceae_F	Ardenticatenaceae (F) NF=14.8
+Ardenticatena_G	Ardenticatena (G) NF=2.0
+Cyanobacteriota/Melainabacteria_group_C	Cyanobacteriota/Melainabacteria group (C)
+Cyanobacteriota_P	Cyanobacteriota (P) NF=0.6
+Cyanophyceae_C	Cyanophyceae (C)
+Synechococcales_O	Synechococcales (O)
+Prochlorococcaceae_F	Prochlorococcaceae (F) NF=0.2
+Prochlorococcus_G	Prochlorococcus (G) NF=0.1
+Cyanobium_G	Cyanobium (G) NF=0.7
+Synechococcaceae_F	Synechococcaceae (F) NF=0.2
+Synechococcus_G	Synechococcus (G) NF=0.2
+Merismopediaceae_F	Merismopediaceae (F) NF=2.2
+Synechocystis_G	Synechocystis (G) NF=2.1
+Merismopedia_G	Merismopedia (G) NF=3.5
+Coelosphaeriaceae_F	Coelosphaeriaceae (F) NF=2.8
+Snowella_G	Snowella (G) NF=3.7
+Oscillatoriophycideae_sC	Oscillatoriophycideae (sC)
+Oscillatoriales_O	Oscillatoriales (O)
+Microcoleaceae_F	Microcoleaceae (F) NF=0.3
+Microcoleus_G	Microcoleus (G) NF=0.1
+Planktothrix_G	Planktothrix (G) NF=1.2
+Trichodesmium_G	Trichodesmium (G) NF=0.2
+Arthrospira_G	Arthrospira (G) NF=0.9
+Lyngbya_G	Lyngbya (G) NF=2.6
+Tychonema_G	Tychonema (G) NF=3.6
+Kamptonema_G	Kamptonema (G) NF=0.6
+Plectonema_G	Plectonema (G) NF=2.0
+Ancylothrix_G	Ancylothrix (G) NF=3.0
+Symplocastrum_G	Symplocastrum (G) NF=2.0
+Hydrocoleum_G	Hydrocoleum (G) NF=1.0
+Oscillatoriaceae_F	Oscillatoriaceae (F) NF=1.6
+Phormidium_G	Phormidium (G) NF=2.3
+Oscillatoria_G	Oscillatoria (G) NF=1.4
+Planktothricoides_G	Planktothricoides (G) NF=3.0
+Oxynema_G	Oxynema (G) NF=1.5
+Sirenicapillariaceae_F	Sirenicapillariaceae (F) NF=0.1
+Limnoraphis_G	Limnoraphis (G) NF=1.5
+Chroococcales_O	Chroococcales (O)
+Microcystaceae_F	Microcystaceae (F) NF=0.2
+Aphanocapsa_G	Aphanocapsa (G) NF=0.7
+Aphanothecaceae_F	Aphanothecaceae (F) NF=0.9
+Crocosphaera_G	Crocosphaera (G) NF=0.1
+Aphanothece_G	Aphanothece (G) NF=0.6
+Gloeothece_G	Gloeothece (G) NF=1.0
+Rubidibacter_G	Rubidibacter (G) NF=1.0
+Geminocystaceae_F	Geminocystaceae (F) NF=1.2
+Cyanobacterium_G	Cyanobacterium (G) NF=1.0
+Geminocystis_G	Geminocystis (G) NF=1.3
+Chroococcaceae_F	Chroococcaceae (F) NF=2.2
+Gloeocapsopsis_G	Gloeocapsopsis (G) NF=0.7
+Gloeocapsa_G	Gloeocapsa (G) NF=1.2
+Chroococcus_G	Chroococcus (G) NF=4.0
+Chondrocystis_G	Chondrocystis (G) NF=2.0
+Prochloraceae_F	Prochloraceae (F) NF=0.9
+Prochloron_G	Prochloron (G) NF=1.5
+Entophysalidaceae_F	Entophysalidaceae (F) NF=3.0
+Chlorogloea_G	Chlorogloea (G) NF=2.5
+Gomphosphaeriaceae_F	Gomphosphaeriaceae (F) NF=2.0
+Gomphosphaeria_G	Gomphosphaeria (G) NF=2.0
+Halothecacae_F	Halothecacae (F)
+Halothece_cluster_N	Halothece cluster (N)
+Halothece_G	Halothece (G) NF=0.8
+Euhalothece_G	Euhalothece (G) NF=1.5
+Aerosakkonematales_O	Aerosakkonematales (O)
+Aerosakkonemataceae_F	Aerosakkonemataceae (F)
+Aerosakkonema_G	Aerosakkonema (G) NF=0.5
+Microseira_G	Microseira (G) NF=2.5
+Nostocales_O	Nostocales (O)
+Nostocaceae_F	Nostocaceae (F) NF=0.8
+Nostoc_G	Nostoc (G) NF=0.5
+Anabaena_G	Anabaena (G) NF=0.9
+Trichormus_G	Trichormus (G) NF=0.6
+Richelia_G	Richelia (G) NF=0.2
+Desmonostoc_G	Desmonostoc (G) NF=5.3
+Cylindrospermum_G	Cylindrospermum (G) NF=2.7
+Cronbergia_G	Cronbergia (G) NF=3.0
+Aphanizomenonaceae_F	Aphanizomenonaceae (F) NF=0.5
+Dolichospermum_G	Dolichospermum (G) NF=0.3
+Aphanizomenon_G	Aphanizomenon (G) NF=1.1
+Cylindrospermopsis_G	Cylindrospermopsis (G) NF=1.0
+Sphaerospermopsis_G	Sphaerospermopsis (G) NF=0.3
+Cuspidothrix_G	Cuspidothrix (G) NF=0.5
+Raphidiopsis_G	Raphidiopsis (G) NF=1.0
+Hapalosiphonaceae_F	Hapalosiphonaceae (F) NF=1.5
+Fischerella_G	Fischerella (G) NF=1.8
+Aetokthonos_G	Aetokthonos (G) NF=1.0
+Mastigocladus_G	Mastigocladus (G) NF=0.3
+Mastigocoleus_G	Mastigocoleus (G) NF=1.0
+Westiellopsis_G	Westiellopsis (G) NF=3.0
+Hapalosiphon_G	Hapalosiphon (G) NF=4.0
+Calotrichaceae_F	Calotrichaceae (F) NF=1.9
+Calothrix_G	Calothrix (G) NF=2.0
+Scytonemataceae_F	Scytonemataceae (F) NF=2.4
+Scytonema_G	Scytonema (G) NF=3.1
+Brasilonema_G	Brasilonema (G) NF=0.5
+Iningainema_G	Iningainema (G) NF=0.5
+Scytonematopsis_G	Scytonematopsis (G) NF=1.0
+Tolypothrichaceae_F	Tolypothrichaceae (F) NF=0.6
+Tolypothrix_G	Tolypothrix (G) NF=0.8
+Rivulariaceae_F	Rivulariaceae (F) NF=2.0
+Microchaete_G	Microchaete (G) NF=1.0
+Fortieaceae_F	Fortieaceae (F) NF=0.3
+Fortiea_G	Fortiea (G) NF=0.7
+Roholtiella_G	Roholtiella (G) NF=1.0
+Chlorogloeopsidaceae_F	Chlorogloeopsidaceae (F) NF=1.7
+Chlorogloeopsis_G	Chlorogloeopsis (G) NF=1.7
+Stigonemataceae_F	Stigonemataceae (F) NF=2.5
+Stigonema_G	Stigonema (G) NF=4.0
+Iphinoe_G	Iphinoe (G) NF=2.0
+Gloeotrichiaceae_F	Gloeotrichiaceae (F) NF=2.0
+Gloeotrichia_G	Gloeotrichia (G) NF=2.0
+Cyanomargaritaceae_F	Cyanomargaritaceae (F) NF=1.0
+Cyanomargarita_G	Cyanomargarita (G) NF=1.0
+Symphyonemataceae_F	Symphyonemataceae (F) NF=10.0
+Mastigocladopsis_G	Mastigocladopsis (G) NF=5.0
+Nodulariaceae_F	Nodulariaceae (F)
+Anabaenopsis_G	Anabaenopsis (G) NF=0.4
+Halotia_G	Halotia (G) NF=1.0
+Pseudanabaenales_O	Pseudanabaenales (O)
+Pseudanabaenaceae_F	Pseudanabaenaceae (F) NF=1.0
+Pseudanabaena_G	Pseudanabaena (G) NF=0.5
+Limnothrix_G	Limnothrix (G) NF=1.8
+Leptolyngbyales_O	Leptolyngbyales (O)
+Leptolyngbyaceae_F	Leptolyngbyaceae (F) NF=2.4
+Leptolyngbya_group_N	Leptolyngbya group (N)
+Leptolyngbya_G	Leptolyngbya (G) NF=1.9
+Plectolyngbya_G	Plectolyngbya (G) NF=2.0
+Phormidesmis_G	Phormidesmis (G) NF=2.4
+Alkalinema_G	Alkalinema (G) NF=0.2
+Jaaginema_G	Jaaginema (G) NF=1.7
+Pantanalinema_G	Pantanalinema (G) NF=0.5
+Scytolyngbya_G	Scytolyngbya (G) NF=3.0
+Coleofasciculales_O	Coleofasciculales (O)
+Coleofasciculaceae_F	Coleofasciculaceae (F) NF=1.3
+Coleofasciculus_G	Coleofasciculus (G) NF=2.2
+Symploca_G	Symploca (G) NF=0.4
+Caldora_G	Caldora (G) NF=0.5
+Wilmottiaceae_F	Wilmottiaceae (F)
+Potamolinea_G	Potamolinea (G) NF=3.0
+Acaryochloridales_O	Acaryochloridales (O)
+Thermosynechococcaceae_F	Thermosynechococcaceae (F) NF=0.1
+Thermosynechococcus_G	Thermosynechococcus (G) NF=0.0
+Acaryochloridaceae_F	Acaryochloridaceae (F) NF=0.4
+Acaryochloris_G	Acaryochloris (G) NF=0.7
+Pleurocapsales_O	Pleurocapsales (O)
+Hyellaceae_F	Hyellaceae (F) NF=1.8
+Pleurocapsa_G	Pleurocapsa (G) NF=2.0
+Myxosarcina_G	Myxosarcina (G) NF=2.5
+Chroococcopsis_G	Chroococcopsis (G) NF=3.0
+Hyella_G	Hyella (G) NF=1.0
+Xenococcaceae_F	Xenococcaceae (F) NF=2.5
+Dermocarpellaceae_F	Dermocarpellaceae (F) NF=7.5
+Stanieria_G	Stanieria (G) NF=7.0
+Gomontiellales_O	Gomontiellales (O)
+Chamaesiphonaceae_F	Chamaesiphonaceae (F) NF=0.3
+Chamaesiphon_G	Chamaesiphon (G) NF=0.3
+Gomontiellaceae_F	Gomontiellaceae (F) NF=0.6
+Hormoscilla_G	Hormoscilla (G) NF=0.3
+Crinalium_G	Crinalium (G) NF=1.0
+Cyanothecaceae_F	Cyanothecaceae (F) NF=2.8
+Cyanothece_G	Cyanothece (G) NF=2.8
+Oculatellales_O	Oculatellales (O)
+Oculatellaceae_F	Oculatellaceae (F) NF=0.3
+Oculatella_G	Oculatella (G) NF=2.5
+Drouetiella_G	Drouetiella (G) NF=0.5
+Pegethrix_G	Pegethrix (G) NF=1.0
+Gloeomargaritales_O	Gloeomargaritales (O)
+Gloeomargaritaceae_F	Gloeomargaritaceae (F) NF=0.0
+Gloeomargarita_G	Gloeomargarita (G) NF=0.0
+Desertifilales_O	Desertifilales (O)
+Desertifilaceae_F	Desertifilaceae (F) NF=0.2
+Roseofilum_G	Roseofilum (G) NF=0.3
+Desertifilum_G	Desertifilum (G) NF=0.2
+Chroococcidiopsidales_O	Chroococcidiopsidales (O)
+Chroococcidiopsidaceae_F	Chroococcidiopsidaceae (F) NF=2.7
+Chroococcidiopsis_G	Chroococcidiopsis (G) NF=3.6
+Aliterellaceae_F	Aliterellaceae (F) NF=2.8
+Aliterella_G	Aliterella (G) NF=2.8
+Spirulinales_O	Spirulinales (O)
+Spirulinaceae_F	Spirulinaceae (F) NF=1.1
+Prochlorotrichales_O	Prochlorotrichales (O)
+Prochlorotrichaceae_F	Prochlorotrichaceae (F) NF=6.6
+Prochlorothrix_G	Prochlorothrix (G) NF=2.3
+Gloeobacterales_O	Gloeobacterales (O)
+Gloeobacteraceae_F	Gloeobacteraceae (F) NF=1.4
+Gloeobacter_G	Gloeobacter (G) NF=2.3
+Nodosilineales_O	Nodosilineales (O)
+Nodosilineaceae_F	Nodosilineaceae (F)
+Nodosilinea_G	Nodosilinea (G) NF=0.9
+Halomicronema_G	Halomicronema (G) NF=2.0
+Cymatolegaceae_F	Cymatolegaceae (F)
+Dactylococcopsis_G	Dactylococcopsis (G) NF=13.0
+Geitlerinematales_O	Geitlerinematales (O)
+Geitlerinemataceae_F	Geitlerinemataceae (F)
+Geitlerinema_G	Geitlerinema (G) NF=2.2
+Neosynechococcales_O	Neosynechococcales (O)
+Neosynechococcaceae_F	Neosynechococcaceae (F)
+Neosynechococcus_G	Neosynechococcus (G) NF=2.0
+Candidatus_Melainabacteria_P	Candidatus Melainabacteria (P)
+Vampirovibriophyceae_C	Vampirovibriophyceae (C)
+Vampirovibrionales_O	Vampirovibrionales (O)
+Vampirovibrio_G	Vampirovibrio (G) NF=9.7
+Mycoplasmatota_P	Mycoplasmatota (P) NF=2.5
+Mycoplasmoidales_O	Mycoplasmoidales (O)
+Metamycoplasmataceae_F	Metamycoplasmataceae (F) NF=0.1
+Mycoplasmopsis_G	Mycoplasmopsis (G) NF=0.7
+Mesomycoplasma_G	Mesomycoplasma (G) NF=0.6
+Metamycoplasma_G	Metamycoplasma (G) NF=0.4
+Mycoplasmoidaceae_F	Mycoplasmoidaceae (F) NF=0.2
+Mycoplasmoides_G	Mycoplasmoides (G) NF=0.2
+Ureaplasma_G	Ureaplasma (G) NF=1.7
+Malacoplasma_G	Malacoplasma (G) NF=1.0
+Mollicutes_C	Mollicutes (C)
+Acholeplasmatales_O	Acholeplasmatales (O)
+Acholeplasmataceae_F	Acholeplasmataceae (F) NF=3.5
+Acholeplasma_G	Acholeplasma (G) NF=17.1
+Anaeroplasmatales_O	Anaeroplasmatales (O)
+Anaeroplasmataceae_F	Anaeroplasmataceae (F) NF=22.8
+Anaeroplasma_G	Anaeroplasma (G) NF=26.7
+Mycoplasmatales_O	Mycoplasmatales (O)
+Mycoplasmataceae_F	Mycoplasmataceae (F) NF=2.6
+Mycoplasma_G	Mycoplasma (G) NF=1.9
+Entomoplasmatales_O	Entomoplasmatales (O)
+Spiroplasmataceae_F	Spiroplasmataceae (F) NF=0.4
+Spiroplasma_G	Spiroplasma (G) NF=0.4
+Entomoplasmataceae_F	Entomoplasmataceae (F) NF=0.7
+Mesoplasma_G	Mesoplasma (G) NF=0.3
+Entomoplasma_G	Entomoplasma (G) NF=2.0
+Haloplasmatales_O	Haloplasmatales (O)
+Haloplasmataceae_F	Haloplasmataceae (F) NF=6.8
+Haloplasma_G	Haloplasma (G) NF=11.3
+Armatimonadota_P	Armatimonadota (P) NF=15.3
+Chthonomonadia_C	Chthonomonadia (C)
+Chthonomonadales_O	Chthonomonadales (O)
+Chthonomonadaceae_F	Chthonomonadaceae (F) NF=6.5
+Chthonomonas_G	Chthonomonas (G) NF=7.1
+Fimbriimonadia_C	Fimbriimonadia (C)
+Fimbriimonadales_O	Fimbriimonadales (O)
+Fimbriimonadaceae_F	Fimbriimonadaceae (F) NF=62.2
+Fimbriimonas_G	Fimbriimonas (G) NF=5.3
+Armatimonadia_C	Armatimonadia (C)
+Armatimonadales_O	Armatimonadales (O)
+Armatimonadaceae_F	Armatimonadaceae (F) NF=5.8
+Armatimonas_G	Armatimonas (G) NF=11.5
+Fusobacteriati_K	Fusobacteriati (K)
+Fusobacteriota_P	Fusobacteriota (P) NF=4.6
+Fusobacteriia_C	Fusobacteriia (C)
+Fusobacteriales_O	Fusobacteriales (O)
+Fusobacteriaceae_F	Fusobacteriaceae (F) NF=4.5
+Fusobacterium_G	Fusobacterium (G) NF=5.4
+Cetobacterium_G	Cetobacterium (G) NF=2.7
+Ilyobacter_G	Ilyobacter (G) NF=1.0
+Psychrilyobacter_G	Psychrilyobacter (G) NF=3.2
+Propionigenium_G	Propionigenium (G) NF=10.0
+Hypnocyclicus_G	Hypnocyclicus (G) NF=16.0
+Leptotrichiaceae_F	Leptotrichiaceae (F) NF=6.3
+Leptotrichia_G	Leptotrichia (G) NF=7.7
+Streptobacillus_G	Streptobacillus (G) NF=2.3
+Sneathia_G	Sneathia (G) NF=0.6
+Sebaldella_G	Sebaldella (G) NF=1.3
+Oceanivirga_G	Oceanivirga (G) NF=3.7
+Caviibacter_G	Caviibacter (G) NF=1.0
+Thermotogati_K	Thermotogati (K)
+Synergistota_P	Synergistota (P) NF=4.9
+Synergistia_C	Synergistia (C)
+Synergistales_O	Synergistales (O)
+Synergistaceae_F	Synergistaceae (F) NF=7.9
+Cloacibacillus_G	Cloacibacillus (G) NF=1.7
+Synergistes_G	Synergistes (G) NF=1.8
+Thermanaerovibrio_G	Thermanaerovibrio (G) NF=1.5
+Aminomonas_G	Aminomonas (G) NF=4.0
+Aminobacteriaceae_F	Aminobacteriaceae (F) NF=3.9
+Aminobacterium_G	Aminobacterium (G) NF=0.9
+Fretibacterium_G	Fretibacterium (G) NF=19.0
+Aminivibrio_G	Aminivibrio (G) NF=5.0
+Dethiosulfovibrionaceae_F	Dethiosulfovibrionaceae (F) NF=1.5
+Pyramidobacter_G	Pyramidobacter (G) NF=2.7
+Dethiosulfovibrio_G	Dethiosulfovibrio (G) NF=0.8
+Jonquetella_G	Jonquetella (G) NF=0.3
+Acetomicrobiaceae_F	Acetomicrobiaceae (F) NF=2.1
+Acetomicrobium_G	Acetomicrobium (G) NF=2.1
+Thermovirgaceae_F	Thermovirgaceae (F) NF=22.2
+Thermovirga_G	Thermovirga (G) NF=29.7
+Aminiphilaceae_F	Aminiphilaceae (F) NF=2.0
+Aminiphilus_G	Aminiphilus (G) NF=2.0
+Deinococcota_P	Deinococcota (P) NF=2.6
+Deinococci_C	Deinococci (C)
+Thermales_O	Thermales (O)
+Thermaceae_F	Thermaceae (F) NF=2.4
+Thermus_G	Thermus (G) NF=2.1
+Meiothermus_G	Meiothermus (G) NF=4.1
+Oceanithermus_G	Oceanithermus (G) NF=1.0
+Marinithermus_G	Marinithermus (G) NF=2.0
+Deinococcales_O	Deinococcales (O)
+Deinococcaceae_F	Deinococcaceae (F) NF=1.5
+Deinococcus_G	Deinococcus (G) NF=1.4
+Deinobacterium_G	Deinobacterium (G) NF=1.0
+Trueperales_O	Trueperales (O)
+Trueperaceae_F	Trueperaceae (F) NF=31.5
+Truepera_G	Truepera (G) NF=47.2
+Thermotogota_P	Thermotogota (P) NF=1.2
+Thermotogae_C	Thermotogae (C)
+Thermotogales_O	Thermotogales (O)
+Thermotogaceae_F	Thermotogaceae (F) NF=0.8
+Thermotoga_G	Thermotoga (G) NF=0.6
+Pseudothermotoga_G	Pseudothermotoga (G) NF=1.8
+Fervidobacteriaceae_F	Fervidobacteriaceae (F) NF=1.2
+Fervidobacterium_G	Fervidobacterium (G) NF=1.8
+Kosmotogales_O	Kosmotogales (O)
+Kosmotogaceae_F	Kosmotogaceae (F) NF=1.1
+Mesotoga_G	Mesotoga (G) NF=0.9
+Kosmotoga_G	Kosmotoga (G) NF=1.2
+Petrotogales_O	Petrotogales (O)
+Petrotogaceae_F	Petrotogaceae (F) NF=1.6
+Petrotoga_G	Petrotoga (G) NF=0.4
+Defluviitoga_G	Defluviitoga (G) NF=6.0
+Marinitoga_G	Marinitoga (G) NF=0.7
+Oceanotoga_G	Oceanotoga (G) NF=0.7
+Geotoga_G	Geotoga (G) NF=3.5
+Mesoaciditogales_O	Mesoaciditogales (O)
+Mesoaciditogaceae_F	Mesoaciditogaceae (F) NF=2.2
+Mesoaciditoga_G	Mesoaciditoga (G) NF=4.0
+Athalassotoga_G	Athalassotoga (G) NF=0.5
+delta/epsilon_subdivisions_C	delta/epsilon subdivisions (C)
+Deltaproteobacteria_C	Deltaproteobacteria (C)
+Bradymonadales_O	Bradymonadales (O)
+Bradymonadaceae_F	Bradymonadaceae (F) NF=14.8
+Bradymonas_G	Bradymonas (G) NF=3.0
+Deltaproteobacteria_incertae_sedis_N	Deltaproteobacteria incertae sedis (N)
+Dissulfurirhabdaceae_F	Dissulfurirhabdaceae (F) NF=2.0
+Dissulfurirhabdus_G	Dissulfurirhabdus (G) NF=2.0
+Dissulfurimicrobium_G	Dissulfurimicrobium (G) NF=13.0
+Archaea_D	Archaea (D)
+Methanobacteriati_K	Methanobacteriati (K)
+Methanobacteriota_P	Methanobacteriota (P) NF=2.0
+Methanomada_group_C	Methanomada group (C)
+Methanobacteria_C	Methanobacteria (C)
+Methanobacteriales_O	Methanobacteriales (O)
+Methanobacteriaceae_F	Methanobacteriaceae (F) NF=2.4
+Methanobrevibacter_G	Methanobrevibacter (G) NF=4.0
+Methanobacterium_G	Methanobacterium (G) NF=1.3
+Methanosphaera_G	Methanosphaera (G) NF=6.5
+Methanothermobacter_G	Methanothermobacter (G) NF=0.9
+Methanothermaceae_F	Methanothermaceae (F) NF=3.0
+Methanothermus_G	Methanothermus (G) NF=3.0
+Methanococci_C	Methanococci (C)
+Methanococcales_O	Methanococcales (O)
+Methanococcaceae_F	Methanococcaceae (F) NF=1.5
+Methanococcus_G	Methanococcus (G) NF=2.4
+Methanothermococcus_G	Methanothermococcus (G) NF=0.5
+Methanocaldococcaceae_F	Methanocaldococcaceae (F) NF=4.3
+Methanocaldococcus_G	Methanocaldococcus (G) NF=4.1
+Methanotorris_G	Methanotorris (G) NF=7.5
+Methanopyri_C	Methanopyri (C)
+Methanopyrales_O	Methanopyrales (O)
+Methanopyraceae_F	Methanopyraceae (F) NF=1.0
+Methanopyrus_G	Methanopyrus (G) NF=1.0
+Stenosarchaea_group_C	Stenosarchaea group (C)
+Halobacteria_C	Halobacteria (C)
+Halobacteriales_O	Halobacteriales (O)
+Haloferacaceae_F	Haloferacaceae (F) NF=1.0
+Halorubrum_G	Halorubrum (G) NF=1.5
+Haloferax_G	Haloferax (G) NF=0.8
+Halobellus_G	Halobellus (G) NF=1.4
+Haloplanus_G	Haloplanus (G) NF=1.3
+Halobaculum_G	Halobaculum (G) NF=0.5
+Halolamina_G	Halolamina (G) NF=3.2
+Haloquadratum_G	Haloquadratum (G) NF=8.7
+Halogeometricum_G	Halogeometricum (G) NF=1.2
+Salinigranum_G	Salinigranum (G) NF=1.7
+Halopenitus_G	Halopenitus (G) NF=0.5
+Halonotius_G	Halonotius (G) NF=5.8
+Halohasta_G	Halohasta (G) NF=2.5
+Haloprofundus_G	Haloprofundus (G) NF=0.2
+Halopelagius_G	Halopelagius (G) NF=0.7
+Halobium_G	Halobium (G) NF=1.5
+Halogranum_G	Halogranum (G) NF=1.7
+Haloparvum_G	Haloparvum (G) NF=8.0
+Salinirubrum_G	Salinirubrum (G) NF=2.0
+Haloarculaceae_F	Haloarculaceae (F) NF=1.4
+Haloarcula_G	Haloarcula (G) NF=0.5
+Halovenus_G	Halovenus (G) NF=4.0
+Halorientalis_G	Halorientalis (G) NF=1.4
+Halapricum_G	Halapricum (G) NF=5.8
+Halorhabdus_G	Halorhabdus (G) NF=0.6
+Halomicrobium_G	Halomicrobium (G) NF=0.1
+Halosimplex_G	Halosimplex (G) NF=2.1
+Salinirussus_G	Salinirussus (G) NF=1.5
+Natrialbaceae_F	Natrialbaceae (F) NF=0.9
+Natrinema_G	Natrinema (G) NF=0.4
+Natronorubrum_G	Natronorubrum (G) NF=1.4
+Natronococcus_G	Natronococcus (G) NF=1.0
+Natrialba_G	Natrialba (G) NF=0.9
+Haloterrigena_G	Haloterrigena (G) NF=3.6
+Natronobacterium_G	Natronobacterium (G) NF=3.5
+Halovivax_G	Halovivax (G) NF=1.2
+Saliphagus_G	Saliphagus (G) NF=0.5
+Halostagnicola_G	Halostagnicola (G) NF=0.7
+Halopiger_G	Halopiger (G) NF=2.8
+Natribaculum_G	Natribaculum (G) NF=1.0
+Natronolimnobius_G	Natronolimnobius (G) NF=3.0
+Halobiforma_G	Halobiforma (G) NF=5.0
+Natronobiforma_G	Natronobiforma (G) NF=1.0
+Halobacteriaceae_F	Halobacteriaceae (F) NF=4.1
+Halobacterium_G	Halobacterium (G) NF=1.2
+Halodesulfurarchaeum_G	Halodesulfurarchaeum (G) NF=1.7
+Halanaeroarchaeum_G	Halanaeroarchaeum (G) NF=1.3
+Halarchaeum_G	Halarchaeum (G) NF=1.4
+Salarchaeum_G	Salarchaeum (G) NF=0.7
+Halocalculus_G	Halocalculus (G) NF=1.0
+Halococcaceae_F	Halococcaceae (F) NF=1.3
+Halococcus_G	Halococcus (G) NF=2.2
+Halalkalicoccus_G	Halalkalicoccus (G) NF=0.2
+Natronoarchaeaceae_F	Natronoarchaeaceae (F) NF=1.3
+Salinarchaeum_G	Salinarchaeum (G) NF=2.8
+Halostella_G	Halostella (G) NF=0.3
+Natronoarchaeum_G	Natronoarchaeum (G) NF=1.6
+Natronomonadaceae_F	Natronomonadaceae (F)
+Natronomonas_G	Natronomonas (G) NF=3.2
+Halomarina_G	Halomarina (G) NF=2.1
+Haladaptataceae_F	Haladaptataceae (F)
+Haladaptatus_G	Haladaptatus (G) NF=0.6
+Halorussus_G	Halorussus (G) NF=1.7
+Halorubellaceae_F	Halorubellaceae (F)
+Haloarchaeobius_G	Haloarchaeobius (G) NF=0.5
+Halorubellus_G	Halorubellus (G) NF=2.2
+Methanomicrobia_C	Methanomicrobia (C)
+Methanosarcinales_O	Methanosarcinales (O)
+Methanosarcinaceae_F	Methanosarcinaceae (F) NF=1.5
+Methanosarcina_G	Methanosarcina (G) NF=1.8
+Methanolobus_G	Methanolobus (G) NF=1.1
+Methanohalophilus_G	Methanohalophilus (G) NF=0.5
+Methanomethylovorans_G	Methanomethylovorans (G) NF=1.8
+Methanococcoides_G	Methanococcoides (G) NF=1.4
+Methanimicrococcus_G	Methanimicrococcus (G) NF=2.1
+Methanosalsum_G	Methanosalsum (G) NF=0.7
+Methanohalobium_G	Methanohalobium (G) NF=0.5
+Methermicoccaceae_F	Methermicoccaceae (F) NF=1.5
+Methermicoccus_G	Methermicoccus (G) NF=1.5
+Methanomicrobiales_O	Methanomicrobiales (O)
+Methanoregulaceae_F	Methanoregulaceae (F) NF=2.8
+Methanoregula_G	Methanoregula (G) NF=4.2
+Methanolinea_G	Methanolinea (G) NF=3.1
+Methanosphaerula_G	Methanosphaerula (G) NF=2.0
+Methanomicrobiaceae_F	Methanomicrobiaceae (F) NF=1.9
+Methanoculleus_G	Methanoculleus (G) NF=1.4
+Methanomicrobium_G	Methanomicrobium (G) NF=6.2
+Methanofollis_G	Methanofollis (G) NF=0.6
+Methanogenium_G	Methanogenium (G) NF=2.3
+Methanolacinia_G	Methanolacinia (G) NF=1.5
+Methanoplanus_G	Methanoplanus (G) NF=1.0
+Methanocorpusculaceae_F	Methanocorpusculaceae (F) NF=1.1
+Methanocorpusculum_G	Methanocorpusculum (G) NF=1.8
+Methanospirillaceae_F	Methanospirillaceae (F) NF=6.4
+Methanospirillum_G	Methanospirillum (G) NF=9.7
+Methanocalculaceae_F	Methanocalculaceae (F) NF=2.2
+Methanocalculus_G	Methanocalculus (G) NF=2.4
+Methanotrichales_O	Methanotrichales (O)
+Methanotrichaceae_F	Methanotrichaceae (F) NF=6.8
+Methanothrix_G	Methanothrix (G) NF=7.9
+Methanocellales_O	Methanocellales (O)
+Methanocellaceae_F	Methanocellaceae (F) NF=5.5
+Methanocella_G	Methanocella (G) NF=6.3
+Archaeoglobi_C	Archaeoglobi (C)
+Archaeoglobales_O	Archaeoglobales (O)
+Archaeoglobaceae_F	Archaeoglobaceae (F) NF=1.6
+Archaeoglobus_G	Archaeoglobus (G) NF=0.7
+Geoglobus_G	Geoglobus (G) NF=1.6
+Ferroglobus_G	Ferroglobus (G) NF=4.0
+Thermococci_C	Thermococci (C)
+Thermococcales_O	Thermococcales (O)
+Thermococcaceae_F	Thermococcaceae (F) NF=0.6
+Thermococcus_G	Thermococcus (G) NF=0.6
+Pyrococcus_G	Pyrococcus (G) NF=0.4
+Palaeococcus_G	Palaeococcus (G) NF=1.7
+Methanonatronarchaeia_C	Methanonatronarchaeia (C)
+Methanonatronarchaeales_O	Methanonatronarchaeales (O)
+Methanonatronarchaeaceae_F	Methanonatronarchaeaceae (F) NF=3.0
+Thermoplasmatota_P	Thermoplasmatota (P)
+Thermoplasmata_C	Thermoplasmata (C)
+Methanomassiliicoccales_O	Methanomassiliicoccales (O)
+Methanomassiliicoccaceae_F	Methanomassiliicoccaceae (F) NF=0.6
+Methanomassiliicoccus_G	Methanomassiliicoccus (G) NF=0.4
+Thermoplasmatales_O	Thermoplasmatales (O)
+Ferroplasmaceae_F	Ferroplasmaceae (F) NF=3.1
+Ferroplasma_G	Ferroplasma (G) NF=3.8
+Acidiplasma_G	Acidiplasma (G) NF=0.5
+Thermoplasmataceae_F	Thermoplasmataceae (F) NF=6.2
+Thermoplasma_G	Thermoplasma (G) NF=1.5
+Cuniculiplasmataceae_F	Cuniculiplasmataceae (F) NF=2.0
+Cuniculiplasma_G	Cuniculiplasma (G) NF=2.0
+Picrophilaceae_F	Picrophilaceae (F) NF=0.5
+Picrophilus_G	Picrophilus (G) NF=0.5
+Thermoplasmatales_incertae_sedis_N	Thermoplasmatales incertae sedis (N)
+Thermogymnomonas_G	Thermogymnomonas (G) NF=1.0
+Thermoproteati_K	Thermoproteati (K)
+Nitrososphaerota_P	Nitrososphaerota (P) NF=5.8
+Nitrososphaeria_C	Nitrososphaeria (C)
+Nitrosopumilales_O	Nitrosopumilales (O)
+Nitrosopumilaceae_F	Nitrosopumilaceae (F) NF=10.4
+Nitrosopumilus_G	Nitrosopumilus (G) NF=0.0
+Nitrosarchaeum_G	Nitrosarchaeum (G) NF=4.6
+Nitrososphaerales_O	Nitrososphaerales (O)
+Nitrososphaeraceae_F	Nitrososphaeraceae (F) NF=9.8
+Nitrososphaera_G	Nitrososphaera (G) NF=0.3
+Nitrosotaleales_O	Nitrosotaleales (O)
+Nitrosotaleaceae_F	Nitrosotaleaceae (F)
+Nitrosotalea_G	Nitrosotalea (G) NF=0.1
+Thermoproteota_P	Thermoproteota (P) NF=2.3
+Thermoprotei_C	Thermoprotei (C)
+Desulfurococcales_O	Desulfurococcales (O)
+Desulfurococcaceae_F	Desulfurococcaceae (F) NF=4.4
+Ignisphaera_G	Ignisphaera (G) NF=11.8
+Thermosphaera_G	Thermosphaera (G) NF=1.0
+Desulfurococcus_G	Desulfurococcus (G) NF=3.0
+Thermodiscus_G	Thermodiscus (G) NF=3.0
+Thermogladius_G	Thermogladius (G) NF=7.0
+Aeropyrum_G	Aeropyrum (G) NF=7.7
+Staphylothermus_G	Staphylothermus (G) NF=4.7
+Ignicoccus_G	Ignicoccus (G) NF=1.3
+Pyrodictiaceae_F	Pyrodictiaceae (F) NF=1.9
+Pyrodictium_G	Pyrodictium (G) NF=1.5
+Hyperthermus_G	Hyperthermus (G) NF=0.3
+Sulfolobales_O	Sulfolobales (O)
+Sulfolobaceae_F	Sulfolobaceae (F) NF=1.3
+Saccharolobus_G	Saccharolobus (G) NF=1.7
+Metallosphaera_G	Metallosphaera (G) NF=2.2
+Sulfolobus_G	Sulfolobus (G) NF=0.6
+Acidianus_G	Acidianus (G) NF=1.0
+Sulfurisphaera_G	Sulfurisphaera (G) NF=1.3
+Stygiolobus_G	Stygiolobus (G) NF=1.0
+Thermoproteales_O	Thermoproteales (O)
+Thermoproteaceae_F	Thermoproteaceae (F) NF=2.3
+Pyrobaculum_G	Pyrobaculum (G) NF=3.7
+Vulcanisaeta_G	Vulcanisaeta (G) NF=1.9
+Thermoproteus_G	Thermoproteus (G) NF=1.2
+Caldivirga_G	Caldivirga (G) NF=0.7
+Thermocladium_G	Thermocladium (G) NF=1.5
+Acidilobales_O	Acidilobales (O)
+Acidilobaceae_F	Acidilobaceae (F) NF=1.2
+Acidilobus_G	Acidilobus (G) NF=2.1
+Caldisphaeraceae_F	Caldisphaeraceae (F) NF=4.0
+Caldisphaera_G	Caldisphaera (G) NF=4.0
+Thermofilales_O	Thermofilales (O)
+Thermofilaceae_F	Thermofilaceae (F) NF=2.9
+Thermofilum_G	Thermofilum (G) NF=5.1
+Fervidicoccales_O	Fervidicoccales (O)
+Fervidicoccaceae_F	Fervidicoccaceae (F) NF=9.0
+Fervidicoccus_G	Fervidicoccus (G) NF=5.0
+Nanobdellati_K	Nanobdellati (K)
+Nanobdellota_P	Nanobdellota (P) NF=117.7
+Candidatus_Nanoarchaeia_C	Candidatus Nanoarchaeia (C)
+Nanoarchaeales_O	Nanoarchaeales (O)
+Nanopusillaceae_F	Nanopusillaceae (F) NF=1.6
+Nanoarchaeaceae_F	Nanoarchaeaceae (F) NF=8.5
+Nanoarchaeum_G	Nanoarchaeum (G) NF=8.5
+Eukaryota_D	Eukaryota (D)
+Opisthokonta_C	Opisthokonta (C)
+Metazoa_K	Metazoa (K)
+Eumetazoa_C	Eumetazoa (C)
+Bilateria_C	Bilateria (C)
+Protostomia_C	Protostomia (C)
+Ecdysozoa_C	Ecdysozoa (C)
+Panarthropoda_C	Panarthropoda (C)
+Arthropoda_P	Arthropoda (P)
+Mandibulata_C	Mandibulata (C)
+Pancrustacea_C	Pancrustacea (C)
+Hexapoda_sP	Hexapoda (sP)
+Insecta_C	Insecta (C)
+Dicondylia_C	Dicondylia (C)
+Pterygota_sC	Pterygota (sC)
+Neoptera_I	Neoptera (I)
+Polyneoptera_C	Polyneoptera (C)
+Phasmatodea_O	Phasmatodea (O)
+Verophasmatodea_sO	Verophasmatodea (sO)
+Areolatae_I	Areolatae (I)
+Bacilloidea_SF	Bacilloidea (SF)
+Bacillidae_F	Bacillidae (F)
+Bacillinae_sF	Bacillinae (sF)
+Bacillini_T	Bacillini (T)
+Bacillus_G	Bacillus (G) NF=2.3
+Dictyoptera_S	Dictyoptera (S)
+Mantodea_O	Mantodea (O)
+Eumantodea_sO	Eumantodea (sO)
+Eremiaphiloidea_SF	Eremiaphiloidea (SF)
+Amelidae_F	Amelidae (F)
+Yersinia_G	Yersinia (G) NF=0.7
+Endopterygota_C	Endopterygota (C)
+Coleoptera_O	Coleoptera (O)
+Polyphaga_sO	Polyphaga (sO)
+Elateriformia_I	Elateriformia (I)
+Elateroidea_SF	Elateroidea (SF)
+Lampyridae_F	Lampyridae (F)
+Luciolinae_sF	Luciolinae (sF)
+Serratia_G	Serratia (G) NF=1.5
+Eucnemidae_F	Eucnemidae (F)
+Xylophilus_G	Xylophilus (G) NF=0.3
+Cucujiformia_I	Cucujiformia (I)
+Curculionoidea_SF	Curculionoidea (SF)
+Curculionidae_F	Curculionidae (F)
+Entiminae_sF	Entiminae (sF)
+Celeuthetini_T	Celeuthetini (T)
+Syntrophus_G	Syntrophus (G) NF=11.8
+Anthribidae_F	Anthribidae (F)
+Anthribinae_sF	Anthribinae (sF)
+Platystomini_T	Platystomini (T)
+Lawsonia_G	Lawsonia (G) NF=1.0
+Diptera_O	Diptera (O)
+Brachycera_sO	Brachycera (sO)
+Muscomorpha_I	Muscomorpha (I)
+Eremoneura_C	Eremoneura (C)
+Cyclorrhapha_C	Cyclorrhapha (C)
+Schizophora_N	Schizophora (N)
+Acalyptratae_N	Acalyptratae (N)
+Tephritoidea_SF	Tephritoidea (SF)
+Tephritidae_F	Tephritidae (F)
+Tephritinae_sF	Tephritinae (sF)
+Tephrellini_T	Tephrellini (T)
+Leucothrix_G	Leucothrix (G) NF=2.0
+Paraneoptera_C	Paraneoptera (C)
+Hemiptera_O	Hemiptera (O)
+Sternorrhyncha_sO	Sternorrhyncha (sO)
+Coccoidea_SF	Coccoidea (SF)
+Diaspididae_F	Diaspididae (F)
+Morganella_G	Morganella (G) NF=2.4
+Coccidae_F	Coccidae (F)
+Rhodococcus_G	Rhodococcus (G) NF=0.4
+Pseudococcidae_F	Pseudococcidae (F)
+Paracoccus_G	Paracoccus (G) NF=1.2
+Planococcus_G	Planococcus (G) NF=1.0
+Eriococcidae_F	Eriococcidae (F)
+Eremococcus_G	Eremococcus (G) NF=1.5
+Xenococcidae_F	Xenococcidae (F)
+Xenococcus_G	Xenococcus (G) NF=4.5
+Aphidomorpha_I	Aphidomorpha (I)
+Aphidoidea_SF	Aphidoidea (SF)
+Aphididae_F	Aphididae (F)
+Aphidinae_sF	Aphidinae (sF)
+Macrosiphini_T	Macrosiphini (T)
+Rhodobium_G	Rhodobium (G) NF=1.3
+Chelicerata_sP	Chelicerata (sP)
+Arachnida_C	Arachnida (C)
+Araneae_O	Araneae (O)
+Araneomorphae_sO	Araneomorphae (sO)
+Entelegynae_C	Entelegynae (C)
+Orbiculariae_C	Orbiculariae (C)
+Araneoidea_SF	Araneoidea (SF)
+Linyphiidae_F	Linyphiidae (F)
+Erigoninae_sF	Erigoninae (sF)
+Leptothrix_G	Leptothrix (G) NF=9.0
+Nematoda_P	Nematoda (P)
+Chromadorea_C	Chromadorea (C)
+Rhabditida_O	Rhabditida (O)
+Tylenchina_sO	Tylenchina (sO)
+Tylenchomorpha_I	Tylenchomorpha (I)
+Tylenchoidea_SF	Tylenchoidea (SF)
+Tylenchidae_F	Tylenchidae (F)
+Tylenchinae_sF	Tylenchinae (sF)
+Labrys_G	Labrys (G) NF=2.0
+Spiralia_C	Spiralia (C)
+Lophotrochozoa_C	Lophotrochozoa (C)
+Mollusca_P	Mollusca (P)
+Gastropoda_C	Gastropoda (C)
+Heterobranchia_sC	Heterobranchia (sC)
+Euthyneura_C	Euthyneura (C)
+Panpulmonata_C	Panpulmonata (C)
+Eupulmonata_S	Eupulmonata (S)
+Stylommatophora_O	Stylommatophora (O)
+Helicina_C	Helicina (C)
+Gastrodontoidea_SF	Gastrodontoidea (SF)
+Microcystidae_F	Microcystidae (F)
+Microcystis_G	Microcystis (G) NF=0.2
+Lamprocystis_G	Lamprocystis (G) NF=2.0
+Caenogastropoda_sC	Caenogastropoda (sC)
+Littorinimorpha_O	Littorinimorpha (O)
+Truncatelloidea_SF	Truncatelloidea (SF)
+Pomatiopsidae_F	Pomatiopsidae (F)
+Pomatiopsinae_sF	Pomatiopsinae (sF)
+Coxiella_G	Coxiella (G) NF=23.9
+Neogastropoda_O	Neogastropoda (O)
+Buccinoidea_SF	Buccinoidea (SF)
+Buccinidae_F	Buccinidae (F)
+Thermosipho_G	Thermosipho (G) NF=0.7
+Architaenioglossa_O	Architaenioglossa (O)
+Viviparoidea_SF	Viviparoidea (SF)
+Viviparidae_F	Viviparidae (F)
+Rivularia_G	Rivularia (G) NF=1.5
+Bivalvia_C	Bivalvia (C)
+Autobranchia_sC	Autobranchia (sC)
+Heteroconchia_C	Heteroconchia (C)
+Palaeoheterodonta_S	Palaeoheterodonta (S)
+Unionida_O	Unionida (O)
+Unionoidea_SF	Unionoidea (SF)
+Unionidae_F	Unionidae (F)
+Unioninae_sF	Unioninae (sF)
+Nodularia_G	Nodularia (G) NF=0.3
+Cephalopoda_C	Cephalopoda (C)
+Coleoidea_sC	Coleoidea (sC)
+Decapodiformes_S	Decapodiformes (S)
+Spirulida_O	Spirulida (O)
+Spirulina_sO	Spirulina (sO) NF=1.1
+Deuterostomia_C	Deuterostomia (C)
+Chordata_P	Chordata (P)
+Craniata_sP	Craniata (sP)
+Vertebrata_C	Vertebrata (C)
+Gnathostomata_C	Gnathostomata (C)
+Teleostomi_C	Teleostomi (C)
+Euteleostomi_C	Euteleostomi (C)
+Sarcopterygii_S	Sarcopterygii (S)
+Dipnotetrapodomorpha_C	Dipnotetrapodomorpha (C)
+Tetrapoda_C	Tetrapoda (C)
+Amphibia_C	Amphibia (C)
+Batrachia_S	Batrachia (S)
+Caudata_O	Caudata (O)
+Salamandroidea_SF	Salamandroidea (SF)
+Proteidae_F	Proteidae (F)
+Proteus_G	Proteus (G) NF=0.8
+Cnidaria_P	Cnidaria (P)
+Anthozoa_C	Anthozoa (C)
+Hexacorallia_sC	Hexacorallia (sC)
+Actiniaria_O	Actiniaria (O)
+Edwardsiidae_F	Edwardsiidae (F)
+Edwardsiella_G	Edwardsiella (G) NF=1.0
+Fungi_K	Fungi (K)
+Dikarya_S	Dikarya (S)
+Ascomycota_P	Ascomycota (P)
+saccharomyceta_C	saccharomyceta (C)
+Pezizomycotina_sP	Pezizomycotina (sP)
+leotiomyceta_C	leotiomyceta (C)
+dothideomyceta_C	dothideomyceta (C)
+Dothideomycetes_C	Dothideomycetes (C)
+Pleosporomycetidae_sC	Pleosporomycetidae (sC)
+Pleosporales_O	Pleosporales (O)
+Pleosporineae_sO	Pleosporineae (sO)
+Phaeosphaeriaceae_F	Phaeosphaeriaceae (F)
+Longispora_G	Longispora (G) NF=5.6
+Dothideomycetes_incertae_sedis_N	Dothideomycetes incertae sedis (N)
+Trypetheliales_O	Trypetheliales (O)
+Trypetheliaceae_F	Trypetheliaceae (F)
+Bogoriella_G	Bogoriella (G) NF=7.0
+Viridiplantae_K	Viridiplantae (K)
+Streptophyta_P	Streptophyta (P)
+Streptophytina_sP	Streptophytina (sP)
+Embryophyta_C	Embryophyta (C)
+Tracheophyta_C	Tracheophyta (C)
+Euphyllophyta_C	Euphyllophyta (C)
+Spermatophyta_C	Spermatophyta (C)
+Magnoliopsida_C	Magnoliopsida (C)
+Mesangiospermae_C	Mesangiospermae (C)
+eudicotyledons_C	eudicotyledons (C)
+Gunneridae_C	Gunneridae (C)
+Pentapetalae_C	Pentapetalae (C)
+rosids_C	rosids (C)
+fabids_C	fabids (C)
+Fabales_O	Fabales (O)
+Fabaceae_F	Fabaceae (F)
+Papilionoideae_sF	Papilionoideae (sF)
+50_kb_inversion_clade_C	50 kb inversion clade (C)
+genistoids_sensu_lato_C	genistoids sensu lato (C)
+core_genistoids_C	core genistoids (C)
+Crotalarieae_T	Crotalarieae (T)
+Rothia_G	Rothia (G) NF=1.8
+Malpighiales_O	Malpighiales (O)
+Phyllanthaceae_F	Phyllanthaceae (F)
+Antidesmatoideae_sF	Antidesmatoideae (sF)
+Antidesmateae_T	Antidesmateae (T)
+Leptonematinae_S	Leptonematinae (S)
+Leptonema_G	Leptonema (G) NF=4.5
+asterids_C	asterids (C)
+Ericales_O	Ericales (O)
+Theaceae_F	Theaceae (F)
+Gordonia_G	Gordonia (G) NF=0.4
+Marcgraviaceae_F	Marcgraviaceae (F)
+Schwartzia_G	Schwartzia (G) NF=3.0
+lamiids_C	lamiids (C)
+Lamiales_O	Lamiales (O)
+Orobanchaceae_F	Orobanchaceae (F)
+Buchnereae_T	Buchnereae (T)
+Buchnera_G	Buchnera (G) NF=37.0
+campanulids_C	campanulids (C)
+Asterales_O	Asterales (O)
+Asteraceae_F	Asteraceae (F)
+Asteroideae_sF	Asteroideae (sF)
+Athroismeae_T	Athroismeae (T)
+Centipedinae_S	Centipedinae (S)
+Centipeda_G	Centipeda (G) NF=1.7
+Santalales_O	Santalales (O)
+Loranthaceae_F	Loranthaceae (F)
+Lorantheae_T	Lorantheae (T)
+Loranthinae_S	Loranthinae (S)
+Kingella_G	Kingella (G) NF=3.2
+Caryophyllales_O	Caryophyllales (O)
+Amaranthaceae_F	Amaranthaceae (F)
+Bosea_G	Bosea (G) NF=0.7
+Chlorophyta_P	Chlorophyta (P)
+core_chlorophytes_C	core chlorophytes (C)
+Ulvophyceae_C	Ulvophyceae (C)
+OUU_clade_C	OUU clade (C)
+Ulvales_O	Ulvales (O)
+Ulvales_incertae_sedis_N	Ulvales incertae sedis (N)
+Halofilum_G	Halofilum (G) NF=7.5
+Sar_C	Sar (C)
+Alveolata_C	Alveolata (C)
+Ciliophora_P	Ciliophora (P)
+Intramacronucleata_sP	Intramacronucleata (sP)
+Spirotrichea_C	Spirotrichea (C)
+Stichotrichia_sC	Stichotrichia (sC)
+Urostylida_O	Urostylida (O)
+Urostylida_incertae_sedis_N	Urostylida incertae sedis (N)
+Bergeriella_G	Bergeriella (G) NF=1.0
+Rhodophyta_P	Rhodophyta (P)
+Florideophyceae_C	Florideophyceae (C)
+Nemaliophycidae_sC	Nemaliophycidae (sC)
+Batrachospermales_O	Batrachospermales (O)
+Batrachospermaceae_F	Batrachospermaceae (F)
+Paludicola_G	Paludicola (G) NF=13.5

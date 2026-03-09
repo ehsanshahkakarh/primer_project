@@ -1,0 +1,475 @@
+taxon_name	level	novelty_factor	source_domain	census_taxid	census_otu_count	census_size_count	ncbi_genome_count	ncbi_species_count	domain	kingdom	subkingdom	phylum	subphylum	superclass	class	subclass	infraclass	superorder	order	suborder	infraorder	parvorder	superfamily	family	subfamily	tribe	subtribe	genus	subgenus	species	clade	no rank	class radiolaria	cohort	division	genus cyclotrichium	subcohort	subphylum craniata
+epibiont	genus	9999.0	Unknown		6	29	0	0																epibiont											Opisthokonta			
+Xiphocephalus	genus	9999.0	Unknown	650332.0	20	39	0	0	Eukaryota			Apicomplexa			Conoidasida	Gregarinasina			Eugregarinorida					Stylocephalidae				Xiphocephalus			Alveolata							
+Xcellidae	family	9999.0	Unknown	2759735.0	19	22	0	0	Eukaryota			Perkinsozoa							Perkinsida					Xcellidae							Perkinsea							
+WIM80-lineage	family	9999.0	Unknown		173	656	0	0																WIM80-lineage											Evosea			
+Vorticella	genus	9999.0	Unknown	60849.0	132	1571	0	0	Eukaryota			Ciliophora	Intramacronucleata		Oligohymenophorea	Peritrichia			Sessilida					Vorticellidae				Vorticella			Alveolata							
+Vermamoebidae	family	9999.0	Unknown		46	155	0	0																Eukaryota							cellular organisms							
+Ventrifissuridae	family	9999.0	Unknown	1938506.0	9	9	0	0	Eukaryota			Cercozoa			Thecofilosea				Ventricleftida					Ventrifissuridae							Rhizaria							
+Ventrifissura	genus	9999.0	Unknown	1938507.0	9	9	0	0	Eukaryota			Cercozoa			Thecofilosea				Ventricleftida					Ventrifissuridae				Ventrifissura			Rhizaria							
+Vampyrellidae	family	9999.0	Unknown	325674.0	10	18	0	0	Eukaryota			Endomyxa							Vampyrellida					Vampyrellidae							Rhizaria							
+Vampyrella	genus	9999.0	Unknown	941459.0	10	18	0	0	Eukaryota			Endomyxa							Vampyrellida					Vampyrellidae				Vampyrella			Rhizaria							
+Urotrichidae	family	9999.0	Unknown	457377.0	38	128	0	0	Eukaryota			Ciliophora	Intramacronucleata		Prostomatea				Prorodontida					Urotrichidae							Alveolata							
+Urotricha	genus	9999.0	Unknown	457378.0	38	128	0	0	Eukaryota			Ciliophora	Intramacronucleata		Prostomatea				Prorodontida					Urotrichidae				Urotricha			Alveolata							
+Unclassified_Provorticidae	genus	9999.0	Unknown	12908.0	21	58	0	0																								unclassified sequences						
+Ubysseya	genus	9999.0	Unknown	3004335.0	1	2	0	0	Eukaryota			Nibbleridia			Nibbleridea				Nibbleridida					Nibbleridae				Ubysseya			Provora							
+Trochilia	genus	9999.0	Unknown	1170543.0	25	115	0	0	Eukaryota			Ciliophora	Intramacronucleata		Phyllopharyngea	Phyllopharyngia			Dysteriida					Dysteriidae				Trochilia			Alveolata							
+Trimitus	genus	9999.0	Unknown	306058.0	47	88	0	0	Eukaryota			Fornicata							Diplomonadida					Hexamitidae	Hexamitinae			Trimitus			Metamonada							
+Trepomonas	genus	9999.0	Unknown	44997.0	10	23	0	0	Eukaryota			Fornicata							Diplomonadida					Hexamitidae	Hexamitinae			Trepomonas			Metamonada							
+Trachelomonas	genus	9999.0	Unknown	96503.0	470	1572	0	0	Eukaryota			Euglenozoa			Euglenida	Euglenophyceae			Euglenales					Euglenaceae				Trachelomonas			Spirocuta							
+Tokophryidae	family	9999.0	Unknown	168137.0	33	176	0	0	Eukaryota			Ciliophora	Intramacronucleata		Phyllopharyngea	Suctoria			Endogenida					Tokophryidae							Alveolata							
+Tokophrya	genus	9999.0	Unknown	168138.0	33	176	0	0	Eukaryota			Ciliophora	Intramacronucleata		Phyllopharyngea	Suctoria			Endogenida					Tokophryidae				Tokophrya			Alveolata							
+Tobrilus	genus	9999.0	Unknown	327476.0	11	65	0	0	Eukaryota	Metazoa		Nematoda			Enoplea	Enoplia			Triplonchida	Tobrilina			Tobriloidea	Tobrilidae				Tobrilus			Ecdysozoa							
+Thoracosphaeraceae	family	9999.0	Unknown	1691972.0	468	2008	0	0	Eukaryota						Dinophyceae				Thoracosphaerales					Thoracosphaeraceae							Alveolata							
+Tholoniidae	family	9999.0	Unknown		26	77	0	0																Eukaryota						cellular organisms								
+Tholomura	genus	9999.0	Unknown	2748069.0	26	77	0	0	Eukaryota						Polycystinea				Spumellaria					Pyloniidae				Tholomura			Retaria							
+Thaumatomonas	genus	9999.0	Unknown	45099.0	8	9	0	0	Eukaryota			Cercozoa			Imbricatea				Thaumatomonadida					Thaumatomastigidae				Thaumatomonas			Silicofilosea							
+Thaumatomonadidae	family	9999.0	Unknown	45098.0	8	9	0	0	Eukaryota			Cercozoa			Imbricatea				Thaumatomonadida					Thaumatomastigidae							Silicofilosea							
+Tetrachaetum	genus	9999.0	Unknown	253301.0	12	36	0	0	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Leotiomycetes				Helotiales					Discinellaceae				Tetrachaetum			sordariomyceta							
+Surapoda	genus	9999.0	Unknown	1454509.0	1	2	0	0	Eukaryota	Metazoa		Arthropoda	Chelicerata		Arachnida	Acari		Acariformes	Trombidiformes	Prostigmata			Eriophyoidea	Eriophyidae	Nothopodinae	Nothopodini		Surapoda			Eupodina							
+Stylocephalidae	family	9999.0	Unknown	650329.0	20	39	0	0	Eukaryota			Apicomplexa			Conoidasida	Gregarinasina			Eugregarinorida					Stylocephalidae							Alveolata							
+Spironemidae	family	9999.0	Unknown	2027449.0	20	81	0	0	Eukaryota			Hemimastigophora												Spironemidae														
+Spinibdella	genus	9999.0	Unknown	768103.0	31	179	0	0	Eukaryota	Metazoa		Arthropoda	Chelicerata		Arachnida	Acari		Acariformes	Trombidiformes	Prostigmata			Bdelloidea	Bdellidae				Spinibdella			Eupodina							
+Sphaerozoum	genus	9999.0	Unknown	65589.0	2	3	0	0	Eukaryota						Polycystinea				Collodaria					Sphaerozoidae				Sphaerozoum			Retaria							
+Sphaerozoidae	family	9999.0	Unknown	65588.0	2	3	0	0	Eukaryota						Polycystinea				Collodaria					Sphaerozoidae							Retaria							
+Spermatozopsis	genus	9999.0	Unknown	3191.0	3	12	0	0	Eukaryota	Viridiplantae		Chlorophyta			Chlorophyceae				Chlamydomonadales					Dunaliellaceae				Spermatozopsis			CS clade							
+Spadicoides	genus	9999.0	Unknown	439828.0	24	103	0	0	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Sordariomycetes	Sordariomycetidae			Xenospadicoidales					Xenospadicoidaceae				Spadicoides			sordariomyceta							
+Skeletonemaceae	family	9999.0	Unknown		1	1	0	0																Eukaryota														
+Sey055-lineage	family	9999.0	Unknown		50	123	0	0																Sey055-lineage											Rhizaria			
+Sessilida	family	9999.0	Unknown	1974272.0	174	1759	0	0	Eukaryota			Ciliophora	Intramacronucleata		Oligohymenophorea	Peritrichia			Sessilida												Alveolata							
+Scytomonas	genus	9999.0	Unknown	1732441.0	66	151	0	0	Eukaryota			Euglenozoa			Euglenida				Petalomonadida					Scytomonadidae				Scytomonas			Discoba							
+Scytomonadidae	family	9999.0	Unknown	2570650.0	240	549	0	0	Eukaryota			Euglenozoa			Euglenida				Petalomonadida					Scytomonadidae							Discoba							
+Scrippsiella	genus	9999.0	Unknown	54902.0	2	7	0	0	Eukaryota						Dinophyceae				Peridiniales					Peridiniaceae				Scrippsiella			Alveolata							
+Schizoplasmodium	genus	9999.0	Unknown	661159.0	20	36	0	0	Eukaryota			Evosea			Variosea				Fractovitellida					Schizoplasmodiidae				Schizoplasmodium			Amoebozoa							
+Schizoplasmodiidae	family	9999.0	Unknown	2681886.0	124	320	0	0	Eukaryota			Evosea			Variosea				Fractovitellida					Schizoplasmodiidae							Amoebozoa							
+Sawyeria	genus	9999.0	Unknown	194529.0	108	544	0	0	Eukaryota			Heterolobosea												Psalteriomonadidae				Sawyeria			Eutetramitia							
+Sandonidae	family	9999.0	Unknown	2586441.0	645	3733	0	0	Eukaryota			Cercozoa							Glissomonadida					Sandonidae							Rhizaria							
+Sandona	genus	9999.0	Unknown	1239209.0	6	9	0	0	Eukaryota			Cercozoa							Glissomonadida					Sandonidae				Sandona			Rhizaria							
+Saccamoeba	genus	9999.0	Unknown	136463.0	279	1566	0	0	Eukaryota			Tubulinea			Elardia				Euamoebida					Hartmannellidae				Saccamoeba			Amoebozoa							
+Ripidomyxa	genus	9999.0	Unknown	266049.0	5	6	0	0	Eukaryota			Tubulinea			Elardia				Leptomyxida					Flabellulidae				Ripidomyxa			Amoebozoa							
+Rigifilida	division	9999.0	Unknown	1237875.0	79	246	0	0	Eukaryota										Rigifilida												CRuMs							
+Rigifila	genus	9999.0	Unknown	1237874.0	13	17	0	0	Eukaryota										Rigifilida									Rigifila			CRuMs							
+Rhynchomonas	genus	9999.0	Unknown	127149.0	4	14	0	0	Eukaryota			Euglenozoa			Kinetoplastea	Metakinetoplastina			Neobodonida					Rhynchomonadidae				Rhynchomonas			Discoba							
+Rhynchomonadidae	family	9999.0	Unknown	2728145.0	4	14	0	0	Eukaryota			Euglenozoa			Kinetoplastea	Metakinetoplastina			Neobodonida					Rhynchomonadidae							Discoba							
+Rhogostoma-lineage	family	9999.0	Unknown	981201.0	134	853	0	0	Eukaryota			Cercozoa			Thecofilosea				Cryomonadida					Rhogostomidae				Rhogostoma			Rhizaria							
+Rhizophydiaceae	family	9999.0	Unknown	451449.0	3	45	0	0	Eukaryota	Fungi		Chytridiomycota			Chytridiomycetes				Rhizophydiales					Rhizophydiaceae							Opisthokonta	Chytridiomycota incertae sedis						
+Rhabdocoela	family	9999.0	Unknown	27901.0	21	58	0	0	Eukaryota	Metazoa		Platyhelminthes			Rhabditophora				Rhabdocoela												Lophotrochozoa							
+Reophax	genus	9999.0	Unknown	212491.0	10	34	0	0	Eukaryota			Foraminifera							Lituolida					Reophacidae				Reophax			Retaria							
+Reophacidae	family	9999.0	Unknown	1482317.0	10	34	0	0	Eukaryota			Foraminifera							Lituolida					Reophacidae							Retaria							
+Ptolemeba	genus	9999.0	Unknown	1525728.0	29	78	0	0	Eukaryota			Tubulinea			Elardia				Euamoebida					Hartmannellidae				Ptolemeba			Amoebozoa							
+Pseudovorticella	genus	9999.0	Unknown	310678.0	6	76	0	0	Eukaryota			Ciliophora	Intramacronucleata		Oligohymenophorea	Peritrichia			Sessilida					Vorticellidae				Pseudovorticella			Alveolata							
+Pseudocolliniidae	family	9999.0	Unknown	1416935.0	40	96	0	0	Eukaryota			Ciliophora	Intramacronucleata		Oligohymenophorea	Apostomatia			Apostomatida					Pseudocolliniidae							Alveolata							
+Psalteriomonadidae	family	9999.0	Unknown	1129782.0	108	544	0	0	Eukaryota			Heterolobosea												Psalteriomonadidae							Eutetramitia							
+Protaspa-lineage	family	9999.0	Unknown	1938521.0	48	92	0	0	Eukaryota			Cercozoa			Thecofilosea				Cryomonadida					Protaspidae				Protaspa			Rhizaria							
+Protaspa	genus	9999.0	Unknown	1938521.0	4	4	0	0	Eukaryota			Cercozoa			Thecofilosea				Cryomonadida					Protaspidae				Protaspa			Rhizaria							
+Protacanthamoeba	genus	9999.0	Unknown	325061.0	3	3	0	0	Eukaryota			Discosea							Longamoebia					Acanthamoebidae				Protacanthamoeba			Centramoebida							
+Prolecithophora	family	9999.0	Unknown	79788.0	12	25	0	0	Eukaryota	Metazoa		Platyhelminthes			Rhabditophora				Prolecithophora												Lophotrochozoa							
+Prodesmodora	genus	9999.0	Unknown	293849.0	8	10	0	0	Eukaryota	Metazoa		Nematoda			Chromadorea				Desmodorida	Desmodorina			Microlaimoidea	Microlaimidae				Prodesmodora			Ecdysozoa							
+Polychaos	genus	9999.0	Unknown	2663723.0	14	43	0	0	Eukaryota			Tubulinea			Elardia				Euamoebida					Hartmannellidae				Polychaos			Amoebozoa							
+Plectonchus	genus	9999.0	Unknown	114872.0	9	71	0	0	Eukaryota	Metazoa		Nematoda			Chromadorea				Rhabditida	Tylenchina	Panagrolaimomorpha		Panagrolaimoidea	Panagrolaimidae				Plectonchus			Ecdysozoa							
+Plagiostomum	genus	9999.0	Unknown	84130.0	12	25	0	0	Eukaryota	Metazoa		Platyhelminthes			Rhabditophora				Prolecithophora					Plagiostomidae				Plagiostomum			Separata							
+Picozoa	division	9999.0	Unknown	419944.0	51	366	0	0	Eukaryota			Picozoa																				Eukaryota incertae sedis						
+Picomonas	genus	9999.0	Unknown	1315712.0	51	366	0	0	Eukaryota			Picozoa			Picomonadea				Picomonadida					Picomonadidae				Picomonas				Eukaryota incertae sedis						
+Picomonadidae	family	9999.0	Unknown	1315717.0	51	366	0	0	Eukaryota			Picozoa			Picomonadea				Picomonadida					Picomonadidae								Eukaryota incertae sedis						
+Physochila	genus	9999.0	Unknown	1165382.0	30	151	0	0	Eukaryota			Tubulinea			Elardia				Arcellinida	Glutinoconcha				Hyalospheniidae				Physochila			Amoebozoa							
+Physcomitrella	genus	9999.0	Unknown	3217.0	28	50	0	0	Eukaryota	Viridiplantae		Streptophyta	Streptophytina		Bryopsida	Funariidae			Funariales					Funariaceae				Physcomitrella			Bryophytina							
+Phryganellina	family	9999.0	Unknown	318517.0	62	148	0	0	Eukaryota			Tubulinea			Elardia				Arcellinida	Phryganellina											Amoebozoa							
+Phryganella	genus	9999.0	Unknown	2217852.0	2	2	0	0	Eukaryota			Tubulinea			Elardia				Arcellinida	Phryganellina				Phryganellidae				Phryganella			Amoebozoa							
+Petalomonas	genus	9999.0	Unknown	56451.0	16	26	0	0	Eukaryota			Euglenozoa			Euglenida				Petalomonadida					Scytomonadidae				Petalomonas			Discoba							
+Penthaleus	genus	9999.0	Unknown	296206.0	5	143	0	0	Eukaryota	Metazoa		Arthropoda	Chelicerata		Arachnida	Acari		Acariformes	Trombidiformes	Prostigmata			Eupodoidea	Penthaleidae				Penthaleus			Eupodina							
+Pentapharsodinium	genus	9999.0	Unknown	66472.0	466	2001	0	0	Eukaryota						Dinophyceae				Peridiniales					Ensiculiferaceae				Pentapharsodinium			Alveolata							
+Parhypochthonius	genus	9999.0	Unknown	229752.0	4	6	0	0	Eukaryota	Metazoa		Arthropoda	Chelicerata		Arachnida	Acari		Acariformes	Sarcoptiformes	Oribatida	Parhyposomata		Parhypochthonioidea	Parhypochthoniidae				Parhypochthonius			Panarthropoda							
+Paradinium	genus	9999.0	Unknown	492102.0	27	43	0	0	Eukaryota			Endomyxa			Ascetosporea				Paradiniida									Paradinium			Rhizaria							
+Paradinidae	family	9999.0	Unknown		27	43	0	0																Eukaryota				cellular organisms										
+Paracercomonas	genus	9999.0	Unknown	372085.0	4	4	0	0	Eukaryota			Cercozoa							Cercomonadida					Cercomonadidae				Paracercomonas			Rhizaria							
+Paracercomonadidae	family	9999.0	Unknown		4	4	0	0																Eukaryota														
+Paracalanus	genus	9999.0	Unknown	163471.0	15	324	0	0	Eukaryota	Metazoa		Arthropoda	Crustacea	Multicrustacea	Hexanauplia	Copepoda	Neocopepoda	Gymnoplea	Calanoida					Paracalanidae				Paracalanus			Pancrustacea							
+Ophryoglenida	family	9999.0	Unknown		19	444	0	0																Eukaryota						cellular organisms								
+OLIGO2	family	9999.0	Unknown		13	158	0	0																OLIGO2											Alveolata			
+Nucleohelea	family	9999.0	Unknown		5	14	0	0																Eukaryota				cellular organisms										
+Nucleariidae_Nuclearia_2	family	9999.0	Unknown	154966.0	11	30	0	0	Eukaryota										Rotosphaerida					Nucleariidae							Opisthokonta							
+Novel-Gran-6	family	9999.0	Unknown		42	142	0	0																Novel-Gran-6											Rhizaria			
+Novel-Clade-4	family	9999.0	Unknown		5	6	0	0																Novel-Clade-4											Rhizaria			
+Notosolenus	genus	9999.0	Unknown	186759.0	10	15	0	0	Eukaryota			Euglenozoa			Euglenida				Petalomonadida					Scytomonadidae				Notosolenus			Discoba							
+Nolandellidae	family	9999.0	Unknown		142	405	0	0							cellular organisms									Eukaryota														
+Nibbleromonas	genus	9999.0	Unknown	3004211.0	2	9	0	0	Eukaryota			Nibbleridia			Nibbleridea				Nibbleridida					Nibbleridae				Nibbleromonas			Provora							
+Nibbleridia	division	9999.0	Unknown	3004207.0	3	11	0	0	Eukaryota			Nibbleridia																			Provora							
+Nibbleridae	family	9999.0	Unknown	3004210.0	3	11	0	0	Eukaryota			Nibbleridia			Nibbleridea				Nibbleridida					Nibbleridae							Provora							
+Neocercomonas	genus	9999.0	Unknown	268487.0	69	116	0	0	Eukaryota			Cercozoa							Cercomonadida					Cercomonadidae				Neocercomonas			Rhizaria							
+Neobodonidae	family	9999.0	Unknown		43	74	0	0				cellular organisms												Eukaryota														
+Neobodo	genus	9999.0	Unknown	312470.0	43	74	0	0	Eukaryota			Euglenozoa			Kinetoplastea	Metakinetoplastina			Neobodonida									Neobodo			Discoba							
+Nemogullmia	genus	9999.0	Unknown	164077.0	18	66	0	0	Eukaryota			Foraminifera												Lagynidae				Nemogullmia			Allogromida							
+Nematostelium	genus	9999.0	Unknown	661164.0	6	8	0	0	Eukaryota			Evosea			Variosea				Fractovitellida					Schizoplasmodiidae				Nematostelium			Amoebozoa							
+Nebulomonas	genus	9999.0	Unknown	3004453.0	1	3	0	0	Eukaryota			Nebulidia			Nebulidea				Nebulidida					Nebulidae				Nebulomonas			Provora							
+Nebulidia	division	9999.0	Unknown	3004449.0	1	3	0	0	Eukaryota			Nebulidia																			Provora							
+Nebulidae	family	9999.0	Unknown	3004452.0	1	3	0	0	Eukaryota			Nebulidia			Nebulidea				Nebulidida					Nebulidae							Provora							
+NPK2-lineage	family	9999.0	Unknown		48	137	0	0																NPK2-lineage											Rhizaria			
+NC12B-lineage	family	9999.0	Unknown		3	11	0	0																NC12B-lineage											Rhizaria			
+NC12A-lineage	family	9999.0	Unknown		22	45	0	0																NC12A-lineage											Rhizaria			
+Monocystis	genus	9999.0	Unknown	110315.0	131	467	0	0	Eukaryota			Apicomplexa			Conoidasida	Gregarinasina			Eugregarinorida					Monocystidae				Monocystis			Alveolata							
+Micronuclearia	genus	9999.0	Unknown	238745.0	12	28	0	0	Eukaryota										Rigifilida									Micronuclearia			CRuMs							
+Metridia	genus	9999.0	Unknown	114066.0	5	70	0	0	Eukaryota	Metazoa		Arthropoda	Crustacea	Multicrustacea	Hexanauplia	Copepoda	Neocopepoda	Gymnoplea	Calanoida					Metridinidae				Metridia			Pancrustacea							
+Mb5C-lineage	family	9999.0	Unknown		46	111	0	0																Mb5C-lineage											Evosea			
+Maxillopoda	family	9999.0	Unknown		290	3923	0	0					cellular organisms											Eukaryota														
+Mattesia	genus	9999.0	Unknown	238095.0	2	3	0	0	Eukaryota			Apicomplexa			Conoidasida	Gregarinasina			Neogregarinorida					Lipotrophidae				Mattesia			Alveolata							
+Mataza-lineage	family	9999.0	Unknown	1004929.0	4	5	0	0	Eukaryota			Cercozoa			Thecofilosea													Mataza			Rhizaria	Thecofilosea incertae sedis						
+Mastigella	genus	9999.0	Unknown	180814.0	34	67	0	0	Eukaryota			Evosea							Pelobiontida									Mastigella			Archamoebae							
+Massiteriidae	family	9999.0	Unknown		1	2	0	0																Eukaryota														
+Massisteria	genus	9999.0	Unknown	127226.0	1	2	0	0	Eukaryota			Cercozoa												Massisteriidae				Massisteria			Granofilosea							
+Massaria	genus	9999.0	Unknown	45312.0	1	4	0	0	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Dothideomycetes	Pleosporomycetidae			Pleosporales					Massariaceae				Massaria			dothideomyceta							
+Mariager-Fjord-lineage	family	9999.0	Unknown		50	198	0	0																Mariager-Fjord-lineage											Evosea			
+MAST-3E	genus	9999.0	Unknown		3	7	0	0																				Eukaryota			cellular organisms							
+MAST-3	family	9999.0	Unknown		3	7	0	0																Eukaryota							cellular organisms							
+MAST-12C	genus	9999.0	Unknown		15	27	0	0																				Eukaryota			cellular organisms							
+MAST-12	family	9999.0	Unknown		15	27	0	0																Eukaryota							cellular organisms							
+Loimia	genus	9999.0	Unknown	153626.0	3	6	0	0	Eukaryota	Metazoa		Annelida			Polychaeta	Sedentaria	Canalipalpata		Terebellida	Terebelliformia				Terebellidae				Loimia			Lophotrochozoa							
+Limnofilidae	family	9999.0	Unknown	1938435.0	4	6	0	0	Eukaryota			Cercozoa												Limnofilidae							Rhizaria							
+Leptomyxidae	family	9999.0	Unknown	66525.0	5	6	0	0	Eukaryota			Tubulinea			Elardia				Leptomyxida					Leptomyxidae							Amoebozoa							
+Leptodora	genus	9999.0	Unknown	77706.0	1	7	0	0	Eukaryota	Metazoa		Arthropoda	Crustacea		Branchiopoda	Phyllopoda			Diplostraca	Cladocera	Haplopoda			Leptodoridae				Leptodora			Pancrustacea							
+Leohumicola	genus	9999.0	Unknown	290614.0	13	81	0	0	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Leotiomycetes													Leohumicola			sordariomyceta	Leotiomycetes incertae sedis						
+Lagynidae	family	9999.0	Unknown	212497.0	18	66	0	0	Eukaryota			Foraminifera												Lagynidae							Allogromida							
+LOS7N/I-lineage	family	9999.0	Unknown		60	299	0	0																LOS7N/I-lineage											Tubulinea			
+LKM74-lineage	family	9999.0	Unknown		8	10	0	0																LKM74-lineage											Discosea			
+Korotnevella	genus	9999.0	Unknown	200888.0	34	50	0	0	Eukaryota			Discosea			Flabellinia				Dactylopodida					Paramoebidae				Korotnevella			Amoebozoa							
+Hyplorynchus	genus	9999.0	Unknown		5	10	0	0											cellular organisms									Eukaryota										
+Heterolepidoderma	genus	9999.0	Unknown	78241.0	1	1	0	0	Eukaryota	Metazoa		Gastrotricha							Chaetonotida	Paucitubulatina				Chaetonotidae				Heterolepidoderma			Lophotrochozoa							
+Hemimastix	genus	9999.0	Unknown	2027450.0	20	81	0	0	Eukaryota			Hemimastigophora												Spironemidae				Hemimastix										
+Hemimastigophora	division	9999.0	Unknown	2489521.0	20	81	0	0	Eukaryota			Hemimastigophora																										
+Hartmannulidae	family	9999.0	Unknown	247151.0	3	6	0	0	Eukaryota			Ciliophora	Intramacronucleata		Phyllopharyngea	Phyllopharyngia			Dysteriida					Hartmannulidae							Alveolata							
+Hartmannellidae	family	9999.0	Unknown	5776.0	472	2106	0	0	Eukaryota			Tubulinea			Elardia				Euamoebida					Hartmannellidae							Amoebozoa							
+Hartmannella	genus	9999.0	Unknown	5777.0	46	155	0	0	Eukaryota			Tubulinea			Elardia				Euamoebida					Hartmannellidae				Hartmannella			Amoebozoa							
+Halodaphnea	genus	9999.0	Unknown	414971.0	1	2	0	0	Eukaryota			Oomycota							Lagenidiales					Haliphthoraceae				Halodaphnea			Stramenopiles							
+Haliphthorales	family	9999.0	Unknown		1	2	0	0				cellular organisms												Eukaryota														
+Gyropaigne	genus	9999.0	Unknown	86636.0	26	100	0	0	Eukaryota			Euglenozoa			Euglenida				Rhabdomonadales					Astasiidae				Gyropaigne			Aphagea							
+Guepiniopsis	genus	9999.0	Unknown	143596.0	5	5	0	0	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina		Dacrymycetes				Dacrymycetales					Dacrymycetaceae				Guepiniopsis			Opisthokonta							
+Group-Te	genus	9999.0	Unknown		1	2	0	0																Group-Te											Rhizaria			
+Gromiidae	family	9999.0	Unknown	35215.0	33	56	0	0	Eukaryota			Endomyxa							Gromiida					Gromiidae							Rhizaria							
+Gromia	genus	9999.0	Unknown	35216.0	33	56	0	0	Eukaryota			Endomyxa							Gromiida					Gromiidae				Gromia			Rhizaria							
+Gadixcellia	genus	9999.0	Unknown	2759743.0	19	22	0	0	Eukaryota			Perkinsozoa							Perkinsida					Xcellidae				Gadixcellia			Perkinsea							
+Fusiforma	genus	9999.0	Unknown	1416936.0	40	96	0	0	Eukaryota			Ciliophora	Intramacronucleata		Oligohymenophorea	Apostomatia			Apostomatida					Pseudocolliniidae				Fusiforma			Alveolata							
+Flectomonas	genus	9999.0	Unknown	1938442.0	639	3724	0	0	Eukaryota			Cercozoa							Glissomonadida					Sandonidae				Flectomonas			Rhizaria							
+Flamella-lineage	family	9999.0	Unknown	490353.0	62	262	0	0	Eukaryota			Evosea			Variosea									Flamellidae				Flamella			Amoebozoa							
+Flamella	genus	9999.0	Unknown	490353.0	62	262	0	0	Eukaryota			Evosea			Variosea									Flamellidae				Flamella			Amoebozoa							
+Filoreta	genus	9999.0	Unknown	1407634.0	34	52	0	0	Eukaryota			Endomyxa																Filoreta			Rhizaria							
+Farlowiella	genus	9999.0	Unknown	286006.0	2	4	0	0	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Dothideomycetes				Minutisphaerales					Acrogenosporaceae				Acrogenospora			dothideomyceta	Dothideomycetes incertae sedis						
+Evaginogenida	family	9999.0	Unknown	163659.0	9	17	0	0	Eukaryota			Ciliophora	Intramacronucleata		Phyllopharyngea	Suctoria			Evaginogenida												Alveolata							
+Eudiaptomus	genus	9999.0	Unknown	251516.0	14	901	0	0	Eukaryota	Metazoa		Arthropoda	Crustacea	Multicrustacea	Hexanauplia	Copepoda	Neocopepoda	Gymnoplea	Calanoida					Diaptomidae				Eudiaptomus			Pancrustacea							
+Endostelium-lineage	family	9999.0	Unknown	668361.0	82	179	0	0	Eukaryota			Discosea			Flabellinia													Endostelium			Amoebozoa							
+Endostelium	genus	9999.0	Unknown	668361.0	82	179	0	0	Eukaryota			Discosea			Flabellinia													Endostelium			Amoebozoa							
+Encentrum	genus	9999.0	Unknown	360660.0	16	25	0	0	Eukaryota	Metazoa		Rotifera			Eurotatoria	Monogononta		Pseudotrocha	Ploima					Dicranophoridae				Encentrum			Gnathifera							
+Echinamoebidae	family	9999.0	Unknown	136448.0	1	2	0	0	Eukaryota			Tubulinea			Echinamoebida									Echinamoebidae							Amoebozoa							
+Echinamoeba	genus	9999.0	Unknown	136449.0	1	2	0	0	Eukaryota			Tubulinea			Echinamoebida									Echinamoebidae				Echinamoeba			Amoebozoa							
+Dysteriidae	family	9999.0	Unknown	238903.0	25	115	0	0	Eukaryota			Ciliophora	Intramacronucleata		Phyllopharyngea	Phyllopharyngia			Dysteriida					Dysteriidae							Alveolata							
+Drosophila	genus	9999.0	Unknown	2081351.0	217	1383	0	0	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina		Agaricomycetes	Agaricomycetidae			Agaricales	Agaricineae				Psathyrellaceae				Drosophila			Opisthokonta							
+Distigmidae	family	9999.0	Unknown	2704119.0	24	188	0	0	Eukaryota			Euglenozoa			Euglenida				Rhabdomonadales					Distigmidae							Aphagea							
+Distigma	genus	9999.0	Unknown	83913.0	24	188	0	0	Eukaryota			Euglenozoa			Euglenida				Rhabdomonadales					Distigmidae				Distigma			Aphagea							
+Diptilomiopus	genus	9999.0	Unknown	1336388.0	19	31	0	0	Eukaryota	Metazoa		Arthropoda	Chelicerata		Arachnida	Acari		Acariformes	Trombidiformes	Prostigmata			Eriophyoidea	Diptilomiopidae				Diptilomiopus			Eupodina							
+Diplophrys	genus	9999.0	Unknown	138668.0	17	26	0	0	Eukaryota						Bigyra	Labyrinthulomycetes			Amphitremida									Diplophrys			Stramenopiles							
+Diplophrydaceae	family	9999.0	Unknown		17	26	0	0											cellular organisms					Eukaryota														
+Dino-Group-II-Clade-7	family	9999.0	Unknown		547	1828	0	0							cellular organisms									Eukaryota														
+Dino-Group-II-Clade-6	family	9999.0	Unknown		286	4127	0	0							cellular organisms									Eukaryota														
+Dino-Group-II-Clade-3	family	9999.0	Unknown		92	284	0	0							cellular organisms									Eukaryota														
+Dino-Group-II-Clade-21	family	9999.0	Unknown		17	78	0	0							cellular organisms									Eukaryota														
+Dino-Group-II-Clade-14	family	9999.0	Unknown		19	51	0	0							cellular organisms									Eukaryota														
+Dino-Group-II-Clade-10-and-11	family	9999.0	Unknown		415	1595	0	0							cellular organisms									Eukaryota														
+Dino-Group-II-Clade-1	family	9999.0	Unknown		80	328	0	0							cellular organisms									Eukaryota														
+Dino-Group-I-Clade-5	family	9999.0	Unknown		196	1050	0	0							cellular organisms									Eukaryota														
+Dino-Group-I-Clade-4	family	9999.0	Unknown		182	1189	0	0							cellular organisms									Eukaryota														
+Dino-Group-I-Clade-1	family	9999.0	Unknown		116	2072	0	0							cellular organisms									Eukaryota														
+Dileptidae	family	9999.0	Unknown	1652550.0	253	2935	0	0	Eukaryota			Ciliophora	Intramacronucleata		Litostomatea	Haptoria			Haptorida					Dileptidae							Alveolata							
+Difflugina	family	9999.0	Unknown	2681634.0	151	397	0	0	Eukaryota			Tubulinea			Elardia				Arcellinida	Difflugina											Amoebozoa							
+Diaphanosoma	genus	9999.0	Unknown	117531.0	4	5	0	0	Eukaryota	Metazoa		Arthropoda	Crustacea		Branchiopoda	Phyllopoda			Diplostraca	Cladocera	Ctenopoda			Sididae				Diaphanosoma			Pancrustacea							
+Cyclotrichium	genus	9999.0	Unknown	751773.0	79	227	0	0	Eukaryota	Viridiplantae		Streptophyta	Streptophytina		Magnoliopsida				Lamiales					Lamiaceae	Nepetoideae	Mentheae		Cyclotrichium			lamiids							
+Cyclops	genus	9999.0	Unknown	263416.0	4	5	0	0	Eukaryota	Metazoa		Arthropoda	Crustacea	Multicrustacea	Hexanauplia	Copepoda	Neocopepoda	Podoplea	Cyclopoida					Cyclopidae				Cyclops			Pancrustacea							
+Cryptodifflugia	genus	9999.0	Unknown	1078833.0	6	11	0	0	Eukaryota			Tubulinea			Elardia				Arcellinida	Phryganellina				Cryptodifflugiidae				Cryptodifflugia			Amoebozoa							
+Cryptococcus	genus	9999.0	Unknown	79213.0	5	5	0	0	Eukaryota	Metazoa		Arthropoda	Hexapoda		Insecta	Pterygota	Neoptera		Hemiptera	Sternorrhyncha			Coccoidea	Eriococcidae				Cryptococcus			Dicondylia			Paraneoptera				
+Cryothecomonas-lineage	family	9999.0	Unknown	151025.0	2	3	0	0	Eukaryota			Cercozoa			Thecofilosea				Cryomonadida					Protaspidae				Cryothecomonas			Rhizaria							
+Cryothecomonas	genus	9999.0	Unknown	151025.0	2	3	0	0	Eukaryota			Cercozoa			Thecofilosea				Cryomonadida					Protaspidae				Cryothecomonas			Rhizaria							
+Corallicolla	genus	9999.0	Unknown		2	2	0	0											cellular organisms									Eukaryota										
+Corallicolidae	family	9999.0	Unknown	2828056.0	2	2	0	0	Eukaryota			Apicomplexa			Conoidasida				Corallicolida					Corallicolidae							Alveolata							
+Copromyxa	genus	9999.0	Unknown	931553.0	133	379	0	0	Eukaryota			Tubulinea			Elardia				Euamoebida									Copromyxa			Tubulinida	Tubulinida incertae sedis						
+Collophidium	genus	9999.0	Unknown	1130125.0	42	87	0	0	Eukaryota						Polycystinea				Collodaria					Collophidiidae				Collophidium			Retaria							
+Collophidiidae	family	9999.0	Unknown	1656265.0	42	87	0	0	Eukaryota						Polycystinea				Collodaria					Collophidiidae							Retaria							
+Coccomyxa	genus	9999.0	Unknown	320428.0	20	87	0	0	Eukaryota	Metazoa		Cnidaria			Myxozoa	Myxosporea			Bivalvulida	Variisporina				Coccomyxidae				Coccomyxa			Eumetazoa							
+Clavicaudoides	genus	9999.0	Unknown	266273.0	8	142	0	0	Eukaryota	Metazoa		Nematoda			Enoplea	Dorylaimia			Dorylaimida	Nygolaimina			Nygolaimoidea	Nygolaimidae	Nygolaiminae			Clavicaudoides			Ecdysozoa							
+Chytridiomycetaceae	family	9999.0	Unknown		12	82	0	0							cellular organisms									Eukaryota														
+Choanocystis	genus	9999.0	Unknown	299888.0	5	6	0	0	Eukaryota						Centroplasthelida				Pterocystida									Choanocystis			Raphidista							
+Choanocystidae	family	9999.0	Unknown		5	6	0	0																Eukaryota				cellular organisms										
+Chloroparva	genus	9999.0	Unknown	948560.0	10	17	0	0	Eukaryota	Viridiplantae		Chlorophyta			Trebouxiophyceae				Chlorellales					Chlorellaceae				Chloroparva			core chlorophytes							
+Chaos	genus	9999.0	Unknown	160821.0	35	66	0	0	Eukaryota			Tubulinea			Elardia				Euamoebida					Amoebidae				Chaos			Amoebozoa							
+Chaetonotus	genus	9999.0	Unknown	68038.0	98	611	0	0	Eukaryota	Metazoa		Gastrotricha							Chaetonotida	Paucitubulatina				Chaetonotidae				Chaetonotus			Lophotrochozoa							
+Cercomonas	genus	9999.0	Unknown	45109.0	20	57	0	0	Eukaryota			Cercozoa							Cercomonadida					Cercomonadidae				Cercomonas			Rhizaria							
+Cercomonadidae	family	9999.0	Unknown	45108.0	154	294	0	0	Eukaryota			Cercozoa							Cercomonadida					Cercomonadidae							Rhizaria							
+Ceratium	genus	9999.0	Unknown	2915.0	3	65	0	0	Eukaryota						Dinophyceae				Gonyaulacales					Ceratiaceae				Ceratium			Alveolata							
+Ceratiomyxella	genus	9999.0	Unknown	661161.0	20	54	0	0	Eukaryota			Evosea			Variosea				Fractovitellida					Schizoplasmodiidae				Ceratiomyxella			Amoebozoa							
+Ceratiaceae	family	9999.0	Unknown	39451.0	3	65	0	0	Eukaryota						Dinophyceae				Gonyaulacales					Ceratiaceae							Alveolata							
+Centroplasthelida	division	9999.0	Unknown	193537.0	185	530	0	0	Eukaryota						Centroplasthelida																Haptista							
+Centropages	genus	9999.0	Unknown	136182.0	5	13	0	0	Eukaryota	Metazoa		Arthropoda	Crustacea	Multicrustacea	Hexanauplia	Copepoda	Neocopepoda	Gymnoplea	Calanoida					Centropagidae				Centropages			Pancrustacea							
+Cavernomonas	genus	9999.0	Unknown	686739.0	50	92	0	0	Eukaryota			Cercozoa							Cercomonadida					Cercomonadidae				Cavernomonas			Rhizaria							
+Campanella	genus	9999.0	Unknown	168241.0	1	3	0	0	Eukaryota			Ciliophora	Intramacronucleata		Oligohymenophorea	Peritrichia			Sessilida					Epistylidae				Campanella			Alveolata							
+CCW10-lineage	family	9999.0	Unknown		4	6	0	0																CCW10-lineage											Rhizaria			
+Bullinularia	genus	9999.0	Unknown	318543.0	151	397	0	0	Eukaryota			Tubulinea			Elardia				Arcellinida	Difflugina				Plagiopyxidae				Bullinularia			Amoebozoa							
+Bosmina	genus	9999.0	Unknown	27402.0	4	43	0	0	Eukaryota	Metazoa		Arthropoda	Crustacea		Branchiopoda	Phyllopoda			Diplostraca	Cladocera	Anomopoda			Bosminidae				Bosmina			Pancrustacea							
+Bicoecaceae	family	9999.0	Unknown	238883.0	57	469	0	0	Eukaryota						Bigyra				Bicosoecida					Bicosoecidae							Opalozoa							
+Bellemerea	genus	9999.0	Unknown	170001.0	90	667	0	0	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Lecanoromycetes	Lecanoromycetidae			Lecideales					Lecideaceae				Bellemerea			OSLEUM clade							
+Astrorhiza	genus	9999.0	Unknown	46079.0	9	9	0	0	Eukaryota			Foraminifera							Astrorhizida					Astrorhizidae				Astrorhiza			Monothalamids							
+Ascomorpha	genus	9999.0	Unknown	360654.0	6	7	0	0	Eukaryota	Metazoa		Rotifera			Eurotatoria	Monogononta		Pseudotrocha	Ploima					Gastropidae				Ascomorpha			Gnathifera							
+Anthoptilum	genus	9999.0	Unknown	86570.0	35	169	0	0	Eukaryota	Metazoa		Cnidaria			Anthozoa	Octocorallia			Scleralcyonacea				Pennatuloidea	Anthoptilidae				Anthoptilum			Eumetazoa							
+Anomalocera	genus	9999.0	Unknown	310561.0	4	55	0	0	Eukaryota	Metazoa		Arthropoda	Crustacea	Multicrustacea	Hexanauplia	Copepoda	Neocopepoda	Gymnoplea	Calanoida					Pontellidae				Anomalocera			Pancrustacea							
+Ankistrodesmus	genus	9999.0	Unknown	3108.0	1	2	0	0	Eukaryota	Viridiplantae		Chlorophyta			Chlorophyceae				Sphaeropleales					Selenastraceae				Ankistrodesmus			CS clade							
+Amphitrema	genus	9999.0	Unknown	1287651.0	16	60	0	0	Eukaryota						Bigyra	Labyrinthulomycetes			Amphitremida					Amphitraemidae				Amphitrema			Stramenopiles							
+Amphitraemidae	family	9999.0	Unknown	1287649.0	16	60	0	0	Eukaryota						Bigyra	Labyrinthulomycetes			Amphitremida					Amphitraemidae							Stramenopiles							
+Amoebidae	family	9999.0	Unknown	35218.0	35	66	0	0	Eukaryota			Tubulinea			Elardia				Euamoebida					Amoebidae							Amoebozoa							
+Alphamonadea_ALPH1	genus	9999.0	Unknown		2	10	0	0																				Eukaryota										
+Alphamonaceae	family	9999.0	Unknown	2605703.0	2	10	0	0	Eukaryota															Alphamonaceae							Colpodellida							
+Allogromiina	genus	9999.0	Unknown		83	222	0	0				cellular organisms																Eukaryota										
+Allobodonidae	family	9999.0	Unknown		14	30	0	0																Eukaryota				cellular organisms										
+Allobodo	genus	9999.0	Unknown	2571230.0	14	30	0	0	Eukaryota			Euglenozoa			Kinetoplastea	Metakinetoplastina			Eubodonida					Bodonidae				Allobodo			Discoba							
+Allapsidae	family	9999.0	Unknown	2607627.0	4	6	0	0	Eukaryota			Cercozoa							Glissomonadida					Allapsidae							Rhizaria							
+Allantion	genus	9999.0	Unknown	188942.0	3	4	0	0	Eukaryota			Cercozoa							Glissomonadida					Allapsidae				Allantion			Rhizaria							
+Alaimus	genus	9999.0	Unknown	211208.0	2	2	0	0	Eukaryota	Metazoa		Nematoda			Enoplea	Enoplia			Enoplida	Alaimina				Alaimidae				Alaimus			Ecdysozoa							
+Adelina	genus	9999.0	Unknown	203141.0	3	3	0	0	Eukaryota			Apicomplexa								Adeleorina				Adeleidae				Adelina			Alveolata							
+Adeleidae	family	9999.0	Unknown	203140.0	3	3	0	0	Eukaryota			Apicomplexa								Adeleorina				Adeleidae							Alveolata							
+Actinosphaerium	genus	9999.0	Unknown	238766.0	5	14	0	0	Eukaryota						Actinophryidae													Actinosphaerium			Stramenopiles							
+Actinocephalidae	family	9999.0	Unknown	650287.0	172	567	0	0	Eukaryota			Apicomplexa			Conoidasida	Gregarinasina			Eugregarinorida					Actinocephalidae							Alveolata							
+Acinetidae_2	family	9999.0	Unknown	239359.0	37	104	0	0	Eukaryota			Ciliophora	Intramacronucleata		Phyllopharyngea	Suctoria			Endogenida					Acinetidae							Alveolata							
+Acineta_1	genus	9999.0	Unknown	239360.0	37	104	0	0	Eukaryota			Ciliophora	Intramacronucleata		Phyllopharyngea	Suctoria			Endogenida					Acinetidae				Acineta			Alveolata							
+Acantharea_3a	family	9999.0	Unknown	65574.0	208	1225	0	0	Eukaryota						Acantharea																Retaria							
+ARMOP1	family	9999.0	Unknown		6	9	0	0																ARMOP1											Alveolata			
+AND16-lineage	family	9999.0	Unknown		75	194	0	0																AND16-lineage											Evosea			
+Mastigamoebidae	family	1609.0	Eukaryota	174815.0	1609	10879	2	1	Eukaryota			Evosea							Mastigamoebida					Mastigamoebidae							Archamoebae							
+Mastigamoeba	genus	1609.0	Eukaryota	81099.0	1609	10879	2	1	Eukaryota			Evosea							Mastigamoebida					Mastigamoebidae				Mastigamoeba			Archamoebae							
+Tubulinea	division	1323.0	Eukaryota	555369.0	1323	4810	2	1	Eukaryota			Tubulinea																			Amoebozoa							
+Stylonychia	genus	800.0	Eukaryota	5948.0	800	7715	2	1	Eukaryota			Ciliophora	Intramacronucleata		Spirotrichea	Stichotrichia			Sporadotrichida					Oxytrichidae	Stylonychinae			Stylonychia			Alveolata							
+Euglenaceae	family	470.0	Eukaryota	1131320.0	470	1572	3	1	Eukaryota			Euglenozoa			Euglenida	Euglenophyceae			Euglenales					Euglenaceae							Spirocuta							
+Rhizaria	division	284.778	Eukaryota	543769.0	5126	24072	72	18	Eukaryota																						Rhizaria							
+Neovahlkampfiidae	family	211.0	Eukaryota	2602010.0	211	780	1	1	Eukaryota			Heterolobosea												Neovahlkampfiidae							Tetramitia							
+Neovahlkampfia	genus	211.0	Eukaryota	166955.0	211	780	1	1	Eukaryota			Heterolobosea												Neovahlkampfiidae				Neovahlkampfia			Tetramitia							
+Digenea	family	190.0	Eukaryota	256429.0	190	955	1	1	Eukaryota			Rhodophyta			Florideophyceae	Rhodymeniophycidae			Ceramiales					Rhodomelaceae	Polysiphonioideae			Digenea										
+Zea	genus	186.0	Eukaryota	4575.0	372	6252	190	2	Eukaryota	Viridiplantae		Streptophyta	Streptophytina		Magnoliopsida	Petrosaviidae			Poales					Poaceae	Panicoideae	Andropogoneae	Tripsacinae	Zea			PACMAD clade	Andropogonodae						
+Rehmannia	genus	160.0	Eukaryota	99299.0	160	265	1	1	Eukaryota	Viridiplantae		Streptophyta	Streptophytina		Magnoliopsida				Lamiales					Orobanchaceae				Rehmannia			lamiids	Orobanchaceae incertae sedis						
+Oxytrichidae	family	160.0	Eukaryota	57506.0	800	7715	9	5	Eukaryota			Ciliophora	Intramacronucleata		Spirotrichea	Stichotrichia			Sporadotrichida					Oxytrichidae							Alveolata							
+Hexamitidae	family	143.25	Eukaryota	5739.0	573	3242	41	4	Eukaryota			Fornicata							Diplomonadida					Hexamitidae							Metamonada							
+Gregarinidae	family	130.0	Eukaryota	35088.0	130	692	1	1	Eukaryota			Apicomplexa			Conoidasida	Gregarinasina			Eugregarinorida					Gregarinidae							Alveolata							
+Sarcocystis10	genus	76.0	Eukaryota	5812.0	76	608	2	1	Eukaryota			Apicomplexa			Conoidasida	Coccidia			Eucoccidiorida	Eimeriorina				Sarcocystidae				Sarcocystis			Alveolata							
+Salpingoecidae_Group_C1	family	74.0	Eukaryota	81529.0	148	357	3	2	Eukaryota						Choanoflagellata				Craspedida					Salpingoecidae							Opisthokonta							
+Leidyana2	genus	73.0	Eukaryota	196592.0	73	258	1	1	Eukaryota			Apicomplexa			Conoidasida	Gregarinasina			Eugregarinorida					Leidyanidae				Leidyana			Alveolata							
+Evosea	division	69.457	Eukaryota	2605435.0	2431	13475	56	35	Eukaryota			Evosea																			Amoebozoa							
+Ustanciosporium	genus	69.0	Eukaryota	307709.0	69	166	2	1	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina		Ustilaginomycetes				Ustilaginales					Cintractiaceae				Ustanciosporium			Opisthokonta							
+Isaria	genus	64.0	Eukaryota	72232.0	64	489	1	1	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Sordariomycetes	Hypocreomycetidae			Hypocreales					Cordycipitaceae				Isaria			sordariomyceta							
+Labyrinthulaceae	family	62.0	Eukaryota	35132.0	62	238	1	1	Eukaryota						Bigyra	Labyrinthulomycetes			Labyrinthulida					Labyrinthulaceae							Stramenopiles							
+Labyrinthula	genus	62.0	Eukaryota	35133.0	62	238	1	1	Eukaryota						Bigyra	Labyrinthulomycetes			Labyrinthulida					Labyrinthulaceae				Labyrinthula			Stramenopiles							
+Phaeosphaeria	genus	57.333	Eukaryota	55067.0	172	1177	3	3	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Dothideomycetes	Pleosporomycetidae			Pleosporales	Pleosporineae				Phaeosphaeriaceae				Phaeosphaeria			dothideomyceta							
+Vannellidae	family	56.0	Eukaryota	95227.0	56	94	2	1	Eukaryota			Discosea			Flabellinia									Vannellidae							Amoebozoa							
+Vannella	genus	56.0	Eukaryota	95228.0	56	94	2	1	Eukaryota			Discosea			Flabellinia									Vannellidae				Vannella			Amoebozoa							
+Pycnora	genus	46.0	Eukaryota	318745.0	46	237	1	1	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Candelariomycetes				Candelariales					Pycnoraceae				Pycnora			leotiomyceta							
+Discoba	division	41.636	Eukaryota	2611352.0	5496	21089	354	132	Eukaryota																						Discoba							
+Alveolata	division	41.288	Eukaryota	33630.0	9042	60488	658	219	Eukaryota																						Alveolata							
+Apis	genus	39.333	Eukaryota	7459.0	236	762	28	6	Eukaryota	Metazoa		Arthropoda	Hexapoda		Insecta	Pterygota	Neoptera		Hymenoptera	Apocrita	Aculeata		Apoidea	Apidae	Apinae	Apini		Apis			Anthophila			Endopterygota				
+Limulus	genus	36.0	Eukaryota	6849.0	36	122	2	1	Eukaryota	Metazoa		Arthropoda	Chelicerata		Merostomata				Xiphosura					Limulidae				Limulus			Panarthropoda							
+Aureococcus	genus	36.0	Eukaryota	44055.0	36	182	5	1	Eukaryota						Pelagophyceae				Pelagomonadales					Pelagomonadaceae				Aureococcus			Ochrophyta							
+Rhizophagus	genus	33.714	Eukaryota	1129544.0	236	4813	41	7	Eukaryota	Fungi		Mucoromycota	Glomeromycotina		Glomeromycetes				Glomerales					Glomeraceae				Rhizophagus			Opisthokonta	Fungi incertae sedis						
+Lecanicillium	genus	32.143	Eukaryota	291363.0	225	1334	12	7	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Sordariomycetes	Hypocreomycetidae			Hypocreales					Cordycipitaceae				Lecanicillium			sordariomyceta							
+Hexamita	genus	32.0	Eukaryota	13567.0	32	113	1	1	Eukaryota			Fornicata							Diplomonadida					Hexamitidae	Hexamitinae			Hexamita			Metamonada							
+Rattus	genus	29.0	Eukaryota	10114.0	58	114	20	2	Eukaryota	Metazoa		Chordata	Craniata	Sarcopterygii	Mammalia			Euarchontoglires	Rodentia	Myomorpha				Muridae	Murinae			Rattus			Muroidea							
+Chlorociboria	genus	28.0	Eukaryota	54692.0	56	565	4	2	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Leotiomycetes				Helotiales					Chlorociboriaceae				Chlorociboria			sordariomyceta							
+Corynespora	genus	27.5	Eukaryota	59585.0	55	265	58	2	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Dothideomycetes	Pleosporomycetidae			Pleosporales					Corynesporascaceae				Corynespora			dothideomyceta							
+Paramoebidae	family	27.0	Eukaryota	200887.0	54	81	3	2	Eukaryota			Discosea			Flabellinia				Dactylopodida					Paramoebidae							Amoebozoa							
+Gregarina3	genus	27.0	Eukaryota	35089.0	27	218	1	1	Eukaryota			Apicomplexa			Conoidasida	Gregarinasina			Eugregarinorida					Gregarinidae				Gregarina			Alveolata							
+Leptomonas	genus	26.5	Eukaryota	5683.0	53	327	3	2	Eukaryota			Euglenozoa			Kinetoplastea	Metakinetoplastina			Trypanosomatida					Trypanosomatidae	Leishmaniinae			Leptomonas			Discoba							
+Spizellomyces	genus	26.0	Eukaryota	4815.0	52	167	2	2	Eukaryota	Fungi		Chytridiomycota			Chytridiomycetes				Spizellomycetales					Spizellomycetaceae				Spizellomyces			Opisthokonta	Chytridiomycota incertae sedis						
+Rhabdomonadales	family	26.0	Eukaryota	86649.0	26	100	1	1	Eukaryota			Euglenozoa			Euglenida				Rhabdomonadales												Aphagea							
+Acyrthosiphon	genus	24.5	Eukaryota	7028.0	49	436	3	2	Eukaryota	Metazoa		Arthropoda	Hexapoda		Insecta	Pterygota	Neoptera		Hemiptera	Sternorrhyncha	Aphidomorpha		Aphidoidea	Aphididae	Aphidinae	Macrosiphini		Acyrthosiphon			Dicondylia			Paraneoptera				
+Ostreococcus	genus	24.417	Eukaryota	70447.0	293	6432	30	12	Eukaryota	Viridiplantae		Chlorophyta			Mamiellophyceae				Mamiellales					Bathycoccaceae				Ostreococcus										
+Metamonada	division	22.92	Eukaryota	2611341.0	573	3242	73	25	Eukaryota																						Metamonada							
+Heterodera	genus	22.8	Eukaryota	34509.0	228	2028	27	10	Eukaryota	Metazoa		Nematoda			Chromadorea				Rhabditida	Tylenchina	Tylenchomorpha		Tylenchoidea	Heteroderidae	Heteroderinae			Heterodera			Ecdysozoa							
+Glomerales	family	19.667	Eukaryota	36750.0	236	4813	48	12	Eukaryota	Fungi		Mucoromycota	Glomeromycotina		Glomeromycetes				Glomerales												Opisthokonta	Fungi incertae sedis						
+Ichthyophthirius	genus	19.0	Eukaryota	5931.0	19	444	1	1	Eukaryota			Ciliophora	Intramacronucleata		Oligohymenophorea				Hymenostomatida	Ophryoglenina								Ichthyophthirius			Alveolata							
+Articulospora	genus	19.0	Eukaryota	253308.0	19	62	1	1	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Leotiomycetes				Helotiales					Discinellaceae				Articulospora			sordariomyceta							
+Thalassiosira	genus	17.167	Eukaryota	35127.0	309	6048	22	18	Eukaryota			Bacillariophyta			Coscinodiscophyceae	Thalassiosirophycidae			Thalassiosirales					Thalassiosiraceae				Thalassiosira			Ochrophyta							
+Paulinellidae	family	17.0	Eukaryota	39715.0	17	24	2	1	Eukaryota			Cercozoa			Imbricatea				Euglyphida					Paulinellidae							Silicofilosea							
+Paulinella	genus	17.0	Eukaryota	39716.0	17	24	2	1	Eukaryota			Cercozoa			Imbricatea				Euglyphida					Paulinellidae				Paulinella			Silicofilosea							
+Glycine	genus	17.0	Eukaryota	3846.0	85	1830	50	5	Eukaryota	Viridiplantae		Streptophyta	Streptophytina		Magnoliopsida				Fabales					Fabaceae	Papilionoideae	Phaseoleae		Glycine			indigoferoid/millettioid clade							
+Sabatieria	genus	16.0	Eukaryota	129901.0	16	95	1	1	Eukaryota	Metazoa		Nematoda			Chromadorea				Araeolaimida				Axonolaimoidea	Comesomatidae				Sabatieria			Ecdysozoa							
+Phaeodactylum	genus	15.0	Eukaryota	2849.0	15	37	3	1	Eukaryota			Bacillariophyta			Bacillariophyceae				Naviculales					Phaeodactylaceae				Phaeodactylum			Bacillariophycidae							
+Phaeodactylaceae	family	15.0	Eukaryota	38749.0	15	37	3	1	Eukaryota			Bacillariophyta			Bacillariophyceae				Naviculales					Phaeodactylaceae							Bacillariophycidae							
+Discosea	division	14.778	Eukaryota	555280.0	399	1365	41	27	Eukaryota			Discosea																			Amoebozoa							
+Schistosoma	genus	14.615	Eukaryota	6181.0	190	955	26	13	Eukaryota	Metazoa		Platyhelminthes			Trematoda	Digenea			Strigeidida				Schistosomatoidea	Schistosomatidae				Schistosoma			Lophotrochozoa							
+Theileria1	genus	14.429	Eukaryota	5873.0	101	1221	17	7	Eukaryota			Apicomplexa			Aconoidasida				Piroplasmida					Theileriidae				Theileria			Alveolata							
+Malassezia	genus	14.19	Eukaryota	55193.0	298	11722	104	21	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina		Malasseziomycetes				Malasseziales					Malasseziaceae				Malassezia			Opisthokonta							
+Nematostella	genus	14.0	Eukaryota	45350.0	14	36	4	1	Eukaryota	Metazoa		Cnidaria			Anthozoa	Hexacorallia			Actiniaria					Edwardsiidae				Nematostella			Eumetazoa							
+Ulva	genus	13.75	Eukaryota	3118.0	55	176	6	4	Eukaryota	Viridiplantae		Chlorophyta			Ulvophyceae				Ulvales					Ulvaceae				Ulva			OUU clade							
+Bathycoccaceae	family	13.391	Eukaryota	1525212.0	308	6531	113	23	Eukaryota	Viridiplantae		Chlorophyta			Mamiellophyceae				Mamiellales					Bathycoccaceae														
+Spizellomycetaceae	family	13.0	Eukaryota	34479.0	52	167	4	4	Eukaryota	Fungi		Chytridiomycota			Chytridiomycetes				Spizellomycetales					Spizellomycetaceae							Opisthokonta	Chytridiomycota incertae sedis						
+Sarcocystidae	family	12.667	Eukaryota	5809.0	76	608	40	6	Eukaryota			Apicomplexa			Conoidasida	Coccidia			Eucoccidiorida	Eimeriorina				Sarcocystidae							Alveolata							
+Theileriidae	family	12.625	Eukaryota	27994.0	101	1221	18	8	Eukaryota			Apicomplexa			Aconoidasida				Piroplasmida					Theileriidae							Alveolata							
+Trichocladium	genus	12.5	Eukaryota	290625.0	25	579	2	2	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Sordariomycetes	Sordariomycetidae			Sordariales					Chaetomiaceae				Trichocladium			sordariomyceta							
+Culex	genus	12.4	Eukaryota	53527.0	62	345	16	5	Eukaryota	Metazoa		Arthropoda	Hexapoda		Insecta	Pterygota	Neoptera		Diptera	Nematocera	Culicomorpha		Culicoidea	Culicidae	Culicinae	Culicini		Culex	Culex		Dicondylia			Endopterygota				
+Chydorus	genus	12.0	Eukaryota	77744.0	12	27	1	1	Eukaryota	Metazoa		Arthropoda	Crustacea		Branchiopoda	Phyllopoda			Diplostraca	Cladocera	Anomopoda			Chydoridae				Chydorus			Pancrustacea							
+Aphelidium	genus	12.0	Eukaryota	1498217.0	12	17	1	1	Eukaryota						Aphelidea									Aphelidiaceae				Aphelidium			Aphelida							
+Aphelidiaceae	family	12.0	Eukaryota	2689233.0	12	17	1	1	Eukaryota						Aphelidea									Aphelidiaceae							Aphelida							
+Thalassiosiraceae	family	11.885	Eukaryota	29202.0	309	6048	32	26	Eukaryota			Bacillariophyta			Coscinodiscophyceae	Thalassiosirophycidae			Thalassiosirales					Thalassiosiraceae							Ochrophyta							
+Smittium	genus	10.0	Eukaryota	4888.0	60	247	7	6	Eukaryota	Fungi		Zoopagomycota	Kickxellomycotina		Harpellomycetes				Harpellales					Legeriomycetaceae				Smittium			Opisthokonta	Fungi incertae sedis						
+Paramoeba	genus	10.0	Eukaryota	200890.0	20	31	3	2	Eukaryota			Discosea			Flabellinia				Dactylopodida					Paramoebidae				Paramoeba			Amoebozoa							
+Coelomomyces	genus	10.0	Eukaryota	143959.0	10	29	3	1	Eukaryota	Fungi		Blastocladiomycota			Blastocladiomycetes				Blastocladiales					Coelomomycetaceae				Coelomomyces			Opisthokonta	Fungi incertae sedis						
+Bodonidae	family	10.0	Eukaryota	5708.0	10	15	1	1	Eukaryota			Euglenozoa			Kinetoplastea	Metakinetoplastina			Eubodonida					Bodonidae							Discoba							
+Bodo	genus	10.0	Eukaryota	5712.0	10	15	1	1	Eukaryota			Euglenozoa			Kinetoplastea	Metakinetoplastina			Eubodonida					Bodonidae				Bodo			Discoba							
+Rhizopus	genus	9.571	Eukaryota	4842.0	67	969	108	7	Eukaryota	Fungi		Mucoromycota	Mucoromycotina		Mucoromycetes				Mucorales	Mucorineae				Rhizopodaceae				Rhizopus			Opisthokonta	Fungi incertae sedis						
+Mitosporidium	genus	9.0	Eukaryota	1633384.0	9	13	2	1	Eukaryota	Fungi		Microsporidia																Mitosporidium			Opisthokonta	Microsporidia incertae sedis						
+Merostomata	family	9.0	Eukaryota	6844.0	36	122	9	4	Eukaryota	Metazoa		Arthropoda	Chelicerata		Merostomata																Panarthropoda							
+Colpodellida_CHR1	family	9.0	Eukaryota	877183.0	18	70	3	2	Eukaryota																						Colpodellida							
+Cafeteria	genus	9.0	Eukaryota	33652.0	18	75	6	2	Eukaryota						Bigyra				Bicosoecida					Cafeteriaceae				Cafeteria			Opalozoa							
+Pristionchus	genus	8.75	Eukaryota	54125.0	70	366	21	8	Eukaryota	Metazoa		Nematoda			Chromadorea				Rhabditida	Rhabditina	Diplogasteromorpha		Diplogasteroidea	Neodiplogasteridae				Pristionchus			Ecdysozoa							
+Ectocarpus	genus	8.556	Eukaryota	2879.0	77	666	12	9	Eukaryota						Phaeophyceae				Ectocarpales					Ectocarpaceae				Ectocarpus			PX clade							
+Exobasidiomycetes	family	8.27	Eukaryota	452283.0	306	11775	90	37	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina		Exobasidiomycetes																Opisthokonta							
+Danio	genus	8.125	Eukaryota	7954.0	65	111	30	8	Eukaryota	Metazoa		Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Cypriniphysae	Cypriniformes	Cyprinoidei				Danionidae	Danioninae			Danio			Otophysi	Clupeocephala		Otomorpha			Ostariophysi	
+Tilletiopsis	genus	8.0	Eukaryota	1500560.0	8	53	1	1	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina		Exobasidiomycetes				Entylomatales									Tilletiopsis			Opisthokonta	Entylomatales incertae sedis						
+Hyaloscypha	genus	8.0	Eukaryota	47747.0	40	131	6	5	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Leotiomycetes				Helotiales					Hyaloscyphaceae				Hyaloscypha			sordariomyceta							
+Balamuthiidae	family	8.0	Eukaryota	555408.0	8	12	3	1	Eukaryota			Discosea							Longamoebia					Balamuthiidae							Centramoebida							
+Balamuthia	genus	8.0	Eukaryota	66526.0	8	12	3	1	Eukaryota			Discosea							Longamoebia					Balamuthiidae				Balamuthia			Centramoebida							
+Stramenopiles	division	7.642	Eukaryota	33634.0	3668	24799	1043	480	Eukaryota																						Stramenopiles							
+Conus	genus	7.5	Eukaryota	6490.0	45	225	6	6	Eukaryota	Metazoa		Mollusca			Gastropoda	Caenogastropoda			Neogastropoda				Conoidea	Conidae				Conus			Lophotrochozoa							
+Pelagomonadaceae	family	7.2	Eukaryota	3235057.0	36	182	9	5	Eukaryota						Pelagophyceae				Pelagomonadales					Pelagomonadaceae							Ochrophyta							
+Eurytemora	genus	7.0	Eukaryota	88014.0	21	89	3	3	Eukaryota	Metazoa		Arthropoda	Crustacea	Multicrustacea	Hexanauplia	Copepoda	Neocopepoda	Gymnoplea	Calanoida					Temoridae				Eurytemora			Pancrustacea							
+Harpellales	family	6.667	Eukaryota	61421.0	60	247	11	9	Eukaryota	Fungi		Zoopagomycota	Kickxellomycotina		Harpellomycetes				Harpellales												Opisthokonta	Fungi incertae sedis						
+Pythium	genus	6.565	Eukaryota	4797.0	302	870	71	46	Eukaryota			Oomycota							Pythiales					Pythiaceae				Pythium			Stramenopiles							
+Ricinus	genus	6.5	Eukaryota	160061.0	13	15	2	2	Eukaryota	Metazoa		Arthropoda	Hexapoda		Insecta	Pterygota	Neoptera	Psocodea	Phthiraptera	Amblycera				Ricinidae				Ricinus			Dicondylia			Paraneoptera				
+Paramecium	genus	6.5	Eukaryota	5884.0	65	547	22	10	Eukaryota			Ciliophora	Intramacronucleata		Oligohymenophorea				Peniculida					Parameciidae				Paramecium			Alveolata							
+Parameciidae	family	6.5	Eukaryota	340080.0	65	547	22	10	Eukaryota			Ciliophora	Intramacronucleata		Oligohymenophorea				Peniculida					Parameciidae							Alveolata							
+Nannochloropsis	genus	6.5	Eukaryota	5748.0	39	315	19	6	Eukaryota						Eustigmatophyceae				Eustigmatales					Monodopsidaceae				Nannochloropsis			Ochrophyta							
+Chlorophyta	division	6.143	Eukaryota	3041.0	1505	14229	518	245	Eukaryota	Viridiplantae		Chlorophyta																										
+Spumella	genus	6.0	Eukaryota	89043.0	12	14	2	2	Eukaryota						Chrysophyceae				Chromulinales					Chromulinaceae				Spumella			Ochrophyta							
+Ochromonadaceae	family	6.0	Eukaryota	88165.0	12	14	2	2	Eukaryota						Synurophyceae				Ochromonadales					Ochromonadaceae							Ochrophyta							
+Cafeteriaceae	family	6.0	Eukaryota	238884.0	18	75	7	3	Eukaryota						Bigyra				Bicosoecida					Cafeteriaceae							Opalozoa							
+Acanthamoebidae	family	5.857	Eukaryota	33677.0	123	773	31	21	Eukaryota			Discosea							Longamoebia					Acanthamoebidae							Centramoebida							
+Auxenochlorella	genus	5.75	Eukaryota	191392.0	23	524	11	4	Eukaryota	Viridiplantae		Chlorophyta			Trebouxiophyceae				Chlorellales					Chlorellaceae				Auxenochlorella			core chlorophytes							
+Coccidioides	genus	5.5	Eukaryota	5500.0	11	17	18	2	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Eurotiomycetes	Eurotiomycetidae			Onygenales					Onygenaceae				Coccidioides			leotiomyceta							
+Allomyces	genus	5.333	Eukaryota	28581.0	16	114	3	3	Eukaryota	Fungi		Blastocladiomycota			Blastocladiomycetes				Blastocladiales					Blastocladiaceae				Allomyces			Opisthokonta	Fungi incertae sedis						
+Psora	genus	5.0	Eukaryota	111720.0	10	24	2	2	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Lecanoromycetes	Lecanoromycetidae			Lecanorales	Lecanorineae				Psoraceae				Psora			OSLEUM clade							
+Polychytrium	genus	5.0	Eukaryota	110092.0	5	6	1	1	Eukaryota	Fungi		Chytridiomycota			Chytridiomycetes				Polychytriales									Polychytrium			Opisthokonta	Polychytriales incertae sedis						
+Philaenus	genus	5.0	Eukaryota	30087.0	5	7	2	1	Eukaryota	Metazoa		Arthropoda	Hexapoda		Insecta	Pterygota	Neoptera		Hemiptera	Auchenorrhyncha	Cicadomorpha		Cercopoidea	Aphrophoridae				Philaenus			Dicondylia			Paraneoptera				
+Homo	genus	5.0	Eukaryota	9605.0	5	15	1941	1	Eukaryota	Metazoa		Chordata	Craniata	Sarcopterygii	Mammalia			Euarchontoglires	Primates	Haplorrhini	Simiiformes	Catarrhini	Hominoidea	Hominidae	Homininae			Homo			Boreoeutheria							
+Botryococcus	genus	5.0	Eukaryota	38880.0	5	8	3	1	Eukaryota	Viridiplantae		Chlorophyta			Trebouxiophyceae													Botryococcus			Elliptochloris clade	Trebouxiophyceae incertae sedis						
+Aculops	genus	5.0	Eukaryota	644139.0	5	7	1	1	Eukaryota	Metazoa		Arthropoda	Chelicerata		Arachnida	Acari		Acariformes	Trombidiformes	Prostigmata			Eriophyoidea	Eriophyidae	Phyllocoptinae	Anthocoptini		Aculops			Eupodina							
+Acanthamoeba	genus	4.952	Eukaryota	5754.0	104	748	31	21	Eukaryota			Discosea							Longamoebia					Acanthamoebidae				Acanthamoeba			Centramoebida							
+Blastocystis-Group	family	4.8	Eukaryota	12967.0	72	618	91	15	Eukaryota						Bigyra				Opalinata					Blastocystidae				Blastocystis			Opalozoa							
+Blastocystis	genus	4.8	Eukaryota	12967.0	72	618	91	15	Eukaryota						Bigyra				Opalinata					Blastocystidae				Blastocystis			Opalozoa							
+Branchiopoda	family	4.714	Eukaryota	6658.0	132	783	60	28	Eukaryota	Metazoa		Arthropoda	Crustacea		Branchiopoda																Pancrustacea							
+Plasmodium1	genus	4.4	Eukaryota	418103.0	44	404	52	10	Eukaryota			Apicomplexa			Aconoidasida				Haemosporida					Plasmodiidae				Plasmodium	Plasmodium (Plasmodium)		Alveolata							
+Arabidopsis	genus	4.286	Eukaryota	3701.0	30	32	420	7	Eukaryota	Viridiplantae		Streptophyta	Streptophytina		Magnoliopsida				Brassicales					Brassicaceae		Camelineae		Arabidopsis			malvids							
+Venturia	genus	4.0	Eukaryota	92443.0	4	4	3	1	Eukaryota	Metazoa		Arthropoda	Hexapoda		Insecta	Pterygota	Neoptera		Hymenoptera	Apocrita			Ichneumonoidea	Ichneumonidae	Campopleginae			Venturia			Dicondylia	Dusona group		Endopterygota				
+Rhizoclosmatium	genus	4.0	Eukaryota	109967.0	12	82	3	3	Eukaryota	Fungi		Chytridiomycota			Chytridiomycetes				Chytridiales					Chytriomycetaceae				Rhizoclosmatium			Opisthokonta	Chytridiomycota incertae sedis						
+Eimeria1	genus	4.0	Eukaryota	5800.0	68	535	29	17	Eukaryota			Apicomplexa			Conoidasida	Coccidia			Eucoccidiorida	Eimeriorina				Eimeriidae				Eimeria			Alveolata							
+Acartia	genus	4.0	Eukaryota	121148.0	4	7	2	1	Eukaryota	Metazoa		Arthropoda	Crustacea	Multicrustacea	Hexanauplia	Copepoda	Neocopepoda	Gymnoplea	Calanoida					Acartiidae				Acartia			Pancrustacea							
+Plasmodiidae	family	3.962	Eukaryota	1639119.0	103	612	176	26	Eukaryota			Apicomplexa			Aconoidasida				Haemosporida					Plasmodiidae							Alveolata							
+Eimeriidae	family	3.778	Eukaryota	5799.0	68	535	70	18	Eukaryota			Apicomplexa			Conoidasida	Coccidia			Eucoccidiorida	Eimeriorina				Eimeriidae							Alveolata							
+Chloropicon	genus	3.75	Eukaryota	2302914.0	15	50	7	4	Eukaryota	Viridiplantae		Chlorophyta			Chloropicophyceae				Chloropicales					Chloropicaceae				Chloropicon										
+Chloropicaceae	family	3.75	Eukaryota	2302913.0	15	50	7	4	Eukaryota	Viridiplantae		Chlorophyta			Chloropicophyceae				Chloropicales					Chloropicaceae														
+Trypanosoma	genus	3.696	Eukaryota	5690.0	85	824	82	23	Eukaryota			Euglenozoa			Kinetoplastea	Metakinetoplastina			Trypanosomatida					Trypanosomatidae				Trypanosoma			Discoba							
+Teratosphaeria	genus	3.625	Eukaryota	237584.0	29	32	13	8	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Dothideomycetes	Dothideomycetidae			Mycosphaerellales					Teratosphaeriaceae				Teratosphaeria			dothideomyceta							
+Blastocladiomycetes	family	3.625	Eukaryota	451460.0	29	147	10	8	Eukaryota	Fungi		Blastocladiomycota			Blastocladiomycetes																Opisthokonta	Fungi incertae sedis						
+Peronosporales	family	3.519	Eukaryota	4776.0	373	2022	318	106	Eukaryota			Oomycota							Peronosporales												Stramenopiles							
+Crassostrea	genus	3.25	Eukaryota	6564.0	13	29	6	4	Eukaryota	Metazoa		Mollusca			Bivalvia	Autobranchia			Ostreida				Ostreoidea	Ostreidae				Crassostrea			Pteriomorphia							
+Trichosporon	genus	3.231	Eukaryota	5552.0	42	252	44	13	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina		Tremellomycetes				Trichosporonales					Trichosporonaceae				Trichosporon			Opisthokonta							
+Cryptosporidiidae	family	3.2	Eukaryota	35082.0	64	939	87	20	Eukaryota			Apicomplexa			Conoidasida	Coccidia			Eucoccidiorida	Eimeriorina				Cryptosporidiidae							Alveolata							
+Russula	genus	3.087	Eukaryota	5402.0	71	776	32	23	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina		Agaricomycetes				Russulales					Russulaceae				Russula			Opisthokonta	Agaricomycetes incertae sedis						
+Thamnocephalis	genus	3.0	Eukaryota	78914.0	3	4	1	1	Eukaryota	Fungi		Zoopagomycota	Zoopagomycotina		Zoopagomycetes				Zoopagales					Sigmoideomycetaceae				Thamnocephalis			Opisthokonta	Fungi incertae sedis						
+Tectonidula	genus	3.0	Eukaryota	1629392.0	3	5	1	1	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Sordariomycetes	Sordariomycetidae			Barbatosphaeriales					Barbatosphaeriaceae				Barbatosphaeria			sordariomyceta							
+Neofabraea	genus	3.0	Eukaryota	143937.0	3	6	1	1	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Leotiomycetes				Helotiales					Dermateaceae				Neofabraea			sordariomyceta							
+Leidyana1	genus	3.0	Eukaryota	196592.0	3	29	1	1	Eukaryota			Apicomplexa			Conoidasida	Gregarinasina			Eugregarinorida					Leidyanidae				Leidyana			Alveolata							
+Culiseta	genus	3.0	Eukaryota	174825.0	3	6	2	1	Eukaryota	Metazoa		Arthropoda	Hexapoda		Insecta	Pterygota	Neoptera		Diptera	Nematocera	Culicomorpha		Culicoidea	Culicidae	Culicinae	Culisetini		Culiseta			Dicondylia			Endopterygota				
+Coccomyxaceae	family	2.857	Eukaryota	35472.0	20	87	11	7	Eukaryota	Viridiplantae		Chlorophyta			Trebouxiophyceae									Coccomyxaceae							core chlorophytes	Trebouxiophyceae incertae sedis						
+Zymoseptoria	genus	2.667	Eukaryota	1047167.0	16	52	79	6	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Dothideomycetes	Dothideomycetidae			Mycosphaerellales					Mycosphaerellaceae				Zymoseptoria			dothideomyceta							
+Chrysaora	genus	2.6	Eukaryota	6147.0	13	32	7	5	Eukaryota	Metazoa		Cnidaria			Scyphozoa				Semaeostomeae					Pelagiidae				Chrysaora			Eumetazoa							
+Saprolegnia	genus	2.5	Eukaryota	4769.0	5	126	2	2	Eukaryota			Oomycota							Saprolegniales					Saprolegniaceae				Saprolegnia			Stramenopiles							
+Phialophora	genus	2.5	Eukaryota	5600.0	15	31	28	6	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Eurotiomycetes	Chaetothyriomycetidae			Chaetothyriales					Herpotrichiellaceae				Phialophora			leotiomyceta							
+Cryptosporidium1	genus	2.5	Eukaryota	5806.0	50	922	87	20	Eukaryota			Apicomplexa			Conoidasida	Coccidia			Eucoccidiorida	Eimeriorina				Cryptosporidiidae				Cryptosporidium			Alveolata							
+Exophiala	genus	2.4	Eukaryota	5583.0	48	94	109	20	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Eurotiomycetes	Chaetothyriomycetidae			Chaetothyriales					Herpotrichiellaceae				Exophiala			leotiomyceta							
+Strigomonas	genus	2.0	Eukaryota	1003010.0	6	30	4	3	Eukaryota			Euglenozoa			Kinetoplastea	Metakinetoplastina			Trypanosomatida					Trypanosomatidae	Strigomonadinae			Strigomonas			Discoba							
+Raphidocelis	genus	2.0	Eukaryota	307506.0	2	2	1	1	Eukaryota	Viridiplantae		Chlorophyta			Chlorophyceae				Sphaeropleales					Selenastraceae				Raphidocelis			CS clade							
+Paramicrosporidium	genus	2.0	Eukaryota	1493516.0	2	8	1	1	Eukaryota	Fungi		Cryptomycota																Paramicrosporidium			Opisthokonta	Cryptomycota incertae sedis						
+Mayetiola	genus	2.0	Eukaryota	39757.0	2	11	2	1	Eukaryota	Metazoa		Arthropoda	Hexapoda		Insecta	Pterygota	Neoptera		Diptera	Nematocera	Bibionomorpha		Sciaroidea	Cecidomyiidae	Cecidomyiinae	Oligotrophini		Mayetiola			Dicondylia	Lasiopteridi		Endopterygota				
+Cyanidioschyzon	genus	2.0	Eukaryota	45156.0	2	21	4	1	Eukaryota			Rhodophyta			Bangiophyceae				Cyanidiales					Cyanidiaceae				Cyanidioschyzon										
+Coniophora	genus	2.0	Eukaryota	80635.0	2	3	1	1	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina		Agaricomycetes	Agaricomycetidae			Boletales	Coniophorineae				Coniophoraceae				Coniophora			Opisthokonta							
+Babesiidae	family	1.917	Eukaryota	32594.0	23	158	35	12	Eukaryota			Apicomplexa			Aconoidasida				Piroplasmida					Babesiidae							Alveolata							
+Taphrina	genus	1.889	Eukaryota	5010.0	17	80	13	9	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina		Taphrinomycetes				Taphrinales					Taphrinaceae				Taphrina			Opisthokonta							
+Brachypodium	genus	1.75	Eukaryota	15367.0	7	18	8	4	Eukaryota	Viridiplantae		Streptophyta	Streptophytina		Magnoliopsida	Petrosaviidae			Poales					Poaceae	Pooideae	Brachypodieae		Brachypodium			BOP clade	Stipodae						
+Gibberella	genus	1.726	Eukaryota	5506.0	466	4262	1935	270	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Sordariomycetes	Hypocreomycetidae			Hypocreales					Nectriaceae				Fusarium			sordariomyceta							
+Leotiomycetes	family	1.612	Eukaryota	147548.0	374	2629	429	232	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Leotiomycetes																sordariomyceta							
+Lecidea	genus	1.5	Eukaryota	88631.0	3	9	2	2	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Lecanoromycetes	Lecanoromycetidae			Lecideales					Lecideaceae				Lecidea			OSLEUM clade							
+Batrachochytrium	genus	1.5	Eukaryota	100474.0	3	45	17	2	Eukaryota	Fungi		Chytridiomycota			Chytridiomycetes				Rhizophydiales									Batrachochytrium			Opisthokonta	Rhizophydiales incertae sedis						
+Bathycoccus	genus	1.5	Eukaryota	41874.0	15	99	74	10	Eukaryota	Viridiplantae		Chlorophyta			Mamiellophyceae				Mamiellales					Bathycoccaceae				Bathycoccus										
+Dothideomycetes	family	1.497	Eukaryota	147541.0	874	4225	2654	584	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Dothideomycetes																dothideomyceta							
+Mrakia	genus	1.375	Eukaryota	29901.0	11	95	12	8	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina		Tremellomycetes				Cystofilobasidiales					Mrakiaceae				Mrakia			Opisthokonta							
+Trypanosomatidae	family	1.374	Eukaryota	5654.0	147	1188	301	107	Eukaryota			Euglenozoa			Kinetoplastea	Metakinetoplastina			Trypanosomatida					Trypanosomatidae							Discoba							
+Chlamydomonas	genus	1.353	Eukaryota	3052.0	23	107	30	17	Eukaryota	Viridiplantae		Chlorophyta			Chlorophyceae				Chlamydomonadales					Chlamydomonadaceae				Chlamydomonas			CS clade							
+Saccharomycetales	family	1.347	Eukaryota	4892.0	233	2434	2825	173	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina		Saccharomycetes				Saccharomycetales												saccharomyceta							
+Anthozoa	family	1.338	Eukaryota	6101.0	297	2971	340	222	Eukaryota	Metazoa		Cnidaria			Anthozoa																Eumetazoa							
+Ditylenchus	genus	1.333	Eukaryota	166009.0	4	4	9	3	Eukaryota	Metazoa		Nematoda			Chromadorea				Rhabditida	Tylenchina	Tylenchomorpha		Sphaerularioidea	Anguinidae	Anguininae			Ditylenchus			Ecdysozoa							
+Ustilaginomycetes	family	1.327	Eukaryota	5257.0	69	166	135	52	Eukaryota	Fungi	Dikarya	Basidiomycota	Ustilaginomycotina		Ustilaginomycetes																Opisthokonta							
+Xenopus	genus	1.25	Eukaryota	262014.0	5	9	6	4	Eukaryota	Metazoa		Chordata	Craniata	Sarcopterygii	Amphibia			Batrachia	Anura				Pipoidea	Pipidae	Xenopodinae			Xenopus	Xenopus		Tetrapoda							
+Dacrymycetes	family	1.25	Eukaryota	452332.0	5	5	4	4	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina		Dacrymycetes																Opisthokonta							
+Opisthokonta	division	1.224	Eukaryota	33154.0	24345	158758	48096	19894	Eukaryota																						Opisthokonta							
+Caenorhabditis	genus	1.163	Eukaryota	6237.0	57	495	177	49	Eukaryota	Metazoa		Nematoda			Chromadorea				Rhabditida	Rhabditina	Rhabditomorpha		Rhabditoidea	Rhabditidae	Peloderinae			Caenorhabditis			Ecdysozoa							
+Neocallimastigaceae	family	1.111	Eukaryota	29007.0	10	79	50	9	Eukaryota	Fungi		Chytridiomycota			Neocallimastigomycetes				Neocallimastigales					Neocallimastigaceae							Opisthokonta	Chytridiomycota incertae sedis						
+Tuckermannopsis	genus	1.0	Eukaryota	404711.0	1	5	1	1	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Lecanoromycetes	Lecanoromycetidae			Lecanorales	Lecanorineae				Parmeliaceae				Tuckermannopsis			OSLEUM clade							
+Taphrinomycetes	family	1.0	Eukaryota	147555.0	17	80	22	17	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina		Taphrinomycetes																Opisthokonta							
+Sorghum	genus	1.0	Eukaryota	4558.0	1	2	26	1	Eukaryota	Viridiplantae		Streptophyta	Streptophytina		Magnoliopsida	Petrosaviidae			Poales					Poaceae	Panicoideae	Andropogoneae	Sorghinae	Sorghum		Sorghum bicolor	PACMAD clade	Andropogonodae						
+Simocephalus	genus	1.0	Eukaryota	77650.0	1	2	1	1	Eukaryota	Metazoa		Arthropoda	Crustacea		Branchiopoda	Phyllopoda			Diplostraca	Cladocera	Anomopoda			Daphniidae				Simocephalus			Pancrustacea							
+Plasmodium2	genus	1.0	Eukaryota	418103.0	10	35	52	10	Eukaryota			Apicomplexa			Aconoidasida				Haemosporida					Plasmodiidae				Plasmodium	Plasmodium (Plasmodium)		Alveolata							
+Panellus	genus	1.0	Eukaryota	5635.0	2	3	3	2	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina		Agaricomycetes	Agaricomycetidae			Agaricales	Marasmiineae				Mycenaceae				Panellus			Opisthokonta							
+Neocallimastix	genus	1.0	Eukaryota	4756.0	3	4	40	3	Eukaryota	Fungi		Chytridiomycota			Neocallimastigomycetes				Neocallimastigales					Neocallimastigaceae				Neocallimastix			Opisthokonta	Chytridiomycota incertae sedis						
+Daphnia	genus	1.0	Eukaryota	6668.0	10	26	34	10	Eukaryota	Metazoa		Arthropoda	Crustacea		Branchiopoda	Phyllopoda			Diplostraca	Cladocera	Anomopoda			Daphniidae				Daphnia			Pancrustacea							
+Populus	genus	0.889	Eukaryota	3689.0	16	126	39	18	Eukaryota	Viridiplantae		Streptophyta	Streptophytina		Magnoliopsida				Malpighiales					Salicaceae		Saliceae		Populus			fabids							
+Sordariomycetes	family	0.867	Eukaryota	147550.0	1305	9434	5769	1506	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Sordariomycetes																sordariomyceta							
+Caenogastropoda	family	0.849	Eukaryota	69555.0	45	225	75	53	Eukaryota	Metazoa		Mollusca			Gastropoda	Caenogastropoda															Lophotrochozoa							
+Eurotiomycetes	family	0.839	Eukaryota	147545.0	604	6441	3066	720	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Eurotiomycetes																leotiomyceta							
+Phytophthora	genus	0.798	Eukaryota	4783.0	67	1107	269	84	Eukaryota			Oomycota							Peronosporales					Peronosporaceae				Phytophthora			Stramenopiles							
+Phytomonas	genus	0.75	Eukaryota	5706.0	3	7	5	4	Eukaryota			Euglenozoa			Kinetoplastea	Metakinetoplastina			Trypanosomatida					Trypanosomatidae				Phytomonas			Discoba							
+Streptophyta	division	0.74	Eukaryota	35493.0	2252	16099	7835	3043	Eukaryota	Viridiplantae		Streptophyta																										
+Candida	genus	0.725	Eukaryota	5475.0	29	319	347	40	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina		Pichiomycetes				Serinales					Debaryomycetaceae				Candida			Candida/Lodderomyces clade							
+Ostreoida	family	0.722	Eukaryota	6562.0	13	29	38	18	Eukaryota	Metazoa		Mollusca			Bivalvia	Autobranchia			Ostreida												Pteriomorphia							
+Agaricomycetes	family	0.678	Eukaryota	155619.0	759	5519	1799	1120	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina		Agaricomycetes																Opisthokonta							
+Saccharomyces	genus	0.65	Eukaryota	4930.0	13	969	1995	20	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina		Saccharomycetes				Saccharomycetales					Saccharomycetaceae				Saccharomyces			saccharomyceta							
+Tremellomycetes	family	0.643	Eukaryota	155616.0	126	690	593	196	Eukaryota	Fungi	Dikarya	Basidiomycota	Agaricomycotina		Tremellomycetes																Opisthokonta							
+Insecta	family	0.635	Eukaryota	50557.0	3087	19878	8796	4858	Eukaryota	Metazoa		Arthropoda	Hexapoda		Insecta																Pancrustacea							
+Lecanoromycetes	family	0.568	Eukaryota	147547.0	220	1048	531	387	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Lecanoromycetes																leotiomyceta							
+Saprolegniales	family	0.556	Eukaryota	4763.0	5	126	98	9	Eukaryota			Oomycota							Saprolegniales												Stramenopiles							
+Penicillium	genus	0.549	Eukaryota	5073.0	100	2067	667	182	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Eurotiomycetes	Eurotiomycetidae			Eurotiales					Aspergillaceae				Penicillium			leotiomyceta							
+Arachnida	family	0.539	Eukaryota	6854.0	130	496	372	241	Eukaryota	Metazoa		Arthropoda	Chelicerata		Arachnida																Panarthropoda							
+Micractinium	genus	0.5	Eukaryota	126838.0	2	10	4	4	Eukaryota	Viridiplantae		Chlorophyta			Trebouxiophyceae				Chlorellales					Chlorellaceae				Micractinium			Chlorella clade							
+Hyphodiscus	genus	0.5	Eukaryota	353541.0	1	1	2	2	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Leotiomycetes				Helotiales					Hyphodiscaceae				Hyphodiscus			sordariomyceta							
+Anolis	genus	0.5	Eukaryota	28376.0	4	42	11	8	Eukaryota	Metazoa		Chordata	Craniata	Sarcopterygii	Lepidosauria				Squamata	Iguania				Dactyloidae				Anolis			Toxicofera							
+Scyphozoa	family	0.481	Eukaryota	6142.0	13	32	51	27	Eukaryota	Metazoa		Cnidaria			Scyphozoa																Eumetazoa							
+Podospora	genus	0.462	Eukaryota	5144.0	6	12	38	13	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Sordariomycetes	Sordariomycetidae			Sordariales					Podosporaceae				Podospora			sordariomyceta							
+Plasmodium4	genus	0.4	Eukaryota	418103.0	4	6	52	10	Eukaryota			Apicomplexa			Aconoidasida				Haemosporida					Plasmodiidae				Plasmodium	Plasmodium (Plasmodium)		Alveolata							
+Neurospora	genus	0.382	Eukaryota	5140.0	13	243	197	34	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Sordariomycetes	Sordariomycetidae			Sordariales					Sordariaceae				Neurospora			sordariomyceta							
+Piromyces	genus	0.333	Eukaryota	4821.0	1	6	7	3	Eukaryota	Fungi		Chytridiomycota			Neocallimastigomycetes				Neocallimastigales					Neocallimastigaceae				Piromyces			Opisthokonta	Chytridiomycota incertae sedis						
+Monoraphidium	genus	0.333	Eukaryota	34111.0	1	1	3	3	Eukaryota	Viridiplantae		Chlorophyta			Chlorophyceae				Sphaeropleales					Selenastraceae				Monoraphidium			CS clade							
+Kinetoplastea_XX_MET10	genus	0.33	Eukaryota	5653.0	37	72	309	112	Eukaryota			Euglenozoa			Kinetoplastea																Discoba							
+Mortierella	genus	0.3	Eukaryota	4855.0	6	6	34	20	Eukaryota	Fungi		Mucoromycota	Mortierellomycotina		Mortierellomycetes				Mortierellales					Mortierellaceae				Mortierella			Opisthokonta	Fungi incertae sedis						
+Schizosaccharomycetes	family	0.25	Eukaryota	147554.0	2	13	94	8	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina		Schizosaccharomycetes																Opisthokonta							
+Schizosaccharomyces	genus	0.25	Eukaryota	4895.0	2	13	94	8	Eukaryota	Fungi	Dikarya	Ascomycota	Taphrinomycotina		Schizosaccharomycetes				Schizosaccharomycetales					Schizosaccharomycetaceae				Schizosaccharomyces			Opisthokonta							
+Babesia6	genus	0.25	Eukaryota	5864.0	3	68	35	12	Eukaryota			Apicomplexa			Aconoidasida				Piroplasmida					Babesiidae				Babesia			Alveolata							
+Oribatida	genus	0.246	Eukaryota	66551.0	16	24	73	65	Eukaryota	Metazoa		Arthropoda	Chelicerata		Arachnida	Acari		Acariformes	Sarcoptiformes	Oribatida											Panarthropoda							
+Mammalia	family	0.245	Eukaryota	40674.0	257	852	4692	1050	Eukaryota	Metazoa		Chordata	Craniata	Sarcopterygii	Mammalia																Amniota							
+Kinetoplastea_XX_MET8	genus	0.205	Eukaryota	5653.0	23	67	309	112	Eukaryota			Euglenozoa			Kinetoplastea																Discoba							
+Selenastraceae	family	0.2	Eukaryota	35466.0	1	1	5	5	Eukaryota	Viridiplantae		Chlorophyta			Chlorophyceae				Sphaeropleales					Selenastraceae							CS clade							
+Aspergillus	genus	0.181	Eukaryota	5052.0	48	646	1515	265	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Eurotiomycetes	Eurotiomycetidae			Eurotiales					Aspergillaceae				Aspergillus			leotiomyceta							
+Lipomyces	genus	0.158	Eukaryota	29828.0	3	6	44	19	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina		Lipomycetes				Lipomycetales					Lipomycetaceae				Lipomyces			saccharomyceta							
+Cryptosporidium15	genus	0.15	Eukaryota	5806.0	3	3	87	20	Eukaryota			Apicomplexa			Conoidasida	Coccidia			Eucoccidiorida	Eimeriorina				Cryptosporidiidae				Cryptosporidium			Alveolata							
+Cryptosporidium13	genus	0.15	Eukaryota	5806.0	3	4	87	20	Eukaryota			Apicomplexa			Conoidasida	Coccidia			Eucoccidiorida	Eimeriorina				Cryptosporidiidae				Cryptosporidium			Alveolata							
+Skeletonema	genus	0.125	Eukaryota	2842.0	1	1	13	8	Eukaryota			Bacillariophyta			Coscinodiscophyceae	Thalassiosirophycidae			Thalassiosirales					Skeletonemataceae				Skeletonema			Ochrophyta							
+Cladophialophora	genus	0.111	Eukaryota	82105.0	1	6	17	9	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Eurotiomycetes	Chaetothyriomycetidae			Chaetothyriales					Herpotrichiellaceae				Cladophialophora			leotiomyceta							
+Cryptosporidium4	genus	0.1	Eukaryota	5806.0	2	2	87	20	Eukaryota			Apicomplexa			Conoidasida	Coccidia			Eucoccidiorida	Eimeriorina				Cryptosporidiidae				Cryptosporidium			Alveolata							
+Colletotrichum	genus	0.095	Eukaryota	5455.0	10	15	348	105	Eukaryota	Fungi	Dikarya	Ascomycota	Pezizomycotina		Sordariomycetes	Hypocreomycetidae			Glomerellales					Glomerellaceae				Colletotrichum			sordariomyceta							
+Lipomycetaceae	family	0.086	Eukaryota	29827.0	3	6	66	35	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina		Lipomycetes				Lipomycetales					Lipomycetaceae							saccharomyceta							
+Coemansia	genus	0.082	Eukaryota	4863.0	12	40	161	146	Eukaryota	Fungi		Zoopagomycota	Kickxellomycotina		Kickxellomycetes				Kickxellales					Kickxellaceae				Coemansia			Opisthokonta	Fungi incertae sedis						
+Kickxellales	family	0.078	Eukaryota	4861.0	12	40	171	153	Eukaryota	Fungi		Zoopagomycota	Kickxellomycotina		Kickxellomycetes				Kickxellales												Opisthokonta	Fungi incertae sedis						
+Kinetoplastea_XX_MET3	genus	0.071	Eukaryota	5653.0	8	14	309	112	Eukaryota			Euglenozoa			Kinetoplastea																Discoba							
+Debaryomyces	genus	0.067	Eukaryota	4958.0	1	1	94	15	Eukaryota	Fungi	Dikarya	Ascomycota	Saccharomycotina		Pichiomycetes				Serinales					Debaryomycetaceae				Debaryomyces			saccharomyceta							
+Oryza	genus	0.043	Eukaryota	4527.0	1	29	311	23	Eukaryota	Viridiplantae		Streptophyta	Streptophytina		Magnoliopsida	Petrosaviidae			Poales					Poaceae	Oryzoideae	Oryzeae	Oryzinae	Oryza			BOP clade							
+Rhodophyta	division	0.038	Eukaryota	2763.0	2	21	78	53	Eukaryota			Rhodophyta																										
+Teleostei	family	0.03	Eukaryota	32443.0	65	111	3440	2169	Eukaryota	Metazoa		Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei														Euteleostomi							
+Amphibia	family	0.024	Eukaryota	8292.0	5	9	282	206	Eukaryota	Metazoa		Chordata	Craniata	Sarcopterygii	Amphibia																Tetrapoda							
+Lepidosauria	family	0.013	Eukaryota	8504.0	4	42	422	317	Eukaryota	Metazoa		Chordata	Craniata	Sarcopterygii	Lepidosauria																Sauria							

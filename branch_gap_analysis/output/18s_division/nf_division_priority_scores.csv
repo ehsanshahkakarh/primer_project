@@ -1,0 +1,39 @@
+division,num_genera,total_priority_score,avg_priority_score,total_otu,top_genera,all_genera
+Arthropoda,28,184.27,6.58,573,"Spinibdella(12.5), Diptilomiopus(11.4), Paracalanus(10.9), Eudiaptomus(10.7), Apis(8.8)",Spinibdella;Diptilomiopus;Paracalanus;Eudiaptomus;Apis;Centropages;Cryptococcus;Metridia;Penthaleus;Anomalocera;Bosmina;Cyclops;Diaphanosoma;Parhypochthonius;Limulus;Acyrthosiphon;Culex;Leptodora;Surapoda;Chydorus;Eurytemora;Ricinus;Aculops;Philaenus;Acartia;Venturia;Culiseta;Mayetiola
+Ascomycota,26,154.18,5.93,1465,"Bellemerea(14.8), Spadicoides(11.9), Leohumicola(10.6), Tetrachaetum(10.4), Phaeosphaeria(8.9)",Bellemerea;Spadicoides;Leohumicola;Tetrachaetum;Phaeosphaeria;Lecanicillium;Isaria;Pycnora;Chlorociboria;Corynespora;Farlowiella;Articulospora;Trichocladium;Massaria;Hyaloscypha;Gibberella;Teratosphaeria;Exophiala;Coccidioides;Psora;Zymoseptoria;Phialophora;Taphrina;Neofabraea;Tectonidula;Lecidea
+Ciliophora,14,152.52,10.89,1461,"Dileptidae_X(17.0), Vorticella(15.6), Stylonychia(15.2), Fusiforma(13.0), Urotricha(12.9)",Dileptidae_X;Vorticella;Stylonychia;Fusiforma;Urotricha;Acineta_1;Tokophrya;Trochilia;Evaginogenida_X;Pseudovorticella;Hartmannulidae_X;Ichthyophthirius;Paramecium;Campanella
+Cercozoa,15,144.87,9.66,849,"Flectomonas(19.0), Neocercomonas(14.2), Cavernomonas(13.5), Cercomonas(11.5), Cercomonadidae_X(10.6)",Flectomonas;Neocercomonas;Cavernomonas;Cercomonas;Cercomonadidae_X;Ventrifissura;Thaumatomonas;Sandona;Limnofilidae_X;Paracercomonas;Protaspa;Allantion;Cryothecomonas;Massisteria;Paulinella
+Tubulinea,12,139.1,11.59,731,"Saccamoeba(17.2), Bullinularia(15.9), Copromyxa(15.6), Hartmannella(13.3), Chaos(12.7)",Saccamoeba;Bullinularia;Copromyxa;Hartmannella;Chaos;Physochila;Ptolemeba;Polychaos;Cryptodifflugia;Ripidomyxa;Phryganella;Echinamoeba
+Euglenozoa,13,126.87,9.76,827,"Trachelomonas(18.4), Scytomonas(14.1), Neobodo(13.2), Gyropaigne(12.1), Distigma(11.9)",Trachelomonas;Scytomonas;Neobodo;Gyropaigne;Distigma;Petalomonas;Allobodo;Notosolenus;Rhynchomonas;Leptomonas;Trypanosoma;Bodo;Strigomonas
+Apicomplexa,12,84.72,7.06,598,"Monocystis(15.6), Xiphocephalus(11.5), Sarcocystis10(8.3), Leidyana2(8.2), Adelina(7.4)",Monocystis;Xiphocephalus;Sarcocystis10;Leidyana2;Adelina;Mattesia;Theileria1;Gregarina3;Eimeria1;Plasmodium1;Cryptosporidium1;Leidyana1
+Evosea,6,76.22,12.7,1751,"Mastigamoeba(17.7), Flamella(14.0), Mastigella(12.7), Ceratiomyxella(11.5), Schizoplasmodium(11.5)",Mastigamoeba;Flamella;Mastigella;Ceratiomyxella;Schizoplasmodium;Nematostelium
+Nematoda,10,68.55,6.86,413,"Tobrilus(10.2), Plectonchus(9.8), Clavicaudoides(9.5), Prodesmodora(9.5), Heterodera(7.9)",Tobrilus;Plectonchus;Clavicaudoides;Prodesmodora;Heterodera;Alaimus;Pristionchus;Sabatieria;Caenorhabditis;Ditylenchus
+Streptophyta,7,61.53,8.79,761,"Cyclotrichium(14.5), Physcomitrella(12.2), Zea(11.7), Rehmannia(10.3), Glycine(6.5)",Cyclotrichium;Physcomitrella;Zea;Rehmannia;Glycine;Arabidopsis;Brachypodium
+Basidiomycota,9,56.56,6.28,723,"Drosophila(16.7), Guepiniopsis(8.5), Ustanciosporium(8.1), Malassezia(7.5), Russula(4.2)",Drosophila;Guepiniopsis;Ustanciosporium;Malassezia;Russula;Trichosporon;Tilletiopsis;Mrakia;Coniophora
+Discosea,7,55.5,7.93,307,"Endostelium(14.6), Korotnevella(12.7), Vannella(7.6), Protacanthamoeba(7.4), Acanthamoeba(5.1)",Endostelium;Korotnevella;Vannella;Protacanthamoeba;Acanthamoeba;Paramoeba;Balamuthia
+Chlorophyta,11,53.91,4.9,445,"Chloroparva(10.0), Ostreococcus(8.3), Spermatozopsis(7.4), Ulva(5.9), Ankistrodesmus(5.0)",Chloroparva;Ostreococcus;Spermatozopsis;Ulva;Ankistrodesmus;Auxenochlorella;Chloropicon;Botryococcus;Chlamydomonas;Bathycoccus;Raphidocelis
+Endomyxa,4,47.41,11.85,104,"Filoreta(12.7), Gromia(12.6), Paradinium(12.2), Vampyrella(10.0)",Filoreta;Gromia;Paradinium;Vampyrella
+Cnidaria,4,31.82,7.96,82,"Anthoptilum(12.7), Coccomyxa(11.5), Nematostella(4.6), Chrysaora(3.0)",Anthoptilum;Coccomyxa;Nematostella;Chrysaora
+Foraminifera,3,31.05,10.35,37,"Nemogullmia(11.3), Reophax(10.0), Astrorhiza(9.8)",Nemogullmia;Reophax;Astrorhiza
+Fornicata,3,29.64,9.88,89,"Trimitus(13.4), Trepomonas(10.0), Hexamita(6.3)",Trimitus;Trepomonas;Hexamita
+Heterolobosea,2,26.22,13.11,319,"Sawyeria(15.2), Neovahlkampfia(11.1)",Sawyeria;Neovahlkampfia
+Gastrotricha,2,19.96,9.98,99,"Chaetonotus(15.0), Heterolepidoderma(5.0)",Chaetonotus;Heterolepidoderma
+Rotifera,2,19.91,9.96,22,"Encentrum(11.0), Ascomorpha(8.9)",Encentrum;Ascomorpha
+Platyhelminthes,2,17.49,8.75,202,"Plagiostomum(10.4), Schistosoma(7.1)",Plagiostomum;Schistosoma
+Chordata,4,16.93,4.23,133,"Rattus(6.8), Danio(5.4), Homo(2.9), Xenopus(1.9)",Rattus;Danio;Homo;Xenopus
+Chytridiomycota,4,14.51,3.63,72,"Spizellomyces(6.6), Rhizoclosmatium(3.3), Polychytrium(2.9), Batrachochytrium(1.7)",Spizellomyces;Rhizoclosmatium;Polychytrium;Batrachochytrium
+Mucoromycota,2,14.12,7.06,303,"Rhizophagus(8.5), Rhizopus(5.6)",Rhizophagus;Rhizopus
+Oomycota,3,13.7,4.57,308,"Pythium(6.3), Halodaphnea(5.0), Saprolegnia(2.4)",Pythium;Halodaphnea;Saprolegnia
+Picozoa,1,13.54,13.54,51,Picomonas(13.5),Picomonas
+Bacillariophyta,2,12.53,6.27,324,"Thalassiosira(7.8), Phaeodactylum(4.7)",Thalassiosira;Phaeodactylum
+Hemimastigophora,1,11.51,11.51,20,Hemimastix(11.5),Hemimastix
+Nibbleridia,2,11.51,5.75,3,"Nibbleromonas(6.5), Ubysseya(5.0)",Nibbleromonas;Ubysseya
+Perkinsozoa,1,11.39,11.39,19,Gadixcellia(11.4),Gadixcellia
+Mollusca,2,8.17,4.09,58,"Conus(5.0), Crassostrea(3.2)",Conus;Crassostrea
+Blastocladiomycota,2,7.81,3.9,26,"Coelomomyces(4.0), Allomyces(3.8)",Coelomomyces;Allomyces
+Zoopagomycota,2,7.74,3.87,63,"Smittium(5.6), Thamnocephalis(2.2)",Smittium;Thamnocephalis
+Annelida,1,7.39,7.39,3,Loimia(7.4),Loimia
+Nebulidia,1,5.0,5.0,1,Nebulomonas(5.0),Nebulomonas
+Microsporidia,1,3.82,3.82,9,Mitosporidium(3.8),Mitosporidium
+Rhodophyta,1,1.69,1.69,2,Cyanidioschyzon(1.7),Cyanidioschyzon
+Cryptomycota,1,1.69,1.69,2,Paramicrosporidium(1.7),Paramicrosporidium

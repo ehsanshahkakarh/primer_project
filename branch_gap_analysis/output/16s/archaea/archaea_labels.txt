@@ -1,0 +1,227 @@
+LABELS
+SEPARATOR TAB
+DATA
+Archaea_D	Archaea (D)
+Methanobacteriati_K	Methanobacteriati (K)
+Methanobacteriota_P	Methanobacteriota (P) NF=2.0
+Methanomada_group_C	Methanomada group (C)
+Methanobacteria_C	Methanobacteria (C)
+Methanobacteriales_O	Methanobacteriales (O)
+Methanobacteriaceae_F	Methanobacteriaceae (F) NF=2.4
+Methanobrevibacter_G	Methanobrevibacter (G) NF=4.0
+Methanobacterium_G	Methanobacterium (G) NF=1.3
+Methanosphaera_G	Methanosphaera (G) NF=6.5
+Methanothermobacter_G	Methanothermobacter (G) NF=0.9
+Methanothermaceae_F	Methanothermaceae (F) NF=3.0
+Methanothermus_G	Methanothermus (G) NF=3.0
+Methanococci_C	Methanococci (C)
+Methanococcales_O	Methanococcales (O)
+Methanococcaceae_F	Methanococcaceae (F) NF=1.5
+Methanococcus_G	Methanococcus (G) NF=2.4
+Methanothermococcus_G	Methanothermococcus (G) NF=0.5
+Methanocaldococcaceae_F	Methanocaldococcaceae (F) NF=4.3
+Methanocaldococcus_G	Methanocaldococcus (G) NF=4.1
+Methanotorris_G	Methanotorris (G) NF=7.5
+Methanopyri_C	Methanopyri (C)
+Methanopyrales_O	Methanopyrales (O)
+Methanopyraceae_F	Methanopyraceae (F) NF=1.0
+Methanopyrus_G	Methanopyrus (G) NF=1.0
+Stenosarchaea_group_C	Stenosarchaea group (C)
+Halobacteria_C	Halobacteria (C)
+Halobacteriales_O	Halobacteriales (O)
+Haloferacaceae_F	Haloferacaceae (F) NF=1.0
+Halorubrum_G	Halorubrum (G) NF=1.5
+Haloferax_G	Haloferax (G) NF=0.8
+Halobellus_G	Halobellus (G) NF=1.4
+Haloplanus_G	Haloplanus (G) NF=1.3
+Halobaculum_G	Halobaculum (G) NF=0.5
+Halolamina_G	Halolamina (G) NF=3.2
+Haloquadratum_G	Haloquadratum (G) NF=8.7
+Halogeometricum_G	Halogeometricum (G) NF=1.2
+Salinigranum_G	Salinigranum (G) NF=1.7
+Halopenitus_G	Halopenitus (G) NF=0.5
+Halonotius_G	Halonotius (G) NF=5.8
+Halohasta_G	Halohasta (G) NF=2.5
+Haloprofundus_G	Haloprofundus (G) NF=0.2
+Halopelagius_G	Halopelagius (G) NF=0.7
+Halobium_G	Halobium (G) NF=1.5
+Halogranum_G	Halogranum (G) NF=1.7
+Haloparvum_G	Haloparvum (G) NF=8.0
+Salinirubrum_G	Salinirubrum (G) NF=2.0
+Haloarculaceae_F	Haloarculaceae (F) NF=1.4
+Haloarcula_G	Haloarcula (G) NF=0.5
+Halovenus_G	Halovenus (G) NF=4.0
+Halorientalis_G	Halorientalis (G) NF=1.4
+Halapricum_G	Halapricum (G) NF=5.8
+Halorhabdus_G	Halorhabdus (G) NF=0.6
+Halomicrobium_G	Halomicrobium (G) NF=0.1
+Halosimplex_G	Halosimplex (G) NF=2.1
+Salinirussus_G	Salinirussus (G) NF=1.5
+Natrialbaceae_F	Natrialbaceae (F) NF=0.9
+Natrinema_G	Natrinema (G) NF=0.4
+Natronorubrum_G	Natronorubrum (G) NF=1.4
+Natronococcus_G	Natronococcus (G) NF=1.0
+Natrialba_G	Natrialba (G) NF=0.9
+Haloterrigena_G	Haloterrigena (G) NF=3.6
+Natronobacterium_G	Natronobacterium (G) NF=3.5
+Halovivax_G	Halovivax (G) NF=1.2
+Saliphagus_G	Saliphagus (G) NF=0.5
+Halostagnicola_G	Halostagnicola (G) NF=0.7
+Halopiger_G	Halopiger (G) NF=2.8
+Natribaculum_G	Natribaculum (G) NF=1.0
+Natronolimnobius_G	Natronolimnobius (G) NF=3.0
+Halobiforma_G	Halobiforma (G) NF=5.0
+Natronobiforma_G	Natronobiforma (G) NF=1.0
+Halobacteriaceae_F	Halobacteriaceae (F) NF=4.1
+Halobacterium_G	Halobacterium (G) NF=1.2
+Halodesulfurarchaeum_G	Halodesulfurarchaeum (G) NF=1.7
+Halanaeroarchaeum_G	Halanaeroarchaeum (G) NF=1.3
+Halarchaeum_G	Halarchaeum (G) NF=1.4
+Salarchaeum_G	Salarchaeum (G) NF=0.7
+Halocalculus_G	Halocalculus (G) NF=1.0
+Halococcaceae_F	Halococcaceae (F) NF=1.3
+Halococcus_G	Halococcus (G) NF=2.2
+Halalkalicoccus_G	Halalkalicoccus (G) NF=0.2
+Natronoarchaeaceae_F	Natronoarchaeaceae (F) NF=1.3
+Salinarchaeum_G	Salinarchaeum (G) NF=2.8
+Halostella_G	Halostella (G) NF=0.3
+Natronoarchaeum_G	Natronoarchaeum (G) NF=1.6
+Natronomonadaceae_F	Natronomonadaceae (F)
+Natronomonas_G	Natronomonas (G) NF=3.2
+Halomarina_G	Halomarina (G) NF=2.1
+Haladaptataceae_F	Haladaptataceae (F)
+Haladaptatus_G	Haladaptatus (G) NF=0.6
+Halorussus_G	Halorussus (G) NF=1.7
+Halorubellaceae_F	Halorubellaceae (F)
+Haloarchaeobius_G	Haloarchaeobius (G) NF=0.5
+Halorubellus_G	Halorubellus (G) NF=2.2
+Methanomicrobia_C	Methanomicrobia (C)
+Methanosarcinales_O	Methanosarcinales (O)
+Methanosarcinaceae_F	Methanosarcinaceae (F) NF=1.5
+Methanosarcina_G	Methanosarcina (G) NF=1.8
+Methanolobus_G	Methanolobus (G) NF=1.1
+Methanohalophilus_G	Methanohalophilus (G) NF=0.5
+Methanomethylovorans_G	Methanomethylovorans (G) NF=1.8
+Methanococcoides_G	Methanococcoides (G) NF=1.4
+Methanimicrococcus_G	Methanimicrococcus (G) NF=2.1
+Methanosalsum_G	Methanosalsum (G) NF=0.7
+Methanohalobium_G	Methanohalobium (G) NF=0.5
+Methermicoccaceae_F	Methermicoccaceae (F) NF=1.5
+Methermicoccus_G	Methermicoccus (G) NF=1.5
+Methanomicrobiales_O	Methanomicrobiales (O)
+Methanoregulaceae_F	Methanoregulaceae (F) NF=2.8
+Methanoregula_G	Methanoregula (G) NF=4.2
+Methanolinea_G	Methanolinea (G) NF=3.1
+Methanosphaerula_G	Methanosphaerula (G) NF=2.0
+Methanomicrobiaceae_F	Methanomicrobiaceae (F) NF=1.9
+Methanoculleus_G	Methanoculleus (G) NF=1.4
+Methanomicrobium_G	Methanomicrobium (G) NF=6.2
+Methanofollis_G	Methanofollis (G) NF=0.6
+Methanogenium_G	Methanogenium (G) NF=2.3
+Methanolacinia_G	Methanolacinia (G) NF=1.5
+Methanoplanus_G	Methanoplanus (G) NF=1.0
+Methanocorpusculaceae_F	Methanocorpusculaceae (F) NF=1.1
+Methanocorpusculum_G	Methanocorpusculum (G) NF=1.8
+Methanospirillaceae_F	Methanospirillaceae (F) NF=6.4
+Methanospirillum_G	Methanospirillum (G) NF=9.7
+Methanocalculaceae_F	Methanocalculaceae (F) NF=2.2
+Methanocalculus_G	Methanocalculus (G) NF=2.4
+Methanotrichales_O	Methanotrichales (O)
+Methanotrichaceae_F	Methanotrichaceae (F) NF=6.8
+Methanothrix_G	Methanothrix (G) NF=7.9
+Methanocellales_O	Methanocellales (O)
+Methanocellaceae_F	Methanocellaceae (F) NF=5.5
+Methanocella_G	Methanocella (G) NF=6.3
+Archaeoglobi_C	Archaeoglobi (C)
+Archaeoglobales_O	Archaeoglobales (O)
+Archaeoglobaceae_F	Archaeoglobaceae (F) NF=1.6
+Archaeoglobus_G	Archaeoglobus (G) NF=0.7
+Geoglobus_G	Geoglobus (G) NF=1.6
+Ferroglobus_G	Ferroglobus (G) NF=4.0
+Thermococci_C	Thermococci (C)
+Thermococcales_O	Thermococcales (O)
+Thermococcaceae_F	Thermococcaceae (F) NF=0.6
+Thermococcus_G	Thermococcus (G) NF=0.6
+Pyrococcus_G	Pyrococcus (G) NF=0.4
+Palaeococcus_G	Palaeococcus (G) NF=1.7
+Methanonatronarchaeia_C	Methanonatronarchaeia (C)
+Methanonatronarchaeales_O	Methanonatronarchaeales (O)
+Methanonatronarchaeaceae_F	Methanonatronarchaeaceae (F) NF=3.0
+Thermoplasmatota_P	Thermoplasmatota (P)
+Thermoplasmata_C	Thermoplasmata (C)
+Methanomassiliicoccales_O	Methanomassiliicoccales (O)
+Methanomassiliicoccaceae_F	Methanomassiliicoccaceae (F) NF=0.6
+Methanomassiliicoccus_G	Methanomassiliicoccus (G) NF=0.4
+Thermoplasmatales_O	Thermoplasmatales (O)
+Ferroplasmaceae_F	Ferroplasmaceae (F) NF=3.1
+Ferroplasma_G	Ferroplasma (G) NF=3.8
+Acidiplasma_G	Acidiplasma (G) NF=0.5
+Thermoplasmataceae_F	Thermoplasmataceae (F) NF=6.2
+Thermoplasma_G	Thermoplasma (G) NF=1.5
+Cuniculiplasmataceae_F	Cuniculiplasmataceae (F) NF=2.0
+Cuniculiplasma_G	Cuniculiplasma (G) NF=2.0
+Picrophilaceae_F	Picrophilaceae (F) NF=0.5
+Picrophilus_G	Picrophilus (G) NF=0.5
+Thermoplasmatales_incertae_sedis_N	Thermoplasmatales incertae sedis (N)
+Thermogymnomonas_G	Thermogymnomonas (G) NF=1.0
+Thermoproteati_K	Thermoproteati (K)
+Nitrososphaerota_P	Nitrososphaerota (P) NF=5.8
+Nitrososphaeria_C	Nitrososphaeria (C)
+Nitrosopumilales_O	Nitrosopumilales (O)
+Nitrosopumilaceae_F	Nitrosopumilaceae (F) NF=10.4
+Nitrosopumilus_G	Nitrosopumilus (G) NF=0.0
+Nitrosarchaeum_G	Nitrosarchaeum (G) NF=4.6
+Nitrososphaerales_O	Nitrososphaerales (O)
+Nitrososphaeraceae_F	Nitrososphaeraceae (F) NF=9.8
+Nitrososphaera_G	Nitrososphaera (G) NF=0.3
+Nitrosotaleales_O	Nitrosotaleales (O)
+Nitrosotaleaceae_F	Nitrosotaleaceae (F)
+Nitrosotalea_G	Nitrosotalea (G) NF=0.1
+Thermoproteota_P	Thermoproteota (P) NF=2.3
+Thermoprotei_C	Thermoprotei (C)
+Desulfurococcales_O	Desulfurococcales (O)
+Desulfurococcaceae_F	Desulfurococcaceae (F) NF=4.4
+Ignisphaera_G	Ignisphaera (G) NF=11.8
+Thermosphaera_G	Thermosphaera (G) NF=1.0
+Desulfurococcus_G	Desulfurococcus (G) NF=3.0
+Thermodiscus_G	Thermodiscus (G) NF=3.0
+Thermogladius_G	Thermogladius (G) NF=7.0
+Aeropyrum_G	Aeropyrum (G) NF=7.7
+Staphylothermus_G	Staphylothermus (G) NF=4.7
+Ignicoccus_G	Ignicoccus (G) NF=1.3
+Pyrodictiaceae_F	Pyrodictiaceae (F) NF=1.9
+Pyrodictium_G	Pyrodictium (G) NF=1.5
+Hyperthermus_G	Hyperthermus (G) NF=0.3
+Sulfolobales_O	Sulfolobales (O)
+Sulfolobaceae_F	Sulfolobaceae (F) NF=1.3
+Saccharolobus_G	Saccharolobus (G) NF=1.7
+Metallosphaera_G	Metallosphaera (G) NF=2.2
+Sulfolobus_G	Sulfolobus (G) NF=0.6
+Acidianus_G	Acidianus (G) NF=1.0
+Sulfurisphaera_G	Sulfurisphaera (G) NF=1.3
+Stygiolobus_G	Stygiolobus (G) NF=1.0
+Thermoproteales_O	Thermoproteales (O)
+Thermoproteaceae_F	Thermoproteaceae (F) NF=2.3
+Pyrobaculum_G	Pyrobaculum (G) NF=3.7
+Vulcanisaeta_G	Vulcanisaeta (G) NF=1.9
+Thermoproteus_G	Thermoproteus (G) NF=1.2
+Caldivirga_G	Caldivirga (G) NF=0.7
+Thermocladium_G	Thermocladium (G) NF=1.5
+Acidilobales_O	Acidilobales (O)
+Acidilobaceae_F	Acidilobaceae (F) NF=1.2
+Acidilobus_G	Acidilobus (G) NF=2.1
+Caldisphaeraceae_F	Caldisphaeraceae (F) NF=4.0
+Caldisphaera_G	Caldisphaera (G) NF=4.0
+Thermofilales_O	Thermofilales (O)
+Thermofilaceae_F	Thermofilaceae (F) NF=2.9
+Thermofilum_G	Thermofilum (G) NF=5.1
+Fervidicoccales_O	Fervidicoccales (O)
+Fervidicoccaceae_F	Fervidicoccaceae (F) NF=9.0
+Fervidicoccus_G	Fervidicoccus (G) NF=5.0
+Nanobdellati_K	Nanobdellati (K)
+Nanobdellota_P	Nanobdellota (P) NF=117.7
+Candidatus_Nanoarchaeia_C	Candidatus Nanoarchaeia (C)
+Nanoarchaeales_O	Nanoarchaeales (O)
+Nanopusillaceae_F	Nanopusillaceae (F) NF=1.6
+Nanoarchaeaceae_F	Nanoarchaeaceae (F) NF=8.5
+Nanoarchaeum_G	Nanoarchaeum (G) NF=8.5

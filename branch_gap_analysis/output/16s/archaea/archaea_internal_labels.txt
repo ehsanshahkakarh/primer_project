@@ -1,0 +1,52 @@
+DATASET_TEXT
+SEPARATOR TAB
+DATASET_LABEL	Clade Labels
+COLOR	#000000
+MARGIN	0
+SHOW_INTERNAL	1
+LABELS_BELOW	0
+STRAIGHT_LABELS	1
+SIZE_FACTOR	1
+DATA
+Archaea_D	Archaea	0.5	#444444	bold	1	0
+Methanobacteriati_K	Methanobacteriati	0.5	#444444	bold	1	0
+Methanobacteriota_P	Methanobacteriota	0.5	#444444	bold	1	0
+Methanomada_group_C	Methanomada group	0.5	#444444	bold	1	0
+Methanobacteriales_O	Methanobacteriales	0.5	#444444	bold	1	0
+Methanobacteriaceae_F	Methanobacteriaceae	0.5	#444444	bold	1	0
+Methanococcales_O	Methanococcales	0.5	#444444	bold	1	0
+Methanococcaceae_F	Methanococcaceae	0.5	#444444	bold	1	0
+Methanocaldococcaceae_F	Methanocaldococcaceae	0.5	#444444	bold	1	0
+Stenosarchaea_group_C	Stenosarchaea group	0.5	#444444	bold	1	0
+Halobacteriales_O	Halobacteriales	0.5	#444444	bold	1	0
+Haloferacaceae_F	Haloferacaceae	0.5	#444444	bold	1	0
+Haloarculaceae_F	Haloarculaceae	0.5	#444444	bold	1	0
+Natrialbaceae_F	Natrialbaceae	0.5	#444444	bold	1	0
+Halobacteriaceae_F	Halobacteriaceae	0.5	#444444	bold	1	0
+Halococcaceae_F	Halococcaceae	0.5	#444444	bold	1	0
+Natronoarchaeaceae_F	Natronoarchaeaceae	0.5	#444444	bold	1	0
+Natronomonadaceae_F	Natronomonadaceae	0.5	#444444	bold	1	0
+Haladaptataceae_F	Haladaptataceae	0.5	#444444	bold	1	0
+Halorubellaceae_F	Halorubellaceae	0.5	#444444	bold	1	0
+Methanomicrobia_C	Methanomicrobia	0.5	#444444	bold	1	0
+Methanosarcinales_O	Methanosarcinales	0.5	#444444	bold	1	0
+Methanosarcinaceae_F	Methanosarcinaceae	0.5	#444444	bold	1	0
+Methanomicrobiales_O	Methanomicrobiales	0.5	#444444	bold	1	0
+Methanoregulaceae_F	Methanoregulaceae	0.5	#444444	bold	1	0
+Methanomicrobiaceae_F	Methanomicrobiaceae	0.5	#444444	bold	1	0
+Archaeoglobaceae_F	Archaeoglobaceae	0.5	#444444	bold	1	0
+Thermococcaceae_F	Thermococcaceae	0.5	#444444	bold	1	0
+Thermoplasmata_C	Thermoplasmata	0.5	#444444	bold	1	0
+Thermoplasmatales_O	Thermoplasmatales	0.5	#444444	bold	1	0
+Ferroplasmaceae_F	Ferroplasmaceae	0.5	#444444	bold	1	0
+Thermoproteati_K	Thermoproteati	0.5	#444444	bold	1	0
+Nitrososphaeria_C	Nitrososphaeria	0.5	#444444	bold	1	0
+Nitrosopumilaceae_F	Nitrosopumilaceae	0.5	#444444	bold	1	0
+Thermoprotei_C	Thermoprotei	0.5	#444444	bold	1	0
+Desulfurococcales_O	Desulfurococcales	0.5	#444444	bold	1	0
+Desulfurococcaceae_F	Desulfurococcaceae	0.5	#444444	bold	1	0
+Pyrodictiaceae_F	Pyrodictiaceae	0.5	#444444	bold	1	0
+Sulfolobaceae_F	Sulfolobaceae	0.5	#444444	bold	1	0
+Thermoproteaceae_F	Thermoproteaceae	0.5	#444444	bold	1	0
+Acidilobales_O	Acidilobales	0.5	#444444	bold	1	0
+Nanoarchaeales_O	Nanoarchaeales	0.5	#444444	bold	1	0

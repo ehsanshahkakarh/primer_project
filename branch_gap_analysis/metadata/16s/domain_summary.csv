@@ -1,0 +1,6 @@
+,taxon_name,novelty_factor,novelty_factor
+,count,mean,max
+source_domain,,,
+Archaea,188,3.27,102.52
+Bacteria,3252,5.84,1789.0
+Unknown,1256,9999.0,9999.0

@@ -1,0 +1,1113 @@
+DATASET_TEXT
+SEPARATOR TAB
+DATASET_LABEL	Node Labels
+COLOR	#000000
+
+# Labels for all tree nodes
+# Format: node_id <tab> label <tab> position <tab> color <tab> style <tab> size
+
+DATA
+50_kb_inversion_clade_Cl	50 kb inversion clade (Clade)	-1	#000000	normal	1
+Acanthamoeba_G	Acanthamoeba	-1	#000000	normal	1
+Acanthamoebidae_F	Acanthamoebidae (Family)	-1	#000000	normal	1
+Acanthamoebidae_X_ON	Acanthamoebidae X	-1	#000000	normal	1
+Acantharea_3a_X_ON	Acantharea 3a X	-1	#000000	normal	1
+Acantharea_C	Acantharea (Class)	-1	#000000	normal	1
+Acari_sC	Acari (Subclass)	-1	#000000	normal	1
+Acariformes_SO	Acariformes (Superorder)	-1	#000000	normal	1
+Acartia_G	Acartia	-1	#000000	normal	1
+Acartiidae_F	Acartiidae (Family)	-1	#000000	normal	1
+Acineta_1_ON	Acineta 1	-1	#000000	normal	1
+Acineta_G	Acineta	-1	#000000	normal	1
+Acinetidae_F	Acinetidae (Family)	-1	#000000	normal	1
+Aconoidasida_C	Aconoidasida (Class)	-1	#000000	normal	1
+Acrogenospora_G	Acrogenospora	-1	#000000	normal	1
+Acrogenosporaceae_F	Acrogenosporaceae (Family)	-1	#000000	normal	1
+Actiniaria_O	Actiniaria (Order)	-1	#000000	normal	1
+Actinophryidae_C	Actinophryidae (Class)	-1	#000000	normal	1
+Actinopteri_C	Actinopteri (Class)	-1	#000000	normal	1
+Actinopterygii_SC	Actinopterygii (Superclass)	-1	#000000	normal	1
+Actinosphaerium_G	Actinosphaerium	-1	#000000	normal	1
+Aculeata_iO	Aculeata (Infraorder)	-1	#000000	normal	1
+Aculops_G	Aculops	-1	#000000	normal	1
+Acyrthosiphon_G	Acyrthosiphon	-1	#000000	normal	1
+Adeleidae_F	Adeleidae (Family)	-1	#000000	normal	1
+Adeleorina_sO	Adeleorina (Suborder)	-1	#000000	normal	1
+Adelina_G	Adelina	-1	#000000	normal	1
+Agaricales_O	Agaricales (Order)	-1	#000000	normal	1
+Agaricineae_sO	Agaricineae (Suborder)	-1	#000000	normal	1
+Agaricomycetes_C	Agaricomycetes (Class)	-1	#000000	normal	1
+Agaricomycetes_X_ON	Agaricomycetes X	-1	#000000	normal	1
+Agaricomycetes_incertae_sedis_NR	Agaricomycetes incertae sedis	-1	#000000	normal	1
+Agaricomycetidae_sC	Agaricomycetidae (Subclass)	-1	#000000	normal	1
+Agaricomycotina_sP	Agaricomycotina (Subphylum)	-1	#000000	normal	1
+Alaimidae_F	Alaimidae (Family)	-1	#000000	normal	1
+Alaimina_sO	Alaimina (Suborder)	-1	#000000	normal	1
+Alaimus_G	Alaimus	-1	#000000	normal	1
+Allantion_G	Allantion	-1	#000000	normal	1
+Allapsidae_F	Allapsidae (Family)	-1	#000000	normal	1
+Allobodo_G	Allobodo	-1	#000000	normal	1
+Allogromida_Cl	Allogromida (Clade)	-1	#000000	normal	1
+Allomyces_G	Allomyces	-1	#000000	normal	1
+Alveolata_Cl	Alveolata (Clade)	-1	#000000	normal	1
+Amblycera_sO	Amblycera (Suborder)	-1	#000000	normal	1
+Amniota_Cl	Amniota (Clade)	-1	#000000	normal	1
+Amoebidae_F	Amoebidae (Family)	-1	#000000	normal	1
+Amoebozoa_Cl	Amoebozoa (Clade)	-1	#000000	normal	1
+Amphibia_C	Amphibia (Class)	-1	#000000	normal	1
+Amphitraemidae_F	Amphitraemidae (Family)	-1	#000000	normal	1
+Amphitrema_G	Amphitrema	-1	#000000	normal	1
+Amphitremida_O	Amphitremida (Order)	-1	#000000	normal	1
+Andropogoneae_T	Andropogoneae (Tribe)	-1	#000000	normal	1
+Andropogonodae_NR	Andropogonodae	-1	#000000	normal	1
+Anguinidae_F	Anguinidae (Family)	-1	#000000	normal	1
+Anguininae_sF	Anguininae (Subfamily)	-1	#000000	normal	1
+Ankistrodesmus_G	Ankistrodesmus	-1	#000000	normal	1
+Annelida_P	Annelida (Phylum)	-1	#000000	normal	1
+Anolis_G	Anolis	-1	#000000	normal	1
+Anomalocera_G	Anomalocera	-1	#000000	normal	1
+Anomopoda_iO	Anomopoda (Infraorder)	-1	#000000	normal	1
+Anthocoptini_T	Anthocoptini (Tribe)	-1	#000000	normal	1
+Anthophila_Cl	Anthophila (Clade)	-1	#000000	normal	1
+Anthoptilidae_F	Anthoptilidae (Family)	-1	#000000	normal	1
+Anthoptilum_G	Anthoptilum	-1	#000000	normal	1
+Anthozoa_C	Anthozoa (Class)	-1	#000000	normal	1
+Anura_O	Anura (Order)	-1	#000000	normal	1
+Aphagea_Cl	Aphagea (Clade)	-1	#000000	normal	1
+Aphelida_Cl	Aphelida (Clade)	-1	#000000	normal	1
+Aphelidea_C	Aphelidea (Class)	-1	#000000	normal	1
+Aphelidiaceae_F	Aphelidiaceae (Family)	-1	#000000	normal	1
+Aphelidium_G	Aphelidium	-1	#000000	normal	1
+Aphididae_F	Aphididae (Family)	-1	#000000	normal	1
+Aphidinae_sF	Aphidinae (Subfamily)	-1	#000000	normal	1
+Aphidoidea_SF	Aphidoidea (Superfamily)	-1	#000000	normal	1
+Aphidomorpha_iO	Aphidomorpha (Infraorder)	-1	#000000	normal	1
+Aphrophoridae_F	Aphrophoridae (Family)	-1	#000000	normal	1
+Apicomplexa_P	Apicomplexa (Phylum)	-1	#000000	normal	1
+Apidae_F	Apidae (Family)	-1	#000000	normal	1
+Apinae_sF	Apinae (Subfamily)	-1	#000000	normal	1
+Apini_T	Apini (Tribe)	-1	#000000	normal	1
+Apis_G	Apis	-1	#000000	normal	1
+Apocrita_sO	Apocrita (Suborder)	-1	#000000	normal	1
+Apoidea_SF	Apoidea (Superfamily)	-1	#000000	normal	1
+Apostomatia_sC	Apostomatia (Subclass)	-1	#000000	normal	1
+Apostomatida_O	Apostomatida (Order)	-1	#000000	normal	1
+Arabidopsis_G	Arabidopsis	-1	#000000	normal	1
+Arachnida_C	Arachnida (Class)	-1	#000000	normal	1
+Araeolaimida_O	Araeolaimida (Order)	-1	#000000	normal	1
+Arcellinida_O	Arcellinida (Order)	-1	#000000	normal	1
+Archamoebae_Cl	Archamoebae (Clade)	-1	#000000	normal	1
+Arthropoda_P	Arthropoda (Phylum)	-1	#000000	normal	1
+Articulospora_G	Articulospora	-1	#000000	normal	1
+Ascetosporea_C	Ascetosporea (Class)	-1	#000000	normal	1
+Ascomorpha_G	Ascomorpha	-1	#000000	normal	1
+Ascomycota_P	Ascomycota (Phylum)	-1	#000000	normal	1
+Aspergillaceae_F	Aspergillaceae (Family)	-1	#000000	normal	1
+Aspergillus_G	Aspergillus	-1	#000000	normal	1
+Astasiidae_F	Astasiidae (Family)	-1	#000000	normal	1
+Astrorhiza_G	Astrorhiza	-1	#000000	normal	1
+Astrorhizida_O	Astrorhizida (Order)	-1	#000000	normal	1
+Astrorhizidae_F	Astrorhizidae (Family)	-1	#000000	normal	1
+Auchenorrhyncha_sO	Auchenorrhyncha (Suborder)	-1	#000000	normal	1
+Aureococcus_G	Aureococcus	-1	#000000	normal	1
+Autobranchia_sC	Autobranchia (Subclass)	-1	#000000	normal	1
+Auxenochlorella_G	Auxenochlorella	-1	#000000	normal	1
+Axonolaimoidea_SF	Axonolaimoidea (Superfamily)	-1	#000000	normal	1
+BOP_clade_Cl	BOP clade (Clade)	-1	#000000	normal	1
+Babesia6_ON	Babesia6	-1	#000000	normal	1
+Babesia_G	Babesia	-1	#000000	normal	1
+Babesiidae_F	Babesiidae (Family)	-1	#000000	normal	1
+Bacillariophyceae_C	Bacillariophyceae (Class)	-1	#000000	normal	1
+Bacillariophycidae_Cl	Bacillariophycidae (Clade)	-1	#000000	normal	1
+Bacillariophyta_P	Bacillariophyta (Phylum)	-1	#000000	normal	1
+Balamuthia_G	Balamuthia	-1	#000000	normal	1
+Balamuthiidae_F	Balamuthiidae (Family)	-1	#000000	normal	1
+Bangiophyceae_C	Bangiophyceae (Class)	-1	#000000	normal	1
+Barbatosphaeria_G	Barbatosphaeria	-1	#000000	normal	1
+Barbatosphaeriaceae_F	Barbatosphaeriaceae (Family)	-1	#000000	normal	1
+Barbatosphaeriales_O	Barbatosphaeriales (Order)	-1	#000000	normal	1
+Basidiomycota_P	Basidiomycota (Phylum)	-1	#000000	normal	1
+Bathycoccaceae_F	Bathycoccaceae (Family)	-1	#000000	normal	1
+Bathycoccus_G	Bathycoccus	-1	#000000	normal	1
+Batrachia_SO	Batrachia (Superorder)	-1	#000000	normal	1
+Batrachochytrium_G	Batrachochytrium	-1	#000000	normal	1
+Bdellidae_F	Bdellidae (Family)	-1	#000000	normal	1
+Bdelloidea_SF	Bdelloidea (Superfamily)	-1	#000000	normal	1
+Bellemerea_G	Bellemerea	-1	#000000	normal	1
+Bibionomorpha_iO	Bibionomorpha (Infraorder)	-1	#000000	normal	1
+Bicoecaceae_X_ON	Bicoecaceae X	-1	#000000	normal	1
+Bicosoecida_O	Bicosoecida (Order)	-1	#000000	normal	1
+Bicosoecidae_F	Bicosoecidae (Family)	-1	#000000	normal	1
+Bifurcata_Cl	Bifurcata (Clade)	-1	#000000	normal	1
+Bigyra_C	Bigyra (Class)	-1	#000000	normal	1
+Bilateria_Cl	Bilateria (Clade)	-1	#000000	normal	1
+Bivalvia_C	Bivalvia (Class)	-1	#000000	normal	1
+Bivalvulida_O	Bivalvulida (Order)	-1	#000000	normal	1
+Blastocladiaceae_F	Blastocladiaceae (Family)	-1	#000000	normal	1
+Blastocladiales_O	Blastocladiales (Order)	-1	#000000	normal	1
+Blastocladiomycetes_C	Blastocladiomycetes (Class)	-1	#000000	normal	1
+Blastocladiomycota_P	Blastocladiomycota (Phylum)	-1	#000000	normal	1
+Blastocystidae_F	Blastocystidae (Family)	-1	#000000	normal	1
+Blastocystis_G	Blastocystis	-1	#000000	normal	1
+Bodo_G	Bodo	-1	#000000	normal	1
+Bodonidae_F	Bodonidae (Family)	-1	#000000	normal	1
+Boletales_O	Boletales (Order)	-1	#000000	normal	1
+Boreoeutheria_Cl	Boreoeutheria (Clade)	-1	#000000	normal	1
+Bosmina_G	Bosmina	-1	#000000	normal	1
+Bosminidae_F	Bosminidae (Family)	-1	#000000	normal	1
+Botryococcus_G	Botryococcus	-1	#000000	normal	1
+Brachypodieae_T	Brachypodieae (Tribe)	-1	#000000	normal	1
+Brachypodium_G	Brachypodium	-1	#000000	normal	1
+Branchiopoda_C	Branchiopoda (Class)	-1	#000000	normal	1
+Brassicaceae_F	Brassicaceae (Family)	-1	#000000	normal	1
+Brassicales_O	Brassicales (Order)	-1	#000000	normal	1
+Bryophyta_Cl	Bryophyta (Clade)	-1	#000000	normal	1
+Bryophytina_Cl	Bryophytina (Clade)	-1	#000000	normal	1
+Bryopsida_C	Bryopsida (Class)	-1	#000000	normal	1
+Bullinularia_G	Bullinularia	-1	#000000	normal	1
+CRuMs_Cl	CRuMs (Clade)	-1	#000000	normal	1
+CS_clade_Cl	CS clade (Clade)	-1	#000000	normal	1
+Caenogastropoda_sC	Caenogastropoda (Subclass)	-1	#000000	normal	1
+Caenorhabditis_G	Caenorhabditis	-1	#000000	normal	1
+Cafeteria_G	Cafeteria	-1	#000000	normal	1
+Cafeteriaceae_F	Cafeteriaceae (Family)	-1	#000000	normal	1
+Calanoida_O	Calanoida (Order)	-1	#000000	normal	1
+Camelineae_T	Camelineae (Tribe)	-1	#000000	normal	1
+Campanella_G	Campanella	-1	#000000	normal	1
+Campopleginae_sF	Campopleginae (Subfamily)	-1	#000000	normal	1
+Canalipalpata_iC	Canalipalpata (Infraclass)	-1	#000000	normal	1
+Candelariales_O	Candelariales (Order)	-1	#000000	normal	1
+Candelariomycetes_C	Candelariomycetes (Class)	-1	#000000	normal	1
+Candida_G	Candida	-1	#000000	normal	1
+Catarrhini_P	Catarrhini (Phylum)	-1	#000000	normal	1
+Cavernomonas_G	Cavernomonas	-1	#000000	normal	1
+Cecidomyiidae_F	Cecidomyiidae (Family)	-1	#000000	normal	1
+Cecidomyiinae_sF	Cecidomyiinae (Subfamily)	-1	#000000	normal	1
+Centramoebida_Cl	Centramoebida (Clade)	-1	#000000	normal	1
+Centropages_G	Centropages	-1	#000000	normal	1
+Centropagidae_F	Centropagidae (Family)	-1	#000000	normal	1
+Centroplasthelida_C	Centroplasthelida (Class)	-1	#000000	normal	1
+Ceratiaceae_F	Ceratiaceae (Family)	-1	#000000	normal	1
+Ceratiomyxella_G	Ceratiomyxella	-1	#000000	normal	1
+Ceratium_G	Ceratium	-1	#000000	normal	1
+Cercomonadida_O	Cercomonadida (Order)	-1	#000000	normal	1
+Cercomonadidae_F	Cercomonadidae (Family)	-1	#000000	normal	1
+Cercomonadidae_X_ON	Cercomonadidae X	-1	#000000	normal	1
+Cercomonas_G	Cercomonas	-1	#000000	normal	1
+Cercopoidea_SF	Cercopoidea (Superfamily)	-1	#000000	normal	1
+Cercozoa_P	Cercozoa (Phylum)	-1	#000000	normal	1
+Chaetomiaceae_F	Chaetomiaceae (Family)	-1	#000000	normal	1
+Chaetonotida_O	Chaetonotida (Order)	-1	#000000	normal	1
+Chaetonotidae_F	Chaetonotidae (Family)	-1	#000000	normal	1
+Chaetonotus_G	Chaetonotus	-1	#000000	normal	1
+Chaetothyriales_O	Chaetothyriales (Order)	-1	#000000	normal	1
+Chaetothyriomycetidae_sC	Chaetothyriomycetidae (Subclass)	-1	#000000	normal	1
+Chaos_G	Chaos	-1	#000000	normal	1
+Chelicerata_sP	Chelicerata (Subphylum)	-1	#000000	normal	1
+Chlamydomonadaceae_F	Chlamydomonadaceae (Family)	-1	#000000	normal	1
+Chlamydomonadales_O	Chlamydomonadales (Order)	-1	#000000	normal	1
+Chlamydomonas_G	Chlamydomonas	-1	#000000	normal	1
+Chlorella_clade_Cl	Chlorella clade (Clade)	-1	#000000	normal	1
+Chlorellaceae_F	Chlorellaceae (Family)	-1	#000000	normal	1
+Chlorellales_O	Chlorellales (Order)	-1	#000000	normal	1
+Chlorociboria_G	Chlorociboria	-1	#000000	normal	1
+Chlorociboriaceae_F	Chlorociboriaceae (Family)	-1	#000000	normal	1
+Chloroparva_G	Chloroparva	-1	#000000	normal	1
+Chlorophyceae_C	Chlorophyceae (Class)	-1	#000000	normal	1
+Chlorophyta_P	Chlorophyta (Phylum)	-1	#000000	normal	1
+Chloropicaceae_F	Chloropicaceae (Family)	-1	#000000	normal	1
+Chloropicales_O	Chloropicales (Order)	-1	#000000	normal	1
+Chloropicon_G	Chloropicon	-1	#000000	normal	1
+Chloropicophyceae_C	Chloropicophyceae (Class)	-1	#000000	normal	1
+Choanocystis_G	Choanocystis	-1	#000000	normal	1
+Choanoflagellata_C	Choanoflagellata (Class)	-1	#000000	normal	1
+Chordata_P	Chordata (Phylum)	-1	#000000	normal	1
+Chromadorea_C	Chromadorea (Class)	-1	#000000	normal	1
+Chromulinaceae_F	Chromulinaceae (Family)	-1	#000000	normal	1
+Chromulinales_O	Chromulinales (Order)	-1	#000000	normal	1
+Chrysaora_G	Chrysaora	-1	#000000	normal	1
+Chrysophyceae_C	Chrysophyceae (Class)	-1	#000000	normal	1
+Chydoridae_F	Chydoridae (Family)	-1	#000000	normal	1
+Chydorus_G	Chydorus	-1	#000000	normal	1
+Chytridiales_O	Chytridiales (Order)	-1	#000000	normal	1
+Chytridiomycetes_C	Chytridiomycetes (Class)	-1	#000000	normal	1
+Chytridiomycota_P	Chytridiomycota (Phylum)	-1	#000000	normal	1
+Chytridiomycota_incertae_sedis_NR	Chytridiomycota incertae sedis	-1	#000000	normal	1
+Chytriomycetaceae_F	Chytriomycetaceae (Family)	-1	#000000	normal	1
+Cicadomorpha_iO	Cicadomorpha (Infraorder)	-1	#000000	normal	1
+Ciliophora_P	Ciliophora (Phylum)	-1	#000000	normal	1
+Cintractiaceae_F	Cintractiaceae (Family)	-1	#000000	normal	1
+Cladocera_sO	Cladocera (Suborder)	-1	#000000	normal	1
+Cladophialophora_G	Cladophialophora	-1	#000000	normal	1
+Clavicaudoides_G	Clavicaudoides	-1	#000000	normal	1
+Clupeocephala_NR	Clupeocephala	-1	#000000	normal	1
+Cnidaria_P	Cnidaria (Phylum)	-1	#000000	normal	1
+Coccidia_sC	Coccidia (Subclass)	-1	#000000	normal	1
+Coccidioides_G	Coccidioides	-1	#000000	normal	1
+Coccoidea_SF	Coccoidea (Superfamily)	-1	#000000	normal	1
+Coccomyxa_G	Coccomyxa	-1	#000000	normal	1
+Coccomyxidae_F	Coccomyxidae (Family)	-1	#000000	normal	1
+Coelomomyces_G	Coelomomyces	-1	#000000	normal	1
+Coelomomycetaceae_F	Coelomomycetaceae (Family)	-1	#000000	normal	1
+Coemansia_G	Coemansia	-1	#000000	normal	1
+Colletotrichum_G	Colletotrichum	-1	#000000	normal	1
+Collodaria_O	Collodaria (Order)	-1	#000000	normal	1
+Collophidiidae_F	Collophidiidae (Family)	-1	#000000	normal	1
+Collophidium_G	Collophidium	-1	#000000	normal	1
+Colpodellida_CHR1_X_ON	Colpodellida CHR1 X	-1	#000000	normal	1
+Colpodellida_Cl	Colpodellida (Clade)	-1	#000000	normal	1
+Comesomatidae_F	Comesomatidae (Family)	-1	#000000	normal	1
+Conidae_F	Conidae (Family)	-1	#000000	normal	1
+Coniophora_G	Coniophora	-1	#000000	normal	1
+Coniophoraceae_F	Coniophoraceae (Family)	-1	#000000	normal	1
+Coniophorineae_sO	Coniophorineae (Suborder)	-1	#000000	normal	1
+Conoidasida_C	Conoidasida (Class)	-1	#000000	normal	1
+Conoidea_SF	Conoidea (Superfamily)	-1	#000000	normal	1
+Conus_G	Conus	-1	#000000	normal	1
+Copepoda_sC	Copepoda (Subclass)	-1	#000000	normal	1
+Copromyxa_G	Copromyxa	-1	#000000	normal	1
+Cordycipitaceae_F	Cordycipitaceae (Family)	-1	#000000	normal	1
+Corynespora_G	Corynespora	-1	#000000	normal	1
+Corynesporascaceae_F	Corynesporascaceae (Family)	-1	#000000	normal	1
+Coscinodiscophyceae_C	Coscinodiscophyceae (Class)	-1	#000000	normal	1
+Craniata_sP	Craniata (Subphylum)	-1	#000000	normal	1
+Craspedida_O	Craspedida (Order)	-1	#000000	normal	1
+Crassostrea_G	Crassostrea	-1	#000000	normal	1
+Crustacea_sP	Crustacea (Subphylum)	-1	#000000	normal	1
+Cryomonadida_O	Cryomonadida (Order)	-1	#000000	normal	1
+Cryothecomonas_G	Cryothecomonas	-1	#000000	normal	1
+Cryptococcus_G	Cryptococcus	-1	#000000	normal	1
+Cryptodifflugia_G	Cryptodifflugia	-1	#000000	normal	1
+Cryptodifflugiidae_F	Cryptodifflugiidae (Family)	-1	#000000	normal	1
+Cryptomycota_P	Cryptomycota (Phylum)	-1	#000000	normal	1
+Cryptomycota_incertae_sedis_NR	Cryptomycota incertae sedis	-1	#000000	normal	1
+Cryptosporidiidae_F	Cryptosporidiidae (Family)	-1	#000000	normal	1
+Cryptosporidium13_ON	Cryptosporidium13	-1	#000000	normal	1
+Cryptosporidium15_ON	Cryptosporidium15	-1	#000000	normal	1
+Cryptosporidium1_ON	Cryptosporidium1	-1	#000000	normal	1
+Cryptosporidium4_ON	Cryptosporidium4	-1	#000000	normal	1
+Cryptosporidium_G	Cryptosporidium	-1	#000000	normal	1
+Ctenopoda_iO	Ctenopoda (Infraorder)	-1	#000000	normal	1
+Culex_G	Culex	-1	#000000	normal	1
+Culex_sG	Culex (Subgenus)	-1	#000000	normal	1
+Culicidae_F	Culicidae (Family)	-1	#000000	normal	1
+Culicinae_sF	Culicinae (Subfamily)	-1	#000000	normal	1
+Culicini_T	Culicini (Tribe)	-1	#000000	normal	1
+Culicoidea_SF	Culicoidea (Superfamily)	-1	#000000	normal	1
+Culicomorpha_iO	Culicomorpha (Infraorder)	-1	#000000	normal	1
+Culiseta_G	Culiseta	-1	#000000	normal	1
+Culisetini_T	Culisetini (Tribe)	-1	#000000	normal	1
+Cyanidiaceae_F	Cyanidiaceae (Family)	-1	#000000	normal	1
+Cyanidiales_O	Cyanidiales (Order)	-1	#000000	normal	1
+Cyanidioschyzon_G	Cyanidioschyzon	-1	#000000	normal	1
+Cyclopidae_F	Cyclopidae (Family)	-1	#000000	normal	1
+Cyclopoida_O	Cyclopoida (Order)	-1	#000000	normal	1
+Cyclops_G	Cyclops	-1	#000000	normal	1
+Cyclotrichium_G	Cyclotrichium	-1	#000000	normal	1
+Cypriniformes_O	Cypriniformes (Order)	-1	#000000	normal	1
+Cypriniphysae_SO	Cypriniphysae (Superorder)	-1	#000000	normal	1
+Cyprinoidei_sO	Cyprinoidei (Suborder)	-1	#000000	normal	1
+Cystofilobasidiales_O	Cystofilobasidiales (Order)	-1	#000000	normal	1
+Dacrymycetaceae_F	Dacrymycetaceae (Family)	-1	#000000	normal	1
+Dacrymycetales_O	Dacrymycetales (Order)	-1	#000000	normal	1
+Dacrymycetes_C	Dacrymycetes (Class)	-1	#000000	normal	1
+Dactyloidae_F	Dactyloidae (Family)	-1	#000000	normal	1
+Dactylopodida_O	Dactylopodida (Order)	-1	#000000	normal	1
+Danio_G	Danio	-1	#000000	normal	1
+Danionidae_F	Danionidae (Family)	-1	#000000	normal	1
+Danioninae_sF	Danioninae (Subfamily)	-1	#000000	normal	1
+Daphnia_G	Daphnia	-1	#000000	normal	1
+Daphniidae_F	Daphniidae (Family)	-1	#000000	normal	1
+Debaryomyces_G	Debaryomyces	-1	#000000	normal	1
+Debaryomycetaceae_F	Debaryomycetaceae (Family)	-1	#000000	normal	1
+Dermateaceae_F	Dermateaceae (Family)	-1	#000000	normal	1
+Desmodorida_O	Desmodorida (Order)	-1	#000000	normal	1
+Desmodorina_sO	Desmodorina (Suborder)	-1	#000000	normal	1
+Deuterostomia_Cl	Deuterostomia (Clade)	-1	#000000	normal	1
+Diaphanosoma_G	Diaphanosoma	-1	#000000	normal	1
+Diaptomidae_F	Diaptomidae (Family)	-1	#000000	normal	1
+Dicondylia_Cl	Dicondylia (Clade)	-1	#000000	normal	1
+Dicranophoridae_F	Dicranophoridae (Family)	-1	#000000	normal	1
+Difflugina_sO	Difflugina (Suborder)	-1	#000000	normal	1
+Digenea_sC	Digenea (Subclass)	-1	#000000	normal	1
+Dikarya_sK	Dikarya (Subkingdom)	-1	#000000	normal	1
+Dileptidae_F	Dileptidae (Family)	-1	#000000	normal	1
+Dileptidae_X_ON	Dileptidae X	-1	#000000	normal	1
+Dinophyceae_C	Dinophyceae (Class)	-1	#000000	normal	1
+Diplogasteroidea_SF	Diplogasteroidea (Superfamily)	-1	#000000	normal	1
+Diplogasteromorpha_iO	Diplogasteromorpha (Infraorder)	-1	#000000	normal	1
+Diplomonadida_O	Diplomonadida (Order)	-1	#000000	normal	1
+Diplophrys_G	Diplophrys	-1	#000000	normal	1
+Diplostraca_O	Diplostraca (Order)	-1	#000000	normal	1
+Dipnotetrapodomorpha_Cl	Dipnotetrapodomorpha (Clade)	-1	#000000	normal	1
+Diptera_O	Diptera (Order)	-1	#000000	normal	1
+Diptilomiopidae_F	Diptilomiopidae (Family)	-1	#000000	normal	1
+Diptilomiopus_G	Diptilomiopus	-1	#000000	normal	1
+Discinellaceae_F	Discinellaceae (Family)	-1	#000000	normal	1
+Discoba_Cl	Discoba (Clade)	-1	#000000	normal	1
+Discosea_P	Discosea (Phylum)	-1	#000000	normal	1
+Distigma_G	Distigma	-1	#000000	normal	1
+Distigmidae_F	Distigmidae (Family)	-1	#000000	normal	1
+Ditylenchus_G	Ditylenchus	-1	#000000	normal	1
+Dorylaimia_sC	Dorylaimia (Subclass)	-1	#000000	normal	1
+Dorylaimida_O	Dorylaimida (Order)	-1	#000000	normal	1
+Dothideomycetes_C	Dothideomycetes (Class)	-1	#000000	normal	1
+Dothideomycetes_X_ON	Dothideomycetes X	-1	#000000	normal	1
+Dothideomycetes_incertae_sedis_NR	Dothideomycetes incertae sedis	-1	#000000	normal	1
+Dothideomycetidae_sC	Dothideomycetidae (Subclass)	-1	#000000	normal	1
+Drosophila_G	Drosophila	-1	#000000	normal	1
+Dunaliellaceae_F	Dunaliellaceae (Family)	-1	#000000	normal	1
+Dusona_group_NR	Dusona group	-1	#000000	normal	1
+Dysteriida_O	Dysteriida (Order)	-1	#000000	normal	1
+Dysteriidae_F	Dysteriidae (Family)	-1	#000000	normal	1
+Ecdysozoa_Cl	Ecdysozoa (Clade)	-1	#000000	normal	1
+Echinamoeba_G	Echinamoeba	-1	#000000	normal	1
+Echinamoebida_C	Echinamoebida (Class)	-1	#000000	normal	1
+Echinamoebidae_F	Echinamoebidae (Family)	-1	#000000	normal	1
+Ectocarpaceae_F	Ectocarpaceae (Family)	-1	#000000	normal	1
+Ectocarpales_O	Ectocarpales (Order)	-1	#000000	normal	1
+Ectocarpus_G	Ectocarpus	-1	#000000	normal	1
+Edwardsiidae_F	Edwardsiidae (Family)	-1	#000000	normal	1
+Eimeria1_ON	Eimeria1	-1	#000000	normal	1
+Eimeria_G	Eimeria	-1	#000000	normal	1
+Eimeriidae_F	Eimeriidae (Family)	-1	#000000	normal	1
+Eimeriorina_sO	Eimeriorina (Suborder)	-1	#000000	normal	1
+Elardia_C	Elardia (Class)	-1	#000000	normal	1
+Elliptochloris_clade_Cl	Elliptochloris clade (Clade)	-1	#000000	normal	1
+Embryophyta_Cl	Embryophyta (Clade)	-1	#000000	normal	1
+Encentrum_G	Encentrum	-1	#000000	normal	1
+Endogenida_O	Endogenida (Order)	-1	#000000	normal	1
+Endomyxa_P	Endomyxa (Phylum)	-1	#000000	normal	1
+Endopterygota_C	Endopterygota (Class)	-1	#000000	normal	1
+Endostelium_G	Endostelium	-1	#000000	normal	1
+Enoplea_C	Enoplea (Class)	-1	#000000	normal	1
+Enoplia_sC	Enoplia (Subclass)	-1	#000000	normal	1
+Enoplida_O	Enoplida (Order)	-1	#000000	normal	1
+Ensiculiferaceae_F	Ensiculiferaceae (Family)	-1	#000000	normal	1
+Entylomatales_O	Entylomatales (Order)	-1	#000000	normal	1
+Entylomatales_incertae_sedis_NR	Entylomatales incertae sedis	-1	#000000	normal	1
+Episquamata_Cl	Episquamata (Clade)	-1	#000000	normal	1
+Epistylidae_F	Epistylidae (Family)	-1	#000000	normal	1
+Eriococcidae_F	Eriococcidae (Family)	-1	#000000	normal	1
+Eriophyidae_F	Eriophyidae (Family)	-1	#000000	normal	1
+Eriophyoidea_SF	Eriophyoidea (Superfamily)	-1	#000000	normal	1
+Euamoebida_O	Euamoebida (Order)	-1	#000000	normal	1
+Euarchontoglires_SO	Euarchontoglires (Superorder)	-1	#000000	normal	1
+Eubodonida_O	Eubodonida (Order)	-1	#000000	normal	1
+Eucoccidiorida_O	Eucoccidiorida (Order)	-1	#000000	normal	1
+Eudiaptomus_G	Eudiaptomus	-1	#000000	normal	1
+Euglenaceae_F	Euglenaceae (Family)	-1	#000000	normal	1
+Euglenales_O	Euglenales (Order)	-1	#000000	normal	1
+Euglenida_C	Euglenida (Class)	-1	#000000	normal	1
+Euglenophyceae_sC	Euglenophyceae (Subclass)	-1	#000000	normal	1
+Euglenozoa_P	Euglenozoa (Phylum)	-1	#000000	normal	1
+Euglyphida_O	Euglyphida (Order)	-1	#000000	normal	1
+Eugregarinorida_O	Eugregarinorida (Order)	-1	#000000	normal	1
+Eukaryota_D	Eukaryota (Domain)	-1	#000000	normal	1
+Eukaryota_incertae_sedis_NR	Eukaryota incertae sedis	-1	#000000	normal	1
+Eumetazoa_Cl	Eumetazoa (Clade)	-1	#000000	normal	1
+Euphyllophyta_Cl	Euphyllophyta (Clade)	-1	#000000	normal	1
+Eupodina_Cl	Eupodina (Clade)	-1	#000000	normal	1
+Eupodoidea_SF	Eupodoidea (Superfamily)	-1	#000000	normal	1
+Eurotatoria_C	Eurotatoria (Class)	-1	#000000	normal	1
+Eurotiales_O	Eurotiales (Order)	-1	#000000	normal	1
+Eurotiomycetes_C	Eurotiomycetes (Class)	-1	#000000	normal	1
+Eurotiomycetidae_sC	Eurotiomycetidae (Subclass)	-1	#000000	normal	1
+Eurytemora_G	Eurytemora	-1	#000000	normal	1
+Eustigmatales_O	Eustigmatales (Order)	-1	#000000	normal	1
+Eustigmatophyceae_C	Eustigmatophyceae (Class)	-1	#000000	normal	1
+Euteleostomi_Cl	Euteleostomi (Clade)	-1	#000000	normal	1
+Eutetramitia_Cl	Eutetramitia (Clade)	-1	#000000	normal	1
+Eutheria_Cl	Eutheria (Clade)	-1	#000000	normal	1
+Evaginogenida_O	Evaginogenida (Order)	-1	#000000	normal	1
+Evaginogenida_X_ON	Evaginogenida X	-1	#000000	normal	1
+Evosea_P	Evosea (Phylum)	-1	#000000	normal	1
+Exobasidiomycetes_C	Exobasidiomycetes (Class)	-1	#000000	normal	1
+Exophiala_G	Exophiala	-1	#000000	normal	1
+Fabaceae_F	Fabaceae (Family)	-1	#000000	normal	1
+Fabales_O	Fabales (Order)	-1	#000000	normal	1
+Filoreta_G	Filoreta	-1	#000000	normal	1
+Flabellinia_C	Flabellinia (Class)	-1	#000000	normal	1
+Flabellulidae_F	Flabellulidae (Family)	-1	#000000	normal	1
+Flamella_G	Flamella	-1	#000000	normal	1
+Flamellidae_F	Flamellidae (Family)	-1	#000000	normal	1
+Flectomonas_G	Flectomonas	-1	#000000	normal	1
+Foraminifera_P	Foraminifera (Phylum)	-1	#000000	normal	1
+Fornicata_P	Fornicata (Phylum)	-1	#000000	normal	1
+Fractovitellida_O	Fractovitellida (Order)	-1	#000000	normal	1
+Funariaceae_F	Funariaceae (Family)	-1	#000000	normal	1
+Funariales_O	Funariales (Order)	-1	#000000	normal	1
+Funariidae_sC	Funariidae (Subclass)	-1	#000000	normal	1
+Fungi_K	Fungi (Kingdom)	-1	#000000	normal	1
+Fungi_incertae_sedis_NR	Fungi incertae sedis	-1	#000000	normal	1
+Fusarium_G	Fusarium	-1	#000000	normal	1
+Fusiforma_G	Fusiforma	-1	#000000	normal	1
+Gadixcellia_G	Gadixcellia	-1	#000000	normal	1
+Gastropidae_F	Gastropidae (Family)	-1	#000000	normal	1
+Gastropoda_C	Gastropoda (Class)	-1	#000000	normal	1
+Gastrotricha_P	Gastrotricha (Phylum)	-1	#000000	normal	1
+Glires_Cl	Glires (Clade)	-1	#000000	normal	1
+Glissomonadida_O	Glissomonadida (Order)	-1	#000000	normal	1
+Glomeraceae_F	Glomeraceae (Family)	-1	#000000	normal	1
+Glomerales_O	Glomerales (Order)	-1	#000000	normal	1
+Glomerellaceae_F	Glomerellaceae (Family)	-1	#000000	normal	1
+Glomerellales_O	Glomerellales (Order)	-1	#000000	normal	1
+Glomeromycetes_C	Glomeromycetes (Class)	-1	#000000	normal	1
+Glomeromycotina_sP	Glomeromycotina (Subphylum)	-1	#000000	normal	1
+Glutinoconcha_sO	Glutinoconcha (Suborder)	-1	#000000	normal	1
+Glycine_G	Glycine	-1	#000000	normal	1
+Gnathifera_Cl	Gnathifera (Clade)	-1	#000000	normal	1
+Gnathostomata_Cl	Gnathostomata (Clade)	-1	#000000	normal	1
+Gonyaulacales_O	Gonyaulacales (Order)	-1	#000000	normal	1
+Granofilosea_Cl	Granofilosea (Clade)	-1	#000000	normal	1
+Gregarina3_ON	Gregarina3	-1	#000000	normal	1
+Gregarina_G	Gregarina	-1	#000000	normal	1
+Gregarinasina_sC	Gregarinasina (Subclass)	-1	#000000	normal	1
+Gregarinidae_F	Gregarinidae (Family)	-1	#000000	normal	1
+Gromia_G	Gromia	-1	#000000	normal	1
+Gromiida_O	Gromiida (Order)	-1	#000000	normal	1
+Gromiidae_F	Gromiidae (Family)	-1	#000000	normal	1
+Guepiniopsis_G	Guepiniopsis	-1	#000000	normal	1
+Gunneridae_Cl	Gunneridae (Clade)	-1	#000000	normal	1
+Gymnoplea_SO	Gymnoplea (Superorder)	-1	#000000	normal	1
+Gyropaigne_G	Gyropaigne	-1	#000000	normal	1
+Haemosporida_O	Haemosporida (Order)	-1	#000000	normal	1
+Haliphthoraceae_F	Haliphthoraceae (Family)	-1	#000000	normal	1
+Halodaphnea_G	Halodaphnea	-1	#000000	normal	1
+Haplopoda_iO	Haplopoda (Infraorder)	-1	#000000	normal	1
+Haplorrhini_sO	Haplorrhini (Suborder)	-1	#000000	normal	1
+Haptista_Cl	Haptista (Clade)	-1	#000000	normal	1
+Haptoria_sC	Haptoria (Subclass)	-1	#000000	normal	1
+Haptorida_O	Haptorida (Order)	-1	#000000	normal	1
+Harpellales_O	Harpellales (Order)	-1	#000000	normal	1
+Harpellomycetes_C	Harpellomycetes (Class)	-1	#000000	normal	1
+Hartmannella_G	Hartmannella	-1	#000000	normal	1
+Hartmannellidae_F	Hartmannellidae (Family)	-1	#000000	normal	1
+Hartmannulidae_F	Hartmannulidae (Family)	-1	#000000	normal	1
+Hartmannulidae_X_ON	Hartmannulidae X	-1	#000000	normal	1
+Helotiales_O	Helotiales (Order)	-1	#000000	normal	1
+Hemimastigophora_P	Hemimastigophora (Phylum)	-1	#000000	normal	1
+Hemimastix_G	Hemimastix	-1	#000000	normal	1
+Hemiptera_O	Hemiptera (Order)	-1	#000000	normal	1
+Herpotrichiellaceae_F	Herpotrichiellaceae (Family)	-1	#000000	normal	1
+Heterodera_G	Heterodera	-1	#000000	normal	1
+Heteroderidae_F	Heteroderidae (Family)	-1	#000000	normal	1
+Heteroderinae_sF	Heteroderinae (Subfamily)	-1	#000000	normal	1
+Heterolepidoderma_G	Heterolepidoderma	-1	#000000	normal	1
+Heterolobosea_P	Heterolobosea (Phylum)	-1	#000000	normal	1
+Hexacorallia_sC	Hexacorallia (Subclass)	-1	#000000	normal	1
+Hexamita_G	Hexamita	-1	#000000	normal	1
+Hexamitidae_F	Hexamitidae (Family)	-1	#000000	normal	1
+Hexamitinae_sF	Hexamitinae (Subfamily)	-1	#000000	normal	1
+Hexanauplia_C	Hexanauplia (Class)	-1	#000000	normal	1
+Hexapoda_sP	Hexapoda (Subphylum)	-1	#000000	normal	1
+Hominidae_F	Hominidae (Family)	-1	#000000	normal	1
+Homininae_sF	Homininae (Subfamily)	-1	#000000	normal	1
+Hominoidea_SF	Hominoidea (Superfamily)	-1	#000000	normal	1
+Homo_G	Homo	-1	#000000	normal	1
+Hyaloscypha_G	Hyaloscypha	-1	#000000	normal	1
+Hyaloscyphaceae_F	Hyaloscyphaceae (Family)	-1	#000000	normal	1
+Hyalospheniidae_F	Hyalospheniidae (Family)	-1	#000000	normal	1
+Hymenoptera_O	Hymenoptera (Order)	-1	#000000	normal	1
+Hymenostomatida_O	Hymenostomatida (Order)	-1	#000000	normal	1
+Hyphodiscaceae_F	Hyphodiscaceae (Family)	-1	#000000	normal	1
+Hyphodiscus_G	Hyphodiscus	-1	#000000	normal	1
+Hypocreales_O	Hypocreales (Order)	-1	#000000	normal	1
+Hypocreomycetidae_sC	Hypocreomycetidae (Subclass)	-1	#000000	normal	1
+Ichneumonidae_F	Ichneumonidae (Family)	-1	#000000	normal	1
+Ichneumonoidea_SF	Ichneumonoidea (Superfamily)	-1	#000000	normal	1
+Ichthyophthirius_G	Ichthyophthirius	-1	#000000	normal	1
+Iguania_sO	Iguania (Suborder)	-1	#000000	normal	1
+Imbricatea_C	Imbricatea (Class)	-1	#000000	normal	1
+Insecta_C	Insecta (Class)	-1	#000000	normal	1
+Intramacronucleata_sP	Intramacronucleata (Subphylum)	-1	#000000	normal	1
+Isaria_G	Isaria	-1	#000000	normal	1
+Kickxellaceae_F	Kickxellaceae (Family)	-1	#000000	normal	1
+Kickxellales_O	Kickxellales (Order)	-1	#000000	normal	1
+Kickxellomycetes_C	Kickxellomycetes (Class)	-1	#000000	normal	1
+Kickxellomycotina_sP	Kickxellomycotina (Subphylum)	-1	#000000	normal	1
+Kinetoplastea_C	Kinetoplastea (Class)	-1	#000000	normal	1
+Korotnevella_G	Korotnevella	-1	#000000	normal	1
+Labyrinthula_G	Labyrinthula	-1	#000000	normal	1
+Labyrinthulaceae_F	Labyrinthulaceae (Family)	-1	#000000	normal	1
+Labyrinthulida_O	Labyrinthulida (Order)	-1	#000000	normal	1
+Labyrinthulomycetes_sC	Labyrinthulomycetes (Subclass)	-1	#000000	normal	1
+Lagenidiales_O	Lagenidiales (Order)	-1	#000000	normal	1
+Lagynidae_F	Lagynidae (Family)	-1	#000000	normal	1
+Lamiaceae_F	Lamiaceae (Family)	-1	#000000	normal	1
+Lamiales_O	Lamiales (Order)	-1	#000000	normal	1
+Lasiopteridi_NR	Lasiopteridi	-1	#000000	normal	1
+Lecanicillium_G	Lecanicillium	-1	#000000	normal	1
+Lecanorales_O	Lecanorales (Order)	-1	#000000	normal	1
+Lecanorineae_sO	Lecanorineae (Suborder)	-1	#000000	normal	1
+Lecanoromycetes_C	Lecanoromycetes (Class)	-1	#000000	normal	1
+Lecanoromycetidae_sC	Lecanoromycetidae (Subclass)	-1	#000000	normal	1
+Lecidea_G	Lecidea	-1	#000000	normal	1
+Lecideaceae_F	Lecideaceae (Family)	-1	#000000	normal	1
+Lecideales_O	Lecideales (Order)	-1	#000000	normal	1
+Legeriomycetaceae_F	Legeriomycetaceae (Family)	-1	#000000	normal	1
+Leidyana1_ON	Leidyana1	-1	#000000	normal	1
+Leidyana2_ON	Leidyana2	-1	#000000	normal	1
+Leidyana_G	Leidyana	-1	#000000	normal	1
+Leidyanidae_F	Leidyanidae (Family)	-1	#000000	normal	1
+Leishmaniinae_sF	Leishmaniinae (Subfamily)	-1	#000000	normal	1
+Leohumicola_G	Leohumicola	-1	#000000	normal	1
+Leotiomycetes_C	Leotiomycetes (Class)	-1	#000000	normal	1
+Leotiomycetes_incertae_sedis_NR	Leotiomycetes incertae sedis	-1	#000000	normal	1
+Lepidosauria_C	Lepidosauria (Class)	-1	#000000	normal	1
+Leptodora_G	Leptodora	-1	#000000	normal	1
+Leptodoridae_F	Leptodoridae (Family)	-1	#000000	normal	1
+Leptomonas_G	Leptomonas	-1	#000000	normal	1
+Leptomyxida_O	Leptomyxida (Order)	-1	#000000	normal	1
+Life_R	Life	-1	#000000	normal	1
+Liliopsida_Cl	Liliopsida (Clade)	-1	#000000	normal	1
+Limnofilidae_F	Limnofilidae (Family)	-1	#000000	normal	1
+Limnofilidae_X_ON	Limnofilidae X	-1	#000000	normal	1
+Limulidae_F	Limulidae (Family)	-1	#000000	normal	1
+Limulus_G	Limulus	-1	#000000	normal	1
+Lipomyces_G	Lipomyces	-1	#000000	normal	1
+Lipomycetaceae_F	Lipomycetaceae (Family)	-1	#000000	normal	1
+Lipomycetales_O	Lipomycetales (Order)	-1	#000000	normal	1
+Lipomycetes_C	Lipomycetes (Class)	-1	#000000	normal	1
+Lipotrophidae_F	Lipotrophidae (Family)	-1	#000000	normal	1
+Litostomatea_C	Litostomatea (Class)	-1	#000000	normal	1
+Lituolida_O	Lituolida (Order)	-1	#000000	normal	1
+Lodderomyces_clade_Cl	Lodderomyces clade (Clade)	-1	#000000	normal	1
+Loimia_G	Loimia	-1	#000000	normal	1
+Longamoebia_O	Longamoebia (Order)	-1	#000000	normal	1
+Lophotrochozoa_Cl	Lophotrochozoa (Clade)	-1	#000000	normal	1
+Macrosiphini_T	Macrosiphini (Tribe)	-1	#000000	normal	1
+Magnoliopsida_C	Magnoliopsida (Class)	-1	#000000	normal	1
+Malassezia_G	Malassezia	-1	#000000	normal	1
+Malasseziaceae_F	Malasseziaceae (Family)	-1	#000000	normal	1
+Malasseziales_O	Malasseziales (Order)	-1	#000000	normal	1
+Malasseziomycetes_C	Malasseziomycetes (Class)	-1	#000000	normal	1
+Malpighiales_O	Malpighiales (Order)	-1	#000000	normal	1
+Mamiellales_O	Mamiellales (Order)	-1	#000000	normal	1
+Mamiellophyceae_C	Mamiellophyceae (Class)	-1	#000000	normal	1
+Mammalia_C	Mammalia (Class)	-1	#000000	normal	1
+Mammalia_X_ON	Mammalia X	-1	#000000	normal	1
+Mandibulata_Cl	Mandibulata (Clade)	-1	#000000	normal	1
+Marasmiineae_sO	Marasmiineae (Suborder)	-1	#000000	normal	1
+Massaria_G	Massaria	-1	#000000	normal	1
+Massariaceae_F	Massariaceae (Family)	-1	#000000	normal	1
+Massisteria_G	Massisteria	-1	#000000	normal	1
+Massisteriidae_F	Massisteriidae (Family)	-1	#000000	normal	1
+Mastigamoeba_G	Mastigamoeba	-1	#000000	normal	1
+Mastigamoebida_O	Mastigamoebida (Order)	-1	#000000	normal	1
+Mastigamoebidae_F	Mastigamoebidae (Family)	-1	#000000	normal	1
+Mastigella_G	Mastigella	-1	#000000	normal	1
+Mattesia_G	Mattesia	-1	#000000	normal	1
+Mayetiola_G	Mayetiola	-1	#000000	normal	1
+Mentheae_T	Mentheae (Tribe)	-1	#000000	normal	1
+Merostomata_C	Merostomata (Class)	-1	#000000	normal	1
+Mesangiospermae_Cl	Mesangiospermae (Clade)	-1	#000000	normal	1
+Metakinetoplastina_sC	Metakinetoplastina (Subclass)	-1	#000000	normal	1
+Metamonada_Cl	Metamonada (Clade)	-1	#000000	normal	1
+Metazoa_K	Metazoa (Kingdom)	-1	#000000	normal	1
+Metridia_G	Metridia	-1	#000000	normal	1
+Metridinidae_F	Metridinidae (Family)	-1	#000000	normal	1
+Micractinium_G	Micractinium	-1	#000000	normal	1
+Microlaimidae_F	Microlaimidae (Family)	-1	#000000	normal	1
+Microlaimoidea_SF	Microlaimoidea (Superfamily)	-1	#000000	normal	1
+Micronuclearia_G	Micronuclearia	-1	#000000	normal	1
+Microsporidia_P	Microsporidia (Phylum)	-1	#000000	normal	1
+Microsporidia_incertae_sedis_NR	Microsporidia incertae sedis	-1	#000000	normal	1
+Minutisphaerales_O	Minutisphaerales (Order)	-1	#000000	normal	1
+Mitosporidium_G	Mitosporidium	-1	#000000	normal	1
+Mollusca_P	Mollusca (Phylum)	-1	#000000	normal	1
+Monocystidae_F	Monocystidae (Family)	-1	#000000	normal	1
+Monocystis_G	Monocystis	-1	#000000	normal	1
+Monodopsidaceae_F	Monodopsidaceae (Family)	-1	#000000	normal	1
+Monogononta_sC	Monogononta (Subclass)	-1	#000000	normal	1
+Monoraphidium_G	Monoraphidium	-1	#000000	normal	1
+Monothalamids_Cl	Monothalamids (Clade)	-1	#000000	normal	1
+Mortierella_G	Mortierella	-1	#000000	normal	1
+Mortierellaceae_F	Mortierellaceae (Family)	-1	#000000	normal	1
+Mortierellales_O	Mortierellales (Order)	-1	#000000	normal	1
+Mortierellomycetes_C	Mortierellomycetes (Class)	-1	#000000	normal	1
+Mortierellomycotina_sP	Mortierellomycotina (Subphylum)	-1	#000000	normal	1
+Mrakia_G	Mrakia	-1	#000000	normal	1
+Mrakiaceae_F	Mrakiaceae (Family)	-1	#000000	normal	1
+Mucorales_O	Mucorales (Order)	-1	#000000	normal	1
+Mucorineae_sO	Mucorineae (Suborder)	-1	#000000	normal	1
+Mucoromycetes_C	Mucoromycetes (Class)	-1	#000000	normal	1
+Mucoromycota_P	Mucoromycota (Phylum)	-1	#000000	normal	1
+Mucoromycotina_sP	Mucoromycotina (Subphylum)	-1	#000000	normal	1
+Multicrustacea_SC	Multicrustacea (Superclass)	-1	#000000	normal	1
+Muridae_F	Muridae (Family)	-1	#000000	normal	1
+Murinae_sF	Murinae (Subfamily)	-1	#000000	normal	1
+Muroidea_Cl	Muroidea (Clade)	-1	#000000	normal	1
+Mycenaceae_F	Mycenaceae (Family)	-1	#000000	normal	1
+Mycosphaerellaceae_F	Mycosphaerellaceae (Family)	-1	#000000	normal	1
+Mycosphaerellales_O	Mycosphaerellales (Order)	-1	#000000	normal	1
+Myomorpha_sO	Myomorpha (Suborder)	-1	#000000	normal	1
+Myxosporea_sC	Myxosporea (Subclass)	-1	#000000	normal	1
+Myxozoa_C	Myxozoa (Class)	-1	#000000	normal	1
+NPAAA_clade_Cl	NPAAA clade (Clade)	-1	#000000	normal	1
+Nannochloropsis_G	Nannochloropsis	-1	#000000	normal	1
+Naviculales_O	Naviculales (Order)	-1	#000000	normal	1
+Nebulidae_F	Nebulidae (Family)	-1	#000000	normal	1
+Nebulidea_C	Nebulidea (Class)	-1	#000000	normal	1
+Nebulidia_P	Nebulidia (Phylum)	-1	#000000	normal	1
+Nebulidida_O	Nebulidida (Order)	-1	#000000	normal	1
+Nebulomonas_G	Nebulomonas	-1	#000000	normal	1
+Nectriaceae_F	Nectriaceae (Family)	-1	#000000	normal	1
+Nematocera_sO	Nematocera (Suborder)	-1	#000000	normal	1
+Nematoda_P	Nematoda (Phylum)	-1	#000000	normal	1
+Nematostelium_G	Nematostelium	-1	#000000	normal	1
+Nematostella_G	Nematostella	-1	#000000	normal	1
+Nemogullmia_G	Nemogullmia	-1	#000000	normal	1
+Neobodo_G	Neobodo	-1	#000000	normal	1
+Neobodonida_O	Neobodonida (Order)	-1	#000000	normal	1
+Neocallimastigaceae_F	Neocallimastigaceae (Family)	-1	#000000	normal	1
+Neocallimastigales_O	Neocallimastigales (Order)	-1	#000000	normal	1
+Neocallimastigomycetes_C	Neocallimastigomycetes (Class)	-1	#000000	normal	1
+Neocallimastix_G	Neocallimastix	-1	#000000	normal	1
+Neocercomonas_G	Neocercomonas	-1	#000000	normal	1
+Neocopepoda_iC	Neocopepoda (Infraclass)	-1	#000000	normal	1
+Neodiplogasteridae_F	Neodiplogasteridae (Family)	-1	#000000	normal	1
+Neofabraea_G	Neofabraea	-1	#000000	normal	1
+Neogastropoda_O	Neogastropoda (Order)	-1	#000000	normal	1
+Neogregarinorida_O	Neogregarinorida (Order)	-1	#000000	normal	1
+Neoptera_iC	Neoptera (Infraclass)	-1	#000000	normal	1
+Neopterygii_sC	Neopterygii (Subclass)	-1	#000000	normal	1
+Neovahlkampfia_G	Neovahlkampfia	-1	#000000	normal	1
+Neovahlkampfiidae_F	Neovahlkampfiidae (Family)	-1	#000000	normal	1
+Nepetoideae_sF	Nepetoideae (Subfamily)	-1	#000000	normal	1
+Neurospora_G	Neurospora	-1	#000000	normal	1
+Nibbleridae_F	Nibbleridae (Family)	-1	#000000	normal	1
+Nibbleridea_C	Nibbleridea (Class)	-1	#000000	normal	1
+Nibbleridia_P	Nibbleridia (Phylum)	-1	#000000	normal	1
+Nibbleridida_O	Nibbleridida (Order)	-1	#000000	normal	1
+Nibbleromonas_G	Nibbleromonas	-1	#000000	normal	1
+Nothopodinae_sF	Nothopodinae (Subfamily)	-1	#000000	normal	1
+Nothopodini_T	Nothopodini (Tribe)	-1	#000000	normal	1
+Notosolenus_G	Notosolenus	-1	#000000	normal	1
+Nucleariidae_F	Nucleariidae (Family)	-1	#000000	normal	1
+Nucleariidae_Nuclearia_2_X_ON	Nucleariidae Nuclearia 2 X	-1	#000000	normal	1
+Nygolaimidae_F	Nygolaimidae (Family)	-1	#000000	normal	1
+Nygolaimina_sO	Nygolaimina (Suborder)	-1	#000000	normal	1
+Nygolaiminae_sF	Nygolaiminae (Subfamily)	-1	#000000	normal	1
+Nygolaimoidea_SF	Nygolaimoidea (Superfamily)	-1	#000000	normal	1
+OSLEUM_clade_Cl	OSLEUM clade (Clade)	-1	#000000	normal	1
+OUU_clade_Cl	OUU clade (Clade)	-1	#000000	normal	1
+Ochrophyta_Cl	Ochrophyta (Clade)	-1	#000000	normal	1
+Octocorallia_sC	Octocorallia (Subclass)	-1	#000000	normal	1
+Oligohymenophorea_C	Oligohymenophorea (Class)	-1	#000000	normal	1
+Oligotrophini_T	Oligotrophini (Tribe)	-1	#000000	normal	1
+Onygenaceae_F	Onygenaceae (Family)	-1	#000000	normal	1
+Onygenales_O	Onygenales (Order)	-1	#000000	normal	1
+Oomycota_P	Oomycota (Phylum)	-1	#000000	normal	1
+Opalinata_O	Opalinata (Order)	-1	#000000	normal	1
+Opalozoa_Cl	Opalozoa (Clade)	-1	#000000	normal	1
+Ophryoglenina_sO	Ophryoglenina (Suborder)	-1	#000000	normal	1
+Opisthokonta_Cl	Opisthokonta (Clade)	-1	#000000	normal	1
+Oribatida_sO	Oribatida (Suborder)	-1	#000000	normal	1
+Orobanchaceae_F	Orobanchaceae (Family)	-1	#000000	normal	1
+Orobanchaceae_incertae_sedis_NR	Orobanchaceae incertae sedis	-1	#000000	normal	1
+Oryza_G	Oryza	-1	#000000	normal	1
+Oryzeae_T	Oryzeae (Tribe)	-1	#000000	normal	1
+Oryzinae_sT	Oryzinae (Subtribe)	-1	#000000	normal	1
+Oryzoideae_sF	Oryzoideae (Subfamily)	-1	#000000	normal	1
+Ostariophysi_S	Ostariophysi (Species)	-1	#000000	normal	1
+Osteoglossocephalai_Cl	Osteoglossocephalai (Clade)	-1	#000000	normal	1
+Ostreida_O	Ostreida (Order)	-1	#000000	normal	1
+Ostreidae_F	Ostreidae (Family)	-1	#000000	normal	1
+Ostreococcus_G	Ostreococcus	-1	#000000	normal	1
+Ostreoidea_SF	Ostreoidea (Superfamily)	-1	#000000	normal	1
+Otomorpha_C	Otomorpha (Class)	-1	#000000	normal	1
+Otophysi_Cl	Otophysi (Clade)	-1	#000000	normal	1
+Oxytrichidae_F	Oxytrichidae (Family)	-1	#000000	normal	1
+PACMAD_clade_Cl	PACMAD clade (Clade)	-1	#000000	normal	1
+PX_clade_Cl	PX clade (Clade)	-1	#000000	normal	1
+Panagrolaimidae_F	Panagrolaimidae (Family)	-1	#000000	normal	1
+Panagrolaimoidea_SF	Panagrolaimoidea (Superfamily)	-1	#000000	normal	1
+Panagrolaimomorpha_iO	Panagrolaimomorpha (Infraorder)	-1	#000000	normal	1
+Panarthropoda_Cl	Panarthropoda (Clade)	-1	#000000	normal	1
+Pancrustacea_Cl	Pancrustacea (Clade)	-1	#000000	normal	1
+Panellus_G	Panellus	-1	#000000	normal	1
+Panicoideae_sF	Panicoideae (Subfamily)	-1	#000000	normal	1
+Papilionoideae_sF	Papilionoideae (Subfamily)	-1	#000000	normal	1
+Paracalanidae_F	Paracalanidae (Family)	-1	#000000	normal	1
+Paracalanus_G	Paracalanus	-1	#000000	normal	1
+Paracercomonas_G	Paracercomonas	-1	#000000	normal	1
+Paradiniida_O	Paradiniida (Order)	-1	#000000	normal	1
+Paradinium_G	Paradinium	-1	#000000	normal	1
+Parameciidae_F	Parameciidae (Family)	-1	#000000	normal	1
+Paramecium_G	Paramecium	-1	#000000	normal	1
+Paramicrosporidium_G	Paramicrosporidium	-1	#000000	normal	1
+Paramoeba_G	Paramoeba	-1	#000000	normal	1
+Paramoebidae_F	Paramoebidae (Family)	-1	#000000	normal	1
+Paraneoptera_C	Paraneoptera (Class)	-1	#000000	normal	1
+Parhypochthoniidae_F	Parhypochthoniidae (Family)	-1	#000000	normal	1
+Parhypochthonioidea_SF	Parhypochthonioidea (Superfamily)	-1	#000000	normal	1
+Parhypochthonius_G	Parhypochthonius	-1	#000000	normal	1
+Parhyposomata_iO	Parhyposomata (Infraorder)	-1	#000000	normal	1
+Parmeliaceae_F	Parmeliaceae (Family)	-1	#000000	normal	1
+Paucitubulatina_sO	Paucitubulatina (Suborder)	-1	#000000	normal	1
+Paulinella_G	Paulinella	-1	#000000	normal	1
+Paulinellidae_F	Paulinellidae (Family)	-1	#000000	normal	1
+Pelagiidae_F	Pelagiidae (Family)	-1	#000000	normal	1
+Pelagomonadaceae_F	Pelagomonadaceae (Family)	-1	#000000	normal	1
+Pelagomonadales_O	Pelagomonadales (Order)	-1	#000000	normal	1
+Pelagophyceae_C	Pelagophyceae (Class)	-1	#000000	normal	1
+Pelobiontida_O	Pelobiontida (Order)	-1	#000000	normal	1
+Peloderinae_sF	Peloderinae (Subfamily)	-1	#000000	normal	1
+Penicillium_G	Penicillium	-1	#000000	normal	1
+Peniculida_O	Peniculida (Order)	-1	#000000	normal	1
+Pennatuloidea_SF	Pennatuloidea (Superfamily)	-1	#000000	normal	1
+Pentapetalae_Cl	Pentapetalae (Clade)	-1	#000000	normal	1
+Pentapharsodinium_G	Pentapharsodinium	-1	#000000	normal	1
+Penthaleidae_F	Penthaleidae (Family)	-1	#000000	normal	1
+Penthaleus_G	Penthaleus	-1	#000000	normal	1
+Peridiniaceae_F	Peridiniaceae (Family)	-1	#000000	normal	1
+Peridiniales_O	Peridiniales (Order)	-1	#000000	normal	1
+Peritrichia_sC	Peritrichia (Subclass)	-1	#000000	normal	1
+Perkinsea_Cl	Perkinsea (Clade)	-1	#000000	normal	1
+Perkinsida_O	Perkinsida (Order)	-1	#000000	normal	1
+Perkinsozoa_P	Perkinsozoa (Phylum)	-1	#000000	normal	1
+Peronosporaceae_F	Peronosporaceae (Family)	-1	#000000	normal	1
+Peronosporales_O	Peronosporales (Order)	-1	#000000	normal	1
+Petalomonadida_O	Petalomonadida (Order)	-1	#000000	normal	1
+Petalomonas_G	Petalomonas	-1	#000000	normal	1
+Petrosaviidae_sC	Petrosaviidae (Subclass)	-1	#000000	normal	1
+Pezizomycotina_sP	Pezizomycotina (Subphylum)	-1	#000000	normal	1
+Phaeodactylaceae_F	Phaeodactylaceae (Family)	-1	#000000	normal	1
+Phaeodactylum_G	Phaeodactylum	-1	#000000	normal	1
+Phaeophyceae_C	Phaeophyceae (Class)	-1	#000000	normal	1
+Phaeosphaeria_G	Phaeosphaeria	-1	#000000	normal	1
+Phaeosphaeriaceae_F	Phaeosphaeriaceae (Family)	-1	#000000	normal	1
+Phaseoleae_T	Phaseoleae (Tribe)	-1	#000000	normal	1
+Phialophora_G	Phialophora	-1	#000000	normal	1
+Philaenus_G	Philaenus	-1	#000000	normal	1
+Phryganella_G	Phryganella	-1	#000000	normal	1
+Phryganellidae_F	Phryganellidae (Family)	-1	#000000	normal	1
+Phryganellina_sO	Phryganellina (Suborder)	-1	#000000	normal	1
+Phthiraptera_O	Phthiraptera (Order)	-1	#000000	normal	1
+Phyllocoptinae_sF	Phyllocoptinae (Subfamily)	-1	#000000	normal	1
+Phyllopharyngea_C	Phyllopharyngea (Class)	-1	#000000	normal	1
+Phyllopharyngia_sC	Phyllopharyngia (Subclass)	-1	#000000	normal	1
+Phyllopoda_sC	Phyllopoda (Subclass)	-1	#000000	normal	1
+Physcomitrella_G	Physcomitrella	-1	#000000	normal	1
+Physochila_G	Physochila	-1	#000000	normal	1
+Phytomonas_G	Phytomonas	-1	#000000	normal	1
+Phytophthora_G	Phytophthora	-1	#000000	normal	1
+Pichiomycetes_C	Pichiomycetes (Class)	-1	#000000	normal	1
+Picomonadea_C	Picomonadea (Class)	-1	#000000	normal	1
+Picomonadida_O	Picomonadida (Order)	-1	#000000	normal	1
+Picomonadidae_F	Picomonadidae (Family)	-1	#000000	normal	1
+Picomonas_G	Picomonas	-1	#000000	normal	1
+Picozoa_P	Picozoa (Phylum)	-1	#000000	normal	1
+Pipidae_F	Pipidae (Family)	-1	#000000	normal	1
+Pipoidea_SF	Pipoidea (Superfamily)	-1	#000000	normal	1
+Piromyces_G	Piromyces	-1	#000000	normal	1
+Piroplasmida_O	Piroplasmida (Order)	-1	#000000	normal	1
+Plagiopyxidae_F	Plagiopyxidae (Family)	-1	#000000	normal	1
+Plagiostomidae_F	Plagiostomidae (Family)	-1	#000000	normal	1
+Plagiostomum_G	Plagiostomum	-1	#000000	normal	1
+Plasmodiidae_F	Plasmodiidae (Family)	-1	#000000	normal	1
+Plasmodium1_ON	Plasmodium1	-1	#000000	normal	1
+Plasmodium2_ON	Plasmodium2	-1	#000000	normal	1
+Plasmodium4_ON	Plasmodium4	-1	#000000	normal	1
+Plasmodium_G	Plasmodium	-1	#000000	normal	1
+Plasmodium_Plasmodium_sG	Plasmodium Plasmodium (Subgenus)	-1	#000000	normal	1
+Platyhelminthes_P	Platyhelminthes (Phylum)	-1	#000000	normal	1
+Plectonchus_G	Plectonchus	-1	#000000	normal	1
+Pleosporales_O	Pleosporales (Order)	-1	#000000	normal	1
+Pleosporineae_sO	Pleosporineae (Suborder)	-1	#000000	normal	1
+Pleosporomycetidae_sC	Pleosporomycetidae (Subclass)	-1	#000000	normal	1
+Ploima_O	Ploima (Order)	-1	#000000	normal	1
+Poaceae_F	Poaceae (Family)	-1	#000000	normal	1
+Poales_O	Poales (Order)	-1	#000000	normal	1
+Podoplea_SO	Podoplea (Superorder)	-1	#000000	normal	1
+Podospora_G	Podospora	-1	#000000	normal	1
+Podosporaceae_F	Podosporaceae (Family)	-1	#000000	normal	1
+Polychaeta_C	Polychaeta (Class)	-1	#000000	normal	1
+Polychaos_G	Polychaos	-1	#000000	normal	1
+Polychytriales_O	Polychytriales (Order)	-1	#000000	normal	1
+Polychytriales_incertae_sedis_NR	Polychytriales incertae sedis	-1	#000000	normal	1
+Polychytrium_G	Polychytrium	-1	#000000	normal	1
+Polycystinea_C	Polycystinea (Class)	-1	#000000	normal	1
+Pontellidae_F	Pontellidae (Family)	-1	#000000	normal	1
+Pooideae_sF	Pooideae (Subfamily)	-1	#000000	normal	1
+Populus_G	Populus	-1	#000000	normal	1
+Primates_O	Primates (Order)	-1	#000000	normal	1
+Pristionchus_G	Pristionchus	-1	#000000	normal	1
+Prodesmodora_G	Prodesmodora	-1	#000000	normal	1
+Prolecithophora_O	Prolecithophora (Order)	-1	#000000	normal	1
+Prorodontida_O	Prorodontida (Order)	-1	#000000	normal	1
+Prostigmata_sO	Prostigmata (Suborder)	-1	#000000	normal	1
+Prostomatea_C	Prostomatea (Class)	-1	#000000	normal	1
+Protacanthamoeba_G	Protacanthamoeba	-1	#000000	normal	1
+Protaspa_G	Protaspa	-1	#000000	normal	1
+Protaspidae_F	Protaspidae (Family)	-1	#000000	normal	1
+Protostomia_Cl	Protostomia (Clade)	-1	#000000	normal	1
+Provora_Cl	Provora (Clade)	-1	#000000	normal	1
+Psalteriomonadidae_F	Psalteriomonadidae (Family)	-1	#000000	normal	1
+Psathyrellaceae_F	Psathyrellaceae (Family)	-1	#000000	normal	1
+Pseudocolliniidae_F	Pseudocolliniidae (Family)	-1	#000000	normal	1
+Pseudotrocha_SO	Pseudotrocha (Superorder)	-1	#000000	normal	1
+Pseudovorticella_G	Pseudovorticella	-1	#000000	normal	1
+Psocodea_SO	Psocodea (Superorder)	-1	#000000	normal	1
+Psora_G	Psora	-1	#000000	normal	1
+Psoraceae_F	Psoraceae (Family)	-1	#000000	normal	1
+Pteriomorphia_Cl	Pteriomorphia (Clade)	-1	#000000	normal	1
+Pterocystida_O	Pterocystida (Order)	-1	#000000	normal	1
+Pterygota_sC	Pterygota (Subclass)	-1	#000000	normal	1
+Ptolemeba_G	Ptolemeba	-1	#000000	normal	1
+Pycnora_G	Pycnora	-1	#000000	normal	1
+Pycnoraceae_F	Pycnoraceae (Family)	-1	#000000	normal	1
+Pyloniidae_F	Pyloniidae (Family)	-1	#000000	normal	1
+Pythiaceae_F	Pythiaceae (Family)	-1	#000000	normal	1
+Pythiales_O	Pythiales (Order)	-1	#000000	normal	1
+Pythium_G	Pythium	-1	#000000	normal	1
+Raphidista_Cl	Raphidista (Clade)	-1	#000000	normal	1
+Raphidocelis_G	Raphidocelis	-1	#000000	normal	1
+Rattus_G	Rattus	-1	#000000	normal	1
+Rehmannia_G	Rehmannia	-1	#000000	normal	1
+Reophacidae_F	Reophacidae (Family)	-1	#000000	normal	1
+Reophax_G	Reophax	-1	#000000	normal	1
+Retaria_Cl	Retaria (Clade)	-1	#000000	normal	1
+Rhabditida_O	Rhabditida (Order)	-1	#000000	normal	1
+Rhabditidae_F	Rhabditidae (Family)	-1	#000000	normal	1
+Rhabditina_sO	Rhabditina (Suborder)	-1	#000000	normal	1
+Rhabditoidea_SF	Rhabditoidea (Superfamily)	-1	#000000	normal	1
+Rhabditomorpha_iO	Rhabditomorpha (Infraorder)	-1	#000000	normal	1
+Rhabditophora_C	Rhabditophora (Class)	-1	#000000	normal	1
+Rhabdomonadales_O	Rhabdomonadales (Order)	-1	#000000	normal	1
+Rhizaria_Cl	Rhizaria (Clade)	-1	#000000	normal	1
+Rhizoclosmatium_G	Rhizoclosmatium	-1	#000000	normal	1
+Rhizophagus_G	Rhizophagus	-1	#000000	normal	1
+Rhizophydiales_O	Rhizophydiales (Order)	-1	#000000	normal	1
+Rhizophydiales_incertae_sedis_NR	Rhizophydiales incertae sedis	-1	#000000	normal	1
+Rhizopodaceae_F	Rhizopodaceae (Family)	-1	#000000	normal	1
+Rhizopus_G	Rhizopus	-1	#000000	normal	1
+Rhodophyta_P	Rhodophyta (Phylum)	-1	#000000	normal	1
+Rhynchomonadidae_F	Rhynchomonadidae (Family)	-1	#000000	normal	1
+Rhynchomonas_G	Rhynchomonas	-1	#000000	normal	1
+Ricinidae_F	Ricinidae (Family)	-1	#000000	normal	1
+Ricinus_G	Ricinus	-1	#000000	normal	1
+Rigifila_G	Rigifila	-1	#000000	normal	1
+Rigifilida_O	Rigifilida (Order)	-1	#000000	normal	1
+Ripidomyxa_G	Ripidomyxa	-1	#000000	normal	1
+Rodentia_O	Rodentia (Order)	-1	#000000	normal	1
+Rotifera_P	Rotifera (Phylum)	-1	#000000	normal	1
+Rotosphaerida_O	Rotosphaerida (Order)	-1	#000000	normal	1
+Russula_G	Russula	-1	#000000	normal	1
+Russulaceae_F	Russulaceae (Family)	-1	#000000	normal	1
+Russulales_O	Russulales (Order)	-1	#000000	normal	1
+Sabatieria_G	Sabatieria	-1	#000000	normal	1
+Saccamoeba_G	Saccamoeba	-1	#000000	normal	1
+Saccharomyces_G	Saccharomyces	-1	#000000	normal	1
+Saccharomycetaceae_F	Saccharomycetaceae (Family)	-1	#000000	normal	1
+Saccharomycetales_O	Saccharomycetales (Order)	-1	#000000	normal	1
+Saccharomycetes_C	Saccharomycetes (Class)	-1	#000000	normal	1
+Saccharomycotina_sP	Saccharomycotina (Subphylum)	-1	#000000	normal	1
+Salicaceae_F	Salicaceae (Family)	-1	#000000	normal	1
+Saliceae_T	Saliceae (Tribe)	-1	#000000	normal	1
+Salpingoecidae_F	Salpingoecidae (Family)	-1	#000000	normal	1
+Salpingoecidae_Group_C1_X_ON	Salpingoecidae Group C1 X	-1	#000000	normal	1
+Sandona_G	Sandona	-1	#000000	normal	1
+Sandonidae_F	Sandonidae (Family)	-1	#000000	normal	1
+Saprolegnia_G	Saprolegnia	-1	#000000	normal	1
+Saprolegniaceae_F	Saprolegniaceae (Family)	-1	#000000	normal	1
+Saprolegniales_O	Saprolegniales (Order)	-1	#000000	normal	1
+Sar_Cl	Sar (Clade)	-1	#000000	normal	1
+Sarcocystidae_F	Sarcocystidae (Family)	-1	#000000	normal	1
+Sarcocystis10_ON	Sarcocystis10	-1	#000000	normal	1
+Sarcocystis_G	Sarcocystis	-1	#000000	normal	1
+Sarcopterygii_SC	Sarcopterygii (Superclass)	-1	#000000	normal	1
+Sarcoptiformes_O	Sarcoptiformes (Order)	-1	#000000	normal	1
+Sauria_Cl	Sauria (Clade)	-1	#000000	normal	1
+Sauropsida_Cl	Sauropsida (Clade)	-1	#000000	normal	1
+Sawyeria_G	Sawyeria	-1	#000000	normal	1
+Schistosoma_G	Schistosoma	-1	#000000	normal	1
+Schistosomatidae_F	Schistosomatidae (Family)	-1	#000000	normal	1
+Schistosomatoidea_SF	Schistosomatoidea (Superfamily)	-1	#000000	normal	1
+Schizoplasmodiidae_F	Schizoplasmodiidae (Family)	-1	#000000	normal	1
+Schizoplasmodium_G	Schizoplasmodium	-1	#000000	normal	1
+Schizosaccharomyces_G	Schizosaccharomyces	-1	#000000	normal	1
+Schizosaccharomycetaceae_F	Schizosaccharomycetaceae (Family)	-1	#000000	normal	1
+Schizosaccharomycetales_O	Schizosaccharomycetales (Order)	-1	#000000	normal	1
+Schizosaccharomycetes_C	Schizosaccharomycetes (Class)	-1	#000000	normal	1
+Sciaroidea_SF	Sciaroidea (Superfamily)	-1	#000000	normal	1
+Scleralcyonacea_O	Scleralcyonacea (Order)	-1	#000000	normal	1
+Scrippsiella_G	Scrippsiella	-1	#000000	normal	1
+Scyphozoa_C	Scyphozoa (Class)	-1	#000000	normal	1
+Scytomonadidae_F	Scytomonadidae (Family)	-1	#000000	normal	1
+Scytomonas_G	Scytomonas	-1	#000000	normal	1
+Sedentaria_sC	Sedentaria (Subclass)	-1	#000000	normal	1
+Selenastraceae_F	Selenastraceae (Family)	-1	#000000	normal	1
+Semaeostomeae_O	Semaeostomeae (Order)	-1	#000000	normal	1
+Separata_Cl	Separata (Clade)	-1	#000000	normal	1
+Serinales_O	Serinales (Order)	-1	#000000	normal	1
+Sessilida_O	Sessilida (Order)	-1	#000000	normal	1
+Sididae_F	Sididae (Family)	-1	#000000	normal	1
+Sigmoideomycetaceae_F	Sigmoideomycetaceae (Family)	-1	#000000	normal	1
+Silicofilosea_Cl	Silicofilosea (Clade)	-1	#000000	normal	1
+Simiiformes_iO	Simiiformes (Infraorder)	-1	#000000	normal	1
+Simocephalus_G	Simocephalus	-1	#000000	normal	1
+Skeletonema_G	Skeletonema	-1	#000000	normal	1
+Skeletonemataceae_F	Skeletonemataceae (Family)	-1	#000000	normal	1
+Smittium_G	Smittium	-1	#000000	normal	1
+Sordariaceae_F	Sordariaceae (Family)	-1	#000000	normal	1
+Sordariales_O	Sordariales (Order)	-1	#000000	normal	1
+Sordariomycetes_C	Sordariomycetes (Class)	-1	#000000	normal	1
+Sordariomycetidae_sC	Sordariomycetidae (Subclass)	-1	#000000	normal	1
+Sorghinae_sT	Sorghinae (Subtribe)	-1	#000000	normal	1
+Sorghum_G	Sorghum	-1	#000000	normal	1
+Sorghum_bicolor_S	Sorghum bicolor (Species)	-1	#000000	normal	1
+Spadicoides_G	Spadicoides	-1	#000000	normal	1
+Spermatophyta_Cl	Spermatophyta (Clade)	-1	#000000	normal	1
+Spermatozopsis_G	Spermatozopsis	-1	#000000	normal	1
+Sphaeropleales_O	Sphaeropleales (Order)	-1	#000000	normal	1
+Sphaerozoidae_F	Sphaerozoidae (Family)	-1	#000000	normal	1
+Sphaerozoum_G	Sphaerozoum	-1	#000000	normal	1
+Sphaerularioidea_SF	Sphaerularioidea (Superfamily)	-1	#000000	normal	1
+Spinibdella_G	Spinibdella	-1	#000000	normal	1
+Spiralia_Cl	Spiralia (Clade)	-1	#000000	normal	1
+Spirocuta_Cl	Spirocuta (Clade)	-1	#000000	normal	1
+Spironemidae_F	Spironemidae (Family)	-1	#000000	normal	1
+Spirotrichea_C	Spirotrichea (Class)	-1	#000000	normal	1
+Spizellomyces_G	Spizellomyces	-1	#000000	normal	1
+Spizellomycetaceae_F	Spizellomycetaceae (Family)	-1	#000000	normal	1
+Spizellomycetales_O	Spizellomycetales (Order)	-1	#000000	normal	1
+Sporadotrichida_O	Sporadotrichida (Order)	-1	#000000	normal	1
+Spumella_G	Spumella	-1	#000000	normal	1
+Spumellaria_O	Spumellaria (Order)	-1	#000000	normal	1
+Squamata_O	Squamata (Order)	-1	#000000	normal	1
+Sternorrhyncha_sO	Sternorrhyncha (Suborder)	-1	#000000	normal	1
+Stichotrichia_sC	Stichotrichia (Subclass)	-1	#000000	normal	1
+Stipodae_NR	Stipodae	-1	#000000	normal	1
+Stramenopiles_Cl	Stramenopiles (Clade)	-1	#000000	normal	1
+Streptophyta_P	Streptophyta (Phylum)	-1	#000000	normal	1
+Streptophytina_sP	Streptophytina (Subphylum)	-1	#000000	normal	1
+Strigeidida_O	Strigeidida (Order)	-1	#000000	normal	1
+Strigomonadinae_sF	Strigomonadinae (Subfamily)	-1	#000000	normal	1
+Strigomonas_G	Strigomonas	-1	#000000	normal	1
+Stylocephalidae_F	Stylocephalidae (Family)	-1	#000000	normal	1
+Stylonychia_G	Stylonychia	-1	#000000	normal	1
+Stylonychinae_sF	Stylonychinae (Subfamily)	-1	#000000	normal	1
+Suctoria_sC	Suctoria (Subclass)	-1	#000000	normal	1
+Surapoda_G	Surapoda	-1	#000000	normal	1
+Taphrina_G	Taphrina	-1	#000000	normal	1
+Taphrinaceae_F	Taphrinaceae (Family)	-1	#000000	normal	1
+Taphrinales_O	Taphrinales (Order)	-1	#000000	normal	1
+Taphrinomycetes_C	Taphrinomycetes (Class)	-1	#000000	normal	1
+Taphrinomycotina_sP	Taphrinomycotina (Subphylum)	-1	#000000	normal	1
+Teleostei_iC	Teleostei (Infraclass)	-1	#000000	normal	1
+Teleostomi_Cl	Teleostomi (Clade)	-1	#000000	normal	1
+Temoridae_F	Temoridae (Family)	-1	#000000	normal	1
+Teratosphaeria_G	Teratosphaeria	-1	#000000	normal	1
+Teratosphaeriaceae_F	Teratosphaeriaceae (Family)	-1	#000000	normal	1
+Terebellida_O	Terebellida (Order)	-1	#000000	normal	1
+Terebellidae_F	Terebellidae (Family)	-1	#000000	normal	1
+Terebelliformia_sO	Terebelliformia (Suborder)	-1	#000000	normal	1
+Tetrachaetum_G	Tetrachaetum	-1	#000000	normal	1
+Tetramitia_Cl	Tetramitia (Clade)	-1	#000000	normal	1
+Tetrapoda_Cl	Tetrapoda (Clade)	-1	#000000	normal	1
+Thalassiosira_G	Thalassiosira	-1	#000000	normal	1
+Thalassiosiraceae_F	Thalassiosiraceae (Family)	-1	#000000	normal	1
+Thalassiosirales_O	Thalassiosirales (Order)	-1	#000000	normal	1
+Thalassiosirophycidae_sC	Thalassiosirophycidae (Subclass)	-1	#000000	normal	1
+Thamnocephalis_G	Thamnocephalis	-1	#000000	normal	1
+Thaumatomastigidae_F	Thaumatomastigidae (Family)	-1	#000000	normal	1
+Thaumatomonadida_O	Thaumatomonadida (Order)	-1	#000000	normal	1
+Thaumatomonas_G	Thaumatomonas	-1	#000000	normal	1
+Thecofilosea_C	Thecofilosea (Class)	-1	#000000	normal	1
+Theileria1_ON	Theileria1	-1	#000000	normal	1
+Theileria_G	Theileria	-1	#000000	normal	1
+Theileriidae_F	Theileriidae (Family)	-1	#000000	normal	1
+Theria_Cl	Theria (Clade)	-1	#000000	normal	1
+Tholomura_G	Tholomura	-1	#000000	normal	1
+Tilletiopsis_G	Tilletiopsis	-1	#000000	normal	1
+Tobrilidae_F	Tobrilidae (Family)	-1	#000000	normal	1
+Tobrilina_sO	Tobrilina (Suborder)	-1	#000000	normal	1
+Tobriloidea_SF	Tobriloidea (Superfamily)	-1	#000000	normal	1
+Tobrilus_G	Tobrilus	-1	#000000	normal	1
+Tokophrya_G	Tokophrya	-1	#000000	normal	1
+Tokophryidae_F	Tokophryidae (Family)	-1	#000000	normal	1
+Toxicofera_Cl	Toxicofera (Clade)	-1	#000000	normal	1
+Trachelomonas_G	Trachelomonas	-1	#000000	normal	1
+Tracheophyta_Cl	Tracheophyta (Clade)	-1	#000000	normal	1
+Trebouxiophyceae_C	Trebouxiophyceae (Class)	-1	#000000	normal	1
+Trebouxiophyceae_incertae_sedis_NR	Trebouxiophyceae incertae sedis	-1	#000000	normal	1
+Trematoda_C	Trematoda (Class)	-1	#000000	normal	1
+Tremellomycetes_C	Tremellomycetes (Class)	-1	#000000	normal	1
+Tremellomycetes_X_ON	Tremellomycetes X	-1	#000000	normal	1
+Trepomonas_G	Trepomonas	-1	#000000	normal	1
+Trichocladium_G	Trichocladium	-1	#000000	normal	1
+Trichosporon_G	Trichosporon	-1	#000000	normal	1
+Trichosporonaceae_F	Trichosporonaceae (Family)	-1	#000000	normal	1
+Trichosporonales_O	Trichosporonales (Order)	-1	#000000	normal	1
+Trimitus_G	Trimitus	-1	#000000	normal	1
+Triplonchida_O	Triplonchida (Order)	-1	#000000	normal	1
+Tripsacinae_sT	Tripsacinae (Subtribe)	-1	#000000	normal	1
+Trochilia_G	Trochilia	-1	#000000	normal	1
+Trombidiformes_O	Trombidiformes (Order)	-1	#000000	normal	1
+Trypanosoma_G	Trypanosoma	-1	#000000	normal	1
+Trypanosomatida_O	Trypanosomatida (Order)	-1	#000000	normal	1
+Trypanosomatidae_F	Trypanosomatidae (Family)	-1	#000000	normal	1
+Tubulinea_P	Tubulinea (Phylum)	-1	#000000	normal	1
+Tubulinida_Cl	Tubulinida (Clade)	-1	#000000	normal	1
+Tubulinida_incertae_sedis_NR	Tubulinida incertae sedis	-1	#000000	normal	1
+Tuckermannopsis_G	Tuckermannopsis	-1	#000000	normal	1
+Tylenchina_sO	Tylenchina (Suborder)	-1	#000000	normal	1
+Tylenchoidea_SF	Tylenchoidea (Superfamily)	-1	#000000	normal	1
+Tylenchomorpha_iO	Tylenchomorpha (Infraorder)	-1	#000000	normal	1
+Ubysseya_G	Ubysseya	-1	#000000	normal	1
+Ulva_G	Ulva	-1	#000000	normal	1
+Ulvaceae_F	Ulvaceae (Family)	-1	#000000	normal	1
+Ulvales_O	Ulvales (Order)	-1	#000000	normal	1
+Ulvophyceae_C	Ulvophyceae (Class)	-1	#000000	normal	1
+Unidentata_Cl	Unidentata (Clade)	-1	#000000	normal	1
+Urotricha_G	Urotricha	-1	#000000	normal	1
+Urotrichidae_F	Urotrichidae (Family)	-1	#000000	normal	1
+Ustanciosporium_G	Ustanciosporium	-1	#000000	normal	1
+Ustilaginales_O	Ustilaginales (Order)	-1	#000000	normal	1
+Ustilaginomycetes_C	Ustilaginomycetes (Class)	-1	#000000	normal	1
+Ustilaginomycotina_sP	Ustilaginomycotina (Subphylum)	-1	#000000	normal	1
+Vampyrella_G	Vampyrella	-1	#000000	normal	1
+Vampyrellida_O	Vampyrellida (Order)	-1	#000000	normal	1
+Vampyrellidae_F	Vampyrellidae (Family)	-1	#000000	normal	1
+Vannella_G	Vannella	-1	#000000	normal	1
+Vannellidae_F	Vannellidae (Family)	-1	#000000	normal	1
+Variisporina_sO	Variisporina (Suborder)	-1	#000000	normal	1
+Variosea_C	Variosea (Class)	-1	#000000	normal	1
+Ventricleftida_O	Ventricleftida (Order)	-1	#000000	normal	1
+Ventrifissura_G	Ventrifissura	-1	#000000	normal	1
+Ventrifissuridae_F	Ventrifissuridae (Family)	-1	#000000	normal	1
+Venturia_G	Venturia	-1	#000000	normal	1
+Vertebrata_Cl	Vertebrata (Clade)	-1	#000000	normal	1
+Viridiplantae_K	Viridiplantae (Kingdom)	-1	#000000	normal	1
+Vorticella_G	Vorticella	-1	#000000	normal	1
+Vorticellidae_F	Vorticellidae (Family)	-1	#000000	normal	1
+Xcellidae_F	Xcellidae (Family)	-1	#000000	normal	1
+Xenopodinae_sF	Xenopodinae (Subfamily)	-1	#000000	normal	1
+Xenopus_G	Xenopus	-1	#000000	normal	1
+Xenopus_sG	Xenopus (Subgenus)	-1	#000000	normal	1
+Xenospadicoidaceae_F	Xenospadicoidaceae (Family)	-1	#000000	normal	1
+Xenospadicoidales_O	Xenospadicoidales (Order)	-1	#000000	normal	1
+Xiphocephalus_G	Xiphocephalus	-1	#000000	normal	1
+Xiphosura_O	Xiphosura (Order)	-1	#000000	normal	1
+Zea_G	Zea	-1	#000000	normal	1
+Zoopagales_O	Zoopagales (Order)	-1	#000000	normal	1
+Zoopagomycetes_C	Zoopagomycetes (Class)	-1	#000000	normal	1
+Zoopagomycota_P	Zoopagomycota (Phylum)	-1	#000000	normal	1
+Zoopagomycotina_sP	Zoopagomycotina (Subphylum)	-1	#000000	normal	1
+Zymoseptoria_G	Zymoseptoria	-1	#000000	normal	1
+asterids_Cl	asterids (Clade)	-1	#000000	normal	1
+cellular_organisms_R	cellular organisms	-1	#000000	normal	1
+commelinids_Cl	commelinids (Clade)	-1	#000000	normal	1
+core_chlorophytes_Cl	core chlorophytes (Clade)	-1	#000000	normal	1
+dothideomyceta_Cl	dothideomyceta (Clade)	-1	#000000	normal	1
+eudicotyledons_Cl	eudicotyledons (Clade)	-1	#000000	normal	1
+fabids_Cl	fabids (Clade)	-1	#000000	normal	1
+lamiids_Cl	lamiids (Clade)	-1	#000000	normal	1
+leotiomyceta_Cl	leotiomyceta (Clade)	-1	#000000	normal	1
+malvids_Cl	malvids (Clade)	-1	#000000	normal	1
+millettioid_clade_Cl	millettioid clade (Clade)	-1	#000000	normal	1
+rosids_Cl	rosids (Clade)	-1	#000000	normal	1
+saccharomyceta_Cl	saccharomyceta (Clade)	-1	#000000	normal	1
+sordariomyceta_Cl	sordariomyceta (Clade)	-1	#000000	normal	1

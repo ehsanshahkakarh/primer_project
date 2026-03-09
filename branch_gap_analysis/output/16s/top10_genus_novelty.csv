@@ -1,0 +1,11 @@
+genus,census_otu_count,census_size_count,otu_percentage,size_percentage,ncbi_genome_count,ncbi_species_count,isolate_count,genome_pct_db,species_pct,isolate_percentage,novelty_factor,overrepresentation_factor,direct_matches,taxid_matches,lineage_matches,total_matches,match_status,domain,coverage_percentage
+Desulfofarcimen,249,289,0.09,0.02,1,1,1,0.0,0.0,100.0,249.0,0.004,1,1,-1,1,matched,Bacteria,
+Pajaroellobacter,195,888,0.07,0.07,1,1,1,0.0,0.0,100.0,195.0,0.005,1,1,-1,1,matched,Bacteria,
+Haliangium,748,3124,0.29,0.26,11,4,2,0.0,0.01,18.18,187.0,0.005,1,1,-1,1,matched,Bacteria,
+Aquicella,261,371,0.1,0.03,3,2,3,0.0,0.0,100.0,130.5,0.008,1,1,-1,1,matched,Bacteria,
+Bryobacter,520,1850,0.2,0.15,20,4,1,0.0,0.01,5.0,130.0,0.008,1,1,-1,1,matched,Bacteria,
+Desulfatiglans,371,1445,0.14,0.12,12,3,1,0.0,0.0,8.33,123.667,0.008,1,1,-1,1,matched,Bacteria,
+Monoglobus,345,844,0.13,0.07,36,3,2,0.0,0.0,5.56,115.0,0.009,1,1,-1,1,matched,Bacteria,
+Pirellula,418,1770,0.16,0.15,146,4,2,0.01,0.01,1.37,104.5,0.01,1,1,-1,1,matched,Bacteria,
+Salinibacter,647,2050,0.25,0.17,272,7,254,0.01,0.01,93.38,92.429,0.011,1,1,-1,1,matched,Bacteria,
+Blastopirellula,629,2154,0.24,0.18,24,7,10,0.0,0.01,41.67,89.857,0.011,1,1,-1,1,matched,Bacteria,
