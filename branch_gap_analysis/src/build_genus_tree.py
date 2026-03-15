@@ -211,7 +211,7 @@ def print_tree_summary(node: TaxonNode, depth: int = 0, max_depth: int = 3):
 def main():
     """Main entry point."""
     input_file = Path("/Users/ehsankakarh/PROJA/GitHub/otu_assembly_comparative_pipeline-/eukcensus_parse/18S_censusparse/output/eukcensus_18S_by_genus.csv")
-    output_dir = Path("/Users/ehsankakarh/PROJA/primer_project/branch_gap_analysis/metadata/18s/tree")
+    output_dir = Path("/Users/ehsankakarh/PROJA/primer_project/branch_gap_analysis/output/18s/tree")
 
     print("=" * 70)
     print("Building Genus Tree from 18S Census Data")

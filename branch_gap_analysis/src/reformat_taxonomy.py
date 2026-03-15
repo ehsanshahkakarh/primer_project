@@ -6,7 +6,7 @@ Uses lineage data from the census files (already parsed) and joins with
 novelty factors from the merged files. Outputs CSVs with individual columns
 for each taxonomic rank found in the data.
 
-Output: metadata/{16s,18s}/taxa_with_ranks.csv
+Output: output/{16s,18s}/taxa_with_ranks.csv
 """
 
 import pandas as pd
@@ -14,7 +14,7 @@ import numpy as np
 from pathlib import Path
 from config import (
     SOURCE_16S_FILES, SOURCE_18S_FILES,
-    METADATA_DIR, OTU_PIPELINE_ROOT
+    METADATA_DIR, OUTPUT_DIR, OTU_PIPELINE_ROOT
 )
 
 # Census file paths (note: 16S uses 'eukcensus16S_', 18S uses 'eukcensus_18S_')
@@ -256,7 +256,7 @@ def process_dataset(name: str, source_files: dict, census_files: dict, output_di
         ascending=[False, False]
     )
 
-    # Save to metadata directory
+    # Save to output directory
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Save as CSV
@@ -301,7 +301,7 @@ def main():
 
     print(f"\n{'='*70}")
     print("Taxonomy reformatting complete!")
-    print(f"Output directory: {METADATA_DIR}")
+    print(f"Output directory: {OUTPUT_DIR}")
     print(f"{'='*70}")
 
 

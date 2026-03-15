@@ -28,9 +28,9 @@ SOURCE_18S_FILES = {
     "genus": SOURCE_DATA_BASE / "18s_ncbi_merged_genus.csv",
 }
 
-# Output paths
+# Output paths (all outputs go to output/ directory)
 OUTPUT_DIR = PROJECT_ROOT / "output"
-METADATA_DIR = PROJECT_ROOT / "metadata"
+METADATA_DIR = OUTPUT_DIR  # Legacy alias - now points to output/
 
 # Taxonomic ranks in order (standard NCBI ranks)
 TAXONOMIC_RANKS = [

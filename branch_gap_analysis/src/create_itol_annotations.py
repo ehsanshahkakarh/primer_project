@@ -18,8 +18,8 @@ from pathlib import Path
 
 # File paths
 GENUS_PARSE_FILE = Path("/Users/ehsankakarh/PROJA/GitHub/otu_assembly_comparative_pipeline-/eukcensus_parse/18S_censusparse/output/eukcensus_18S_by_genus.csv")
-TREE_FILE = Path("/Users/ehsankakarh/PROJA/primer_project/branch_gap_analysis/metadata/18s/tree/18s_genus_tree.nwk")
-OUTPUT_DIR = Path("/Users/ehsankakarh/PROJA/primer_project/branch_gap_analysis/metadata/18s/tree")
+TREE_FILE = Path("/Users/ehsankakarh/PROJA/primer_project/branch_gap_analysis/output/18s/tree/18s_genus_tree.nwk")
+OUTPUT_DIR = Path("/Users/ehsankakarh/PROJA/primer_project/branch_gap_analysis/output/18s/tree")
 
 FINAL_MERGER_FILES = {
     'division': Path("/Users/ehsankakarh/PROJA/GitHub/otu_assembly_comparative_pipeline-/final_merger/outputs/18s_ncbi_merged_division.csv"),
