@@ -1,0 +1,9 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+genus,15.9,Scytomonadidae,family,Euglenozoa > Euglenida > Petalomonadida
+Scytomonas,14.1,Scytomonadidae,family,Euglenozoa > Euglenida > Petalomonadida
+Neobodo,13.2,Neobodonida,order,Euglenozoa > Kinetoplastea > Metakinetoplastina
+genus,11.2,Neobodonida,order,Euglenozoa > Kinetoplastea > Metakinetoplastina
+Petalomonas,11.0,Scytomonadidae,family,Euglenozoa > Euglenida > Petalomonadida
+Notosolenus,10.0,Scytomonadidae,family,Euglenozoa > Euglenida > Petalomonadida
+Rhynchomonas,8.0,Neobodonida,order,Euglenozoa > Kinetoplastea > Metakinetoplastina
+Rhynchomonas,8.0,Rhynchomonadidae,family,Kinetoplastea > Metakinetoplastina > Neobodonida

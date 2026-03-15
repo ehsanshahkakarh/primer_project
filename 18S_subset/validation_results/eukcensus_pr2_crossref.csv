@@ -1,0 +1,11 @@
+taxon,eukcensus_clusters,pr2_total_hits,pr2_target_hits,best_specificity,hit_sources
+Arcellinida,104,9,0,0.0,{'GenBank/SILVA': 104}
+Calanoida,0,898,0,0.0,N/A
+Cercomonadidae,45,100,0,0.0,{'GenBank/SILVA': 45}
+Euamoebida,183,4552,0,0.0,{'GenBank/SILVA': 183}
+Eugregarinorida,30,1259,3,2.1,{'GenBank/SILVA': 30}
+Glissomonadida,32,2521,35,1.4,{'GenBank/SILVA': 32}
+Hartmannellidae,103,42,0,0.0,{'GenBank/SILVA': 103}
+Prostigmata,0,134,0,0.0,N/A
+Schizoplasmodiidae,22,8526,3,0.1,{'GenBank/SILVA': 22}
+Scytomonadidae,65,1182,0,0.0,{'GenBank/SILVA': 65}

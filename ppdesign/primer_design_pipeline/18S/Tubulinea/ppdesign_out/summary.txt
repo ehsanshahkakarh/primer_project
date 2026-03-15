@@ -1,0 +1,69 @@
+Primer Pair Design Summary
+==================================================
+
+Total primer pairs: 312
+
+Amplicon Size Statistics:
+  Range: 541-686 bp
+  Mean: 638.3 bp
+
+Tm Difference Statistics:
+  Range: 0.02-4.96°C
+  Mean: 2.20°C
+
+Conservation Statistics:
+  Range: 93.33%-96.67%
+  Mean: 95.36%
+
+Top 10 Primer Pairs (by quality score):
+----------------------------------------------------------------------
+
+1. Score: 96.0/100  Amplicon: 613bp  Conservation: 97%
+   Fwd: CAGCTGCGGTAATTCCAGCT  (20bp, Tm=59.0°C, GC=55%, pos=588)
+   Rev: TGTTGGGTCAAATTAAGCCGCA  (22bp, Tm=59.2°C, GC=45%, pos=1201)
+   ΔTm=0.2°C  cross-dimer=2
+
+2. Score: 95.1/100  Amplicon: 613bp  Conservation: 97%
+   Fwd: CAGCTGCGGTAATTCCAGCT  (20bp, Tm=59.0°C, GC=55%, pos=588)
+   Rev: CGTGTTGAGTCAAATTAAGCCGC  (23bp, Tm=59.0°C, GC=48%, pos=1201)
+   ΔTm=0.1°C  cross-dimer=3
+
+3. Score: 94.7/100  Amplicon: 613bp  Conservation: 97%
+   Fwd: TGGCCAGGGTAATGACCTT  (19bp, Tm=56.6°C, GC=53%, pos=588)
+   Rev: CGCGTTGAGTCAAATTAAGCC  (21bp, Tm=56.6°C, GC=48%, pos=1201)
+   ΔTm=0.0°C  cross-dimer=4
+
+4. Score: 94.2/100  Amplicon: 613bp  Conservation: 97%
+   Fwd: TGGCCAGGGTAATGACCT  (18bp, Tm=56.1°C, GC=56%, pos=588)
+   Rev: CGTGTTGGGTCAAATTAAGCC  (21bp, Tm=56.1°C, GC=48%, pos=1201)
+   ΔTm=0.0°C  cross-dimer=4
+
+5. Score: 94.1/100  Amplicon: 686bp  Conservation: 93%
+   Fwd: CAGCTGCGGTAATTCCAGCT  (20bp, Tm=59.0°C, GC=55%, pos=588)
+   Rev: CACCAACTAGAAACGACCATGCA  (23bp, Tm=59.0°C, GC=48%, pos=1274)
+   ΔTm=0.0°C  cross-dimer=3
+
+6. Score: 93.9/100  Amplicon: 613bp  Conservation: 97%
+   Fwd: CAGCTGCGGTAATTCCAGC  (19bp, Tm=57.8°C, GC=58%, pos=588)
+   Rev: TGTTGGGTCAAATTAAGCCGC  (21bp, Tm=57.8°C, GC=48%, pos=1201)
+   ΔTm=0.0°C  cross-dimer=4
+
+7. Score: 93.6/100  Amplicon: 686bp  Conservation: 93%
+   Fwd: CAGCCGCGGTAATTCCAGCT  (20bp, Tm=61.5°C, GC=60%, pos=588)
+   Rev: CACCAACTAGAAACGGCCATGCA  (23bp, Tm=61.4°C, GC=52%, pos=1274)
+   ΔTm=0.0°C  cross-dimer=2
+
+8. Score: 93.4/100  Amplicon: 613bp  Conservation: 97%
+   Fwd: CAGCTGCGGTAATTCCAGCTC  (21bp, Tm=59.7°C, GC=57%, pos=588)
+   Rev: CGTGTTGAGTCAAATTAAGCCGCA  (24bp, Tm=60.1°C, GC=46%, pos=1201)
+   ΔTm=0.4°C  cross-dimer=3
+
+9. Score: 93.3/100  Amplicon: 686bp  Conservation: 93%
+   Fwd: TGGCCAGGGTAATGACCT  (18bp, Tm=56.1°C, GC=56%, pos=588)
+   Rev: CACCAACTAAAATCGGCCATG  (21bp, Tm=55.9°C, GC=48%, pos=1274)
+   ΔTm=0.2°C  cross-dimer=3
+
+10. Score: 93.0/100  Amplicon: 613bp  Conservation: 97%
+   Fwd: TGGCCAGGGTAATGACCT  (18bp, Tm=56.1°C, GC=56%, pos=588)
+   Rev: CGTGTTGAGTCAAATTGAGCC  (21bp, Tm=56.2°C, GC=48%, pos=1201)
+   ΔTm=0.1°C  cross-dimer=5

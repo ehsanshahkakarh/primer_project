@@ -1,0 +1,5 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,2655,1661.7,1200,11135,
+Cordycipitaceae,family,Sordariomycetes > Hypocreomycetidae > Hypocreales,222,1896.6,1201,7646,Lecanicillium; Isaria
+Helotiales,order,leotiomyceta > sordariomyceta > Leotiomycetes,96,1706.2,1200,3076,Tetrachaetum; Chlorociboria; Articulospora; Hyaloscypha; Neofabraea
+Hypocreales,order,sordariomyceta > Sordariomycetes > Hypocreomycetidae,93,1934.8,1225,8054,Lecanicillium; Isaria; Gibberella

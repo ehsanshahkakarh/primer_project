@@ -1,0 +1,31 @@
+rank,umbrella,priority,taxa_in_group,taxa_with_fna,total_sequences,output_file
+1,root,6484.53,31,25,70673,01_root_umbrella.fna
+2,Bacteria,6177.0,45,30,70120,02_Bacteria_umbrella.fna
+3,Pseudomonadati,4409.53,55,41,41229,03_Pseudomonadati_umbrella.fna
+4,Bacillati,2328.83,35,20,35268,04_Bacillati_umbrella.fna
+5,Pseudomonadota,2197.19,172,31,7291,05_Pseudomonadota_umbrella.fna
+6,Bacillota,1513.9,85,24,26321,06_Bacillota_umbrella.fna
+7,Bacteroidota/Chlorobiota group,1294.98,8,8,13755,07_Bacteroidota_Chlorobiota_group_umbrella.fna
+8,Bacteroidota,1254.29,52,16,10591,08_Bacteroidota_umbrella.fna
+9,Actinomycetota,467.5,51,5,1292,09_Actinomycetota_umbrella.fna
+10,Cyanobacteriota,409.68,38,5,612,10_Cyanobacteriota_umbrella.fna
+11,Thermodesulfobacteriota,399.69,39,4,4574,11_Thermodesulfobacteriota_umbrella.fna
+12,FCB group,318.65999999999997,2,1,7354,12_FCB_group_umbrella.fna
+13,PVC group,293.32,9,8,4110,13_PVC_group_umbrella.fna
+14,Cyanobacteriota/Melainabacteria group,277.31,9,4,592,14_Cyanobacteriota_Melainabacteria_group_umbrella.fna
+15,Methanobacteriota,190.54,8,2,908,15_Methanobacteriota_umbrella.fna
+16,Acidobacteriota,188.15,11,4,1929,16_Acidobacteriota_umbrella.fna
+17,Planctomycetota,182.75,10,5,3774,17_Planctomycetota_umbrella.fna
+18,Verrucomicrobiota,173.28,14,3,651,18_Verrucomicrobiota_umbrella.fna
+19,Stenosarchaea group,167.19,18,3,485,19_Stenosarchaea_group_umbrella.fna
+20,Chloroflexota,149.72,11,2,2821,20_Chloroflexota_umbrella.fna
+21,Archaea,135.47,5,2,1177,21_Archaea_umbrella.fna
+22,Myxococcota,131.53,7,2,151,22_Myxococcota_umbrella.fna
+23,Cyanophyceae,109.24,13,1,65,23_Cyanophyceae_umbrella.fna
+24,Spirochaetota,79.08,7,1,1817,24_Spirochaetota_umbrella.fna
+25,Methanobacteriati,75.06,2,1,520,25_Methanobacteriati_umbrella.fna
+26,Thermoproteota,74.71,8,1,54,26_Thermoproteota_umbrella.fna
+27,Campylobacterota,73.67,10,0,0,27_Campylobacterota_umbrella.fna
+28,Thermotogati,67.35,2,1,194,28_Thermotogati_umbrella.fna
+29,Bacteria candidate phyla,58.84,3,0,0,29_Bacteria_candidate_phyla_umbrella.fna
+30,Synergistota,56.980000000000004,6,1,90,30_Synergistota_umbrella.fna

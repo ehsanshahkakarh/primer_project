@@ -1,0 +1,12 @@
+CLAUDE.md
+.pixi
+data
+results/
+pipeline.log
+*.pyc
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.pre-commit-config.yaml
+.ruff*
+legacy/

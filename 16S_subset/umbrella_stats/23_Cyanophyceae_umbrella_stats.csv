@@ -1,0 +1,3 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Oscillatoriales,order,bacteria,Cyanobacteriota > Cyanophyceae > Oscillatoriophycideae,64,1425.5,1226,2045
+Leptolyngbyaceae,family,bacteria,Cyanobacteriota > Cyanophyceae > Leptolyngbyales,1,1410.0,1410,1410

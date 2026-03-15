@@ -1,0 +1,11 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,1780,1589.4,1200,6194,
+Hartmannellidae,family,Tubulinea > Elardia > Euamoebida,178,1497.6,1201,2226,Saccamoeba; Hartmannellidae.U.genus; Hartmannella; Ptolemeba; Polychaos
+Euamoebida,order,Amoebozoa > Tubulinea > Elardia,83,1600.6,1200,2537,Saccamoeba; Copromyxa; Euamoebida.U.genus; Hartmannellidae.U.genus; Hartmannella; Chaos; Ptolemeba; Polychaos
+Plagiopyxidae,family,Elardia > Arcellinida > Difflugina,74,1710.4,1207,4116,Bullinularia
+Flamellidae,family,Amoebozoa > Evosea > Variosea,35,1802.3,1242,6746,Flamellidae.U.genus; Flamella
+Arcellinida,order,Amoebozoa > Tubulinea > Elardia,20,1776.0,1204,3068,Bullinularia; Arcellinida.U.genus; Phryganellina.U.genus; Physochila; Cryptodifflugia; Phryganella
+Pelobiontida,order,Amoebozoa > Evosea > Archamoebae,14,1902.1,1255,3150,Mastigella; Pelobiontida.U.genus
+Vannellidae,family,Amoebozoa > Discosea > Flabellinia,8,1433.0,1246,1891,Vannella
+Phryganellina,suborder,Tubulinea > Elardia > Arcellinida,5,1459.2,1253,1731,Phryganellina.U.genus; Cryptodifflugia; Phryganella
+Echinamoebidae,family,Amoebozoa > Tubulinea > Echinamoebida,1,1274.0,1274,1274,Echinamoeba

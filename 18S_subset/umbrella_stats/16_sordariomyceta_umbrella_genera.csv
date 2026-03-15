@@ -1,0 +1,11 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Tetrachaetum,10.4,Helotiales,order,leotiomyceta > sordariomyceta > Leotiomycetes
+Lecanicillium,8.4,Cordycipitaceae,family,Sordariomycetes > Hypocreomycetidae > Hypocreales
+Lecanicillium,8.4,Hypocreales,order,sordariomyceta > Sordariomycetes > Hypocreomycetidae
+Isaria,7.9,Cordycipitaceae,family,Sordariomycetes > Hypocreomycetidae > Hypocreales
+Isaria,7.9,Hypocreales,order,sordariomyceta > Sordariomycetes > Hypocreomycetidae
+Chlorociboria,6.7,Helotiales,order,leotiomyceta > sordariomyceta > Leotiomycetes
+Articulospora,5.2,Helotiales,order,leotiomyceta > sordariomyceta > Leotiomycetes
+Hyaloscypha,5.0,Helotiales,order,leotiomyceta > sordariomyceta > Leotiomycetes
+Gibberella,4.5,Hypocreales,order,sordariomyceta > Sordariomycetes > Hypocreomycetidae
+Neofabraea,2.2,Helotiales,order,leotiomyceta > sordariomyceta > Leotiomycetes

@@ -1,0 +1,4 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+Plagiopyxidae,family,Elardia > Arcellinida > Difflugina,74,1710.4,1207,4116,Bullinularia
+Arcellinida,order,Amoebozoa > Tubulinea > Elardia,20,1776.0,1204,3068,Bullinularia; Arcellinida.U.genus; Phryganellina.U.genus; Physochila; Cryptodifflugia; Phryganella
+Phryganellina,suborder,Tubulinea > Elardia > Arcellinida,5,1459.2,1253,1731,Phryganellina.U.genus; Cryptodifflugia; Phryganella

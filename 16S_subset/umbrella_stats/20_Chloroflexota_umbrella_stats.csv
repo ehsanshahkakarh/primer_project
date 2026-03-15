@@ -1,0 +1,4 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Chloroflexota,phylum,bacteria,root > Bacteria > Bacillati,2407,1396.6,1200,1588
+Ardenticatenales,order,bacteria,Bacillati > Chloroflexota > Ardenticatenia,335,1429.1,1220,1556
+Chloroflexales,order,bacteria,Bacillati > Chloroflexota > Chloroflexia,79,1439.6,1233,1485

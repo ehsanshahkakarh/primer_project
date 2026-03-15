@@ -1,0 +1,6 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Acineta_1,12.8,Endogenida,order,Intramacronucleata > Phyllopharyngea > Suctoria
+Acineta_1,12.8,Acinetidae,family,Phyllopharyngea > Suctoria > Endogenida
+Tokophrya,12.6,Endogenida,order,Intramacronucleata > Phyllopharyngea > Suctoria
+Trochilia,12.0,Dysteriidae,family,Phyllopharyngea > Phyllopharyngia > Dysteriida
+Hartmannulidae_X,7.4,Hartmannulidae,family,Phyllopharyngea > Phyllopharyngia > Dysteriida

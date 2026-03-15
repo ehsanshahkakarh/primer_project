@@ -1,0 +1,4 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Ventrifissura,9.8,Ventrifissuridae,family,Cercozoa > Thecofilosea > Ventricleftida
+Protaspa,8.0,Protaspidae,family,Cercozoa > Thecofilosea > Cryomonadida
+Cryothecomonas,6.5,Protaspidae,family,Cercozoa > Thecofilosea > Cryomonadida

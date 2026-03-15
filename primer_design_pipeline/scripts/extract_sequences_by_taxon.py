@@ -188,10 +188,16 @@ def process_cluster_row(row: dict) -> list:
     division = row['division']
     family = row['family']
     genus = row['genus']
-    cluster_size = row['size']
-    
+    # Handle both 'size' and 'sequence_number' column names
+    cluster_size = row.get('size', row.get('sequence_number', 1))
+
+    # Handle both 'members' and 'sequences' column names
+    members_col = row.get('members', row.get('sequences', None))
     try:
-        members = ast.literal_eval(row['members'])
+        if members_col:
+            members = ast.literal_eval(members_col)
+        else:
+            members = [centroid]
     except (ValueError, SyntaxError):
         members = [centroid]
     

@@ -1,0 +1,3 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Myxococcota,phylum,bacteria,root > Bacteria > Pseudomonadati,150,1471.1,1233,1873
+Vicinamibacteraceae,family,bacteria,Acidobacteriota > Vicinamibacteria > Vicinamibacterales,1,1480.0,1480,1480

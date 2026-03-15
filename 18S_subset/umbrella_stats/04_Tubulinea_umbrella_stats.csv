@@ -1,0 +1,6 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,1780,1589.4,1200,6194,
+Hartmannellidae,family,Tubulinea > Elardia > Euamoebida,178,1497.6,1201,2226,Saccamoeba; Hartmannellidae.U.genus; Hartmannella; Ptolemeba; Polychaos
+Euamoebida,order,Amoebozoa > Tubulinea > Elardia,20,1598.8,1209,2398,Saccamoeba; Copromyxa; Euamoebida.U.genus; Hartmannellidae.U.genus; Hartmannella; Chaos; Ptolemeba; Polychaos
+Phryganellina,suborder,Tubulinea > Elardia > Arcellinida,5,1459.2,1253,1731,Phryganellina.U.genus; Cryptodifflugia; Phryganella
+Flabellulidae,family,Tubulinea > Elardia > Leptomyxida,3,1315.7,1288,1353,Ripidomyxa

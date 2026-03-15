@@ -1,0 +1,26 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Saccamoeba,17.2,Hartmannellidae,family,Tubulinea > Elardia > Euamoebida
+Saccamoeba,17.2,Euamoebida,order,Amoebozoa > Tubulinea > Elardia
+genus,16.5,Flamellidae,family,Amoebozoa > Evosea > Variosea
+Bullinularia,15.9,Plagiopyxidae,family,Elardia > Arcellinida > Difflugina
+Bullinularia,15.9,Arcellinida,order,Amoebozoa > Tubulinea > Elardia
+Copromyxa,15.6,Euamoebida,order,Amoebozoa > Tubulinea > Elardia
+genus,14.7,Euamoebida,order,Amoebozoa > Tubulinea > Elardia
+genus,14.4,Arcellinida,order,Amoebozoa > Tubulinea > Elardia
+Flamella,14.0,Flamellidae,family,Amoebozoa > Evosea > Variosea
+genus,13.7,Arcellinida,order,Amoebozoa > Tubulinea > Elardia
+genus,13.7,Phryganellina,suborder,Tubulinea > Elardia > Arcellinida
+genus,13.3,Hartmannellidae,family,Tubulinea > Elardia > Euamoebida
+Hartmannella,13.3,Hartmannellidae,family,Tubulinea > Elardia > Euamoebida
+genus,13.3,Euamoebida,order,Amoebozoa > Tubulinea > Elardia
+Hartmannella,13.3,Euamoebida,order,Amoebozoa > Tubulinea > Elardia
+Mastigella,12.7,Pelobiontida,order,Amoebozoa > Evosea > Archamoebae
+Physochila,12.4,Arcellinida,order,Amoebozoa > Tubulinea > Elardia
+Ptolemeba,12.3,Hartmannellidae,family,Tubulinea > Elardia > Euamoebida
+Polychaos,10.7,Hartmannellidae,family,Tubulinea > Elardia > Euamoebida
+Cryptodifflugia,8.9,Arcellinida,order,Amoebozoa > Tubulinea > Elardia
+Cryptodifflugia,8.9,Phryganellina,suborder,Tubulinea > Elardia > Arcellinida
+Vannella,7.6,Vannellidae,family,Amoebozoa > Discosea > Flabellinia
+Phryganella,6.5,Phryganellina,suborder,Tubulinea > Elardia > Arcellinida
+Echinamoeba,5.0,Echinamoebidae,family,Amoebozoa > Tubulinea > Echinamoebida
+genus,1.7,Pelobiontida,order,Amoebozoa > Evosea > Archamoebae

@@ -26,7 +26,7 @@ NF_FILE = Path("/Users/ehsankakarh/PROJA/GitHub/otu_assembly_comparative_pipelin
 OUTPUT_DIR = Path("/Users/ehsankakarh/PROJA/primer_project/branch_gap_analysis/output/18s_division")
 
 SKIP_PATTERNS = [
-    r'\.U\.', r'-lineage', r'_X{2,}', r'_MET[0-9]', r'^Novel-', r'^Group-',
+    r'-lineage', r'_X{2,}', r'_MET[0-9]', r'^Novel-', r'^Group-',
     r'-Group-', r'^OLIGO[0-9]', r'^ARMOP[0-9]', r'-Clade-[0-9]',
     r'^Unclassified_', r'^unclassified', r'^epibiont$',
 ]

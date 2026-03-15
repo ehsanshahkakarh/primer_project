@@ -1,0 +1,6 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,117,2302.5,1204,4173,
+Collodaria,order,Rhizaria > Retaria > Polycystinea,25,1668.6,1200,7090,Collophidium; Sphaerozoum
+Pyloniidae,family,Retaria > Polycystinea > Spumellaria,20,1850.5,1202,7031,Tholomura
+Lagynidae,family,Retaria > Foraminifera > Allogromida,7,1896.9,1248,4293,Nemogullmia
+Reophacidae,family,Retaria > Foraminifera > Lituolida,6,1874.8,1209,2972,Reophax

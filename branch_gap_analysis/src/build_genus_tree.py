@@ -15,9 +15,8 @@ from pathlib import Path
 from dataclasses import dataclass, field
 
 
-# Patterns to SKIP (unassigned or environmental/census-only taxa)
+# Patterns to SKIP (environmental/census-only taxa - NOT .U. unassigned)
 SKIP_PATTERNS = [
-    r'\.U\.',              # Unassigned: Eukaryota.U.genus, Fungi.U.genus
     r'-lineage',           # Environmental lineages: WIM80-lineage, Rhogostoma-lineage
     r'_X{2,}$',            # Multiple X suffix: _XX, _XXX, _XXXX (unassigned)
     r'_X{2,}_',            # Multiple X in middle: Kinetoplastea_XX_MET10

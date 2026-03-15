@@ -1,0 +1,6 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Thermoplasmatota,phylum,archaea,root > Archaea > Methanobacteriati,452,1361.6,1203,3317
+Thermoprotei,class,archaea,Archaea > Thermoproteati > Thermoproteota,64,1413.3,1225,2211
+Desulfurococcaceae,family,archaea,Thermoproteota > Thermoprotei > Desulfurococcales,23,1415.6,1243,1630
+Methanobacteriota,phylum,archaea,root > Archaea > Methanobacteriati,3,1253.3,1247,1257
+Desulfurococcales,order,archaea,Thermoproteati > Thermoproteota > Thermoprotei,2,1376.0,1331,1421

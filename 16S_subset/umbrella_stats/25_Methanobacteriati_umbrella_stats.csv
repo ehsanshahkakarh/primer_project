@@ -1,0 +1,5 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Methanomicrobiales,order,archaea,Methanobacteriota > Stenosarchaea group > Methanomicrobia,108,1381.7,1204,2174
+Methanosarcinales,order,archaea,Methanobacteriota > Stenosarchaea group > Methanomicrobia,90,1384.5,1201,1507
+Methanobacteriota,phylum,archaea,root > Archaea > Methanobacteriati,16,1400.9,1256,1477
+Tissierellales,order,bacteria,Bacillati > Bacillota > Tissierellia,1,1664.0,1664,1664

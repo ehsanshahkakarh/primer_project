@@ -1,0 +1,9 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,1630,1588.4,1200,9371,
+Pythiaceae,family,Stramenopiles > Oomycota > Pythiales,182,1455.4,1200,11557,Pythium
+Bicosoecida,order,Stramenopiles > Bigyra > Opalozoa,44,1863.2,1224,4693,Bicoecaceae_X; Bicoecea.U.genus; Cafeteria
+Cafeteriaceae,family,Bigyra > Opalozoa > Bicosoecida,10,1782.2,1628,2719,Cafeteria
+Amphitremida,order,Stramenopiles > Bigyra > Labyrinthulomycetes,9,1497.0,1338,2055,Diplophrys; Amphitrema
+Amphitraemidae,family,Bigyra > Labyrinthulomycetes > Amphitremida,9,1373.8,1309,1447,Amphitrema
+Saprolegniaceae,family,Stramenopiles > Oomycota > Saprolegniales,2,10225.5,10027,10424,Saprolegnia
+Haliphthoraceae,family,Stramenopiles > Oomycota > Lagenidiales,1,1388.0,1388,1388,Halodaphnea

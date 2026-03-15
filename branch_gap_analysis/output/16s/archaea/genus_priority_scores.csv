@@ -1,9 +1,23 @@
 genus,nf,otu_count,priority_score
+Candidatus Nanoarchaeia.U.genus,250.5,3006,15.22
+Candidatus Bathyarchaeota.U.genus,40.812,2612,11.53
+Candidatus Micrarchaeales.U.genus,100.667,604,11.35
 Sulfophobococcus,inf,14,10.73
+Odinarchaeia.U.genus,56.333,169,8.88
+Hadesarchaea.U.genus,20.273,223,7.72
+Thermoplasmata.U.genus,5.441,1333,7.16
+Nitrosopumilaceae.U.genus,8.559,505,7.16
+Candidatus Hydrothermarchaeota.U.genus,18.25,146,7.16
+Candidatus Methanomethylophilaceae.U.genus,16.111,145,6.98
+Heimdallarchaeia.U.genus,20.75,83,6.76
+Nitrososphaeraceae.U.genus,8.677,269,6.65
 Methanothrix,7.935,246,6.44
+Nitrososphaeria.U.genus,4.518,619,6.28
 Ignisphaera,11.75,47,5.53
 Methanospirillum,9.667,58,5.49
 Methanosphaera,6.5,104,5.47
+Thermococci.U.genus,3.465,298,5.35
+Nanoarchaeota.U.genus,4.742,147,5.31
 Methanobrevibacter,3.94,197,5.26
 Methanoregula,4.19,88,4.78
 Halonotius,5.778,52,4.78
@@ -14,11 +28,13 @@ Aeropyrum,7.667,23,4.45
 Halapricum,5.8,29,4.34
 Methanomicrobium,6.25,25,4.31
 Nanoarchaeum,8.5,17,4.3
+Thermoplasmataceae.U.genus,5.167,31,4.27
 Pyrobaculum,3.667,44,4.14
 Methanotorris,7.5,15,4.08
 Methanolinea,3.125,50,4.03
 Halomicrobium,3.667,33,3.94
 Nitrosarchaeum,4.6,23,3.93
+Fervidicoccaceae.U.genus,5.667,17,3.91
 Natronomonas,3.0,42,3.87
 Haloparvum,5.333,16,3.81
 Methanosarcina,1.75,105,3.76
@@ -30,6 +46,7 @@ Halorubrum,1.347,132,3.52
 Ferroplasma,3.75,15,3.43
 Fervidicoccus,5.0,10,3.4
 Halovenus,2.667,24,3.39
+Candidatus Nitrosocaldaceae.U.genus,2.75,22,3.37
 Thermogladius,3.5,14,3.31
 Natronobacterium,3.5,14,3.31
 Methanobacterium,1.241,103,3.3
@@ -39,11 +56,14 @@ Halococcus,2.071,29,3.24
 Vulcanisaeta,1.938,31,3.21
 Methanocalculus,2.2,22,3.14
 Aciduliprofundum,2.8,14,3.11
+Methanonatronarchaeaceae.U.genus,3.0,12,3.07
 Halorussus,1.619,34,3.06
+Candidatus Methanomethylicia.U.genus,1.8,27,3.05
 Caldisphaera,4.0,8,3.05
 Ferroglobus,4.0,8,3.05
 Acidilobus,2.111,19,3.02
 Methanocorpusculum,1.786,25,3.0
+Methanocellaceae.U.genus,1.833,22,2.96
 Methanimicrococcus,2.125,17,2.96
 Salinarchaeum,2.333,14,2.94
 Methanogenium,2.333,14,2.94
@@ -62,12 +82,15 @@ Haloplanus,1.312,21,2.6
 Halobacterium,1.19,25,2.58
 Saccharolobus,1.714,12,2.57
 Methanolobus,1.12,28,2.57
+Ferroplasmaceae.U.genus,1.4,14,2.46
 Halorientalis,1.4,14,2.46
 Methanomethylovorans,1.8,9,2.45
 Salinigranum,1.667,10,2.44
 Methanococcoides,1.214,17,2.42
+Pyrodictiaceae.U.genus,1.273,14,2.37
 Natronorubrum,1.133,17,2.35
 Halarchaeum,1.375,11,2.32
+Nanopusillaceae.U.genus,1.6,8,2.29
 Geoglobus,1.6,8,2.29
 Natronoarchaeum,1.6,8,2.29
 Thermoproteus,1.25,10,2.19

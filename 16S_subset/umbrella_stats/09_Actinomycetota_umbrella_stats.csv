@@ -1,0 +1,7 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Actinomycetes,class,bacteria,Bacteria > Bacillati > Actinomycetota,452,1381.8,1220,1548
+Pseudonocardiaceae,family,bacteria,Actinomycetota > Actinomycetes > Pseudonocardiales,421,1438.4,1202,1871
+Nocardioidaceae,family,bacteria,Actinomycetota > Actinomycetes > Propionibacteriales,370,1440.6,1208,1581
+Bacteroidales,order,bacteria,Bacteroidota/Chlorobiota group > Bacteroidota > Bacteroidia,42,1456.2,1342,1529
+Alphaproteobacteria,class,bacteria,Bacteria > Pseudomonadati > Pseudomonadota,6,1363.7,1244,1465
+Pseudomonadota,phylum,bacteria,root > Bacteria > Pseudomonadati,1,1495.0,1495,1495

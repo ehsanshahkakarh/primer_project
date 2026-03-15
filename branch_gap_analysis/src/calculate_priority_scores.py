@@ -31,7 +31,7 @@ OUTPUT_DIR = Path("/Users/ehsankakarh/PROJA/primer_project/branch_gap_analysis/o
 TARGET_RANKS = {'order', 'suborder', 'infraorder', 'family', 'subfamily', 'superfamily'}
 
 SKIP_PATTERNS = [
-    r'\.U\.', r'-lineage', r'_X{2,}', r'_MET[0-9]', r'^Novel-', r'^Group-',
+    r'-lineage', r'_X{2,}', r'_MET[0-9]', r'^Novel-', r'^Group-',
     r'-Group-', r'^OLIGO[0-9]', r'^ARMOP[0-9]', r'-Clade-[0-9]',
     r'^Unclassified_', r'^unclassified', r'^epibiont$',
 ]

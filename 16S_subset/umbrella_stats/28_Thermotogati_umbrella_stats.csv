@@ -1,0 +1,5 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Aminobacteriaceae,family,bacteria,Synergistota > Synergistia > Synergistales,90,1457.2,1219,1538
+Synergistales,order,bacteria,Thermotogati > Synergistota > Synergistia,87,1401.0,1216,1536
+Synergistaceae,family,bacteria,Synergistota > Synergistia > Synergistales,16,1410.4,1335,1521
+Thermoanaerobacterales,order,bacteria,Bacillati > Bacillota > Clostridia,1,1504.0,1504,1504

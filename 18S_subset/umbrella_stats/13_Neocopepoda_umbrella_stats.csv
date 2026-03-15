@@ -1,0 +1,8 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+Temoridae,family,Neocopepoda > Gymnoplea > Calanoida,12,1679.1,1204,1978,Eurytemora
+Paracalanidae,family,Neocopepoda > Gymnoplea > Calanoida,7,2198.7,1230,7219,Paracalanus
+Calanoida,order,Copepoda > Neocopepoda > Gymnoplea,4,4669.0,1318,7755,Paracalanus; Eudiaptomus; Centropages; Metridia; Anomalocera; Eurytemora; Acartia
+Acartiidae,family,Neocopepoda > Gymnoplea > Calanoida,4,1819.2,1674,1926,Acartia
+Metridinidae,family,Neocopepoda > Gymnoplea > Calanoida,2,7179.0,7117,7241,Metridia
+Pontellidae,family,Neocopepoda > Gymnoplea > Calanoida,2,4317.5,1751,6884,Anomalocera
+Cyclopidae,family,Neocopepoda > Podoplea > Cyclopoida,1,1577.0,1577,1577,Cyclops

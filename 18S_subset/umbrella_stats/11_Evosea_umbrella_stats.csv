@@ -1,0 +1,4 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,1780,1589.4,1200,6194,
+Mastigamoebidae,family,Evosea > Archamoebae > Mastigamoebida,264,1533.8,1201,3000,Mastigamoeba
+Schizoplasmodiidae,family,Evosea > Variosea > Fractovitellida,23,1404.8,1323,1893,Schizoplasmodiidae.U.genus; Ceratiomyxella; Schizoplasmodium; Nematostelium

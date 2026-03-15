@@ -32,9 +32,8 @@ DIVISION_RANKS = {'phylum', 'division', 'clade', 'kingdom', 'subkingdom'}
 # Ranks that count as "family" level
 FAMILY_RANKS = {'family', 'subfamily', 'superfamily', 'tribe', 'subtribe'}
 
-# Patterns to SKIP (same as build_genus_tree.py)
+# Patterns to SKIP (same as build_genus_tree.py - NOT .U. unassigned)
 SKIP_PATTERNS = [
-    r'\.U\.',              # Unassigned: Eukaryota.U.genus, Fungi.U.genus
     r'-lineage',           # Environmental lineages: WIM80-lineage, Rhogostoma-lineage
     r'_X{2,}',             # Multiple X suffix: _XX, _XXX, _XXXX (unassigned)
     r'_MET[0-9]',          # Metagenomic sequences: _MET10, _MET8

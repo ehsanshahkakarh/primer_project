@@ -1,0 +1,6 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Collophidium,13.1,Collodaria,order,Rhizaria > Retaria > Polycystinea
+Tholomura,12.1,Pyloniidae,family,Retaria > Polycystinea > Spumellaria
+Nemogullmia,11.3,Lagynidae,family,Retaria > Foraminifera > Allogromida
+Reophax,10.0,Reophacidae,family,Retaria > Foraminifera > Lituolida
+Sphaerozoum,6.5,Collodaria,order,Rhizaria > Retaria > Polycystinea

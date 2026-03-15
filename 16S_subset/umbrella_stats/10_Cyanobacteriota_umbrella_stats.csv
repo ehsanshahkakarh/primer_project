@@ -1,0 +1,9 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Leptolyngbyaceae,family,bacteria,Cyanobacteriota > Cyanophyceae > Leptolyngbyales,343,1423.9,1203,2487
+Oscillatoriales,order,bacteria,Cyanobacteriota > Cyanophyceae > Oscillatoriophycideae,144,1482.7,1210,2270
+Chroococcales,order,bacteria,Cyanobacteriota > Cyanophyceae > Oscillatoriophycideae,52,1440.0,1210,1886
+Scytonemataceae,family,bacteria,Cyanobacteriota > Cyanophyceae > Nostocales,43,1447.0,1263,1879
+Nostocales,order,bacteria,Cyanobacteriota/Melainabacteria group > Cyanobacteriota > Cyanophyceae,26,1440.9,1224,1953
+Pleurocapsales,order,bacteria,Cyanobacteriota/Melainabacteria group > Cyanobacteriota > Cyanophyceae,2,1474.5,1464,1485
+Symphyonemataceae,family,bacteria,Cyanobacteriota > Cyanophyceae > Nostocales,1,1488.0,1488,1488
+Chloroflexales,order,bacteria,Bacillati > Chloroflexota > Chloroflexia,1,1484.0,1484,1484

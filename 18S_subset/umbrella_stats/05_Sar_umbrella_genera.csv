@@ -1,0 +1,9 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Flectomonas,19.0,Sandonidae,family,Rhizaria > Cercozoa > Glissomonadida
+Pentapharsodinium,18.3,Peridiniales,order,Sar > Alveolata > Dinophyceae
+Vampyrella,10.0,Vampyrellidae,family,Rhizaria > Endomyxa > Vampyrellida
+Sandona,8.9,Sandonidae,family,Rhizaria > Cercozoa > Glissomonadida
+Limnofilidae_X,8.0,Limnofilidae,family,Sar > Rhizaria > Cercozoa
+Allantion,7.4,Allapsidae,family,Rhizaria > Cercozoa > Glissomonadida
+Scrippsiella,6.5,Peridiniales,order,Sar > Alveolata > Dinophyceae
+Scrippsiella,6.5,Peridiniaceae,family,Alveolata > Dinophyceae > Peridiniales

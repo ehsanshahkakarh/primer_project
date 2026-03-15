@@ -1,0 +1,12 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Monocystis,15.6,Monocystidae,family,Conoidasida > Gregarinasina > Eugregarinorida
+Xiphocephalus,11.5,Stylocephalidae,family,Conoidasida > Gregarinasina > Eugregarinorida
+Sarcocystis10,8.3,Eimeriorina,suborder,Conoidasida > Coccidia > Eucoccidiorida
+Leidyana2,8.2,Leidyanidae,family,Conoidasida > Gregarinasina > Eugregarinorida
+Mattesia,6.5,Lipotrophidae,family,Conoidasida > Gregarinasina > Neogregarinorida
+genus,5.9,Gregarinidae,family,Conoidasida > Gregarinasina > Eugregarinorida
+Gregarina3,5.9,Gregarinidae,family,Conoidasida > Gregarinasina > Eugregarinorida
+Eimeria1,4.5,Eimeriorina,suborder,Conoidasida > Coccidia > Eucoccidiorida
+Eimeria1,4.5,Eimeriidae,family,Coccidia > Eucoccidiorida > Eimeriorina
+Cryptosporidium1,3.8,Eimeriorina,suborder,Conoidasida > Coccidia > Eucoccidiorida
+Leidyana1,2.2,Leidyanidae,family,Conoidasida > Gregarinasina > Eugregarinorida

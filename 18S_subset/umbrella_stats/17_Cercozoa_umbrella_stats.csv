@@ -1,0 +1,3 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+Ventrifissuridae,family,Cercozoa > Thecofilosea > Ventricleftida,9,1250.0,1238,1262,Ventrifissura
+Protaspidae,family,Cercozoa > Thecofilosea > Cryomonadida,3,1832.0,1387,2195,Protaspa; Cryothecomonas

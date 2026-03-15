@@ -1,0 +1,5 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,2020,1663.3,1200,8677,
+Scytomonadidae,family,Euglenozoa > Euglenida > Petalomonadida,35,1662.1,1235,2762,Scytomonadidae.U.genus; Scytomonas; Petalomonas; Notosolenus
+Neobodonida,order,Euglenozoa > Kinetoplastea > Metakinetoplastina,17,1443.9,1219,2188,Neobodo; Neobodonida.U.genus; Rhynchomonas
+Rhynchomonadidae,family,Kinetoplastea > Metakinetoplastina > Neobodonida,2,1587.5,1436,1739,Rhynchomonas

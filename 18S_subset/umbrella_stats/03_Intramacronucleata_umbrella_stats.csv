@@ -1,0 +1,12 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,559,1632.0,1200,9734,
+Vorticellidae,family,Oligohymenophorea > Peritrichia > Sessilida,93,1688.9,1206,2625,Vorticella; Pseudovorticella
+Parameciidae,family,Intramacronucleata > Oligohymenophorea > Peniculida,51,1851.4,1213,7566,Paramecium
+Endogenida,order,Intramacronucleata > Phyllopharyngea > Suctoria,24,1996.0,1207,3063,Acineta_1; Tokophrya
+Acinetidae,family,Phyllopharyngea > Suctoria > Endogenida,18,1796.2,1273,2588,Acineta_1
+Dysteriidae,family,Phyllopharyngea > Phyllopharyngia > Dysteriida,17,1670.4,1282,1729,Trochilia
+Ophryoglenina,suborder,Intramacronucleata > Oligohymenophorea > Hymenostomatida,14,1683.6,1216,1829,Ichthyophthirius
+Urotrichidae,family,Intramacronucleata > Prostomatea > Prorodontida,13,1819.2,1438,2203,Urotricha
+Evaginogenida,order,Intramacronucleata > Phyllopharyngea > Suctoria,6,2226.3,1473,3888,Evaginogenida_X
+Hartmannulidae,family,Phyllopharyngea > Phyllopharyngia > Dysteriida,2,1676.0,1235,2117,Hartmannulidae_X
+Sessilida,order,Intramacronucleata > Oligohymenophorea > Peritrichia,1,2174.0,2174,2174,Vorticella; Sessilida.U.genus; Pseudovorticella; Campanella

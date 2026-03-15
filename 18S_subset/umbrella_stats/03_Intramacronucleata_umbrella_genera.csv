@@ -1,0 +1,16 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Vorticella,15.6,Vorticellidae,family,Oligohymenophorea > Peritrichia > Sessilida
+Vorticella,15.6,Sessilida,order,Intramacronucleata > Oligohymenophorea > Peritrichia
+Urotricha,12.9,Urotrichidae,family,Intramacronucleata > Prostomatea > Prorodontida
+Acineta_1,12.8,Endogenida,order,Intramacronucleata > Phyllopharyngea > Suctoria
+Acineta_1,12.8,Acinetidae,family,Phyllopharyngea > Suctoria > Endogenida
+genus,12.7,Sessilida,order,Intramacronucleata > Oligohymenophorea > Peritrichia
+Tokophrya,12.6,Endogenida,order,Intramacronucleata > Phyllopharyngea > Suctoria
+Trochilia,12.0,Dysteriidae,family,Phyllopharyngea > Phyllopharyngia > Dysteriida
+Evaginogenida_X,9.8,Evaginogenida,order,Intramacronucleata > Phyllopharyngea > Suctoria
+Pseudovorticella,8.9,Vorticellidae,family,Oligohymenophorea > Peritrichia > Sessilida
+Pseudovorticella,8.9,Sessilida,order,Intramacronucleata > Oligohymenophorea > Peritrichia
+Hartmannulidae_X,7.4,Hartmannulidae,family,Phyllopharyngea > Phyllopharyngia > Dysteriida
+Ichthyophthirius,5.2,Ophryoglenina,suborder,Intramacronucleata > Oligohymenophorea > Hymenostomatida
+Paramecium,5.1,Parameciidae,family,Intramacronucleata > Oligohymenophorea > Peniculida
+Campanella,5.0,Sessilida,order,Intramacronucleata > Oligohymenophorea > Peritrichia

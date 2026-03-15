@@ -1,0 +1,11 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Bicoecaceae_X,13.8,Bicosoecida,order,Stramenopiles > Bigyra > Opalozoa
+Diplophrys,11.2,Amphitremida,order,Stramenopiles > Bigyra > Labyrinthulomycetes
+Amphitrema,11.0,Amphitremida,order,Stramenopiles > Bigyra > Labyrinthulomycetes
+Amphitrema,11.0,Amphitraemidae,family,Bigyra > Labyrinthulomycetes > Amphitremida
+genus,9.2,Bicosoecida,order,Stramenopiles > Bigyra > Opalozoa
+Pythium,6.3,Pythiaceae,family,Stramenopiles > Oomycota > Pythiales
+Halodaphnea,5.0,Haliphthoraceae,family,Stramenopiles > Oomycota > Lagenidiales
+Cafeteria,4.4,Bicosoecida,order,Stramenopiles > Bigyra > Opalozoa
+Cafeteria,4.4,Cafeteriaceae,family,Bigyra > Opalozoa > Bicosoecida
+Saprolegnia,2.4,Saprolegniaceae,family,Stramenopiles > Oomycota > Saprolegniales

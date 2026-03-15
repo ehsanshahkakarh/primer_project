@@ -1,0 +1,15 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Saccamoeba,17.2,Hartmannellidae,family,Tubulinea > Elardia > Euamoebida
+Saccamoeba,17.2,Euamoebida,order,Amoebozoa > Tubulinea > Elardia
+Copromyxa,15.6,Euamoebida,order,Amoebozoa > Tubulinea > Elardia
+genus,14.7,Euamoebida,order,Amoebozoa > Tubulinea > Elardia
+genus,13.7,Phryganellina,suborder,Tubulinea > Elardia > Arcellinida
+genus,13.3,Hartmannellidae,family,Tubulinea > Elardia > Euamoebida
+Hartmannella,13.3,Hartmannellidae,family,Tubulinea > Elardia > Euamoebida
+genus,13.3,Euamoebida,order,Amoebozoa > Tubulinea > Elardia
+Hartmannella,13.3,Euamoebida,order,Amoebozoa > Tubulinea > Elardia
+Ptolemeba,12.3,Hartmannellidae,family,Tubulinea > Elardia > Euamoebida
+Polychaos,10.7,Hartmannellidae,family,Tubulinea > Elardia > Euamoebida
+Cryptodifflugia,8.9,Phryganellina,suborder,Tubulinea > Elardia > Arcellinida
+Ripidomyxa,8.5,Flabellulidae,family,Tubulinea > Elardia > Leptomyxida
+Phryganella,6.5,Phryganellina,suborder,Tubulinea > Elardia > Arcellinida

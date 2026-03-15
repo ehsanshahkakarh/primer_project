@@ -1,0 +1,7 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+Monocystidae,family,Conoidasida > Gregarinasina > Eugregarinorida,104,1636.7,1204,6986,Monocystis
+Theileriidae,family,Apicomplexa > Aconoidasida > Piroplasmida,89,1650.3,1238,1977,Theileria1
+Leidyanidae,family,Conoidasida > Gregarinasina > Eugregarinorida,50,1987.1,1209,6522,Leidyana2; Leidyana1
+Plasmodiidae,family,Apicomplexa > Aconoidasida > Haemosporida,42,1974.7,1515,2220,Plasmodium1; Plasmodiidae.U.genus
+Stylocephalidae,family,Conoidasida > Gregarinasina > Eugregarinorida,16,1785.2,1205,6198,Xiphocephalus
+Gregarinidae,family,Conoidasida > Gregarinasina > Eugregarinorida,14,1829.6,1201,6712,Gregarinidae.U.genus; Gregarina3

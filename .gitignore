@@ -1,10 +1,15 @@
 # Large data files - regenerate with scripts
 18S_subset/output/*.fna
-18S_division_subset/output/*.fna
+18S_subset/umbrella_output/*.fna
+16S_subset/output/*.fna
+16S_subset/umbrella_output/*.fna
 
 # Primer results - regenerate with scripts
 18S_subset/primer_results/
-18S_division_subset/primer_results/
+16S_subset/primer_results/
+
+# Large metadata files
+primer_design_pipeline/metadata/*.fna
 
 # Test data (large)
 primer_design_pipeline/test_data/

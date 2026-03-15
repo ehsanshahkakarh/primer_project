@@ -1,0 +1,5 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Vicinamibacteraceae,family,bacteria,Acidobacteriota > Vicinamibacteria > Vicinamibacterales,1144,1473.7,1210,1583
+Acidobacteriota,phylum,bacteria,root > Bacteria > Pseudomonadati,783,1437.1,1200,1563
+Thermoanaerobaculaceae,family,bacteria,Acidobacteriota > Thermoanaerobaculia > Thermoanaerobaculales,1,1512.0,1512,1512
+Desulfuromonadia,class,bacteria,Bacteria > Pseudomonadati > Thermodesulfobacteriota,1,1497.0,1497,1497

@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools>=64", "wheel", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ppdesign"
+dynamic = ["version"]
+description = "Probe and primer design for targeted taxonomic groups"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "PPDesign Development Team"},
+]
+keywords = ["bioinformatics", "probe design", "primer design", "oligonucleotide", "taxonomy"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "biopython>=1.83",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "polars>=0.20",
+    "matplotlib>=3.8",
+    "typer>=0.9",
+    "tqdm>=4.66",
+    "click>=8.1",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+primer = [
+    "primer3-py>=2.0",  # Optional for hairpin/dimer thermodynamic calculations
+]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "ruff>=0.3",
+    "mypy>=1.9",
+    "black>=24.2",
+    "pre-commit>=3.6",
+]
+docs = [
+    "mkdocs>=1.5",
+    "mkdocs-material>=9.5",
+    "mkdocstrings>=0.24",
+    "mkdocstrings-python>=1.8",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/ppdesign"
+Documentation = "https://ppdesign.readthedocs.io"
+Repository = "https://github.com/yourusername/ppdesign"
+Issues = "https://github.com/yourusername/ppdesign/issues"
+
+[project.scripts]
+ppdesign = "ppdesign.cli:app"
+ppdesign-kmers = "ppdesign.kmer_finder:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+write_to = "src/ppdesign/_version.py"

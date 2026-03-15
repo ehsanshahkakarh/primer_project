@@ -1,0 +1,10 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Bullinularia,15.9,Plagiopyxidae,family,Elardia > Arcellinida > Difflugina
+Bullinularia,15.9,Arcellinida,order,Amoebozoa > Tubulinea > Elardia
+genus,14.4,Arcellinida,order,Amoebozoa > Tubulinea > Elardia
+genus,13.7,Arcellinida,order,Amoebozoa > Tubulinea > Elardia
+genus,13.7,Phryganellina,suborder,Tubulinea > Elardia > Arcellinida
+Physochila,12.4,Arcellinida,order,Amoebozoa > Tubulinea > Elardia
+Cryptodifflugia,8.9,Arcellinida,order,Amoebozoa > Tubulinea > Elardia
+Cryptodifflugia,8.9,Phryganellina,suborder,Tubulinea > Elardia > Arcellinida
+Phryganella,6.5,Phryganellina,suborder,Tubulinea > Elardia > Arcellinida

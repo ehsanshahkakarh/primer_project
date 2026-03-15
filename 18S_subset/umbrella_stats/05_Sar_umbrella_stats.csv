@@ -1,0 +1,8 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,3674,1643.0,1200,9388,
+Sandonidae,family,Rhizaria > Cercozoa > Glissomonadida,543,1530.6,1202,2998,Flectomonas; Sandona
+Peridiniales,order,Sar > Alveolata > Dinophyceae,378,1514.4,1200,5854,Pentapharsodinium; Scrippsiella
+Allapsidae,family,Rhizaria > Cercozoa > Glissomonadida,3,1384.7,1262,1544,Allantion
+Vampyrellidae,family,Rhizaria > Endomyxa > Vampyrellida,3,1711.0,1566,1808,Vampyrella
+Limnofilidae,family,Sar > Rhizaria > Cercozoa,3,1319.7,1278,1348,Limnofilidae_X
+Peridiniaceae,family,Alveolata > Dinophyceae > Peridiniales,2,4825.5,4721,4930,Scrippsiella

@@ -1,0 +1,13 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Lachnospirales,order,bacteria,Bacillati > Bacillota > Clostridia,10543,1404.4,1200,2917
+Eubacteriales,order,bacteria,Bacillati > Bacillota > Clostridia,9129,1404.3,1200,1840
+Bacilli,class,bacteria,Bacteria > Bacillati > Bacillota,2258,1444.0,1200,2314
+Negativicutes,class,bacteria,Bacteria > Bacillati > Bacillota,1554,1459.3,1210,1781
+Clostridiaceae,family,bacteria,Bacillota > Clostridia > Eubacteriales,1279,1429.5,1200,2657
+Tissierellales,order,bacteria,Bacillati > Bacillota > Tissierellia,809,1407.9,1205,2891
+Erysipelotrichaceae,family,bacteria,Bacillota > Erysipelotrichia > Erysipelotrichales,447,1394.3,1213,1557
+Thermoanaerobacterales,order,bacteria,Bacillati > Bacillota > Clostridia,239,1482.3,1201,1800
+Bacillota,phylum,bacteria,root > Bacteria > Bacillati,32,1468.4,1343,1551
+Bacteroidales,order,bacteria,Bacteroidota/Chlorobiota group > Bacteroidota > Bacteroidia,15,1427.4,1292,1521
+Natranaerobiaceae,family,bacteria,Bacillota > Clostridia > Natranaerobiales,15,1481.3,1225,1535
+Syntrophobacteraceae,family,bacteria,Thermodesulfobacteriota > Syntrophobacteria > Syntrophobacterales,1,1386.0,1386,1386

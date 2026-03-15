@@ -1,0 +1,15 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Flectomonas,19.0,Sandonidae,family,Rhizaria > Cercozoa > Glissomonadida
+Neocercomonas,14.2,Cercomonadidae,family,Rhizaria > Cercozoa > Cercomonadida
+Cavernomonas,13.5,Cercomonadidae,family,Rhizaria > Cercozoa > Cercomonadida
+Collophidium,13.1,Collodaria,order,Rhizaria > Retaria > Polycystinea
+Gromia,12.6,Gromiidae,family,Rhizaria > Endomyxa > Gromiida
+Paradinium,12.2,Paradiniida,order,Rhizaria > Endomyxa > Ascetosporea
+Cercomonas,11.5,Cercomonadidae,family,Rhizaria > Cercozoa > Cercomonadida
+Cercomonadidae_X,10.6,Cercomonadidae,family,Rhizaria > Cercozoa > Cercomonadida
+Vampyrella,10.0,Vampyrellidae,family,Rhizaria > Endomyxa > Vampyrellida
+Sandona,8.9,Sandonidae,family,Rhizaria > Cercozoa > Glissomonadida
+Paracercomonas,8.0,Cercomonadidae,family,Rhizaria > Cercozoa > Cercomonadida
+Allantion,7.4,Allapsidae,family,Rhizaria > Cercozoa > Glissomonadida
+Sphaerozoum,6.5,Collodaria,order,Rhizaria > Retaria > Polycystinea
+Massisteria,5.0,Massisteriidae,family,Rhizaria > Cercozoa > Granofilosea

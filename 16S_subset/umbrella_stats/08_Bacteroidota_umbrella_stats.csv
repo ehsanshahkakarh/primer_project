@@ -1,0 +1,17 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Bacteroidales,order,bacteria,Bacteroidota/Chlorobiota group > Bacteroidota > Bacteroidia,3975,1428.6,1200,1707
+Bacteroidota,phylum,bacteria,Pseudomonadati > FCB group > Bacteroidota/Chlorobiota group,3000,1428.4,1200,2103
+Cytophagaceae,family,bacteria,Bacteroidota > Cytophagia > Cytophagales,1731,1435.8,1200,1772
+Chitinophagaceae,family,bacteria,Bacteroidota > Chitinophagia > Chitinophagales,732,1438.7,1205,1797
+Prolixibacteraceae,family,bacteria,Bacteroidota > Bacteroidia > Marinilabiliales,455,1434.6,1202,1530
+Weeksellaceae,family,bacteria,Bacteroidota > Flavobacteriia > Flavobacteriales,396,1408.9,1206,1603
+Marinilabiliales,order,bacteria,Bacteroidota/Chlorobiota group > Bacteroidota > Bacteroidia,278,1421.5,1203,1538
+Roseobacteraceae,family,bacteria,Pseudomonadota > Alphaproteobacteria > Rhodobacterales,14,1417.6,1305,1478
+Nitrospirota,phylum,bacteria,root > Bacteria > Pseudomonadati,2,1481.0,1467,1495
+Spirochaetaceae,family,bacteria,Spirochaetota > Spirochaetia > Spirochaetales,2,1503.0,1502,1504
+Eubacteriales,order,bacteria,Bacillati > Bacillota > Clostridia,1,1451.0,1451,1451
+Oxalobacteraceae,family,bacteria,Pseudomonadota > Betaproteobacteria > Burkholderiales,1,1495.0,1495,1495
+Rhodospirillales,order,bacteria,Pseudomonadati > Pseudomonadota > Alphaproteobacteria,1,1433.0,1433,1433
+Halomonadaceae,family,bacteria,Pseudomonadota > Gammaproteobacteria > Oceanospirillales,1,1491.0,1491,1491
+Sterolibacteriaceae,family,bacteria,Pseudomonadota > Betaproteobacteria > Nitrosomonadales,1,1439.0,1439,1439
+Mycoplasmatota,phylum,bacteria,root > Bacteria > Bacillati,1,1479.0,1479,1479

@@ -1,0 +1,6 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,559,1632.0,1200,9734,
+Endogenida,order,Intramacronucleata > Phyllopharyngea > Suctoria,24,1996.0,1207,3063,Acineta_1; Tokophrya
+Acinetidae,family,Phyllopharyngea > Suctoria > Endogenida,18,1796.2,1273,2588,Acineta_1
+Dysteriidae,family,Phyllopharyngea > Phyllopharyngia > Dysteriida,17,1670.4,1282,1729,Trochilia
+Hartmannulidae,family,Phyllopharyngea > Phyllopharyngia > Dysteriida,2,1676.0,1235,2117,Hartmannulidae_X

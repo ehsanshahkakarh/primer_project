@@ -1,0 +1,8 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Vorticella,15.6,Vorticellidae,family,Oligohymenophorea > Peritrichia > Sessilida
+Vorticella,15.6,Sessilida,order,Intramacronucleata > Oligohymenophorea > Peritrichia
+Fusiforma,13.0,Pseudocolliniidae,family,Oligohymenophorea > Apostomatia > Apostomatida
+genus,12.7,Sessilida,order,Intramacronucleata > Oligohymenophorea > Peritrichia
+Pseudovorticella,8.9,Vorticellidae,family,Oligohymenophorea > Peritrichia > Sessilida
+Pseudovorticella,8.9,Sessilida,order,Intramacronucleata > Oligohymenophorea > Peritrichia
+Campanella,5.0,Sessilida,order,Intramacronucleata > Oligohymenophorea > Peritrichia

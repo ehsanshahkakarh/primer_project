@@ -1,0 +1,8 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+Monocystidae,family,Conoidasida > Gregarinasina > Eugregarinorida,104,1636.7,1204,6986,Monocystis
+Eimeriorina,suborder,Conoidasida > Coccidia > Eucoccidiorida,83,1810.9,1231,3866,Sarcocystis10; Eimeria1; Cryptosporidium1
+Eimeriidae,family,Coccidia > Eucoccidiorida > Eimeriorina,68,1630.8,1222,1818,Eimeria1
+Leidyanidae,family,Conoidasida > Gregarinasina > Eugregarinorida,50,1987.1,1209,6522,Leidyana2; Leidyana1
+Stylocephalidae,family,Conoidasida > Gregarinasina > Eugregarinorida,16,1785.2,1205,6198,Xiphocephalus
+Gregarinidae,family,Conoidasida > Gregarinasina > Eugregarinorida,14,1829.6,1201,6712,Gregarinidae.U.genus; Gregarina3
+Lipotrophidae,family,Conoidasida > Gregarinasina > Neogregarinorida,2,1789.0,1785,1793,Mattesia

@@ -1,0 +1,11 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Paracalanus,10.9,Paracalanidae,family,Neocopepoda > Gymnoplea > Calanoida
+Paracalanus,10.9,Calanoida,order,Copepoda > Neocopepoda > Gymnoplea
+Eudiaptomus,10.7,Calanoida,order,Copepoda > Neocopepoda > Gymnoplea
+Centropages,8.5,Calanoida,order,Copepoda > Neocopepoda > Gymnoplea
+Metridia,8.5,Calanoida,order,Copepoda > Neocopepoda > Gymnoplea
+Metridia,8.5,Metridinidae,family,Neocopepoda > Gymnoplea > Calanoida
+Anomalocera,8.0,Calanoida,order,Copepoda > Neocopepoda > Gymnoplea
+Anomalocera,8.0,Pontellidae,family,Neocopepoda > Gymnoplea > Calanoida
+Eurytemora,4.3,Temoridae,family,Neocopepoda > Gymnoplea > Calanoida
+Acartia,2.6,Acartiidae,family,Neocopepoda > Gymnoplea > Calanoida

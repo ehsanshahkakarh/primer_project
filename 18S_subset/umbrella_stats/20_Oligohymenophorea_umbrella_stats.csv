@@ -1,0 +1,5 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,559,1632.0,1200,9734,
+Vorticellidae,family,Oligohymenophorea > Peritrichia > Sessilida,93,1688.9,1206,2625,Vorticella; Pseudovorticella
+Pseudocolliniidae,family,Oligohymenophorea > Apostomatia > Apostomatida,10,1612.8,1345,1721,Fusiforma
+Sessilida,order,Intramacronucleata > Oligohymenophorea > Peritrichia,1,2174.0,2174,2174,Vorticella; Sessilida.U.genus; Pseudovorticella; Campanella

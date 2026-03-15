@@ -1,0 +1,6 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Pentapharsodinium,18.3,Peridiniales,order,Sar > Alveolata > Dinophyceae
+Ceratium,7.4,Ceratiaceae,family,Alveolata > Dinophyceae > Gonyaulacales
+Adelina,7.4,Adeleidae,family,Alveolata > Apicomplexa > Adeleorina
+Scrippsiella,6.5,Peridiniales,order,Sar > Alveolata > Dinophyceae
+Scrippsiella,6.5,Peridiniaceae,family,Alveolata > Dinophyceae > Peridiniales

@@ -1,0 +1,6 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Phycisphaeraceae,family,bacteria,Planctomycetota > Phycisphaerae > Phycisphaerales,1601,1431.8,1200,1689
+Planctomycetia,class,bacteria,Pseudomonadati > PVC group > Planctomycetota,1540,1433.6,1200,1600
+Verrucomicrobiota,phylum,bacteria,Bacteria > Pseudomonadati > PVC group,572,1460.4,1206,1615
+Verrucomicrobiia,class,bacteria,Pseudomonadati > PVC group > Verrucomicrobiota,396,1415.4,1204,1883
+Bacteroidales,order,bacteria,Bacteroidota/Chlorobiota group > Bacteroidota > Bacteroidia,1,1486.0,1486,1486

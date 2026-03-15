@@ -194,6 +194,7 @@ def select_representatives(sequences_tsv: Path, fasta_input: Path,
 
     For each unique genus:
     - Pick the centroid with the largest cluster size
+    - Only considers sequences that are actually in the input FASTA
     - Sequences with '.U.' in genus go to unknown_output (for --add later)
 
     Args:
@@ -207,7 +208,26 @@ def select_representatives(sequences_tsv: Path, fasta_input: Path,
     """
     import csv
 
-    # Read sequence metadata from TSV
+    # First, read FASTA to get available sequence IDs
+    fasta_seqs = {}
+    current_id = None
+    current_seq = []
+
+    with open(fasta_input, 'r') as f:
+        for line in f:
+            if line.startswith('>'):
+                if current_id:
+                    fasta_seqs[current_id] = ''.join(current_seq)
+                current_id = line[1:].strip().split()[0]
+                current_seq = []
+            else:
+                current_seq.append(line.strip())
+        if current_id:
+            fasta_seqs[current_id] = ''.join(current_seq)
+
+    available_ids = set(fasta_seqs.keys())
+
+    # Read sequence metadata from TSV - only consider sequences in FASTA
     genus_best = {}  # genus -> (seq_id, cluster_size)
     unknown_ids = set()
 
@@ -215,6 +235,11 @@ def select_representatives(sequences_tsv: Path, fasta_input: Path,
         reader = csv.DictReader(f, delimiter='\t')
         for row in reader:
             seq_id = row.get('sequence_id', row.get('centroid', ''))
+
+            # Skip if this sequence is not in the FASTA
+            if seq_id not in available_ids:
+                continue
+
             genus = row.get('genus', '')
 
             # Handle cluster_size - might be string
@@ -234,38 +259,19 @@ def select_representatives(sequences_tsv: Path, fasta_input: Path,
     # Get representative IDs
     rep_ids = {info[0] for info in genus_best.values()}
 
-    # Read FASTA and write to appropriate output files
-    fasta_seqs = {}
-    current_id = None
-    current_seq = []
-
-    with open(fasta_input, 'r') as f:
-        for line in f:
-            if line.startswith('>'):
-                if current_id:
-                    fasta_seqs[current_id] = ''.join(current_seq)
-                current_id = line[1:].strip().split()[0]
-                current_seq = []
-            else:
-                current_seq.append(line.strip())
-        if current_id:
-            fasta_seqs[current_id] = ''.join(current_seq)
-
     # Write representatives
     reps_written = 0
     with open(reps_output, 'w') as f:
         for seq_id in rep_ids:
-            if seq_id in fasta_seqs:
-                f.write(f">{seq_id}\n{fasta_seqs[seq_id]}\n")
-                reps_written += 1
+            f.write(f">{seq_id}\n{fasta_seqs[seq_id]}\n")
+            reps_written += 1
 
     # Write unknowns
     unknowns_written = 0
     with open(unknown_output, 'w') as f:
         for seq_id in unknown_ids:
-            if seq_id in fasta_seqs:
-                f.write(f">{seq_id}\n{fasta_seqs[seq_id]}\n")
-                unknowns_written += 1
+            f.write(f">{seq_id}\n{fasta_seqs[seq_id]}\n")
+            unknowns_written += 1
 
     return reps_written, unknowns_written
 
@@ -518,6 +524,61 @@ def run_pipeline_for_taxon(taxon: dict, config: dict, project_root: Path, dry_ru
             result['errors'].append(f'MAFFT failed: {e}')
     else:
         result['steps_completed'].append('align')
+
+    # =========================================================================
+    # STEP 6: Design primers using consensus and Primer3
+    # =========================================================================
+    print(f"   → Step 6: Primer design (consensus + primer3) {'[DRY-RUN]' if dry_run else ''}")
+    primers_dir = output_dir / 'primers'
+    primers_dir.mkdir(exist_ok=True)
+
+    if not dry_run and aligned_fasta.exists() and aligned_fasta.stat().st_size > 0:
+        try:
+            # Import design_primers module
+            import sys
+            scripts_dir = Path(__file__).parent
+            if str(scripts_dir) not in sys.path:
+                sys.path.insert(0, str(scripts_dir))
+            from design_primers import design_primers_for_taxon
+
+            primer_result = design_primers_for_taxon(
+                alignment_file=aligned_fasta,
+                output_dir=primers_dir,
+                taxon_name=taxon_name,
+                max_seqs=500
+            )
+
+            result['steps_completed'].append('primers')
+            result['stats']['primers'] = {
+                'consensus_length': primer_result.get('consensus_length', 0),
+                'conserved_regions': primer_result.get('conserved_regions', 0),
+                'primers_designed': {}
+            }
+
+            # Count primers by size
+            if 'primers_by_size' in primer_result:
+                for size_label, size_data in primer_result['primers_by_size'].items():
+                    primers = size_data.get('primers', [])
+                    result['stats']['primers']['primers_designed'][size_label] = len(primers)
+
+                total_primers = sum(result['stats']['primers']['primers_designed'].values())
+                print(f"     ✓ Designed {total_primers} primer pairs")
+                for size_label, count in result['stats']['primers']['primers_designed'].items():
+                    print(f"       • {size_label}: {count} pairs")
+            else:
+                print(f"     ⚠️ No primers designed (check alignment quality)")
+
+        except ImportError as e:
+            result['errors'].append(f'Primer design import failed: {e}')
+            print(f"     ❌ Could not import design_primers module: {e}")
+        except Exception as e:
+            result['errors'].append(f'Primer design failed: {e}')
+            print(f"     ❌ Primer design error: {e}")
+    else:
+        if dry_run:
+            result['steps_completed'].append('primers')
+        else:
+            result['errors'].append('No alignment file for primer design')
 
     result['status'] = 'complete' if len(result['errors']) == 0 else 'partial'
 

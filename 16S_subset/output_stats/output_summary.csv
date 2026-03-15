@@ -1,0 +1,239 @@
+file,domain,taxon,rank,seq_count,avg_length,min_length,max_length,priority,expected_otu,lineage,genera_count
+001_Pseudomonadota_phylum.fna,bacteria,Pseudomonadota,phylum,16611,1429.6,1200,3026,2329.23,25835,root > Bacteria > Pseudomonadati,604
+002_Bacillota_phylum.fna,bacteria,Bacillota,phylum,31215,1413.8,1200,3469,1623.03,35388,root > Bacteria > Bacillati,375
+003_Bacteroidota_phylum.fna,bacteria,Bacteroidota,phylum,13159,1428.7,1200,2826,1278.23,23129,Pseudomonadati > FCB group > Bacteroidota/Chlorobiota group,267
+004_Clostridia_class.fna,bacteria,Clostridia,class,23021,1408.5,1200,2917,969.27,25900,Bacteria > Bacillati > Bacillota,209
+005_Gammaproteobacteria_class.fna,bacteria,Gammaproteobacteria,class,7239,1444.4,1200,3026,966.62,8973,Bacteria > Pseudomonadati > Pseudomonadota,254
+006_Alphaproteobacteria_class.fna,bacteria,Alphaproteobacteria,class,5706,1401.9,1200,2952,952.54,11027,Bacteria > Pseudomonadati > Pseudomonadota,244
+007_Actinomycetota_phylum.fna,bacteria,Actinomycetota,phylum,4378,1418.0,1200,3032,501.23,8621,root > Bacteria > Bacillati,128
+008_Flavobacteriales_order.fna,bacteria,Flavobacteriales,order,2380,1429.2,1200,2103,457.65,3478,Bacteroidota/Chlorobiota group > Bacteroidota > Flavobacteriia,96
+009_Eubacteriales_order.fna,bacteria,Eubacteriales,order,11095,1408.3,1200,2657,453.31,9149,Bacillati > Bacillota > Clostridia,94
+010_Cyanobacteriota_phylum.fna,bacteria,Cyanobacteriota,phylum,969,1438.2,1201,2514,420.74,1226,Bacteria > Bacillati > Cyanobacteriota/Melainabacteria group,103
+011_Cyanophyceae_class.fna,bacteria,Cyanophyceae,class,969,1438.2,1201,2514,418.55,1223,Bacillati > Cyanobacteriota/Melainabacteria group > Cyanobacteriota,102
+012_Thermodesulfobacteriota_phylum.fna,bacteria,Thermodesulfobacteriota,phylum,3745,1467.1,1200,1748,417.73,5511,root > Bacteria > Pseudomonadati,87
+013_Betaproteobacteria_class.fna,bacteria,Betaproteobacteria,class,3590,1440.4,1200,2633,368.19,5254,Bacteria > Pseudomonadati > Pseudomonadota,97
+014_Actinomycetes_class.fna,bacteria,Actinomycetes,class,2942,1412.6,1200,3032,348.19,4280,Bacteria > Bacillati > Actinomycetota,97
+015_Flavobacteriaceae_family.fna,bacteria,Flavobacteriaceae,family,1594,1432.9,1200,2103,337.72,2264,Bacteroidota > Flavobacteriia > Flavobacteriales,73
+016_Bacilli_class.fna,bacteria,Bacilli,class,4901,1430.4,1200,3469,335.02,5457,Bacteria > Bacillati > Bacillota,95
+017_Bacteroidia_class.fna,bacteria,Bacteroidia,class,7354,1427.2,1200,2826,304.2,11185,FCB group > Bacteroidota/Chlorobiota group > Bacteroidota,57
+018_Hyphomicrobiales_order.fna,bacteria,Hyphomicrobiales,order,1527,1403.8,1200,1825,252.58,2378,Pseudomonadati > Pseudomonadota > Alphaproteobacteria,60
+019_Rhodobacterales_order.fna,bacteria,Rhodobacterales,order,2093,1392.4,1200,2540,247.93,1242,Pseudomonadati > Pseudomonadota > Alphaproteobacteria,71
+020_Cytophagales_order.fna,bacteria,Cytophagales,order,1609,1435.7,1200,1772,244.64,2632,Bacteroidota/Chlorobiota group > Bacteroidota > Cytophagia,63
+021_Chloroflexota_phylum.fna,bacteria,Chloroflexota,phylum,3203,1401.4,1200,1659,241.73,13186,root > Bacteria > Bacillati,39
+022_Lachnospirales_order.fna,bacteria,Lachnospirales,order,11167,1405.0,1200,2917,236.37,12495,Bacillati > Bacillota > Clostridia,46
+023_Acidobacteriota_phylum.fna,bacteria,Acidobacteriota,phylum,2241,1457.8,1200,1588,231.9,9081,root > Bacteria > Pseudomonadati,32
+024_Bacillales_order.fna,bacteria,Bacillales,order,2177,1431.0,1200,3104,226.59,2410,Bacillati > Bacillota > Bacilli,65
+025_Planctomycetota_phylum.fna,bacteria,Planctomycetota,phylum,3768,1432.6,1200,1689,225.11,13064,Bacteria > Pseudomonadati > PVC group,36
+026_Bacteroidales_order.fna,bacteria,Bacteroidales,order,6577,1426.9,1200,2826,214.56,9849,Bacteroidota/Chlorobiota group > Bacteroidota > Bacteroidia,39
+027_Methanobacteriota_phylum.fna,archaea,Methanobacteriota,phylum,1558,1206.0,900,3106,209.76,2386,root > Archaea > Methanobacteriati,66
+028_Lachnospiraceae_family.fna,bacteria,Lachnospiraceae,family,11167,1405.0,1200,2917,207.54,12300,Bacillota > Clostridia > Lachnospirales,40
+029_Verrucomicrobiota_phylum.fna,bacteria,Verrucomicrobiota,phylum,1409,1452.8,1200,1883,202.85,9999,Bacteria > Pseudomonadati > PVC group,34
+030_Paracoccaceae_family.fna,bacteria,Paracoccaceae,family,451,1397.8,1200,1521,166.58,607,Pseudomonadota > Alphaproteobacteria > Rhodobacterales,43
+031_Chitinophagales_order.fna,bacteria,Chitinophagales,order,702,1438.5,1205,1797,164.15,2454,Bacteroidota/Chlorobiota group > Bacteroidota > Chitinophagia,30
+032_Chitinophagaceae_family.fna,bacteria,Chitinophagaceae,family,702,1438.5,1205,1797,159.8,1927,Bacteroidota > Chitinophagia > Chitinophagales,29
+033_Burkholderiales_order.fna,bacteria,Burkholderiales,order,2123,1435.0,1200,1840,157.83,2439,Pseudomonadati > Pseudomonadota > Betaproteobacteria,46
+034_Rhodospirillales_order.fna,bacteria,Rhodospirillales,order,538,1410.9,1200,1533,156.84,1958,Pseudomonadati > Pseudomonadota > Alphaproteobacteria,39
+035_Planctomycetia_class.fna,bacteria,Planctomycetia,class,2378,1430.7,1200,1601,151.56,5778,Pseudomonadati > PVC group > Planctomycetota,25
+036_Desulfobacteria_class.fna,bacteria,Desulfobacteria,class,3706,1467.5,1200,1748,149.38,1741,Bacteria > Pseudomonadati > Thermodesulfobacteriota,26
+037_Oscillospiraceae_family.fna,bacteria,Oscillospiraceae,family,8030,1401.1,1200,1840,147.64,5250,Bacillota > Clostridia > Eubacteriales,28
+038_Chromatiales_order.fna,bacteria,Chromatiales,order,419,1458.1,1200,1715,147.35,567,Pseudomonadati > Pseudomonadota > Gammaproteobacteria,35
+039_Myxococcota_phylum.fna,bacteria,Myxococcota,phylum,545,1465.4,1233,1873,142.45,3526,root > Bacteria > Pseudomonadati,28
+040_Desulfobacterales_order.fna,bacteria,Desulfobacterales,order,3706,1467.5,1200,1748,138.34,1370,Pseudomonadati > Thermodesulfobacteriota > Desulfobacteria,25
+041_Peptostreptococcales_order.fna,bacteria,Peptostreptococcales,order,648,1426.1,1204,2891,115.65,1262,Bacillati > Bacillota > Clostridia,30
+042_Nostocales_order.fna,bacteria,Nostocales,order,197,1467.1,1201,2077,113.26,227,Cyanobacteriota/Melainabacteria group > Cyanobacteriota > Cyanophyceae,28
+043_Negativicutes_class.fna,bacteria,Negativicutes,class,1143,1454.2,1210,1781,109.12,1429,Bacteria > Bacillati > Bacillota,27
+044_Lactobacillales_order.fna,bacteria,Lactobacillales,order,2726,1430.0,1200,3469,108.43,3047,Bacillati > Bacillota > Bacilli,30
+045_Halobacteriales_order.fna,archaea,Halobacteriales,order,634,1279.2,900,1637,106.49,745,Methanobacteriota > Stenosarchaea group > Halobacteria,37
+046_Campylobacterota_phylum.fna,bacteria,Campylobacterota,phylum,1135,1437.1,1201,1712,95.35,1917,root > Bacteria > Pseudomonadati,20
+047_Micrococcales_order.fna,bacteria,Micrococcales,order,338,1425.2,1200,3032,95.09,459,Bacillati > Actinomycetota > Actinomycetes,31
+048_Oceanospirillales_order.fna,bacteria,Oceanospirillales,order,787,1427.3,1202,2826,93.73,1066,Pseudomonadati > Pseudomonadota > Gammaproteobacteria,28
+049_Lysobacterales_order.fna,bacteria,Lysobacterales,order,681,1461.0,1204,1729,93.24,927,Pseudomonadati > Pseudomonadota > Gammaproteobacteria,21
+050_Nitrosomonadales_order.fna,bacteria,Nitrosomonadales,order,632,1460.3,1201,1651,93.07,1609,Pseudomonadati > Pseudomonadota > Betaproteobacteria,21
+051_Marinilabiliales_order.fna,bacteria,Marinilabiliales,order,783,1430.0,1202,1544,89.64,1336,Bacteroidota/Chlorobiota group > Bacteroidota > Bacteroidia,18
+052_Spirochaetota_phylum.fna,bacteria,Spirochaetota,phylum,1883,1431.0,1201,3281,87.19,3341,root > Bacteria > Pseudomonadati,15
+053_Tissierellia_class.fna,bacteria,Tissierellia,class,2138,1421.1,1204,2891,86.67,905,Bacteria > Bacillati > Bacillota,21
+054_Anaerolineae_class.fna,bacteria,Anaerolineae,class,2764,1401.1,1200,1588,79.58,5369,Bacteria > Bacillati > Chloroflexota,11
+055_Blastocatellia_class.fna,bacteria,Blastocatellia,class,268,1447.9,1200,1552,78.86,1441,Bacteria > Pseudomonadati > Acidobacteriota,9
+056_Thermoproteota_phylum.fna,archaea,Thermoproteota,phylum,153,1234.1,900,2211,77.76,400,root > Archaea > Thermoproteati,22
+057_Epsilonproteobacteria_class.fna,bacteria,Epsilonproteobacteria,class,1122,1436.1,1201,1549,77.48,1866,Bacteria > Pseudomonadati > Campylobacterota,17
+058_Cellvibrionales_order.fna,bacteria,Cellvibrionales,order,418,1460.7,1200,2271,76.27,826,Pseudomonadati > Pseudomonadota > Gammaproteobacteria,25
+059_Roseobacteraceae_family.fna,bacteria,Roseobacteraceae,family,399,1395.3,1202,1840,76.2,499,Pseudomonadota > Alphaproteobacteria > Rhodobacterales,27
+060_Thermoprotei_class.fna,archaea,Thermoprotei,class,153,1234.1,900,2211,74.71,373,Archaea > Thermoproteati > Thermoproteota,21
+061_Bacillaceae_family.fna,bacteria,Bacillaceae,family,464,1449.9,1201,2314,72.95,455,Bacillota > Bacilli > Bacillales,23
+062_Polyangiales_order.fna,bacteria,Polyangiales,order,134,1478.7,1236,1873,72.93,1044,Pseudomonadati > Myxococcota > Polyangia,12
+063_Bdellovibrionota_phylum.fna,bacteria,Bdellovibrionota,phylum,1076,1437.9,1200,1581,71.64,2603,root > Bacteria > Pseudomonadati,12
+064_Blastocatellales_order.fna,bacteria,Blastocatellales,order,268,1447.9,1200,1552,71.6,1086,Pseudomonadati > Acidobacteriota > Blastocatellia,8
+065_Tissierellales_order.fna,bacteria,Tissierellales,order,2138,1421.1,1204,2891,70.85,686,Bacillati > Bacillota > Tissierellia,18
+066_Opitutia_class.fna,bacteria,Opitutia,class,186,1455.8,1206,1573,70.05,842,Pseudomonadati > PVC group > Verrucomicrobiota,11
+067_Anaerolineaceae_family.fna,bacteria,Anaerolineaceae,family,2764,1401.1,1200,1588,70.04,2464,Chloroflexota > Anaerolineae > Anaerolineales,10
+068_Chloroflexia_class.fna,bacteria,Chloroflexia,class,102,1417.8,1212,1659,69.63,787,Bacteria > Bacillati > Chloroflexota,13
+069_Enterobacterales_order.fna,bacteria,Enterobacterales,order,279,1451.0,1200,2439,67.99,293,Pseudomonadati > Pseudomonadota > Gammaproteobacteria,22
+070_Verrucomicrobiia_class.fna,bacteria,Verrucomicrobiia,class,393,1415.0,1204,1883,67.7,2817,Pseudomonadati > PVC group > Verrucomicrobiota,14
+071_Alteromonadales_order.fna,bacteria,Alteromonadales,order,628,1453.6,1201,1625,65.44,791,Pseudomonadati > Pseudomonadota > Gammaproteobacteria,19
+072_Spirochaetales_order.fna,bacteria,Spirochaetales,order,1823,1430.5,1201,3062,65.34,3004,Pseudomonadati > Spirochaetota > Spirochaetia,10
+073_Acetobacterales_order.fna,bacteria,Acetobacterales,order,241,1405.6,1202,1592,64.48,857,Pseudomonadati > Pseudomonadota > Alphaproteobacteria,17
+074_Methylococcales_order.fna,bacteria,Methylococcales,order,282,1422.1,1200,1553,63.99,278,Pseudomonadati > Pseudomonadota > Gammaproteobacteria,17
+075_Clostridiaceae_family.fna,bacteria,Clostridiaceae,family,1201,1425.1,1200,2657,62.78,1401,Bacillota > Clostridia > Eubacteriales,15
+076_Campylobacterales_order.fna,bacteria,Campylobacterales,order,1075,1435.9,1201,1549,61.58,1767,Pseudomonadati > Campylobacterota > Epsilonproteobacteria,12
+077_Mycoplasmatota_phylum.fna,bacteria,Mycoplasmatota,phylum,674,1479.3,1200,3023,61.11,1270,root > Bacteria > Bacillati,11
+078_Methanomicrobia_class.fna,archaea,Methanomicrobia,class,520,1149.0,900,2174,60.72,839,Methanobacteriati > Methanobacteriota > Stenosarchaea group,17
+079_Rhodocyclales_order.fna,bacteria,Rhodocyclales,order,382,1462.8,1203,2092,60.68,739,Pseudomonadati > Pseudomonadota > Betaproteobacteria,13
+080_Desulfobacteraceae_family.fna,bacteria,Desulfobacteraceae,family,3706,1467.5,1200,1748,60.41,312,Thermodesulfobacteriota > Desulfobacteria > Desulfobacterales,10
+081_Desulfuromonadia_class.fna,bacteria,Desulfuromonadia,class,410,1467.5,1213,1668,59.49,958,Bacteria > Pseudomonadati > Thermodesulfobacteriota,14
+082_Thermoleophilia_class.fna,bacteria,Thermoleophilia,class,708,1440.4,1205,1619,59.45,1705,Bacteria > Bacillati > Actinomycetota,9
+083_Lysobacteraceae_family.fna,bacteria,Lysobacteraceae,family,412,1464.3,1204,1729,59.16,615,Pseudomonadota > Gammaproteobacteria > Lysobacterales,12
+084_Leptolyngbyales_order.fna,bacteria,Leptolyngbyales,order,323,1421.9,1203,2487,58.99,375,Cyanobacteriota/Melainabacteria group > Cyanobacteriota > Cyanophyceae,12
+085_Erysipelotrichales_order.fna,bacteria,Erysipelotrichales,order,586,1387.4,1207,1659,58.94,1056,Bacillati > Bacillota > Erysipelotrichia,12
+086_Selenomonadales_order.fna,bacteria,Selenomonadales,order,398,1475.4,1210,1781,58.55,553,Bacillati > Bacillota > Negativicutes,15
+087_Chroococcales_order.fna,bacteria,Chroococcales,order,54,1441.3,1210,1886,58.34,64,Cyanobacteriota > Cyanophyceae > Oscillatoriophycideae,15
+088_Mollicutes_class.fna,bacteria,Mollicutes,class,674,1479.3,1200,3023,58.23,1248,Bacteria > Bacillati > Mycoplasmatota,10
+089_Comamonadaceae_family.fna,bacteria,Comamonadaceae,family,826,1428.6,1200,1816,58.04,1034,Pseudomonadota > Betaproteobacteria > Burkholderiales,17
+090_Phycisphaerae_class.fna,bacteria,Phycisphaerae,class,1393,1436.0,1200,1689,57.27,4277,Pseudomonadati > PVC group > Planctomycetota,8
+091_Saprospirales_order.fna,bacteria,Saprospirales,order,697,1416.2,1200,1581,57.01,1470,Bacteroidota/Chlorobiota group > Bacteroidota > Saprospiria,8
+092_Synergistales_order.fna,bacteria,Synergistales,order,194,1428.4,1216,1538,56.98,634,Thermotogati > Synergistota > Synergistia,13
+093_Verrucomicrobiales_order.fna,bacteria,Verrucomicrobiales,order,391,1414.6,1204,1883,56.53,891,PVC group > Verrucomicrobiota > Verrucomicrobiia,12
+094_Chromatiaceae_family.fna,bacteria,Chromatiaceae,family,146,1426.4,1220,1542,52.2,188,Pseudomonadota > Gammaproteobacteria > Chromatiales,15
+095_Methylococcaceae_family.fna,bacteria,Methylococcaceae,family,248,1419.3,1200,1553,51.8,199,Pseudomonadota > Gammaproteobacteria > Methylococcales,14
+096_Pirellulales_order.fna,bacteria,Pirellulales,order,1296,1437.0,1200,1600,51.62,2917,PVC group > Planctomycetota > Planctomycetia,7
+097_Oceanospirillaceae_family.fna,bacteria,Oceanospirillaceae,family,107,1450.8,1224,1619,50.92,208,Pseudomonadota > Gammaproteobacteria > Oceanospirillales,13
+098_Gemmatimonadota_phylum.fna,bacteria,Gemmatimonadota,phylum,168,1445.5,1236,1550,50.15,2554,Bacteria > Pseudomonadati > FCB group,7
+099_Blastocatellaceae_family.fna,bacteria,Blastocatellaceae,family,268,1447.9,1200,1552,50.01,430,Acidobacteriota > Blastocatellia > Blastocatellales,5
+100_Desulfobulbales_order.fna,bacteria,Desulfobulbales,order,625,1462.3,1200,1600,49.93,1021,Pseudomonadati > Thermodesulfobacteriota > Desulfobulbia,10
+101_Terriglobia_class.fna,bacteria,Terriglobia,class,525,1433.6,1215,1563,49.69,1370,Bacteria > Pseudomonadati > Acidobacteriota,9
+102_Sphingomonadales_order.fna,bacteria,Sphingomonadales,order,729,1412.5,1200,2952,49.52,984,Pseudomonadati > Pseudomonadota > Alphaproteobacteria,13
+103_Armatimonadota_phylum.fna,bacteria,Armatimonadota,phylum,32,1423.6,1221,1510,49.45,1473,root > Bacteria > Bacillati,8
+104_Chloroflexales_order.fna,bacteria,Chloroflexales,order,84,1423.6,1214,1659,48.61,530,Bacillati > Chloroflexota > Chloroflexia,8
+105_Oscillatoriales_order.fna,bacteria,Oscillatoriales,order,170,1474.4,1210,2270,48.52,162,Cyanobacteriota > Cyanophyceae > Oscillatoriophycideae,13
+106_Erysipelotrichaceae_family.fna,bacteria,Erysipelotrichaceae,family,448,1394.1,1213,1557,48.32,871,Bacillota > Erysipelotrichia > Erysipelotrichales,10
+107_Rhodospirillaceae_family.fna,bacteria,Rhodospirillaceae,family,93,1411.8,1208,1513,46.85,203,Pseudomonadota > Alphaproteobacteria > Rhodospirillales,12
+108_Thiotrichales_order.fna,bacteria,Thiotrichales,order,363,1473.3,1219,2930,46.41,546,Pseudomonadati > Pseudomonadota > Gammaproteobacteria,14
+109_Desulfovibrionales_order.fna,bacteria,Desulfovibrionales,order,489,1454.7,1201,1604,46.4,667,Pseudomonadati > Thermodesulfobacteriota > Desulfovibrionia,13
+110_Vicinamibacteria_class.fna,bacteria,Vicinamibacteria,class,1129,1473.5,1210,1583,46.37,1809,Bacteria > Pseudomonadati > Acidobacteriota,5
+111_Propionibacteriales_order.fna,bacteria,Propionibacteriales,order,776,1406.2,1208,1581,46.05,1076,Bacillati > Actinomycetota > Actinomycetes,13
+112_Sphingobacteriales_order.fna,bacteria,Sphingobacteriales,order,498,1432.9,1203,1547,45.58,1909,Bacteroidota/Chlorobiota group > Bacteroidota > Sphingobacteriia,12
+113_Prolixibacteraceae_family.fna,bacteria,Prolixibacteraceae,family,453,1435.0,1202,1530,45.56,738,Bacteroidota > Bacteroidia > Marinilabiliales,8
+114_Rikenellaceae_family.fna,bacteria,Rikenellaceae,family,1581,1423.9,1200,1566,45.46,1913,Bacteroidota > Bacteroidia > Bacteroidales,7
+115_Verrucomicrobiaceae_family.fna,bacteria,Verrucomicrobiaceae,family,190,1460.8,1204,1883,44.54,623,Verrucomicrobiota > Verrucomicrobiia > Verrucomicrobiales,9
+116_Leptolyngbyaceae_family.fna,bacteria,Leptolyngbyaceae,family,317,1423.6,1203,2487,43.59,362,Cyanobacteriota > Cyanophyceae > Leptolyngbyales,10
+117_Pirellulaceae_family.fna,bacteria,Pirellulaceae,family,1296,1437.0,1200,1600,43.26,2874,Planctomycetota > Planctomycetia > Pirellulales,5
+118_Acetobacteraceae_family.fna,bacteria,Acetobacteraceae,family,71,1405.1,1237,1518,41.33,490,Pseudomonadota > Alphaproteobacteria > Acetobacterales,10
+119_Peptococcaceae_family.fna,bacteria,Peptococcaceae,family,307,1453.2,1200,1732,40.83,522,Bacillota > Clostridia > Eubacteriales,7
+120_Opitutales_order.fna,bacteria,Opitutales,order,80,1482.7,1249,1567,40.7,427,PVC group > Verrucomicrobiota > Opitutia,6
+121_Hyphomicrobiaceae_family.fna,bacteria,Hyphomicrobiaceae,family,260,1398.0,1200,1825,39.52,424,Pseudomonadota > Alphaproteobacteria > Hyphomicrobiales,6
+122_Weeksellaceae_family.fna,bacteria,Weeksellaceae,family,392,1408.1,1206,1603,39.46,196,Bacteroidota > Flavobacteriia > Flavobacteriales,9
+123_Pseudonocardiaceae_family.fna,bacteria,Pseudonocardiaceae,family,421,1438.4,1202,1871,38.96,326,Actinomycetota > Actinomycetes > Pseudonocardiales,9
+124_Fusobacteriales_order.fna,bacteria,Fusobacteriales,order,429,1394.5,1202,1900,38.84,720,Fusobacteriati > Fusobacteriota > Fusobacteriia,10
+125_Haloferacaceae_family.fna,archaea,Haloferacaceae,family,298,1267.4,900,1637,38.62,342,Stenosarchaea group > Halobacteria > Halobacteriales,13
+126_Thermoanaerobacterales_order.fna,bacteria,Thermoanaerobacterales,order,248,1482.5,1201,1800,38.55,163,Bacillati > Bacillota > Clostridia,10
+127_Neisseriales_order.fna,bacteria,Neisseriales,order,447,1418.8,1201,2633,38.3,402,Pseudomonadati > Pseudomonadota > Betaproteobacteria,14
+128_Deinococcota_phylum.fna,bacteria,Deinococcota,phylum,339,1434.0,1209,2826,38.19,500,root > Bacteria > Thermotogati,7
+129_Oligoflexia_class.fna,bacteria,Oligoflexia,class,34,1437.0,1250,1541,38.02,1157,Bacteria > Pseudomonadati > Bdellovibrionota,7
+130_Pasteurellaceae_family.fna,bacteria,Pasteurellaceae,family,566,1418.4,1226,1777,37.93,548,Pseudomonadota > Gammaproteobacteria > Pasteurellales,13
+131_Acidimicrobiia_class.fna,bacteria,Acidimicrobiia,class,310,1426.4,1201,1551,37.92,2024,Bacteria > Bacillati > Actinomycetota,7
+132_Vicinamibacterales_order.fna,bacteria,Vicinamibacterales,order,1129,1473.5,1210,1583,37.65,1462,Pseudomonadati > Acidobacteriota > Vicinamibacteria,4
+133_Desulfurococcales_order.fna,archaea,Desulfurococcales,order,57,1167.6,900,1630,37.58,147,Thermoproteati > Thermoproteota > Thermoprotei,9
+134_Halanaerobiales_order.fna,bacteria,Halanaerobiales,order,104,1483.6,1346,1656,37.38,197,Bacillati > Bacillota > Clostridia,12
+135_Cyclobacteriaceae_family.fna,bacteria,Cyclobacteriaceae,family,84,1450.3,1212,1543,37.02,528,Bacteroidota > Cytophagia > Cytophagales,12
+136_Solirubrobacterales_order.fna,bacteria,Solirubrobacterales,order,218,1466.9,1207,1573,36.33,660,Bacillati > Actinomycetota > Thermoleophilia,6
+137_Spirochaetaceae_family.fna,bacteria,Spirochaetaceae,family,1817,1430.5,1201,3062,36.13,1796,Spirochaetota > Spirochaetia > Spirochaetales,5
+138_Desulfuromonadales_order.fna,bacteria,Desulfuromonadales,order,146,1470.8,1213,1668,35.67,266,Pseudomonadati > Thermodesulfobacteriota > Desulfuromonadia,9
+139_Aquificota_phylum.fna,bacteria,Aquificota,phylum,56,1461.5,1276,1587,35.54,137,root > Bacteria > Pseudomonadati,13
+140_Gemmataceae_family.fna,bacteria,Gemmataceae,family,633,1426.0,1200,1601,35.33,1447,Planctomycetota > Planctomycetia > Gemmatales,6
+141_Sporomusaceae_family.fna,bacteria,Sporomusaceae,family,179,1489.4,1245,1781,35.29,267,Bacillota > Negativicutes > Selenomonadales,9
+142_Marinilabiliaceae_family.fna,bacteria,Marinilabiliaceae,family,276,1420.2,1203,1538,34.27,415,Bacteroidota > Bacteroidia > Marinilabiliales,8
+143_Carnobacteriaceae_family.fna,bacteria,Carnobacteriaceae,family,179,1422.2,1209,1621,34.17,215,Bacillota > Bacilli > Lactobacillales,11
+144_Polyangiaceae_family.fna,bacteria,Polyangiaceae,family,68,1483.7,1316,1873,34.17,250,Myxococcota > Polyangia > Polyangiales,7
+145_Thermoanaerobacteraceae_family.fna,bacteria,Thermoanaerobacteraceae,family,241,1482.2,1201,1800,34.02,139,Bacillota > Clostridia > Thermoanaerobacterales,9
+146_Rickettsiales_order.fna,bacteria,Rickettsiales,order,59,1429.0,1254,2745,33.71,1440,Pseudomonadati > Pseudomonadota > Alphaproteobacteria,9
+147_Isosphaeraceae_family.fna,bacteria,Isosphaeraceae,family,210,1424.3,1200,1534,33.52,492,Planctomycetota > Planctomycetia > Isosphaerales,6
+148_Paenibacillaceae_family.fna,bacteria,Paenibacillaceae,family,252,1457.9,1200,1673,33.44,311,Bacillota > Bacilli > Bacillales,7
+149_Prevotellaceae_family.fna,bacteria,Prevotellaceae,family,2110,1431.6,1205,1707,33.28,2810,Bacteroidota > Bacteroidia > Bacteroidales,6
+150_Desulfurococcaceae_family.fna,archaea,Desulfurococcaceae,family,54,1162.9,900,1630,33.12,127,Thermoproteota > Thermoprotei > Desulfurococcales,7
+151_Halieaceae_family.fna,bacteria,Halieaceae,family,234,1461.2,1200,2271,32.7,376,Pseudomonadota > Gammaproteobacteria > Cellvibrionales,9
+152_Crocinitomicaceae_family.fna,bacteria,Crocinitomicaceae,family,159,1435.0,1216,1517,32.29,385,Bacteroidota > Flavobacteriia > Flavobacteriales,5
+153_Syntrophobacterales_order.fna,bacteria,Syntrophobacterales,order,140,1469.7,1222,1645,32.16,251,Pseudomonadati > Thermodesulfobacteriota > Syntrophobacteria,6
+154_Ktedonobacteria_class.fna,bacteria,Ktedonobacteria,class,344,1402.6,1200,1520,32.11,1484,Bacteria > Bacillati > Chloroflexota,5
+155_Desulfocapsaceae_family.fna,bacteria,Desulfocapsaceae,family,462,1458.0,1200,1600,32.04,604,Thermodesulfobacteriota > Desulfobulbia > Desulfobulbales,6
+156_Lactobacillaceae_family.fna,bacteria,Lactobacillaceae,family,1186,1438.9,1200,2250,31.92,1259,Bacillota > Bacilli > Lactobacillales,8
+157_Sphingobacteriaceae_family.fna,bacteria,Sphingobacteriaceae,family,494,1433.2,1203,1547,31.61,783,Bacteroidota > Sphingobacteriia > Sphingobacteriales,10
+158_Thermoplasmatota_phylum.fna,archaea,Thermoplasmatota,phylum,1024,1125.8,900,3317,31.58,1564,root > Archaea > Methanobacteriati,8
+159_Ectothiorhodospiraceae_family.fna,bacteria,Ectothiorhodospiraceae,family,74,1478.6,1200,1599,31.52,127,Pseudomonadota > Gammaproteobacteria > Chromatiales,8
+160_Planctomycetales_order.fna,bacteria,Planctomycetales,order,242,1414.8,1219,1543,31.08,922,PVC group > Planctomycetota > Planctomycetia,6
+161_Methanomicrobiales_order.fna,archaea,Methanomicrobiales,order,274,1135.0,900,2174,30.95,354,Methanobacteriota > Stenosarchaea group > Methanomicrobia,8
+162_Saprospiraceae_family.fna,bacteria,Saprospiraceae,family,696,1416.1,1200,1581,30.7,1091,Bacteroidota > Saprospiria > Saprospirales,4
+163_Holophagae_class.fna,bacteria,Holophagae,class,346,1453.9,1203,1588,30.43,644,Bacteria > Pseudomonadati > Acidobacteriota,6
+164_Rhodanobacteraceae_family.fna,bacteria,Rhodanobacteraceae,family,281,1454.9,1227,1564,30.42,282,Pseudomonadota > Gammaproteobacteria > Lysobacterales,8
+165_Microbacteriaceae_family.fna,bacteria,Microbacteriaceae,family,42,1456.2,1342,1529,30.21,64,Actinomycetota > Actinomycetes > Micrococcales,8
+166_Acidimicrobiales_order.fna,bacteria,Acidimicrobiales,order,310,1426.4,1201,1551,30.19,618,Bacillati > Actinomycetota > Acidimicrobiia,6
+167_Fibrobacterota_phylum.fna,bacteria,Fibrobacterota,phylum,335,1403.7,1200,1583,29.86,722,Bacteria > Pseudomonadati > FCB group,6
+168_Nevskiales_order.fna,bacteria,Nevskiales,order,57,1449.3,1243,1525,29.74,99,Pseudomonadati > Pseudomonadota > Gammaproteobacteria,7
+169_Thermoactinomycetaceae_family.fna,bacteria,Thermoactinomycetaceae,family,45,1453.0,1239,1607,29.67,61,Bacillota > Bacilli > Bacillales,10
+170_Pseudomonadales_order.fna,bacteria,Pseudomonadales,order,420,1456.5,1210,2296,29.57,575,Pseudomonadati > Pseudomonadota > Gammaproteobacteria,8
+171_Coriobacteriia_class.fna,bacteria,Coriobacteriia,class,191,1382.4,1200,1524,29.38,250,Bacteria > Bacillati > Actinomycetota,9
+172_Puniceicoccales_order.fna,bacteria,Puniceicoccales,order,106,1435.5,1206,1573,29.35,415,PVC group > Verrucomicrobiota > Opitutia,5
+173_Rhodocyclaceae_family.fna,bacteria,Rhodocyclaceae,family,86,1459.0,1243,1550,29.04,378,Pseudomonadota > Betaproteobacteria > Rhodocyclales,5
+174_Cystobacterineae_suborder.fna,bacteria,Cystobacterineae,suborder,83,1460.9,1233,1550,28.98,666,Myxococcota > Myxococcia > Myxococcales,8
+175_Calditrichota_phylum.fna,bacteria,Calditrichota,phylum,38,1433.5,1264,1584,28.86,455,root > Bacteria > Pseudomonadati,3
+176_Bryobacterales_order.fna,bacteria,Bryobacterales,order,370,1427.7,1216,1548,28.84,1065,Pseudomonadati > Acidobacteriota > Terriglobia,3
+177_Opitutaceae_family.fna,bacteria,Opitutaceae,family,70,1488.9,1249,1567,28.63,401,Verrucomicrobiota > Opitutia > Opitutales,5
+178_Thermoplasmata_class.fna,archaea,Thermoplasmata,class,1024,1125.8,900,3317,28.47,1550,Archaea > Methanobacteriati > Thermoplasmatota,7
+179_Beijerinckiaceae_family.fna,bacteria,Beijerinckiaceae,family,457,1407.2,1200,1587,28.45,329,Pseudomonadota > Alphaproteobacteria > Hyphomicrobiales,6
+180_Alteromonadaceae_family.fna,bacteria,Alteromonadaceae,family,304,1440.2,1201,1625,28.26,419,Pseudomonadota > Gammaproteobacteria > Alteromonadales,9
+181_Gemmatimonadaceae_family.fna,bacteria,Gemmatimonadaceae,family,161,1444.3,1236,1550,28.24,1494,Gemmatimonadota > Gemmatimonadia > Gemmatimonadales,4
+182_Peptoniphilaceae_family.fna,bacteria,Peptoniphilaceae,family,380,1387.8,1208,1536,27.95,421,Bacillota > Tissierellia > Tissierellales,7
+183_Chthoniobacterales_order.fna,bacteria,Chthoniobacterales,order,391,1462.9,1216,1615,27.63,965,PVC group > Verrucomicrobiota > Spartobacteria,3
+184_Eubacteriaceae_family.fna,bacteria,Eubacteriaceae,family,96,1429.7,1225,1581,27.44,119,Bacillota > Clostridia > Eubacteriales,7
+185_Nevskiaceae_family.fna,bacteria,Nevskiaceae,family,55,1449.0,1243,1525,27.43,93,Pseudomonadota > Gammaproteobacteria > Nevskiales,6
+186_Streptosporangiales_order.fna,bacteria,Streptosporangiales,order,112,1456.5,1300,1633,27.41,76,Bacillati > Actinomycetota > Actinomycetes,9
+187_Nitrososphaerota_phylum.fna,archaea,Nitrososphaerota,phylum,16,1102.6,910,1488,27.38,1438,root > Archaea > Thermoproteati,5
+188_Nanobdellota_phylum.fna,archaea,Nanobdellota,phylum,8,1319.0,934,1500,27.12,3178,root > Archaea > Nanobdellati,4
+189_Microcoleaceae_family.fna,bacteria,Microcoleaceae,family,65,1425.3,1226,2045,26.57,77,Cyanophyceae > Oscillatoriophycideae > Oscillatoriales,8
+190_Aquificales_order.fna,bacteria,Aquificales,order,48,1455.7,1276,1587,26.43,110,Pseudomonadati > Aquificota > Aquificia,9
+191_Anaerovoracaceae_family.fna,bacteria,Anaerovoracaceae,family,227,1428.6,1205,1637,26.04,762,Bacillota > Clostridia > Peptostreptococcales,5
+192_Phycisphaerales_order.fna,bacteria,Phycisphaerales,order,1393,1436.0,1200,1689,25.91,1641,PVC group > Planctomycetota > Phycisphaerae,4
+193_Thermaceae_family.fna,bacteria,Thermaceae,family,105,1442.3,1234,2826,25.84,140,Deinococcota > Deinococci > Thermales,5
+194_Candidatus_Melainabacteria_phylum.fna,unknown,Candidatus_Melainabacteria,phylum,48,1394.8,1206,1500,0,0,N/A,0
+195_Alcaligenaceae_family.fna,bacteria,Alcaligenaceae,family,173,1441.1,1202,1840,25.56,175,Pseudomonadota > Betaproteobacteria > Burkholderiales,9
+196_Vicinamibacteraceae_family.fna,bacteria,Vicinamibacteraceae,family,1129,1473.5,1210,1583,25.54,549,Acidobacteriota > Vicinamibacteria > Vicinamibacterales,3
+197_Cellvibrionaceae_family.fna,bacteria,Cellvibrionaceae,family,155,1459.9,1200,1540,25.51,132,Pseudomonadota > Gammaproteobacteria > Cellvibrionales,11
+198_Thiotrichaceae_family.fna,bacteria,Thiotrichaceae,family,208,1477.3,1219,2930,25.4,448,Pseudomonadota > Gammaproteobacteria > Thiotrichales,6
+199_Natranaerobiaceae_family.fna,bacteria,Natranaerobiaceae,family,15,1481.3,1225,1535,25.26,28,Bacillota > Clostridia > Natranaerobiales,5
+200_Syntrophomonadaceae_family.fna,bacteria,Syntrophomonadaceae,family,124,1465.0,1287,1712,24.99,266,Bacillota > Clostridia > Eubacteriales,5
+201_Ktedonobacterales_order.fna,bacteria,Ktedonobacterales,order,344,1402.6,1200,1520,24.81,1075,Bacillati > Chloroflexota > Ktedonobacteria,4
+202_Nitrospirota_phylum.fna,bacteria,Nitrospirota,phylum,545,1460.0,1208,1695,24.72,1081,root > Bacteria > Pseudomonadati,4
+203_Syntrophobacteraceae_family.fna,bacteria,Syntrophobacteraceae,family,140,1469.7,1222,1645,24.68,184,Thermodesulfobacteriota > Syntrophobacteria > Syntrophobacterales,4
+204_Dysgonomonadaceae_family.fna,bacteria,Dysgonomonadaceae,family,273,1433.8,1209,1542,24.5,573,Bacteroidota > Bacteroidia > Bacteroidales,5
+205_Nodosilineales_order.fna,bacteria,Nodosilineales,order,33,1431.6,1292,2366,24.09,38,Cyanobacteriota/Melainabacteria group > Cyanobacteriota > Cyanophyceae,5
+206_Planctomycetaceae_family.fna,bacteria,Planctomycetaceae,family,242,1414.8,1219,1543,24.03,209,Planctomycetota > Planctomycetia > Planctomycetales,5
+207_Propionibacteriaceae_family.fna,bacteria,Propionibacteriaceae,family,410,1376.2,1238,1548,24.0,474,Actinomycetota > Actinomycetes > Propionibacteriales,6
+208_Pleurocapsales_order.fna,bacteria,Pleurocapsales,order,39,1421.4,1215,1493,23.89,70,Cyanobacteriota/Melainabacteria group > Cyanobacteriota > Cyanophyceae,7
+209_Micromonosporaceae_family.fna,bacteria,Micromonosporaceae,family,51,1431.6,1220,1529,23.81,98,Actinomycetota > Actinomycetes > Micromonosporales,9
+210_Peptostreptococcaceae_family.fna,bacteria,Peptostreptococcaceae,family,148,1404.5,1217,2891,23.73,187,Bacillota > Clostridia > Peptostreptococcales,8
+211_Cytophagaceae_family.fna,bacteria,Cytophagaceae,family,1591,1435.5,1200,1772,23.28,255,Bacteroidota > Cytophagia > Cytophagales,6
+212_Selenomonadaceae_family.fna,bacteria,Selenomonadaceae,family,219,1464.0,1210,1664,23.26,286,Bacillota > Negativicutes > Selenomonadales,6
+214_Halobacteroidaceae_family.fna,bacteria,Halobacteroidaceae,family,28,1474.5,1395,1551,23.04,80,Bacillota > Clostridia > Halanaerobiales,9
+215_Veillonellaceae_family.fna,bacteria,Veillonellaceae,family,965,1456.4,1210,1781,22.71,562,Bacillota > Negativicutes > Veillonellales,5
+216_Chloroflexineae_suborder.fna,bacteria,Chloroflexineae,suborder,57,1430.3,1233,1485,22.27,177,Chloroflexota > Chloroflexia > Chloroflexales,4
+217_Thermotogota_phylum.fna,bacteria,Thermotogota,phylum,73,1414.7,1222,1612,22.16,77,root > Bacteria > Thermotogati,7
+218_Nocardioidaceae_family.fna,bacteria,Nocardioidaceae,family,368,1440.2,1208,1581,22.06,602,Actinomycetota > Actinomycetes > Propionibacteriales,7
+219_Acidaminococcaceae_family.fna,bacteria,Acidaminococcaceae,family,190,1439.3,1213,1651,22.05,296,Bacillota > Negativicutes > Acidaminococcales,5
+220_Limnochordia_class.fna,bacteria,Limnochordia,class,60,1438.8,1257,1511,22.04,298,Bacteria > Bacillati > Bacillota,4
+221_Tepidisphaerales_order.fna,bacteria,Tepidisphaerales,order,211,1405.5,1201,1524,21.91,922,PVC group > Planctomycetota > Phycisphaerae,3
+222_Candidatus_Nanoarchaeia_class.fna,unknown,Candidatus_Nanoarchaeia,class,8,1319.0,934,1500,0,0,N/A,0
+223_Rhodothermales_order.fna,bacteria,Rhodothermales,order,509,1481.0,1222,1574,21.75,881,Bacteroidota/Chlorobiota group > Rhodothermota > Rhodothermia,3
+225_Fusobacteriaceae_family.fna,bacteria,Fusobacteriaceae,family,262,1400.4,1230,1900,21.58,435,Fusobacteriota > Fusobacteriia > Fusobacteriales,5
+226_Elusimicrobiota_phylum.fna,bacteria,Elusimicrobiota,phylum,91,1735.7,1265,4000,21.53,686,root > Bacteria > Pseudomonadati,4
+227_Thermomicrobiota_phylum.fna,bacteria,Thermomicrobiota,phylum,27,1420.5,1323,1537,21.51,508,root > Bacteria > Pseudomonadati,4
+228_Scytonemataceae_family.fna,bacteria,Scytonemataceae,family,45,1448.8,1263,1879,21.46,52,Cyanobacteriota > Cyanophyceae > Nostocales,4
+229_Azospirillaceae_family.fna,bacteria,Azospirillaceae,family,139,1396.4,1200,1510,21.36,189,Pseudomonadota > Alphaproteobacteria > Rhodospirillales,5
+230_Sterolibacteriaceae_family.fna,bacteria,Sterolibacteriaceae,family,117,1456.7,1202,1588,21.3,156,Pseudomonadota > Betaproteobacteria > Nitrosomonadales,5
+231_Holosporales_order.fna,bacteria,Holosporales,order,38,1471.5,1233,2280,21.2,541,Pseudomonadati > Pseudomonadota > Alphaproteobacteria,3
+232_Gaiellales_order.fna,bacteria,Gaiellales,order,493,1429.1,1205,1619,21.04,1041,Bacillati > Actinomycetota > Thermoleophilia,2
+234_Acidobacteriaceae_family.fna,bacteria,Acidobacteriaceae,family,162,1446.5,1215,1563,20.85,305,Acidobacteriota > Terriglobia > Terriglobales,6
+235_Leadbetterellaceae_family.fna,bacteria,Leadbetterellaceae,family,22,1453.2,1260,1537,20.65,40,Bacteroidota > Cytophagia > Cytophagales,5
+236_Enterobacteriaceae_family.fna,bacteria,Enterobacteriaceae,family,66,1434.6,1216,1565,20.41,70,Pseudomonadota > Gammaproteobacteria > Enterobacterales,6
+237_Chthoniobacteraceae_family.fna,bacteria,Chthoniobacteraceae,family,391,1462.9,1216,1615,20.37,791,Verrucomicrobiota > Spartobacteria > Chthoniobacterales,2
+238_Desulfotomaculaceae_family.fna,bacteria,Desulfotomaculaceae,family,99,1464.8,1218,1695,20.22,137,Bacillota > Clostridia > Eubacteriales,3
+239_Aminobacteriaceae_family.fna,bacteria,Aminobacteriaceae,family,90,1457.2,1219,1538,20.17,97,Synergistota > Synergistia > Synergistales,3
+240_Alicyclobacillaceae_family.fna,bacteria,Alicyclobacillaceae,family,131,1469.5,1211,1557,19.97,173,Bacillota > Bacilli > Bacillales,5
+241_Legionellales_order.fna,bacteria,Legionellales,order,499,1444.1,1203,1642,19.94,697,Pseudomonadati > Pseudomonadota > Gammaproteobacteria,3

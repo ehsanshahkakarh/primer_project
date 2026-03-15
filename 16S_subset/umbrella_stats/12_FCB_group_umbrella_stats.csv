@@ -1,0 +1,5 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Bacteroidales,order,bacteria,Bacteroidota/Chlorobiota group > Bacteroidota > Bacteroidia,6577,1426.9,1200,2826
+Prolixibacteraceae,family,bacteria,Bacteroidota > Bacteroidia > Marinilabiliales,453,1435.0,1202,1530
+Marinilabiliales,order,bacteria,Bacteroidota/Chlorobiota group > Bacteroidota > Bacteroidia,323,1423.4,1203,1544
+Halomonadaceae,family,bacteria,Pseudomonadota > Gammaproteobacteria > Oceanospirillales,1,1491.0,1491,1491

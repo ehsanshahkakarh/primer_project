@@ -1,0 +1,6 @@
+genus,priority_score,parent_taxon,parent_rank,lineage
+Mastigamoeba,17.7,Mastigamoebidae,family,Evosea > Archamoebae > Mastigamoebida
+genus,14.5,Schizoplasmodiidae,family,Evosea > Variosea > Fractovitellida
+Ceratiomyxella,11.5,Schizoplasmodiidae,family,Evosea > Variosea > Fractovitellida
+Schizoplasmodium,11.5,Schizoplasmodiidae,family,Evosea > Variosea > Fractovitellida
+Nematostelium,8.9,Schizoplasmodiidae,family,Evosea > Variosea > Fractovitellida

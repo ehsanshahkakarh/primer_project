@@ -1,0 +1,5 @@
+taxon,rank,domain,lineage,seq_count,avg_length,min_length,max_length
+Methanobacteriota,phylum,archaea,root > Archaea > Methanobacteriati,239,1425.0,1206,1556
+Haloferacaceae,family,archaea,Stenosarchaea group > Halobacteria > Halobacteriales,209,1401.3,1213,1637
+Methanomicrobiales,order,archaea,Methanobacteriota > Stenosarchaea group > Methanomicrobia,108,1381.7,1204,2174
+Methanosarcinales,order,archaea,Methanobacteriota > Stenosarchaea group > Methanomicrobia,1,1405.0,1405,1405

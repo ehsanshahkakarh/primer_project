@@ -1,0 +1,10 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+high_level_unassigned,phylum/division,N/A,1109,1648.3,1200,9915,
+Sandonidae,family,Rhizaria > Cercozoa > Glissomonadida,543,1530.6,1202,2998,Flectomonas; Sandona
+Cercomonadidae,family,Rhizaria > Cercozoa > Cercomonadida,119,1343.5,1200,2320,Neocercomonas; Cavernomonas; Cercomonas; Cercomonadidae_X; Paracercomonas; Cercomonadidae.U.genus
+Gromiidae,family,Rhizaria > Endomyxa > Gromiida,31,1456.5,1421,1722,Gromia
+Collodaria,order,Rhizaria > Retaria > Polycystinea,25,1668.6,1200,7090,Collophidium; Sphaerozoum
+Paradiniida,order,Rhizaria > Endomyxa > Ascetosporea,19,1718.1,1286,2154,Paradinium
+Vampyrellidae,family,Rhizaria > Endomyxa > Vampyrellida,3,1711.0,1566,1808,Vampyrella
+Allapsidae,family,Rhizaria > Cercozoa > Glissomonadida,3,1384.7,1262,1544,Allantion
+Massisteriidae,family,Rhizaria > Cercozoa > Granofilosea,1,1514.0,1514,1514,Massisteria

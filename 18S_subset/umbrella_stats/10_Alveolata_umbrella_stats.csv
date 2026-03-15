@@ -1,0 +1,5 @@
+taxon,rank,lineage,seq_count,avg_length,min_length,max_length,genera
+Peridiniales,order,Sar > Alveolata > Dinophyceae,378,1514.4,1200,5854,Pentapharsodinium; Scrippsiella
+Ceratiaceae,family,Alveolata > Dinophyceae > Gonyaulacales,3,2671.7,1274,5290,Ceratium
+Adeleidae,family,Alveolata > Apicomplexa > Adeleorina,3,1335.3,1299,1358,Adelina
+Peridiniaceae,family,Alveolata > Dinophyceae > Peridiniales,2,4825.5,4721,4930,Scrippsiella

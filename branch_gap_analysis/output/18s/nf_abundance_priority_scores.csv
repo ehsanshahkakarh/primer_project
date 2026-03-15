@@ -1,30 +1,39 @@
 node,rank,num_genera,total_priority_score,avg_priority_score,total_otu,path,top_genera,all_genera
-Euamoebida,order,6,81.92,13.65,536,Amoebozoa > Tubulinea > Elardia,"Saccamoeba(17.2), Copromyxa(15.6), Hartmannella(13.3), Chaos(12.7), Ptolemeba(12.3)",Saccamoeba;Copromyxa;Hartmannella;Chaos;Ptolemeba;Polychaos
-Cercomonadidae,family,5,57.77,11.55,156,Rhizaria > Cercozoa > Cercomonadida,"Neocercomonas(14.2), Cavernomonas(13.5), Cercomonas(11.5), Cercomonadidae_X(10.6), Paracercomonas(8.0)",Neocercomonas;Cavernomonas;Cercomonas;Cercomonadidae_X;Paracercomonas
-Hartmannellidae,family,4,53.58,13.4,368,Tubulinea > Elardia > Euamoebida,"Saccamoeba(17.2), Hartmannella(13.3), Ptolemeba(12.3), Polychaos(10.7)",Saccamoeba;Hartmannella;Ptolemeba;Polychaos
+Euamoebida,order,8,109.91,13.74,668,Amoebozoa > Tubulinea > Elardia,"Saccamoeba(17.2), Copromyxa(15.6), Euamoebida.U.genus(14.7), Hartmannellidae.U.genus(13.3), Hartmannella(13.3)",Saccamoeba;Copromyxa;Euamoebida.U.genus;Hartmannellidae.U.genus;Hartmannella;Chaos;Ptolemeba;Polychaos
+Arcellinida,order,6,71.71,11.95,318,Amoebozoa > Tubulinea > Elardia,"Bullinularia(15.9), Arcellinida.U.genus(14.4), Phryganellina.U.genus(13.7), Physochila(12.4), Cryptodifflugia(8.9)",Bullinularia;Arcellinida.U.genus;Phryganellina.U.genus;Physochila;Cryptodifflugia;Phryganella
+Petalomonadida,order,5,69.1,13.82,662,Discoba > Euglenozoa > Euglenida,"Petalomonadida.U.genus(18.1), Scytomonadidae.U.genus(15.9), Scytomonas(14.1), Petalomonas(11.0), Notosolenus(10.0)",Petalomonadida.U.genus;Scytomonadidae.U.genus;Scytomonas;Petalomonas;Notosolenus
+Hartmannellidae,family,5,66.9,13.38,414,Tubulinea > Elardia > Euamoebida,"Saccamoeba(17.2), Hartmannellidae.U.genus(13.3), Hartmannella(13.3), Ptolemeba(12.3), Polychaos(10.7)",Saccamoeba;Hartmannellidae.U.genus;Hartmannella;Ptolemeba;Polychaos
+Cercomonadidae,family,6,64.28,10.71,158,Rhizaria > Cercozoa > Cercomonadida,"Neocercomonas(14.2), Cavernomonas(13.5), Cercomonas(11.5), Cercomonadidae_X(10.6), Paracercomonas(8.0)",Neocercomonas;Cavernomonas;Cercomonas;Cercomonadidae_X;Paracercomonas;Cercomonadidae.U.genus
+Eugregarinorida,order,7,61.95,8.85,315,Apicomplexa > Conoidasida > Gregarinasina,"Monocystis(15.6), Actinocephalidae.U.genus(12.7), Xiphocephalus(11.5), Leidyana2(8.2), Gregarinidae.U.genus(5.9)",Monocystis;Actinocephalidae.U.genus;Xiphocephalus;Leidyana2;Gregarinidae.U.genus;Gregarina3;Leidyana1
 Calanoida,order,7,53.46,7.64,68,Copepoda > Neocopepoda > Gymnoplea,"Paracalanus(10.9), Eudiaptomus(10.7), Centropages(8.5), Metridia(8.5), Anomalocera(8.0)",Paracalanus;Eudiaptomus;Centropages;Metridia;Anomalocera;Eurytemora;Acartia
-Arcellinida,order,4,43.68,10.92,189,Amoebozoa > Tubulinea > Elardia,"Bullinularia(15.9), Physochila(12.4), Cryptodifflugia(8.9), Phryganella(6.5)",Bullinularia;Physochila;Cryptodifflugia;Phryganella
-Eugregarinorida,order,5,43.38,8.68,254,Apicomplexa > Conoidasida > Gregarinasina,"Monocystis(15.6), Xiphocephalus(11.5), Leidyana2(8.2), Gregarina3(5.9), Leidyana1(2.2)",Monocystis;Xiphocephalus;Leidyana2;Gregarina3;Leidyana1
+Scytomonadidae,family,4,50.97,12.74,240,Euglenozoa > Euglenida > Petalomonadida,"Scytomonadidae.U.genus(15.9), Scytomonas(14.1), Petalomonas(11.0), Notosolenus(10.0)",Scytomonadidae.U.genus;Scytomonas;Petalomonas;Notosolenus
+Glissomonadida,order,4,46.91,11.73,669,Sar > Rhizaria > Cercozoa,"Flectomonas(19.0), Glissomonadida.U.genus(11.6), Sandona(8.9), Allantion(7.4)",Flectomonas;Glissomonadida.U.genus;Sandona;Allantion
+Schizoplasmodiidae,family,4,46.36,11.59,124,Evosea > Variosea > Fractovitellida,"Schizoplasmodiidae.U.genus(14.5), Ceratiomyxella(11.5), Schizoplasmodium(11.5), Nematostelium(8.9)",Schizoplasmodiidae.U.genus;Ceratiomyxella;Schizoplasmodium;Nematostelium
+Sessilida,order,4,42.21,10.55,174,Intramacronucleata > Oligohymenophorea > Peritrichia,"Vorticella(15.6), Sessilida.U.genus(12.7), Pseudovorticella(8.9), Campanella(5.0)",Vorticella;Sessilida.U.genus;Pseudovorticella;Campanella
+Hexamitidae,family,4,41.0,10.25,573,Metamonada > Fornicata > Diplomonadida,"Trimitus(13.4), Hexamitidae.U.genus(11.4), Trepomonas(10.0), Hexamita(6.3)",Trimitus;Hexamitidae.U.genus;Trepomonas;Hexamita
 Prostigmata,suborder,5,40.23,8.05,61,Acari > Acariformes > Trombidiformes,"Spinibdella(12.5), Diptilomiopus(11.4), Penthaleus(8.5), Surapoda(5.0), Aculops(2.9)",Spinibdella;Diptilomiopus;Penthaleus;Surapoda;Aculops
-Glissomonadida,order,3,35.3,11.77,648,Sar > Rhizaria > Cercozoa,"Flectomonas(19.0), Sandona(8.9), Allantion(7.4)",Flectomonas;Sandona;Allantion
-Scytomonadidae,family,3,35.12,11.71,92,Euglenozoa > Euglenida > Petalomonadida,"Scytomonas(14.1), Petalomonas(11.0), Notosolenus(10.0)",Scytomonas;Petalomonas;Notosolenus
-Schizoplasmodiidae,family,3,31.9,10.63,46,Evosea > Variosea > Fractovitellida,"Ceratiomyxella(11.5), Schizoplasmodium(11.5), Nematostelium(8.9)",Ceratiomyxella;Schizoplasmodium;Nematostelium
+Neobodonida,order,3,32.36,10.79,268,Euglenozoa > Kinetoplastea > Metakinetoplastina,"Neobodo(13.2), Neobodonida.U.genus(11.2), Rhynchomonas(8.0)",Neobodo;Neobodonida.U.genus;Rhynchomonas
+Flamellidae,family,2,30.43,15.22,259,Amoebozoa > Evosea > Variosea,"Flamellidae.U.genus(16.5), Flamella(14.0)",Flamellidae.U.genus;Flamella
 Hexamitinae,subfamily,3,29.64,9.88,89,Fornicata > Diplomonadida > Hexamitidae,"Trimitus(13.4), Trepomonas(10.0), Hexamita(6.3)",Trimitus;Trepomonas;Hexamita
-Sessilida,order,3,29.49,9.83,139,Intramacronucleata > Oligohymenophorea > Peritrichia,"Vorticella(15.6), Pseudovorticella(8.9), Campanella(5.0)",Vorticella;Pseudovorticella;Campanella
 Helotiales,order,5,29.45,5.89,130,leotiomyceta > sordariomyceta > Leotiomycetes,"Tetrachaetum(10.4), Chlorociboria(6.7), Articulospora(5.2), Hyaloscypha(5.0), Neofabraea(2.2)",Tetrachaetum;Chlorociboria;Articulospora;Hyaloscypha;Neofabraea
+Phryganellina,suborder,3,29.06,9.69,62,Tubulinea > Elardia > Arcellinida,"Phryganellina.U.genus(13.7), Cryptodifflugia(8.9), Phryganella(6.5)",Phryganellina.U.genus;Cryptodifflugia;Phryganella
 Rhabditida,order,5,27.95,5.59,368,Ecdysozoa > Nematoda > Chromadorea,"Plectonchus(9.8), Heterodera(7.9), Pristionchus(5.5), Caenorhabditis(2.9), Ditylenchus(1.8)",Plectonchus;Heterodera;Pristionchus;Caenorhabditis;Ditylenchus
 Sandonidae,family,2,27.92,13.96,645,Rhizaria > Cercozoa > Glissomonadida,"Flectomonas(19.0), Sandona(8.9)",Flectomonas;Sandona
+Vampyrellida,order,2,27.49,13.75,325,Sar > Rhizaria > Endomyxa,"Vampyrellida.U.genus(17.5), Vampyrella(10.0)",Vampyrellida.U.genus;Vampyrella
+Bicosoecida,order,3,27.39,9.13,355,Stramenopiles > Bigyra > Opalozoa,"Bicoecaceae_X(13.8), Bicoecea.U.genus(9.2), Cafeteria(4.4)",Bicoecaceae_X;Bicoecea.U.genus;Cafeteria
 Endogenida,order,2,25.43,12.72,70,Intramacronucleata > Phyllopharyngea > Suctoria,"Acineta_1(12.8), Tokophrya(12.6)",Acineta_1;Tokophrya
 Cladocera,suborder,4,25.34,6.34,21,Branchiopoda > Phyllopoda > Diplostraca,"Bosmina(8.0), Diaphanosoma(8.0), Leptodora(5.0), Chydorus(4.3)",Bosmina;Diaphanosoma;Leptodora;Chydorus
 Peridiniales,order,2,24.85,12.42,468,Sar > Alveolata > Dinophyceae,"Pentapharsodinium(18.3), Scrippsiella(6.5)",Pentapharsodinium;Scrippsiella
 Lamiales,order,2,24.75,12.38,239,Pentapetalae > asterids > lamiids,"Cyclotrichium(14.5), Rehmannia(10.3)",Cyclotrichium;Rehmannia
 Vorticellidae,family,2,24.49,12.25,138,Oligohymenophorea > Peritrichia > Sessilida,"Vorticella(15.6), Pseudovorticella(8.9)",Vorticella;Pseudovorticella
+Thaumatomonadida,order,2,24.24,12.12,96,Cercozoa > Imbricatea > Silicofilosea,"Thaumatomonadida.U.genus(14.7), Thaumatomonas(9.5)",Thaumatomonadida.U.genus;Thaumatomonas
 Rhabdomonadales,order,2,23.98,11.99,50,Euglenida > Spirocuta > Aphagea,"Gyropaigne(12.1), Distigma(11.9)",Gyropaigne;Distigma
+Cryomonadida,order,3,23.01,7.67,11,Rhizaria > Cercozoa > Thecofilosea,"Cryomonadida.U.genus(8.5), Protaspa(8.0), Cryothecomonas(6.5)",Cryomonadida.U.genus;Protaspa;Cryothecomonas
 Amphitremida,order,2,22.17,11.09,33,Stramenopiles > Bigyra > Labyrinthulomycetes,"Diplophrys(11.2), Amphitrema(11.0)",Diplophrys;Amphitrema
-Neobodonida,order,2,21.18,10.59,47,Euglenozoa > Kinetoplastea > Metakinetoplastina,"Neobodo(13.2), Rhynchomonas(8.0)",Neobodo;Rhynchomonas
 Rigifilida,order,2,20.97,10.48,25,cellular organisms > Eukaryota > CRuMs,"Rigifila(10.6), Micronuclearia(10.4)",Rigifila;Micronuclearia
 Hypocreales,order,3,20.82,6.94,755,sordariomyceta > Sordariomycetes > Hypocreomycetidae,"Lecanicillium(8.4), Isaria(7.9), Gibberella(4.5)",Lecanicillium;Isaria;Gibberella
 Pleosporales,order,3,20.61,6.87,228,dothideomyceta > Dothideomycetes > Pleosporomycetidae,"Phaeosphaeria(8.9), Corynespora(6.7), Massaria(5.0)",Phaeosphaeria;Corynespora;Massaria
+Chlorellales,order,3,20.38,6.79,288,Chlorophyta > core chlorophytes > Trebouxiophyceae,"Chloroparva(10.0), Chlorellales_X.U.genus(6.2), Auxenochlorella(4.2)",Chloroparva;Chlorellales_X.U.genus;Auxenochlorella
 Chaetonotidae,family,2,19.96,9.98,99,Gastrotricha > Chaetonotida > Paucitubulatina,"Chaetonotus(15.0), Heterolepidoderma(5.0)",Chaetonotus;Heterolepidoderma
 Ploima,order,2,19.91,9.96,22,Eurotatoria > Monogononta > Pseudotrocha,"Encentrum(11.0), Ascomorpha(8.9)",Encentrum;Ascomorpha
 Collodaria,order,2,19.62,9.81,44,Rhizaria > Retaria > Polycystinea,"Collophidium(13.1), Sphaerozoum(6.5)",Collophidium;Sphaerozoum
@@ -33,29 +42,30 @@ Dysteriida,order,2,19.38,9.69,28,Intramacronucleata > Phyllopharyngea > Phylloph
 Eriophyoidea,superfamily,3,19.28,6.43,25,Trombidiformes > Prostigmata > Eupodina,"Diptilomiopus(11.4), Surapoda(5.0), Aculops(2.9)",Diptilomiopus;Surapoda;Aculops
 Euglenaceae,family,1,18.36,18.36,470,Spirocuta > Euglenophyceae > Euglenales,Trachelomonas(18.4),Trachelomonas
 Ensiculiferaceae,family,1,18.34,18.34,466,Alveolata > Dinophyceae > Peridiniales,Pentapharsodinium(18.3),Pentapharsodinium
-Bicosoecida,order,2,18.19,9.09,75,Stramenopiles > Bigyra > Opalozoa,"Bicoecaceae_X(13.8), Cafeteria(4.4)",Bicoecaceae_X;Cafeteria
 Hemiptera,order,3,17.81,5.94,59,Pterygota > Neoptera > Paraneoptera,"Cryptococcus(8.5), Acyrthosiphon(6.4), Philaenus(2.9)",Cryptococcus;Acyrthosiphon;Philaenus
 Mastigamoebidae,family,1,17.7,17.7,1609,Evosea > Archamoebae > Mastigamoebida,Mastigamoeba(17.7),Mastigamoeba
 Paramoebidae,family,2,17.26,8.63,54,Discosea > Flabellinia > Dactylopodida,"Korotnevella(12.7), Paramoeba(4.6)",Korotnevella;Paramoeba
 Dileptidae,family,1,17.02,17.02,253,Litostomatea > Haptoria > Haptorida,Dileptidae_X(17.0),Dileptidae_X
 Psathyrellaceae,family,1,16.68,16.68,217,Agaricomycetidae > Agaricales > Agaricineae,Drosophila(16.7),Drosophila
 Eimeriorina,suborder,3,16.61,5.54,194,Conoidasida > Coccidia > Eucoccidiorida,"Sarcocystis10(8.3), Eimeria1(4.5), Cryptosporidium1(3.8)",Sarcocystis10;Eimeria1;Cryptosporidium1
+Nassellaria,order,1,16.6,16.6,209,Rhizaria > Retaria > Polycystinea,Nassellaria.U.genus(16.6),Nassellaria.U.genus
 Lecideaceae,family,2,16.51,8.25,93,OSLEUM clade > Lecanoromycetidae > Lecideales,"Bellemerea(14.8), Lecidea(1.7)",Bellemerea;Lecidea
 Cordycipitaceae,family,2,16.28,8.14,289,Sordariomycetes > Hypocreomycetidae > Hypocreales,"Lecanicillium(8.4), Isaria(7.9)",Lecanicillium;Isaria
 Longamoebia,order,3,16.12,5.37,115,Eukaryota > Amoebozoa > Discosea,"Protacanthamoeba(7.4), Acanthamoeba(5.1), Balamuthia(3.6)",Protacanthamoeba;Acanthamoeba;Balamuthia
+Perkinsida,order,2,15.97,7.99,48,Alveolata > Perkinsozoa > Perkinsea,"Gadixcellia(11.4), Perkinsida_X.U.genus(4.6)",Gadixcellia;Perkinsida_X.U.genus
 Plagiopyxidae,family,1,15.89,15.89,151,Elardia > Arcellinida > Difflugina,Bullinularia(15.9),Bullinularia
-Monocystidae,family,1,15.59,15.59,131,Conoidasida > Gregarinasina > Eugregarinorida,Monocystis(15.6),Monocystis
 Discinellaceae,family,2,15.59,7.79,31,sordariomyceta > Leotiomycetes > Helotiales,"Tetrachaetum(10.4), Articulospora(5.2)",Tetrachaetum;Articulospora
-Phryganellina,suborder,2,15.4,7.7,8,Tubulinea > Elardia > Arcellinida,"Cryptodifflugia(8.9), Phryganella(6.5)",Cryptodifflugia;Phryganella
+Monocystidae,family,1,15.59,15.59,131,Conoidasida > Gregarinasina > Eugregarinorida,Monocystis(15.6),Monocystis
+Chlamydomonadales,order,3,15.43,5.14,217,core chlorophytes > Chlorophyceae > CS clade,"Spermatozopsis(7.4), Chlamydomonadales_X.U.genus(5.4), Chlamydomonas(2.7)",Spermatozopsis;Chlamydomonadales_X.U.genus;Chlamydomonas
 Stylonychinae,subfamily,1,15.23,15.23,800,Stichotrichia > Sporadotrichida > Oxytrichidae,Stylonychia(15.2),Stylonychia
 Psalteriomonadidae,family,1,15.17,15.17,108,Heterolobosea > Tetramitia > Eutetramitia,Sawyeria(15.2),Sawyeria
 Sternorrhyncha,suborder,2,14.92,7.46,54,Neoptera > Paraneoptera > Hemiptera,"Cryptococcus(8.5), Acyrthosiphon(6.4)",Cryptococcus;Acyrthosiphon
 Bodonidae,family,2,14.73,7.37,24,Kinetoplastea > Metakinetoplastina > Eubodonida,"Allobodo(10.7), Bodo(4.0)",Allobodo;Bodo
 Protaspidae,family,2,14.52,7.26,6,Cercozoa > Thecofilosea > Cryomonadida,"Protaspa(8.0), Cryothecomonas(6.5)",Protaspa;Cryothecomonas
 Nepetoideae,subfamily,1,14.49,14.49,79,lamiids > Lamiales > Lamiaceae,Cyclotrichium(14.5),Cyclotrichium
+Pelobiontida,order,2,14.35,7.18,36,Amoebozoa > Evosea > Archamoebae,"Mastigella(12.7), Pelobiontida.U.genus(1.7)",Mastigella;Pelobiontida.U.genus
 Chlorellaceae,family,2,14.16,7.08,33,core chlorophytes > Trebouxiophyceae > Chlorellales,"Chloroparva(10.0), Auxenochlorella(4.2)",Chloroparva;Auxenochlorella
 Poaceae,family,2,13.97,6.98,379,Petrosaviidae > commelinids > Poales,"Zea(11.7), Brachypodium(2.3)",Zea;Brachypodium
-Flamellidae,family,1,13.96,13.96,62,Amoebozoa > Evosea > Variosea,Flamella(14.0),Flamella
 Bicosoecidae,family,1,13.78,13.78,57,Bigyra > Opalozoa > Bicosoecida,Bicoecaceae_X(13.8),Bicoecaceae_X
 Picomonadidae,family,1,13.54,13.54,51,Picozoa > Picomonadea > Picomonadida,Picomonas(13.5),Picomonas
 Trypanosomatidae,family,3,13.51,4.5,144,Kinetoplastea > Metakinetoplastina > Trypanosomatida,"Leptomonas(6.6), Trypanosoma(4.6), Strigomonas(2.3)",Leptomonas;Trypanosoma;Strigomonas
@@ -65,52 +75,56 @@ Urotrichidae,family,1,12.9,12.9,38,Intramacronucleata > Prostomatea > Prorodonti
 Acinetidae,family,1,12.84,12.84,37,Phyllopharyngea > Suctoria > Endogenida,Acineta_1(12.8),Acineta_1
 Amoebidae,family,1,12.72,12.72,35,Tubulinea > Elardia > Euamoebida,Chaos(12.7),Chaos
 Anthoptilidae,family,1,12.72,12.72,35,Octocorallia > Scleralcyonacea > Pennatuloidea,Anthoptilum(12.7),Anthoptilum
-Pelobiontida,order,1,12.66,12.66,34,Amoebozoa > Evosea > Archamoebae,Mastigella(12.7),Mastigella
-Tokophryidae,family,1,12.59,12.59,33,Phyllopharyngea > Suctoria > Endogenida,Tokophrya(12.6),Tokophrya
+Actinocephalidae,family,1,12.66,12.66,34,Conoidasida > Gregarinasina > Eugregarinorida,Actinocephalidae.U.genus(12.7),Actinocephalidae.U.genus
 Gromiidae,family,1,12.59,12.59,33,Rhizaria > Endomyxa > Gromiida,Gromia(12.6),Gromia
+Tokophryidae,family,1,12.59,12.59,33,Phyllopharyngea > Suctoria > Endogenida,Tokophrya(12.6),Tokophrya
 Acanthamoebidae,family,2,12.5,6.25,107,Discosea > Longamoebia > Centramoebida,"Protacanthamoeba(7.4), Acanthamoeba(5.1)",Protacanthamoeba;Acanthamoeba
 Bdellidae,family,1,12.46,12.46,31,Prostigmata > Eupodina > Bdelloidea,Spinibdella(12.5),Spinibdella
 Hyalospheniidae,family,1,12.39,12.39,30,Elardia > Arcellinida > Glutinoconcha,Physochila(12.4),Physochila
 Anomopoda,infraorder,2,12.33,6.17,16,Phyllopoda > Diplostraca > Cladocera,"Bosmina(8.0), Chydorus(4.3)",Bosmina;Chydorus
 Funariaceae,family,1,12.24,12.24,28,Bryopsida > Funariidae > Funariales,Physcomitrella(12.2),Physcomitrella
 Paradiniida,order,1,12.16,12.16,27,Rhizaria > Endomyxa > Ascetosporea,Paradinium(12.2),Paradinium
-Pyloniidae,family,1,12.07,12.07,26,Retaria > Polycystinea > Spumellaria,Tholomura(12.1),Tholomura
 Astasiidae,family,1,12.07,12.07,26,Spirocuta > Aphagea > Rhabdomonadales,Gyropaigne(12.1),Gyropaigne
+Pyloniidae,family,1,12.07,12.07,26,Retaria > Polycystinea > Spumellaria,Tholomura(12.1),Tholomura
 Dysteriidae,family,1,11.99,11.99,25,Phyllopharyngea > Phyllopharyngia > Dysteriida,Trochilia(12.0),Trochilia
 Distigmidae,family,1,11.9,11.9,24,Spirocuta > Aphagea > Rhabdomonadales,Distigma(11.9),Distigma
 Xenospadicoidaceae,family,1,11.9,11.9,24,Sordariomycetes > Sordariomycetidae > Xenospadicoidales,Spadicoides(11.9),Spadicoides
+Gregarinidae,family,2,11.82,5.91,54,Conoidasida > Gregarinasina > Eugregarinorida,"Gregarinidae.U.genus(5.9), Gregarina3(5.9)",Gregarinidae.U.genus;Gregarina3
 Panicoideae,subfamily,1,11.67,11.67,372,Poales > Poaceae > PACMAD clade,Zea(11.7),Zea
-Stylocephalidae,family,1,11.51,11.51,20,Conoidasida > Gregarinasina > Eugregarinorida,Xiphocephalus(11.5),Xiphocephalus
 Coccomyxidae,family,1,11.51,11.51,20,Myxosporea > Bivalvulida > Variisporina,Coccomyxa(11.5),Coccomyxa
+Stylocephalidae,family,1,11.51,11.51,20,Conoidasida > Gregarinasina > Eugregarinorida,Xiphocephalus(11.5),Xiphocephalus
 Spironemidae,family,1,11.51,11.51,20,cellular organisms > Eukaryota > Hemimastigophora,Hemimastix(11.5),Hemimastix
 Nibbleridae,family,2,11.51,5.75,3,Nibbleridia > Nibbleridea > Nibbleridida,"Nibbleromonas(6.5), Ubysseya(5.0)",Nibbleromonas;Ubysseya
-Xcellidae,family,1,11.39,11.39,19,Perkinsozoa > Perkinsea > Perkinsida,Gadixcellia(11.4),Gadixcellia
 Diptilomiopidae,family,1,11.39,11.39,19,Prostigmata > Eupodina > Eriophyoidea,Diptilomiopus(11.4),Diptilomiopus
+Xcellidae,family,1,11.39,11.39,19,Perkinsozoa > Perkinsea > Perkinsida,Gadixcellia(11.4),Gadixcellia
 Apocrita,suborder,2,11.32,5.66,240,Neoptera > Endopterygota > Hymenoptera,"Apis(8.8), Venturia(2.6)",Apis;Venturia
 Lagynidae,family,1,11.28,11.28,18,Retaria > Foraminifera > Allogromida,Nemogullmia(11.3),Nemogullmia
 Neovahlkampfiidae,family,1,11.05,11.05,211,Discoba > Heterolobosea > Tetramitia,Neovahlkampfia(11.1),Neovahlkampfia
-Amphitraemidae,family,1,11.02,11.02,16,Bigyra > Labyrinthulomycetes > Amphitremida,Amphitrema(11.0),Amphitrema
+Thalassiosirales,order,2,11.05,5.52,362,Bacillariophyta > Coscinodiscophyceae > Thalassiosirophycidae,"Thalassiosira(7.8), Thalassiosirales.U.genus(3.2)",Thalassiosira;Thalassiosirales.U.genus
 Dicranophoridae,family,1,11.02,11.02,16,Monogononta > Pseudotrocha > Ploima,Encentrum(11.0),Encentrum
+Amphitraemidae,family,1,11.02,11.02,16,Bigyra > Labyrinthulomycetes > Amphitremida,Amphitrema(11.0),Amphitrema
 Paracalanidae,family,1,10.88,10.88,15,Neocopepoda > Gymnoplea > Calanoida,Paracalanus(10.9),Paracalanus
 Bathycoccaceae,family,2,10.84,5.42,308,Chlorophyta > Mamiellophyceae > Mamiellales,"Ostreococcus(8.3), Bathycoccus(2.6)",Ostreococcus;Bathycoccus
 Diaptomidae,family,1,10.73,10.73,14,Neocopepoda > Gymnoplea > Calanoida,Eudiaptomus(10.7),Eudiaptomus
 Plagiostomidae,family,1,10.4,10.4,12,Rhabditophora > Prolecithophora > Separata,Plagiostomum(10.4),Plagiostomum
 Leidyanidae,family,2,10.38,5.19,76,Conoidasida > Gregarinasina > Eugregarinorida,"Leidyana2(8.2), Leidyana1(2.2)",Leidyana2;Leidyana1
 Orobanchaceae,family,1,10.27,10.27,160,asterids > lamiids > Lamiales,Rehmannia(10.3),Rehmannia
+Sphaeropleales,order,3,10.23,3.41,59,core chlorophytes > Chlorophyceae > CS clade,"Ankistrodesmus(5.0), Sphaeropleales.U.genus(3.5), Raphidocelis(1.7)",Ankistrodesmus;Sphaeropleales.U.genus;Raphidocelis
 Tobrilidae,family,1,10.21,10.21,11,Triplonchida > Tobrilina > Tobriloidea,Tobrilus(10.2),Tobrilus
 Nucleariidae,family,1,10.21,10.21,11,Eukaryota > Opisthokonta > Rotosphaerida,Nucleariidae_Nuclearia_2_X(10.2),Nucleariidae_Nuclearia_2_X
-Chlamydomonadales,order,2,10.06,5.03,26,core chlorophytes > Chlorophyceae > CS clade,"Spermatozopsis(7.4), Chlamydomonas(2.7)",Spermatozopsis;Chlamydomonas
 Reophacidae,family,1,10.0,10.0,10,Retaria > Foraminifera > Lituolida,Reophax(10.0),Reophax
 Vampyrellidae,family,1,10.0,10.0,10,Rhizaria > Endomyxa > Vampyrellida,Vampyrella(10.0),Vampyrella
-Evaginogenida,order,1,9.77,9.77,9,Intramacronucleata > Phyllopharyngea > Suctoria,Evaginogenida_X(9.8),Evaginogenida_X
+Panagrolaimidae,family,1,9.77,9.77,9,Tylenchina > Panagrolaimomorpha > Panagrolaimoidea,Plectonchus(9.8),Plectonchus
 Ventrifissuridae,family,1,9.77,9.77,9,Cercozoa > Thecofilosea > Ventricleftida,Ventrifissura(9.8),Ventrifissura
 Astrorhizidae,family,1,9.77,9.77,9,Foraminifera > Monothalamids > Astrorhizida,Astrorhiza(9.8),Astrorhiza
-Panagrolaimidae,family,1,9.77,9.77,9,Tylenchina > Panagrolaimomorpha > Panagrolaimoidea,Plectonchus(9.8),Plectonchus
-Nematocera,suborder,3,9.72,3.24,67,Neoptera > Endopterygota > Diptera,"Culex(5.8), Culiseta(2.2), Mayetiola(1.7)",Culex;Culiseta;Mayetiola
+Evaginogenida,order,1,9.77,9.77,9,Intramacronucleata > Phyllopharyngea > Suctoria,Evaginogenida_X(9.8),Evaginogenida_X
 Tylenchomorpha,infraorder,2,9.72,4.86,232,Chromadorea > Rhabditida > Tylenchina,"Heterodera(7.9), Ditylenchus(1.8)",Heterodera;Ditylenchus
-Thaumatomastigidae,family,1,9.52,9.52,8,Imbricatea > Silicofilosea > Thaumatomonadida,Thaumatomonas(9.5),Thaumatomonas
+Nematocera,suborder,3,9.72,3.24,67,Neoptera > Endopterygota > Diptera,"Culex(5.8), Culiseta(2.2), Mayetiola(1.7)",Culex;Culiseta;Mayetiola
 Microlaimidae,family,1,9.52,9.52,8,Desmodorida > Desmodorina > Microlaimoidea,Prodesmodora(9.5),Prodesmodora
 Nygolaiminae,subfamily,1,9.52,9.52,8,Nygolaimina > Nygolaimoidea > Nygolaimidae,Clavicaudoides(9.5),Clavicaudoides
+Thaumatomastigidae,family,1,9.52,9.52,8,Imbricatea > Silicofilosea > Thaumatomonadida,Thaumatomonas(9.5),Thaumatomonas
+Neogregarinorida,order,2,9.39,4.7,7,Apicomplexa > Conoidasida > Gregarinasina,"Mattesia(6.5), Neogregarinorida.U.genus(2.9)",Mattesia;Neogregarinorida.U.genus
+Piroplasmida,order,2,9.3,4.65,121,Alveolata > Apicomplexa > Aconoidasida,"Theileria1(6.5), Babesiidae.U.genus(2.8)",Theileria1;Babesiidae.U.genus
 Salpingoecidae,family,1,9.1,9.1,148,Opisthokonta > Choanoflagellata > Craspedida,Salpingoecidae_Group_C1_X(9.1),Salpingoecidae_Group_C1_X
 Phaeosphaeriaceae,family,1,8.92,8.92,172,Pleosporomycetidae > Pleosporales > Pleosporineae,Phaeosphaeria(8.9),Phaeosphaeria
 Cryptodifflugiidae,family,1,8.89,8.89,6,Elardia > Arcellinida > Phryganellina,Cryptodifflugia(8.9),Cryptodifflugia
@@ -118,35 +132,36 @@ Gastropidae,family,1,8.89,8.89,6,Monogononta > Pseudotrocha > Ploima,Ascomorpha(
 Apinae,subfamily,1,8.75,8.75,236,Apoidea > Anthophila > Apidae,Apis(8.8),Apis
 Glomeraceae,family,1,8.53,8.53,236,Glomeromycotina > Glomeromycetes > Glomerales,Rhizophagus(8.5),Rhizophagus
 Flabellulidae,family,1,8.49,8.49,5,Tubulinea > Elardia > Leptomyxida,Ripidomyxa(8.5),Ripidomyxa
-Dacrymycetaceae,family,1,8.49,8.49,5,Agaricomycotina > Dacrymycetes > Dacrymycetales,Guepiniopsis(8.5),Guepiniopsis
-Eriococcidae,family,1,8.49,8.49,5,Hemiptera > Sternorrhyncha > Coccoidea,Cryptococcus(8.5),Cryptococcus
 Centropagidae,family,1,8.49,8.49,5,Neocopepoda > Gymnoplea > Calanoida,Centropages(8.5),Centropages
 Metridinidae,family,1,8.49,8.49,5,Neocopepoda > Gymnoplea > Calanoida,Metridia(8.5),Metridia
+Eriococcidae,family,1,8.49,8.49,5,Hemiptera > Sternorrhyncha > Coccoidea,Cryptococcus(8.5),Cryptococcus
 Penthaleidae,family,1,8.49,8.49,5,Prostigmata > Eupodina > Eupodoidea,Penthaleus(8.5),Penthaleus
+Dacrymycetaceae,family,1,8.49,8.49,5,Agaricomycotina > Dacrymycetes > Dacrymycetales,Guepiniopsis(8.5),Guepiniopsis
 Pterocystida,order,1,8.49,8.49,5,Eukaryota > Haptista > Centroplasthelida,Choanocystis(8.5),Choanocystis
 Rhabditina,suborder,2,8.46,4.23,127,Nematoda > Chromadorea > Rhabditida,"Pristionchus(5.5), Caenorhabditis(2.9)",Pristionchus;Caenorhabditis
 Sarcocystidae,family,1,8.3,8.3,76,Coccidia > Eucoccidiorida > Eimeriorina,Sarcocystis10(8.3),Sarcocystis10
 Cintractiaceae,family,1,8.06,8.06,69,Ustilaginomycotina > Ustilaginomycetes > Ustilaginales,Ustanciosporium(8.1),Ustanciosporium
 Culicinae,subfamily,2,8.03,4.01,65,Culicomorpha > Culicoidea > Culicidae,"Culex(5.8), Culiseta(2.2)",Culex;Culiseta
-Limnofilidae,family,1,8.01,8.01,4,Sar > Rhizaria > Cercozoa,Limnofilidae_X(8.0),Limnofilidae_X
 Rhynchomonadidae,family,1,8.01,8.01,4,Kinetoplastea > Metakinetoplastina > Neobodonida,Rhynchomonas(8.0),Rhynchomonas
-Pontellidae,family,1,8.01,8.01,4,Neocopepoda > Gymnoplea > Calanoida,Anomalocera(8.0),Anomalocera
-Cyclopidae,family,1,8.01,8.01,4,Neocopepoda > Podoplea > Cyclopoida,Cyclops(8.0),Cyclops
 Bosminidae,family,1,8.01,8.01,4,Diplostraca > Cladocera > Anomopoda,Bosmina(8.0),Bosmina
 Sididae,family,1,8.01,8.01,4,Diplostraca > Cladocera > Ctenopoda,Diaphanosoma(8.0),Diaphanosoma
+Pontellidae,family,1,8.01,8.01,4,Neocopepoda > Gymnoplea > Calanoida,Anomalocera(8.0),Anomalocera
+Cyclopidae,family,1,8.01,8.01,4,Neocopepoda > Podoplea > Cyclopoida,Cyclops(8.0),Cyclops
 Parhypochthoniidae,family,1,8.01,8.01,4,Oribatida > Parhyposomata > Parhypochthonioidea,Parhypochthonius(8.0),Parhypochthonius
+Limnofilidae,family,1,8.01,8.01,4,Sar > Rhizaria > Cercozoa,Limnofilidae_X(8.0),Limnofilidae_X
 Heteroderinae,subfamily,1,7.92,7.92,228,Tylenchomorpha > Tylenchoidea > Heteroderidae,Heterodera(7.9),Heterodera
 Eriophyidae,family,2,7.89,3.94,6,Prostigmata > Eupodina > Eriophyoidea,"Surapoda(5.0), Aculops(2.9)",Surapoda;Aculops
 Blastocladiales,order,2,7.81,3.9,26,Fungi incertae sedis > Blastocladiomycota > Blastocladiomycetes,"Coelomomyces(4.0), Allomyces(3.8)",Coelomomyces;Allomyces
 Thalassiosiraceae,family,1,7.8,7.8,309,Coscinodiscophyceae > Thalassiosirophycidae > Thalassiosirales,Thalassiosira(7.8),Thalassiosira
 Labyrinthulaceae,family,1,7.8,7.8,62,Bigyra > Labyrinthulomycetes > Labyrinthulida,Labyrinthula(7.8),Labyrinthula
+Plasmodiidae,family,2,7.63,3.81,89,Apicomplexa > Aconoidasida > Haemosporida,"Plasmodium1(4.3), Plasmodiidae.U.genus(3.3)",Plasmodium1;Plasmodiidae.U.genus
 Vannellidae,family,1,7.55,7.55,56,Amoebozoa > Discosea > Flabellinia,Vannella(7.6),Vannella
 Malasseziaceae,family,1,7.48,7.48,298,Ustilaginomycotina > Malasseziomycetes > Malasseziales,Malassezia(7.5),Malassezia
-Hartmannulidae,family,1,7.39,7.39,3,Phyllopharyngea > Phyllopharyngia > Dysteriida,Hartmannulidae_X(7.4),Hartmannulidae_X
-Ceratiaceae,family,1,7.39,7.39,3,Alveolata > Dinophyceae > Gonyaulacales,Ceratium(7.4),Ceratium
-Adeleidae,family,1,7.39,7.39,3,Alveolata > Apicomplexa > Adeleorina,Adelina(7.4),Adelina
-Allapsidae,family,1,7.39,7.39,3,Rhizaria > Cercozoa > Glissomonadida,Allantion(7.4),Allantion
 Terebellidae,family,1,7.39,7.39,3,Canalipalpata > Terebellida > Terebelliformia,Loimia(7.4),Loimia
+Allapsidae,family,1,7.39,7.39,3,Rhizaria > Cercozoa > Glissomonadida,Allantion(7.4),Allantion
+Ceratiaceae,family,1,7.39,7.39,3,Alveolata > Dinophyceae > Gonyaulacales,Ceratium(7.4),Ceratium
+Hartmannulidae,family,1,7.39,7.39,3,Phyllopharyngea > Phyllopharyngia > Dysteriida,Hartmannulidae_X(7.4),Hartmannulidae_X
+Adeleidae,family,1,7.39,7.39,3,Alveolata > Apicomplexa > Adeleorina,Adelina(7.4),Adelina
 Dunaliellaceae,family,1,7.39,7.39,3,Chlorophyceae > CS clade > Chlamydomonadales,Spermatozopsis(7.4),Spermatozopsis
 Schistosomatidae,family,1,7.1,7.1,190,Digenea > Strigeidida > Schistosomatoidea,Schistosoma(7.1),Schistosoma
 Pycnoraceae,family,1,7.09,7.09,46,leotiomyceta > Candelariomycetes > Candelariales,Pycnora(7.1),Pycnora
@@ -158,19 +173,18 @@ Selenastraceae,family,2,6.69,3.35,3,Chlorophyceae > CS clade > Sphaeropleales,"A
 Corynesporascaceae,family,1,6.68,6.68,55,Dothideomycetes > Pleosporomycetidae > Pleosporales,Corynespora(6.7),Corynespora
 Leishmaniinae,subfamily,1,6.6,6.6,53,Metakinetoplastina > Trypanosomatida > Trypanosomatidae,Leptomonas(6.6),Leptomonas
 Spizellomycetaceae,family,1,6.56,6.56,52,Chytridiomycota incertae sedis > Chytridiomycetes > Spizellomycetales,Spizellomyces(6.6),Spizellomyces
-Pelagomonadaceae,family,1,6.53,6.53,36,Ochrophyta > Pelagophyceae > Pelagomonadales,Aureococcus(6.5),Aureococcus
 Limulidae,family,1,6.53,6.53,36,Chelicerata > Merostomata > Xiphosura,Limulus(6.5),Limulus
+Pelagomonadaceae,family,1,6.53,6.53,36,Ochrophyta > Pelagophyceae > Pelagomonadales,Aureococcus(6.5),Aureococcus
 Papilionoideae,subfamily,1,6.53,6.53,85,fabids > Fabales > Fabaceae,Glycine(6.5),Glycine
 Phryganellidae,family,1,6.51,6.51,2,Elardia > Arcellinida > Phryganellina,Phryganella(6.5),Phryganella
+Alaimidae,family,1,6.51,6.51,2,Enoplia > Enoplida > Alaimina,Alaimus(6.5),Alaimus
+Acrogenosporaceae,family,1,6.51,6.51,2,Dothideomycetes > Dothideomycetes incertae sedis > Minutisphaerales,Farlowiella(6.5),Farlowiella
+Sphaerozoidae,family,1,6.51,6.51,2,Retaria > Polycystinea > Collodaria,Sphaerozoum(6.5),Sphaerozoum
 Peridiniaceae,family,1,6.51,6.51,2,Alveolata > Dinophyceae > Peridiniales,Scrippsiella(6.5),Scrippsiella
 Lipotrophidae,family,1,6.51,6.51,2,Conoidasida > Gregarinasina > Neogregarinorida,Mattesia(6.5),Mattesia
-Sphaerozoidae,family,1,6.51,6.51,2,Retaria > Polycystinea > Collodaria,Sphaerozoum(6.5),Sphaerozoum
-Acrogenosporaceae,family,1,6.51,6.51,2,Dothideomycetes > Dothideomycetes incertae sedis > Minutisphaerales,Farlowiella(6.5),Farlowiella
-Alaimidae,family,1,6.51,6.51,2,Enoplia > Enoplida > Alaimina,Alaimus(6.5),Alaimus
 Theileriidae,family,1,6.49,6.49,101,Apicomplexa > Aconoidasida > Piroplasmida,Theileria1(6.5),Theileria1
 Aphidinae,subfamily,1,6.43,6.43,49,Aphidomorpha > Aphidoidea > Aphididae,Acyrthosiphon(6.4),Acyrthosiphon
 Pythiaceae,family,1,6.32,6.32,302,Stramenopiles > Oomycota > Pythiales,Pythium(6.3),Pythium
-Gregarinidae,family,1,5.91,5.91,27,Conoidasida > Gregarinasina > Eugregarinorida,Gregarina3(5.9),Gregarina3
 Ulvaceae,family,1,5.86,5.86,55,Ulvophyceae > OUU clade > Ulvales,Ulva(5.9),Ulva
 Rhizopodaceae,family,1,5.6,5.6,67,Mucoromycetes > Mucorales > Mucorineae,Rhizopus(5.6),Rhizopus
 Ectocarpaceae,family,1,5.58,5.58,77,PX clade > Phaeophyceae > Ectocarpales,Ectocarpus(5.6),Ectocarpus
@@ -179,27 +193,27 @@ Neodiplogasteridae,family,1,5.53,5.53,70,Rhabditina > Diplogasteromorpha > Diplo
 Danioninae,subfamily,1,5.37,5.37,65,Cypriniformes > Cyprinoidei > Danionidae,Danio(5.4),Danio
 Ophryoglenina,suborder,1,5.19,5.19,19,Intramacronucleata > Oligohymenophorea > Hymenostomatida,Ichthyophthirius(5.2),Ichthyophthirius
 Parameciidae,family,1,5.1,5.1,65,Intramacronucleata > Oligohymenophorea > Peniculida,Paramecium(5.1),Paramecium
+Rhizophydiales,order,2,5.06,2.53,32,Chytridiomycota > Chytridiomycota incertae sedis > Chytridiomycetes,"Rhizophydiales.U.genus(3.3), Batrachochytrium(1.7)",Rhizophydiales.U.genus;Batrachochytrium
 Chaetomiaceae,family,1,5.03,5.03,25,Sordariomycetes > Sordariomycetidae > Sordariales,Trichocladium(5.0),Trichocladium
 Echinamoebidae,family,1,5.0,5.0,1,Amoebozoa > Tubulinea > Echinamoebida,Echinamoeba(5.0),Echinamoeba
-Epistylidae,family,1,5.0,5.0,1,Oligohymenophorea > Peritrichia > Sessilida,Campanella(5.0),Campanella
-Massisteriidae,family,1,5.0,5.0,1,Rhizaria > Cercozoa > Granofilosea,Massisteria(5.0),Massisteria
-Haliphthoraceae,family,1,5.0,5.0,1,Stramenopiles > Oomycota > Lagenidiales,Halodaphnea(5.0),Halodaphnea
-Massariaceae,family,1,5.0,5.0,1,Dothideomycetes > Pleosporomycetidae > Pleosporales,Massaria(5.0),Massaria
 Leptodoridae,family,1,5.0,5.0,1,Diplostraca > Cladocera > Haplopoda,Leptodora(5.0),Leptodora
 Nothopodinae,subfamily,1,5.0,5.0,1,Eupodina > Eriophyoidea > Eriophyidae,Surapoda(5.0),Surapoda
+Massariaceae,family,1,5.0,5.0,1,Dothideomycetes > Pleosporomycetidae > Pleosporales,Massaria(5.0),Massaria
+Massisteriidae,family,1,5.0,5.0,1,Rhizaria > Cercozoa > Granofilosea,Massisteria(5.0),Massisteria
+Epistylidae,family,1,5.0,5.0,1,Oligohymenophorea > Peritrichia > Sessilida,Campanella(5.0),Campanella
+Haliphthoraceae,family,1,5.0,5.0,1,Stramenopiles > Oomycota > Lagenidiales,Halodaphnea(5.0),Halodaphnea
 Nebulidae,family,1,5.0,5.0,1,Nebulidia > Nebulidea > Nebulidida,Nebulomonas(5.0),Nebulomonas
-Paulinellidae,family,1,4.97,4.97,17,Imbricatea > Silicofilosea > Euglyphida,Paulinella(5.0),Paulinella
 Conidae,family,1,4.97,4.97,45,Caenogastropoda > Neogastropoda > Conoidea,Conus(5.0),Conus
+Paulinellidae,family,1,4.97,4.97,17,Imbricatea > Silicofilosea > Euglyphida,Paulinella(5.0),Paulinella
 Hyaloscyphaceae,family,1,4.95,4.95,40,sordariomyceta > Leotiomycetes > Helotiales,Hyaloscypha(5.0),Hyaloscypha
 Comesomatidae,family,1,4.86,4.86,16,Chromadorea > Araeolaimida > Axonolaimoidea,Sabatieria(4.9),Sabatieria
 Blastocystidae,family,1,4.8,4.8,72,Bigyra > Opalozoa > Opalinata,Blastocystis(4.8),Blastocystis
 Phaeodactylaceae,family,1,4.74,4.74,15,Bacillariophyceae > Bacillariophycidae > Naviculales,Phaeodactylum(4.7),Phaeodactylum
 Monodopsidaceae,family,1,4.7,4.7,39,Ochrophyta > Eustigmatophyceae > Eustigmatales,Nannochloropsis(4.7),Nannochloropsis
 Edwardsiidae,family,1,4.61,4.61,14,Anthozoa > Hexacorallia > Actiniaria,Nematostella(4.6),Nematostella
-Eimeriidae,family,1,4.54,4.54,68,Coccidia > Eucoccidiorida > Eimeriorina,Eimeria1(4.5),Eimeria1
 Nectriaceae,family,1,4.54,4.54,466,Sordariomycetes > Hypocreomycetidae > Hypocreales,Gibberella(4.5),Gibberella
+Eimeriidae,family,1,4.54,4.54,68,Coccidia > Eucoccidiorida > Eimeriorina,Eimeria1(4.5),Eimeria1
 Cafeteriaceae,family,1,4.41,4.41,18,Bigyra > Opalozoa > Bicosoecida,Cafeteria(4.4),Cafeteria
-Plasmodiidae,family,1,4.34,4.34,44,Apicomplexa > Aconoidasida > Haemosporida,Plasmodium1(4.3),Plasmodium1
 Chydoridae,family,1,4.32,4.32,12,Diplostraca > Cladocera > Anomopoda,Chydorus(4.3),Chydorus
 Aphelidiaceae,family,1,4.32,4.32,12,Opisthokonta > Aphelida > Aphelidea,Aphelidium(4.3),Aphelidium
 Temoridae,family,1,4.28,4.28,21,Neocopepoda > Gymnoplea > Calanoida,Eurytemora(4.3),Eurytemora
@@ -222,24 +236,24 @@ Ostreidae,family,1,3.2,3.2,13,Pteriomorphia > Ostreida > Ostreoidea,Crassostrea(
 Mycosphaerellaceae,family,1,3.14,3.14,16,Dothideomycetes > Dothideomycetidae > Mycosphaerellales,Zymoseptoria(3.1),Zymoseptoria
 Pelagiidae,family,1,2.99,2.99,13,Cnidaria > Scyphozoa > Semaeostomeae,Chrysaora(3.0),Chrysaora
 Peloderinae,subfamily,1,2.94,2.94,57,Rhabditomorpha > Rhabditoidea > Rhabditidae,Caenorhabditis(2.9),Caenorhabditis
-Polychytriales,order,1,2.89,2.89,5,Chytridiomycota > Chytridiomycota incertae sedis > Chytridiomycetes,Polychytrium(2.9),Polychytrium
 Aphrophoridae,family,1,2.89,2.89,5,Auchenorrhyncha > Cicadomorpha > Cercopoidea,Philaenus(2.9),Philaenus
 Phyllocoptinae,subfamily,1,2.89,2.89,5,Eupodina > Eriophyoidea > Eriophyidae,Aculops(2.9),Aculops
 Homininae,subfamily,1,2.89,2.89,5,Catarrhini > Hominoidea > Hominidae,Homo(2.9),Homo
+Polychytriales,order,1,2.89,2.89,5,Chytridiomycota > Chytridiomycota incertae sedis > Chytridiomycetes,Polychytrium(2.9),Polychytrium
 Taphrinaceae,family,1,2.85,2.85,17,Taphrinomycotina > Taphrinomycetes > Taphrinales,Taphrina(2.8),Taphrina
+Babesiidae,family,1,2.81,2.81,20,Apicomplexa > Aconoidasida > Piroplasmida,Babesiidae.U.genus(2.8),Babesiidae.U.genus
 Chlamydomonadaceae,family,1,2.67,2.67,23,Chlorophyceae > CS clade > Chlamydomonadales,Chlamydomonas(2.7),Chlamydomonas
-Campopleginae,subfamily,1,2.57,2.57,4,Apocrita > Ichneumonoidea > Ichneumonidae,Venturia(2.6),Venturia
 Acartiidae,family,1,2.57,2.57,4,Neocopepoda > Gymnoplea > Calanoida,Acartia(2.6),Acartia
+Campopleginae,subfamily,1,2.57,2.57,4,Apocrita > Ichneumonoidea > Ichneumonidae,Venturia(2.6),Venturia
 Saprolegniaceae,family,1,2.38,2.38,5,Stramenopiles > Oomycota > Saprolegniales,Saprolegnia(2.4),Saprolegnia
 Mrakiaceae,family,1,2.32,2.32,11,Agaricomycotina > Tremellomycetes > Cystofilobasidiales,Mrakia(2.3),Mrakia
 Strigomonadinae,subfamily,1,2.31,2.31,6,Metakinetoplastina > Trypanosomatida > Trypanosomatidae,Strigomonas(2.3),Strigomonas
 Pooideae,subfamily,1,2.29,2.29,7,Poales > Poaceae > BOP clade,Brachypodium(2.3),Brachypodium
+Sigmoideomycetaceae,family,1,2.18,2.18,3,Zoopagomycotina > Zoopagomycetes > Zoopagales,Thamnocephalis(2.2),Thamnocephalis
 Barbatosphaeriaceae,family,1,2.18,2.18,3,Sordariomycetes > Sordariomycetidae > Barbatosphaeriales,Tectonidula(2.2),Tectonidula
 Dermateaceae,family,1,2.18,2.18,3,sordariomyceta > Leotiomycetes > Helotiales,Neofabraea(2.2),Neofabraea
-Sigmoideomycetaceae,family,1,2.18,2.18,3,Zoopagomycotina > Zoopagomycetes > Zoopagales,Thamnocephalis(2.2),Thamnocephalis
 Xenopodinae,subfamily,1,1.86,1.86,5,Anura > Pipoidea > Pipidae,Xenopus(1.9),Xenopus
 Anguininae,subfamily,1,1.8,1.8,4,Tylenchomorpha > Sphaerularioidea > Anguinidae,Ditylenchus(1.8),Ditylenchus
-Rhizophydiales,order,1,1.74,1.74,3,Chytridiomycota > Chytridiomycota incertae sedis > Chytridiomycetes,Batrachochytrium(1.7),Batrachochytrium
-Coniophoraceae,family,1,1.69,1.69,2,Agaricomycetidae > Boletales > Coniophorineae,Coniophora(1.7),Coniophora
 Cecidomyiinae,subfamily,1,1.69,1.69,2,Bibionomorpha > Sciaroidea > Cecidomyiidae,Mayetiola(1.7),Mayetiola
+Coniophoraceae,family,1,1.69,1.69,2,Agaricomycetidae > Boletales > Coniophorineae,Coniophora(1.7),Coniophora
 Cyanidiaceae,family,1,1.69,1.69,2,Rhodophyta > Bangiophyceae > Cyanidiales,Cyanidioschyzon(1.7),Cyanidioschyzon
