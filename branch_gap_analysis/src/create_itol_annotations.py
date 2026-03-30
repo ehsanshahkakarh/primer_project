@@ -16,15 +16,17 @@ import re
 from pathlib import Path
 
 
-# File paths
-GENUS_PARSE_FILE = Path("/Users/ehsankakarh/PROJA/GitHub/otu_assembly_comparative_pipeline-/eukcensus_parse/18S_censusparse/output/eukcensus_18S_by_genus.csv")
-TREE_FILE = Path("/Users/ehsankakarh/PROJA/primer_project/branch_gap_analysis/output/18s/tree/18s_genus_tree.nwk")
-OUTPUT_DIR = Path("/Users/ehsankakarh/PROJA/primer_project/branch_gap_analysis/output/18s/tree")
+# File paths - relative to repo root
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent.parent  # 00data/
+GENUS_PARSE_FILE = REPO_ROOT / "00_gaps_taxonomic/00parse_database/eukcensus_parse/18S_censusparse/output/eukcensus_18S_by_genus.csv"
+TREE_FILE = REPO_ROOT / "primer_project/branch_gap_analysis/output/18s/tree/18s_genus_tree.nwk"
+OUTPUT_DIR = REPO_ROOT / "primer_project/branch_gap_analysis/output/18s/tree"
 
+FINAL_MERGER_BASE = REPO_ROOT / "00_gaps_taxonomic/00parse_database/final_merger/outputs"
 FINAL_MERGER_FILES = {
-    'division': Path("/Users/ehsankakarh/PROJA/GitHub/otu_assembly_comparative_pipeline-/final_merger/outputs/18s_ncbi_merged_division.csv"),
-    'family': Path("/Users/ehsankakarh/PROJA/GitHub/otu_assembly_comparative_pipeline-/final_merger/outputs/18s_ncbi_merged_family.csv"),
-    'genus': Path("/Users/ehsankakarh/PROJA/GitHub/otu_assembly_comparative_pipeline-/final_merger/outputs/18s_ncbi_merged_genus.csv"),
+    'division': FINAL_MERGER_BASE / "18s_ncbi_merged_division.csv",
+    'family': FINAL_MERGER_BASE / "18s_ncbi_merged_family.csv",
+    'genus': FINAL_MERGER_BASE / "18s_ncbi_merged_genus.csv",
 }
 
 # Ranks that count as "division" level (phylum/clade/kingdom)
@@ -349,6 +351,150 @@ def create_colorstrip(level: str, genus_data: dict, nf_lookup: dict, output_file
 
 
 
+def create_multibar(genus_data: dict, nf_genus_file: Path, output_file: Path):
+    """
+    Create iTOL DATASET_MULTIBAR annotation with OTU counts and species counts
+    for each genus leaf.
+
+    Reads census_otu_count and ncbi_species_count from the genus-level NF file.
+    """
+    # Load OTU counts and species counts from genus NF file
+    genus_counts = {}
+    with open(nf_genus_file, 'r') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            name = row.get('genus', '')
+            try:
+                otu = int(row.get('census_otu_count', 0) or 0)
+            except (ValueError, TypeError):
+                otu = 0
+            try:
+                species = int(row.get('ncbi_species_count', 0) or 0)
+            except (ValueError, TypeError):
+                species = 0
+            if name:
+                genus_counts[name] = {'otu': otu, 'species': species}
+
+    lines = [
+        "DATASET_MULTIBAR",
+        "SEPARATOR TAB",
+        "DATASET_LABEL\tOTU & Species Counts",
+        "COLOR\t#555555",
+        "",
+        "# Bar graph showing OTU counts and NCBI species counts per genus",
+        "FIELD_COLORS\t#2196F3\t#FF9800",
+        "FIELD_LABELS\tCensus OTU Count\tNCBI Species Count",
+        "ALIGN_FIELDS\t0",
+        "WIDTH\t200",
+        "HEIGHT_FACTOR\t0.8",
+        "BAR_SHIFT\t0",
+        "MARGIN\t5",
+        "BORDER_WIDTH\t0",
+        "SHOW_INTERNAL\t0",
+        "",
+        "LEGEND_TITLE\tOTU & Species Counts",
+        "LEGEND_SHAPES\t1\t1",
+        "LEGEND_COLORS\t#2196F3\t#FF9800",
+        "LEGEND_LABELS\tCensus OTU Count\tNCBI Species Count",
+        "",
+        "DATA",
+    ]
+
+    matched = 0
+    for genus_name, data in sorted(genus_data.items()):
+        tree_node = data['tree_node']
+        counts = genus_counts.get(genus_name, {'otu': 0, 'species': 0})
+        otu = counts['otu']
+        species = counts['species']
+        if otu > 0 or species > 0:
+            lines.append(f"{tree_node}\t{otu}\t{species}")
+            matched += 1
+
+    output_file.write_text('\n'.join(lines))
+    print(f"  Multibar: {matched} genera with data → {output_file.name}")
+
+
+def create_primer_highlight(genus_data: dict, priority_file: Path,
+                            primer_results_dir: Path, output_file: Path):
+    """
+    Create iTOL DATASET_COLORSTRIP that highlights genera covered by
+    successful primer targets in bright/dark green.
+
+    A primer target is successful if its directory contains primer_pairs.csv
+    (as opposed to failure_report.txt).
+    """
+    import os
+    import glob
+
+    # Find all successful primer target names
+    successful_targets = set()
+    for pp_file in glob.glob(str(primer_results_dir / "*" / "primer_pairs.csv")):
+        dir_name = os.path.basename(os.path.dirname(pp_file))
+        # dir_name like "002_Arcellinida_order" → extract "Arcellinida"
+        parts = dir_name.split('_', 1)  # ['002', 'Arcellinida_order']
+        if len(parts) == 2:
+            # Remove trailing _rank (order, family, subfamily, etc.)
+            target_with_rank = parts[1]
+            # Split from the right on underscore to strip the rank
+            name_parts = target_with_rank.rsplit('_', 1)
+            if len(name_parts) == 2:
+                successful_targets.add(name_parts[0])
+            else:
+                successful_targets.add(target_with_rank)
+
+    print(f"  Found {len(successful_targets)} successful primer targets")
+
+    # Load priority scores to map target nodes → genera
+    genera_with_primers = set()
+    with open(priority_file, 'r') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            node = row.get('node', '')
+            if node in successful_targets:
+                all_genera_str = row.get('all_genera', '')
+                genera = [g.strip() for g in all_genera_str.split(';') if g.strip()]
+                genera_with_primers.update(genera)
+
+    print(f"  {len(genera_with_primers)} genera covered by successful primers")
+
+    # Color: bright green with darker hue
+    PRIMER_COLOR = "#1B7A2B"  # Dark emerald green (bright but darker hue)
+    NO_PRIMER_COLOR = "#E0E0E0"  # Light grey for non-primer genera
+
+    lines = [
+        "DATASET_COLORSTRIP",
+        "SEPARATOR TAB",
+        "DATASET_LABEL\tPrimer Coverage",
+        "COLOR\t#1B7A2B",
+        "STRIP_WIDTH\t20",
+        "MARGIN\t2",
+        "BORDER_WIDTH\t0",
+        "SHOW_INTERNAL\t0",
+        "",
+        "# Genera highlighted in green = covered by a successful primer design",
+        "LEGEND_TITLE\tPrimer Coverage",
+        "LEGEND_SHAPES\t1\t1",
+        "LEGEND_COLORS\t#1B7A2B\t#E0E0E0",
+        "LEGEND_LABELS\tPrimer Designed\tNo Primer",
+        "",
+        "DATA",
+    ]
+
+    primer_count = 0
+    no_primer_count = 0
+    for genus_name, data in sorted(genus_data.items()):
+        tree_node = data['tree_node']
+        if genus_name in genera_with_primers:
+            lines.append(f"{tree_node}\t{PRIMER_COLOR}\tPrimer designed")
+            primer_count += 1
+        else:
+            lines.append(f"{tree_node}\t{NO_PRIMER_COLOR}\t")
+            no_primer_count += 1
+
+    output_file.write_text('\n'.join(lines))
+    print(f"  Primer highlight: {primer_count} with primers, {no_primer_count} without → {output_file.name}")
+
+
 def main():
     print("=" * 70)
     print("Creating iTOL Annotations (Genera Only)")
@@ -385,6 +531,18 @@ def main():
 
         output_file = OUTPUT_DIR / f"18s_{level}_colorstrip.txt"
         create_colorstrip(level, genus_data, nf_lookup, output_file)
+
+    # Create multibar annotation (OTU counts + species counts)
+    print("\nCreating OTU & Species count bar graph:")
+    multibar_file = OUTPUT_DIR / "18s_otu_species_bars.txt"
+    create_multibar(genus_data, FINAL_MERGER_FILES['genus'], multibar_file)
+
+    # Create primer coverage highlight
+    print("\nCreating primer coverage highlight:")
+    primer_results_dir = REPO_ROOT / "primer_project" / "18S_subset" / "primer_results"
+    priority_file = OUTPUT_DIR.parent / "nf_abundance_priority_scores.csv"
+    primer_highlight_file = OUTPUT_DIR / "18s_primer_coverage.txt"
+    create_primer_highlight(genus_data, priority_file, primer_results_dir, primer_highlight_file)
 
     print("\nDone! Upload 18s_genus_tree.nwk to iTOL, then add annotation files.")
 
