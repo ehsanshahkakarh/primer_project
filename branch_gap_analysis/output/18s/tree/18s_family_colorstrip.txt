@@ -1,412 +1,412 @@
 DATASET_COLORSTRIP
 SEPARATOR TAB
-DATASET_LABEL	18S Family (genus-level NF)
+DATASET_LABEL	18S Family (EuKCensus lineage → merger NF)
 COLOR	#CCCCCC
 STRIP_WIDTH	25
 MARGIN	0
 BORDER_WIDTH	0
 SHOW_INTERNAL	1
 
-# All genera colored by GENUS-LEVEL novelty factors
+# Family-rank chain first, then full lineage; tipward match in family novelty table
 LEGEND_TITLE	Novelty Factor
 LEGEND_SHAPES	1	1	1	1	1	1
 LEGEND_COLORS	#228B22	#FF8C00	#DC143C	#000080	#4B0082	#AAAAAA
 LEGEND_LABELS	NF < 1.1	NF 1.1-2	NF 2-10	NF > 10	Census Only	No Census Data
 
 DATA
-Acanthamoeba_G	#DC143C	5.0
-Acanthamoebidae_X_ON	#228B22	0.8
-Acantharea_3a_X_ON	#4B0082	inf
-Acartia_G	#DC143C	4.0
-Acineta_1_ON	#4B0082	inf
-Acrogenospora_G	#4B0082	inf
+Acanthamoeba_G	#DC143C	5.9
+Acanthamoebidae_X_ON	#DC143C	5.9
+Acantharea_3a_X_ON	#AAAAAA	
+Acartia_G	#AAAAAA	
+Acineta_1_ON	#AAAAAA	
+Acrogenospora_G	#FF8C00	1.5
 Actinocephalidae.U.genus_ON	#4B0082	inf
-Actinosphaerium_G	#4B0082	inf
-Aculops_G	#DC143C	5.0
-Acyrthosiphon_G	#000080	24.5
+Actinosphaerium_G	#AAAAAA	
+Aculops_G	#228B22	0.5
+Acyrthosiphon_G	#228B22	0.6
 Adelina_G	#4B0082	inf
-Agaricomycetes.U.genus_ON	#228B22	0.6
-Agaricomycetes_X_ON	#228B22	0.0
-Agaricomycotina.U.genus_ON	#228B22	0.2
-Alaimus_G	#4B0082	inf
+Agaricomycetes.U.genus_ON	#228B22	0.7
+Agaricomycetes_X_ON	#228B22	0.7
+Agaricomycotina.U.genus_ON	#AAAAAA	
+Alaimus_G	#AAAAAA	
 Allantion_G	#4B0082	inf
-Allobodo_G	#4B0082	inf
-Allomyces_G	#DC143C	5.3
-Alveolata.U.genus_ON	#FF8C00	1.8
-Amoebozoa.U.genus_ON	#000080	66.9
+Allobodo_G	#DC143C	10.0
+Allomyces_G	#DC143C	3.6
+Alveolata.U.genus_ON	#AAAAAA	
+Amoebozoa.U.genus_ON	#AAAAAA	
 Amphitrema_G	#4B0082	inf
-Ankistrodesmus_G	#4B0082	inf
-Annelida_XX.U.genus_ON	#228B22	0.3
-Anolis_G	#228B22	0.5
-Anomalocera_G	#4B0082	inf
-Anthoptilum_G	#4B0082	inf
-Anthozoa.U.genus_ON	#FF8C00	1.1
+Ankistrodesmus_G	#228B22	0.2
+Annelida_XX.U.genus_ON	#AAAAAA	
+Anolis_G	#228B22	0.0
+Anomalocera_G	#AAAAAA	
+Anthoptilum_G	#FF8C00	1.3
+Anthozoa.U.genus_ON	#FF8C00	1.3
 Aphelidium_G	#000080	12.0
-Apis_G	#000080	39.3
-Arabidopsis_G	#DC143C	4.3
-Arachnida.U.genus_ON	#228B22	0.3
-Arcellinida.U.genus_ON	#4B0082	inf
-Arthropoda.U.genus_ON	#228B22	0.0
-Articulospora_G	#000080	19.0
-Ascomorpha_G	#4B0082	inf
-Ascomycota.U.genus_ON	#228B22	0.1
-Aspergillus_G	#228B22	0.2
-Astrorhiza_G	#4B0082	inf
-Aureococcus_G	#000080	36.0
-Auxenochlorella_G	#DC143C	5.8
-Babesia6_ON	#228B22	0.2
-Babesiidae.U.genus_ON	#FF8C00	1.7
+Apis_G	#228B22	0.6
+Arabidopsis_G	#AAAAAA	
+Arachnida.U.genus_ON	#228B22	0.5
+Arcellinida.U.genus_ON	#AAAAAA	
+Arthropoda.U.genus_ON	#AAAAAA	
+Articulospora_G	#FF8C00	1.6
+Ascomorpha_G	#AAAAAA	
+Ascomycota.U.genus_ON	#AAAAAA	
+Aspergillus_G	#228B22	0.8
+Astrorhiza_G	#AAAAAA	
+Aureococcus_G	#DC143C	7.2
+Auxenochlorella_G	#AAAAAA	
+Babesia6_ON	#FF8C00	1.9
+Babesiidae.U.genus_ON	#FF8C00	1.9
 Balamuthia_G	#DC143C	8.0
-Barbatosphaeria_G	#DC143C	3.0
-Basidiomycota.U.genus_ON	#228B22	0.0
-Bathycoccus_G	#FF8C00	1.5
-Batrachochytrium_G	#FF8C00	1.5
-Bellemerea_G	#4B0082	inf
-Bicoecaceae_X_ON	#4B0082	inf
-Bicoecea.U.genus_ON	#000080	46.7
-Bigyra.U.genus_ON	#228B22	0.7
-Blastocladiomycetes.U.genus_ON	#228B22	0.4
-Blastocystis_G	#DC143C	4.8
+Barbatosphaeria_G	#228B22	0.9
+Basidiomycota.U.genus_ON	#AAAAAA	
+Bathycoccus_G	#000080	13.4
+Batrachochytrium_G	#AAAAAA	
+Bellemerea_G	#228B22	0.6
+Bicoecaceae_X_ON	#AAAAAA	
+Bicoecea.U.genus_ON	#AAAAAA	
+Bigyra.U.genus_ON	#AAAAAA	
+Blastocladiomycetes.U.genus_ON	#DC143C	3.6
+Blastocystis_G	#AAAAAA	
 Bodo_G	#DC143C	10.0
-Bosmina_G	#4B0082	inf
-Botryococcus_G	#DC143C	5.0
-Brachypodium_G	#FF8C00	1.8
-Branchiopoda.U.genus_ON	#DC143C	3.6
+Bosmina_G	#DC143C	4.7
+Botryococcus_G	#AAAAAA	
+Brachypodium_G	#AAAAAA	
+Branchiopoda.U.genus_ON	#DC143C	4.7
 Bullinularia_G	#4B0082	inf
-Caenorhabditis_G	#FF8C00	1.2
-Cafeteria_G	#DC143C	9.0
+Caenorhabditis_G	#AAAAAA	
+Cafeteria_G	#DC143C	6.0
 Campanella_G	#4B0082	inf
-Candida_G	#228B22	0.7
+Candida_G	#AAAAAA	
 Cavernomonas_G	#4B0082	inf
-Centropages_G	#4B0082	inf
-Centroplasthelida_X.U.genus_ON	#4B0082	inf
+Centropages_G	#AAAAAA	
+Centroplasthelida_X.U.genus_ON	#AAAAAA	
 Ceratiomyxella_G	#4B0082	inf
 Ceratium_G	#4B0082	inf
 Cercomonadidae.U.genus_ON	#4B0082	inf
 Cercomonadidae_X_ON	#4B0082	inf
 Cercomonas_G	#4B0082	inf
-Cercozoa.U.genus_ON	#000080	230.4
-Chaetonotus_G	#4B0082	inf
+Cercozoa.U.genus_ON	#AAAAAA	
+Chaetonotus_G	#AAAAAA	
 Chaos_G	#4B0082	inf
-Chlamydomonadales_X.U.genus_ON	#DC143C	4.3
-Chlamydomonas_G	#FF8C00	1.4
-Chlorellales_X.U.genus_ON	#DC143C	6.7
-Chlorociboria_G	#000080	28.0
-Chloroparva_G	#4B0082	inf
-Chlorophyceae.U.genus_ON	#228B22	0.1
-Chlorophyta_X.U.genus_ON	#DC143C	2.0
+Chlamydomonadales_X.U.genus_ON	#AAAAAA	
+Chlamydomonas_G	#AAAAAA	
+Chlorellales_X.U.genus_ON	#AAAAAA	
+Chlorociboria_G	#FF8C00	1.6
+Chloroparva_G	#AAAAAA	
+Chlorophyceae.U.genus_ON	#AAAAAA	
+Chlorophyta_X.U.genus_ON	#AAAAAA	
 Chloropicon_G	#DC143C	3.8
-Choanocystis_G	#4B0082	inf
-Chromadorea_X.U.genus_ON	#228B22	1.0
-Chrysaora_G	#DC143C	2.6
-Chydorus_G	#000080	12.0
-Chytridiomycota.U.genus_ON	#DC143C	7.2
-Ciliophora.U.genus_ON	#000080	10.0
-Cladophialophora_G	#228B22	0.1
-Clavicaudoides_G	#4B0082	inf
-Coccidioides_G	#DC143C	5.5
-Coccomyxa_G	#4B0082	inf
-Coelomomyces_G	#DC143C	10.0
+Choanocystis_G	#AAAAAA	
+Chromadorea_X.U.genus_ON	#AAAAAA	
+Chrysaora_G	#228B22	0.5
+Chydorus_G	#DC143C	4.7
+Chytridiomycota.U.genus_ON	#AAAAAA	
+Ciliophora.U.genus_ON	#AAAAAA	
+Cladophialophora_G	#228B22	0.8
+Clavicaudoides_G	#AAAAAA	
+Coccidioides_G	#228B22	0.8
+Coccomyxa_G	#AAAAAA	
+Coelomomyces_G	#DC143C	3.6
 Coemansia_G	#228B22	0.1
-Colletotrichum_G	#228B22	0.1
+Colletotrichum_G	#228B22	0.9
 Collophidium_G	#4B0082	inf
-Colpodellida_CHR1_X_ON	#DC143C	9.0
-Coniophora_G	#FF8C00	2.0
-Conus_G	#DC143C	7.5
-Copromyxa_G	#4B0082	inf
-Corynespora_G	#000080	27.5
-Craniata_X.U.genus_ON	#4B0082	inf
-Crassostrea_G	#DC143C	3.2
-Crustacea.U.genus_ON	#DC143C	2.4
-Cryomonadida.U.genus_ON	#4B0082	inf
-Cryothecomonas_G	#4B0082	inf
-Cryptococcus_G	#4B0082	inf
+Colpodellida_CHR1_X_ON	#AAAAAA	
+Coniophora_G	#228B22	0.7
+Conus_G	#228B22	0.8
+Copromyxa_G	#AAAAAA	
+Corynespora_G	#FF8C00	1.5
+Craniata_X.U.genus_ON	#AAAAAA	
+Crassostrea_G	#AAAAAA	
+Crustacea.U.genus_ON	#AAAAAA	
+Cryomonadida.U.genus_ON	#AAAAAA	
+Cryothecomonas_G	#AAAAAA	
+Cryptococcus_G	#228B22	0.6
 Cryptodifflugia_G	#4B0082	inf
-Cryptosporidiidae.U.genus_ON	#228B22	0.3
-Cryptosporidium13_ON	#228B22	0.1
-Cryptosporidium15_ON	#228B22	0.1
-Cryptosporidium1_ON	#DC143C	2.5
-Cryptosporidium4_ON	#228B22	0.1
-Culex_sG	#000080	12.4
-Culiseta_G	#DC143C	3.0
-Cyanidioschyzon_G	#FF8C00	2.0
-Cyclops_G	#4B0082	inf
-Cyclotrichium_G	#4B0082	inf
-Danio_G	#DC143C	8.1
-Daphnia_G	#228B22	1.0
-Debaryomyces_G	#228B22	0.1
-Diaphanosoma_G	#4B0082	inf
+Cryptosporidiidae.U.genus_ON	#DC143C	3.2
+Cryptosporidium13_ON	#DC143C	3.2
+Cryptosporidium15_ON	#DC143C	3.2
+Cryptosporidium1_ON	#DC143C	3.2
+Cryptosporidium4_ON	#DC143C	3.2
+Culex_sG	#228B22	0.6
+Culiseta_G	#228B22	0.6
+Cyanidioschyzon_G	#AAAAAA	
+Cyclops_G	#AAAAAA	
+Cyclotrichium_G	#AAAAAA	
+Danio_G	#228B22	0.0
+Daphnia_G	#DC143C	4.7
+Debaryomyces_G	#AAAAAA	
+Diaphanosoma_G	#DC143C	4.7
 Dileptidae_X_ON	#4B0082	inf
-Dinoflagellata.U.genus_ON	#228B22	0.7
-Dinophyceae.U.genus_ON	#000080	33.0
-Diplophrys_G	#4B0082	inf
-Diptilomiopus_G	#4B0082	inf
-Discosea_X.U.genus_ON	#228B22	1.0
+Dinoflagellata.U.genus_ON	#AAAAAA	
+Dinophyceae.U.genus_ON	#AAAAAA	
+Diplophrys_G	#AAAAAA	
+Diptilomiopus_G	#228B22	0.5
+Discosea_X.U.genus_ON	#AAAAAA	
 Distigma_G	#4B0082	inf
-Ditylenchus_G	#FF8C00	1.3
-Dothideomycetes.U.genus_ON	#228B22	0.9
-Dothideomycetes_X_ON	#228B22	0.1
-Drosophila_G	#4B0082	inf
+Ditylenchus_G	#AAAAAA	
+Dothideomycetes.U.genus_ON	#FF8C00	1.5
+Dothideomycetes_X_ON	#FF8C00	1.5
+Drosophila_G	#228B22	0.7
 Echinamoeba_G	#4B0082	inf
-Ectocarpus_G	#DC143C	8.6
-Eimeria1_ON	#DC143C	4.0
-Elardia.U.genus_ON	#4B0082	inf
-Encentrum_G	#4B0082	inf
-Endostelium_G	#4B0082	inf
-Euamoebida.U.genus_ON	#4B0082	inf
-Eudiaptomus_G	#4B0082	inf
-Euglenida.U.genus_ON	#000080	508.7
-Euglenozoa.U.genus_ON	#228B22	0.4
-Eukaryota.U.genus_ON	#228B22	0.4
+Ectocarpus_G	#AAAAAA	
+Eimeria1_ON	#DC143C	3.8
+Elardia.U.genus_ON	#AAAAAA	
+Encentrum_G	#AAAAAA	
+Endostelium_G	#AAAAAA	
+Euamoebida.U.genus_ON	#AAAAAA	
+Eudiaptomus_G	#AAAAAA	
+Euglenida.U.genus_ON	#AAAAAA	
+Euglenozoa.U.genus_ON	#AAAAAA	
+Eukaryota.U.genus_ON	#AAAAAA	
 Eukaryota_D	#4B0082	inf
-Eurotiomycetes.U.genus_ON	#228B22	0.5
-Eurytemora_G	#DC143C	7.0
+Eurotiomycetes.U.genus_ON	#228B22	0.8
+Eurytemora_G	#AAAAAA	
 Evaginogenida_X_ON	#4B0082	inf
-Exophiala_G	#DC143C	2.4
-Filoreta_G	#4B0082	inf
-Flamella_G	#4B0082	inf
-Flamellidae.U.genus_ON	#4B0082	inf
+Exophiala_G	#228B22	0.8
+Filoreta_G	#AAAAAA	
+Flamella_G	#AAAAAA	
+Flamellidae.U.genus_ON	#AAAAAA	
 Flectomonas_G	#4B0082	inf
-Foraminifera.U.genus_ON	#000080	107.3
-Fungi.U.genus_ON	#228B22	0.2
-Fusarium_G	#FF8C00	1.7
+Foraminifera.U.genus_ON	#AAAAAA	
+Fungi.U.genus_ON	#AAAAAA	
+Fusarium_G	#228B22	0.9
 Fusiforma_G	#4B0082	inf
 Gadixcellia_G	#4B0082	inf
-Glissomonadida.U.genus_ON	#4B0082	inf
-Glycine_G	#000080	17.0
-Gregarina3_ON	#000080	27.0
-Gregarinidae.U.genus_ON	#000080	27.0
+Glissomonadida.U.genus_ON	#AAAAAA	
+Glycine_G	#AAAAAA	
+Gregarina3_ON	#000080	130.0
+Gregarinidae.U.genus_ON	#000080	130.0
 Gromia_G	#4B0082	inf
-Guepiniopsis_G	#4B0082	inf
-Gyropaigne_G	#4B0082	inf
-Halodaphnea_G	#4B0082	inf
+Guepiniopsis_G	#FF8C00	1.2
+Gyropaigne_G	#000080	26.0
+Halodaphnea_G	#AAAAAA	
 Hartmannella_G	#4B0082	inf
 Hartmannellidae.U.genus_ON	#4B0082	inf
 Hartmannulidae_X_ON	#4B0082	inf
 Hemimastix_G	#4B0082	inf
-Heterodera_G	#000080	22.8
-Heterolepidoderma_G	#4B0082	inf
-Heterolobosea.U.genus_ON	#000080	99.6
-Hexamita_G	#000080	32.0
-Hexamitidae.U.genus_ON	#000080	121.0
-Homo_G	#DC143C	5.0
-Hyaloscypha_G	#DC143C	8.0
-Hyphodiscus_G	#228B22	0.5
-Ichthyophthirius_G	#000080	19.0
-Insecta.U.genus_ON	#228B22	0.5
-Isaria_G	#000080	64.0
-Kinetoplastea.U.genus_ON	#DC143C	4.0
-Kinetoplastea_XX.U.genus_ON	#228B22	0.2
-Korotnevella_G	#4B0082	inf
+Heterodera_G	#AAAAAA	
+Heterolepidoderma_G	#AAAAAA	
+Heterolobosea.U.genus_ON	#AAAAAA	
+Hexamita_G	#000080	143.2
+Hexamitidae.U.genus_ON	#000080	143.2
+Homo_G	#228B22	0.2
+Hyaloscypha_G	#FF8C00	1.6
+Hyphodiscus_G	#FF8C00	1.6
+Ichthyophthirius_G	#AAAAAA	
+Insecta.U.genus_ON	#228B22	0.6
+Isaria_G	#228B22	0.9
+Kinetoplastea.U.genus_ON	#AAAAAA	
+Kinetoplastea_XX.U.genus_ON	#AAAAAA	
+Korotnevella_G	#000080	27.0
 Labyrinthula_G	#000080	62.0
-Labyrinthulomycetes.U.genus_ON	#228B22	0.9
-Lecanicillium_G	#000080	32.1
-Lecanoromycetes.U.genus_ON	#228B22	0.3
-Lecidea_G	#FF8C00	1.5
-Leidyana1_ON	#DC143C	3.0
-Leidyana2_ON	#000080	73.0
-Leohumicola_G	#4B0082	inf
-Leotiomycetes.U.genus_ON	#228B22	1.0
-Leptodora_G	#4B0082	inf
-Leptomonas_G	#000080	26.5
+Labyrinthulomycetes.U.genus_ON	#AAAAAA	
+Lecanicillium_G	#228B22	0.9
+Lecanoromycetes.U.genus_ON	#228B22	0.6
+Lecidea_G	#228B22	0.6
+Leidyana1_ON	#AAAAAA	
+Leidyana2_ON	#AAAAAA	
+Leohumicola_G	#FF8C00	1.6
+Leotiomycetes.U.genus_ON	#FF8C00	1.6
+Leptodora_G	#DC143C	4.7
+Leptomonas_G	#FF8C00	1.4
 Limnofilidae_X_ON	#4B0082	inf
-Limulus_G	#000080	36.0
-Lipomyces_G	#228B22	0.2
-Loimia_G	#4B0082	inf
-Malassezia_G	#000080	14.2
-Mammalia.U.genus_ON	#228B22	0.1
-Mammalia_X_ON	#228B22	0.1
-Massaria_G	#4B0082	inf
-Massisteria_G	#4B0082	inf
+Limulus_G	#DC143C	9.0
+Lipomyces_G	#228B22	0.1
+Loimia_G	#AAAAAA	
+Malassezia_G	#AAAAAA	
+Mammalia.U.genus_ON	#228B22	0.2
+Mammalia_X_ON	#228B22	0.2
+Massaria_G	#FF8C00	1.5
+Massisteria_G	#AAAAAA	
 Mastigamoeba_G	#000080	1609.0
-Mastigamoebida.U.genus_ON	#228B22	0.1
-Mastigella_G	#4B0082	inf
-Mattesia_G	#4B0082	inf
-Mayetiola_G	#FF8C00	2.0
-Metazoa.U.genus_ON	#228B22	0.3
-Metridia_G	#4B0082	inf
-Micractinium_G	#228B22	0.5
-Micronuclearia_G	#4B0082	inf
-Mitosporidium_G	#DC143C	9.0
-Mollusca.U.genus_ON	#228B22	0.7
-Monocystis_G	#4B0082	inf
-Monoraphidium_G	#228B22	0.3
-Monothalamids_X.U.genus_ON	#000080	253.5
-Mortierella_G	#228B22	0.3
-Mrakia_G	#FF8C00	1.4
-Mucoromycotina.U.genus_ON	#228B22	0.5
-Nannochloropsis_G	#DC143C	6.5
-Nassellaria.U.genus_ON	#4B0082	inf
+Mastigamoebida.U.genus_ON	#AAAAAA	
+Mastigella_G	#AAAAAA	
+Mattesia_G	#AAAAAA	
+Mayetiola_G	#228B22	0.6
+Metazoa.U.genus_ON	#AAAAAA	
+Metridia_G	#AAAAAA	
+Micractinium_G	#AAAAAA	
+Micronuclearia_G	#AAAAAA	
+Mitosporidium_G	#AAAAAA	
+Mollusca.U.genus_ON	#AAAAAA	
+Monocystis_G	#AAAAAA	
+Monoraphidium_G	#228B22	0.2
+Monothalamids_X.U.genus_ON	#AAAAAA	
+Mortierella_G	#AAAAAA	
+Mrakia_G	#228B22	0.6
+Mucoromycotina.U.genus_ON	#AAAAAA	
+Nannochloropsis_G	#AAAAAA	
+Nassellaria.U.genus_ON	#AAAAAA	
 Nebulomonas_G	#4B0082	inf
-Nematoda.U.genus_ON	#DC143C	3.7
+Nematoda.U.genus_ON	#AAAAAA	
 Nematostelium_G	#4B0082	inf
-Nematostella_G	#000080	14.0
+Nematostella_G	#FF8C00	1.3
 Nemogullmia_G	#4B0082	inf
-Neobodo_G	#4B0082	inf
-Neobodonida.U.genus_ON	#000080	221.0
-Neocallimastigaceae.U.genus_ON	#228B22	0.7
-Neocallimastix_G	#228B22	1.0
+Neobodo_G	#AAAAAA	
+Neobodonida.U.genus_ON	#AAAAAA	
+Neocallimastigaceae.U.genus_ON	#FF8C00	1.1
+Neocallimastix_G	#FF8C00	1.1
 Neocercomonas_G	#4B0082	inf
-Neofabraea_G	#DC143C	3.0
-Neogregarinorida.U.genus_ON	#DC143C	5.0
+Neofabraea_G	#FF8C00	1.6
+Neogregarinorida.U.genus_ON	#AAAAAA	
 Neovahlkampfia_G	#000080	211.0
-Neurospora_G	#228B22	0.4
+Neurospora_G	#228B22	0.9
 Nibbleromonas_G	#4B0082	inf
 Notosolenus_G	#4B0082	inf
-Nucleariidae_Nuclearia_2_X_ON	#4B0082	inf
-Oligohymenophorea.U.genus_ON	#000080	17.8
-Opalozoa.U.genus_ON	#DC143C	9.9
-Opisthokonta.U.genus_ON	#228B22	0.0
-Oribatida_sO	#228B22	0.2
-Oryza_G	#228B22	0.0
-Ostreococcus_G	#000080	24.4
-Panellus_G	#228B22	1.0
-Paracalanus_G	#4B0082	inf
+Nucleariidae_Nuclearia_2_X_ON	#AAAAAA	
+Oligohymenophorea.U.genus_ON	#AAAAAA	
+Opalozoa.U.genus_ON	#AAAAAA	
+Opisthokonta.U.genus_ON	#AAAAAA	
+Oribatida_sO	#228B22	0.5
+Oryza_G	#AAAAAA	
+Ostreococcus_G	#000080	13.4
+Panellus_G	#228B22	0.7
+Paracalanus_G	#AAAAAA	
 Paracercomonas_G	#4B0082	inf
-Paradinium_G	#4B0082	inf
+Paradinium_G	#AAAAAA	
 Paramecium_G	#DC143C	6.5
-Paramicrosporidium_G	#FF8C00	2.0
-Paramoeba_G	#DC143C	10.0
-Parhypochthonius_G	#4B0082	inf
+Paramicrosporidium_G	#AAAAAA	
+Paramoeba_G	#000080	27.0
+Parhypochthonius_G	#228B22	0.5
 Paulinella_G	#000080	17.0
-Pelobiontida.U.genus_ON	#FF8C00	2.0
-Penicillium_G	#228B22	0.5
-Pentapharsodinium_G	#4B0082	inf
-Penthaleus_G	#4B0082	inf
-Peritrichia_2.U.genus_ON	#4B0082	inf
-Perkinsida_X.U.genus_ON	#DC143C	7.2
-Peronosporales.U.genus_ON	#228B22	0.0
-Petalomonadida.U.genus_ON	#4B0082	inf
+Pelobiontida.U.genus_ON	#AAAAAA	
+Penicillium_G	#228B22	0.8
+Pentapharsodinium_G	#AAAAAA	
+Penthaleus_G	#228B22	0.5
+Peritrichia_2.U.genus_ON	#AAAAAA	
+Perkinsida_X.U.genus_ON	#AAAAAA	
+Peronosporales.U.genus_ON	#DC143C	3.5
+Petalomonadida.U.genus_ON	#AAAAAA	
 Petalomonas_G	#4B0082	inf
-Pezizomycotina.U.genus_ON	#228B22	0.3
+Pezizomycotina.U.genus_ON	#AAAAAA	
 Phaeodactylum_G	#000080	15.0
-Phaeosphaeria_G	#000080	57.3
-Phialophora_G	#DC143C	2.5
-Philaenus_G	#DC143C	5.0
+Phaeosphaeria_G	#FF8C00	1.5
+Phialophora_G	#228B22	0.8
+Philaenus_G	#228B22	0.6
 Phryganella_G	#4B0082	inf
 Phryganellina.U.genus_ON	#4B0082	inf
-Phyllopharyngea.U.genus_ON	#4B0082	inf
-Physcomitrella_G	#4B0082	inf
-Physochila_G	#4B0082	inf
-Phytomonas_G	#228B22	0.8
-Phytophthora_G	#228B22	0.8
+Phyllopharyngea.U.genus_ON	#AAAAAA	
+Physcomitrella_G	#AAAAAA	
+Physochila_G	#AAAAAA	
+Phytomonas_G	#FF8C00	1.4
+Phytophthora_G	#DC143C	3.5
 Picomonas_G	#4B0082	inf
-Piromyces_G	#228B22	0.3
+Piromyces_G	#FF8C00	1.1
 Plagiostomum_G	#4B0082	inf
-Plasmodiidae.U.genus_ON	#FF8C00	1.7
-Plasmodium1_ON	#DC143C	4.4
-Plasmodium2_ON	#228B22	1.0
-Plasmodium4_ON	#228B22	0.4
-Platyhelminthes.U.genus_ON	#DC143C	8.3
-Plectonchus_G	#4B0082	inf
-Podospora_G	#228B22	0.5
+Plasmodiidae.U.genus_ON	#DC143C	4.0
+Plasmodium1_ON	#DC143C	4.0
+Plasmodium2_ON	#DC143C	4.0
+Plasmodium4_ON	#DC143C	4.0
+Platyhelminthes.U.genus_ON	#AAAAAA	
+Plectonchus_G	#AAAAAA	
+Podospora_G	#228B22	0.9
 Polychaos_G	#4B0082	inf
-Polychytrium_G	#DC143C	5.0
-Polycystinea.U.genus_ON	#4B0082	inf
-Populus_G	#228B22	0.9
-Pristionchus_G	#DC143C	8.8
-Prodesmodora_G	#4B0082	inf
-Protacanthamoeba_G	#4B0082	inf
-Protaspa_G	#4B0082	inf
+Polychytrium_G	#AAAAAA	
+Polycystinea.U.genus_ON	#AAAAAA	
+Populus_G	#AAAAAA	
+Pristionchus_G	#AAAAAA	
+Prodesmodora_G	#AAAAAA	
+Protacanthamoeba_G	#DC143C	5.9
+Protaspa_G	#AAAAAA	
 Pseudovorticella_G	#4B0082	inf
-Psora_G	#DC143C	5.0
+Psora_G	#228B22	0.6
 Ptolemeba_G	#4B0082	inf
-Pycnora_G	#000080	46.0
-Pythium_G	#DC143C	6.6
-Radiolaria.U.genus_ON	#4B0082	inf
-Raphidocelis_G	#FF8C00	2.0
-Rattus_G	#000080	29.0
-Rehmannia_G	#000080	160.0
+Pycnora_G	#AAAAAA	
+Pythium_G	#AAAAAA	
+Radiolaria.U.genus_ON	#AAAAAA	
+Raphidocelis_G	#228B22	0.2
+Rattus_G	#228B22	0.2
+Rehmannia_G	#AAAAAA	
 Reophax_G	#4B0082	inf
-Rhizaria.U.genus_ON	#228B22	0.1
-Rhizoclosmatium_G	#DC143C	4.0
-Rhizophagus_G	#000080	33.7
-Rhizophydiales.U.genus_ON	#DC143C	2.2
-Rhizopus_G	#DC143C	9.6
+Rhizaria.U.genus_ON	#AAAAAA	
+Rhizoclosmatium_G	#AAAAAA	
+Rhizophagus_G	#000080	19.7
+Rhizophydiales.U.genus_ON	#AAAAAA	
+Rhizopus_G	#AAAAAA	
 Rhynchomonas_G	#4B0082	inf
-Ricinus_G	#DC143C	6.5
-Rigifila_G	#4B0082	inf
-Rigifilida_XXXX.U.genus_ON	#4B0082	inf
-Ripidomyxa_G	#4B0082	inf
-Rotifera_XX.U.genus_ON	#DC143C	4.9
-Russula_G	#DC143C	3.1
-Sabatieria_G	#000080	16.0
+Ricinus_G	#228B22	0.6
+Rigifila_G	#AAAAAA	
+Rigifilida_XXXX.U.genus_ON	#AAAAAA	
+Ripidomyxa_G	#AAAAAA	
+Rotifera_XX.U.genus_ON	#AAAAAA	
+Russula_G	#228B22	0.7
+Sabatieria_G	#AAAAAA	
 Saccamoeba_G	#4B0082	inf
-Saccharomyces_G	#228B22	0.7
-Saccharomycetales.U.genus_ON	#228B22	1.1
-Saccharomycotina.U.genus_ON	#228B22	0.2
-Salpingoecidae_Group_C1_X_ON	#000080	74.0
+Saccharomyces_G	#FF8C00	1.3
+Saccharomycetales.U.genus_ON	#FF8C00	1.3
+Saccharomycotina.U.genus_ON	#AAAAAA	
+Salpingoecidae_Group_C1_X_ON	#AAAAAA	
 Sandona_G	#4B0082	inf
-Saprolegnia_G	#DC143C	2.5
-Sarcocystis10_ON	#000080	76.0
+Saprolegnia_G	#228B22	0.6
+Sarcocystis10_ON	#000080	12.7
 Sawyeria_G	#4B0082	inf
-Schistosoma_G	#000080	14.6
+Schistosoma_G	#000080	190.0
 Schizoplasmodiidae.U.genus_ON	#4B0082	inf
 Schizoplasmodium_G	#4B0082	inf
 Schizosaccharomyces_G	#228B22	0.2
-Scrippsiella_G	#4B0082	inf
+Scrippsiella_G	#AAAAAA	
 Scytomonadidae.U.genus_ON	#4B0082	inf
 Scytomonas_G	#4B0082	inf
 Sessilida.U.genus_ON	#4B0082	inf
-Simocephalus_G	#228B22	1.0
-Skeletonema_G	#228B22	0.1
-Smittium_G	#DC143C	10.0
-Sordariomycetes.U.genus_ON	#228B22	0.3
-Sorghum_bicolor_S	#228B22	1.0
-Spadicoides_G	#4B0082	inf
-Spermatozopsis_G	#4B0082	inf
-Sphaeropleales.U.genus_ON	#FF8C00	1.9
+Simocephalus_G	#DC143C	4.7
+Skeletonema_G	#AAAAAA	
+Smittium_G	#DC143C	6.7
+Sordariomycetes.U.genus_ON	#228B22	0.9
+Sorghum_bicolor_S	#AAAAAA	
+Spadicoides_G	#228B22	0.9
+Spermatozopsis_G	#AAAAAA	
+Sphaeropleales.U.genus_ON	#AAAAAA	
 Sphaerozoum_G	#4B0082	inf
-Spinibdella_G	#4B0082	inf
-Spizellomyces_G	#000080	26.0
-Spumella_G	#DC143C	6.0
-Stramenopiles.U.genus_ON	#DC143C	2.2
-Strigomonas_G	#FF8C00	2.0
-Stylonychia_G	#000080	800.0
-Suctoria.U.genus_ON	#4B0082	inf
-Surapoda_G	#4B0082	inf
-Taphrina_G	#FF8C00	1.9
-Taphrinomycotina.U.genus_ON	#228B22	0.5
-Teratosphaeria_G	#DC143C	3.6
-Tetrachaetum_G	#4B0082	inf
-Tetramitia_I.U.genus_ON	#000080	22.2
-Thalassiosira_G	#000080	17.2
-Thalassiosirales.U.genus_ON	#FF8C00	1.6
-Thamnocephalis_G	#DC143C	3.0
-Thaumatomonadida.U.genus_ON	#4B0082	inf
-Thaumatomonas_G	#4B0082	inf
-Theileria1_ON	#000080	14.4
-Tholomura_G	#4B0082	inf
-Tilletiopsis_G	#DC143C	8.0
-Tobrilus_G	#4B0082	inf
+Spinibdella_G	#228B22	0.5
+Spizellomyces_G	#000080	13.0
+Spumella_G	#AAAAAA	
+Stramenopiles.U.genus_ON	#AAAAAA	
+Strigomonas_G	#FF8C00	1.4
+Stylonychia_G	#000080	160.0
+Suctoria.U.genus_ON	#AAAAAA	
+Surapoda_G	#228B22	0.5
+Taphrina_G	#228B22	1.0
+Taphrinomycotina.U.genus_ON	#AAAAAA	
+Teratosphaeria_G	#FF8C00	1.5
+Tetrachaetum_G	#FF8C00	1.6
+Tetramitia_I.U.genus_ON	#AAAAAA	
+Thalassiosira_G	#000080	11.9
+Thalassiosirales.U.genus_ON	#AAAAAA	
+Thamnocephalis_G	#AAAAAA	
+Thaumatomonadida.U.genus_ON	#AAAAAA	
+Thaumatomonas_G	#AAAAAA	
+Theileria1_ON	#000080	12.6
+Tholomura_G	#AAAAAA	
+Tilletiopsis_G	#DC143C	8.3
+Tobrilus_G	#AAAAAA	
 Tokophrya_G	#4B0082	inf
-Trachelomonas_G	#4B0082	inf
-Tremellomycetes.U.genus_ON	#228B22	0.3
-Tremellomycetes_X_ON	#228B22	0.1
-Trepomonas_G	#4B0082	inf
-Trichocladium_G	#000080	12.5
-Trichosporon_G	#DC143C	3.2
-Trimitus_G	#4B0082	inf
+Trachelomonas_G	#000080	470.0
+Tremellomycetes.U.genus_ON	#228B22	0.6
+Tremellomycetes_X_ON	#228B22	0.6
+Trepomonas_G	#000080	143.2
+Trichocladium_G	#228B22	0.9
+Trichosporon_G	#228B22	0.6
+Trimitus_G	#000080	143.2
 Trochilia_G	#4B0082	inf
-Trypanosoma_G	#DC143C	3.7
-Tubulinea.U.genus_ON	#FF8C00	2.0
-Tubulinea_X.U.genus_ON	#000080	121.0
-Tuckermannopsis_G	#228B22	1.0
-Turbellaria.U.genus_ON	#4B0082	inf
+Trypanosoma_G	#FF8C00	1.4
+Tubulinea.U.genus_ON	#AAAAAA	
+Tubulinea_X.U.genus_ON	#AAAAAA	
+Tuckermannopsis_G	#228B22	0.6
+Turbellaria.U.genus_ON	#AAAAAA	
 Ubysseya_G	#4B0082	inf
-Ulva_G	#000080	13.8
+Ulva_G	#AAAAAA	
 Urotricha_G	#4B0082	inf
-Ustanciosporium_G	#000080	69.0
-Ustilaginomycotina.U.genus_ON	#228B22	0.4
+Ustanciosporium_G	#FF8C00	1.3
+Ustilaginomycotina.U.genus_ON	#AAAAAA	
 Vampyrella_G	#4B0082	inf
-Vampyrellida.U.genus_ON	#4B0082	inf
+Vampyrellida.U.genus_ON	#AAAAAA	
 Vannella_G	#000080	56.0
 Ventrifissura_G	#4B0082	inf
-Venturia_G	#DC143C	4.0
+Venturia_G	#228B22	0.6
 Vorticella_G	#4B0082	inf
-Xenopus_sG	#FF8C00	1.2
+Xenopus_sG	#228B22	0.0
 Xiphocephalus_G	#4B0082	inf
-Zea_G	#000080	186.0
-Zoopagomycota.U.genus_ON	#228B22	0.0
-Zoopagomycota_XX.U.genus_ON	#228B22	0.0
-Zymoseptoria_G	#DC143C	2.7
+Zea_G	#AAAAAA	
+Zoopagomycota.U.genus_ON	#AAAAAA	
+Zoopagomycota_XX.U.genus_ON	#AAAAAA	
+Zymoseptoria_G	#FF8C00	1.5

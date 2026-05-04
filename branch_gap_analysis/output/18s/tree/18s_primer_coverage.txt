@@ -14,146 +14,146 @@ LEGEND_COLORS	#1B7A2B	#E0E0E0
 LEGEND_LABELS	Primer Designed	No Primer
 
 DATA
-Acanthamoeba_G	#1B7A2B	Primer designed
+Acanthamoeba_G	#E0E0E0	
 Acanthamoebidae_X_ON	#E0E0E0	
 Acantharea_3a_X_ON	#E0E0E0	
 Acartia_G	#1B7A2B	Primer designed
-Acineta_1_ON	#1B7A2B	Primer designed
-Acrogenospora_G	#1B7A2B	Primer designed
+Acineta_1_ON	#E0E0E0	
+Acrogenospora_G	#E0E0E0	
 Actinocephalidae.U.genus_ON	#1B7A2B	Primer designed
 Actinosphaerium_G	#E0E0E0	
 Aculops_G	#1B7A2B	Primer designed
-Acyrthosiphon_G	#1B7A2B	Primer designed
-Adelina_G	#1B7A2B	Primer designed
+Acyrthosiphon_G	#E0E0E0	
+Adelina_G	#E0E0E0	
 Agaricomycetes.U.genus_ON	#E0E0E0	
 Agaricomycetes_X_ON	#E0E0E0	
 Agaricomycotina.U.genus_ON	#E0E0E0	
 Alaimus_G	#E0E0E0	
 Allantion_G	#1B7A2B	Primer designed
-Allobodo_G	#1B7A2B	Primer designed
-Allomyces_G	#1B7A2B	Primer designed
+Allobodo_G	#E0E0E0	
+Allomyces_G	#E0E0E0	
 Alveolata.U.genus_ON	#E0E0E0	
 Amoebozoa.U.genus_ON	#E0E0E0	
-Amphitrema_G	#1B7A2B	Primer designed
-Ankistrodesmus_G	#1B7A2B	Primer designed
+Amphitrema_G	#E0E0E0	
+Ankistrodesmus_G	#E0E0E0	
 Annelida_XX.U.genus_ON	#E0E0E0	
 Anolis_G	#E0E0E0	
 Anomalocera_G	#1B7A2B	Primer designed
-Anthoptilum_G	#1B7A2B	Primer designed
+Anthoptilum_G	#E0E0E0	
 Anthozoa.U.genus_ON	#E0E0E0	
-Aphelidium_G	#1B7A2B	Primer designed
-Apis_G	#1B7A2B	Primer designed
+Aphelidium_G	#E0E0E0	
+Apis_G	#E0E0E0	
 Arabidopsis_G	#E0E0E0	
 Arachnida.U.genus_ON	#E0E0E0	
 Arcellinida.U.genus_ON	#1B7A2B	Primer designed
 Arthropoda.U.genus_ON	#E0E0E0	
-Articulospora_G	#1B7A2B	Primer designed
-Ascomorpha_G	#1B7A2B	Primer designed
+Articulospora_G	#E0E0E0	
+Ascomorpha_G	#E0E0E0	
 Ascomycota.U.genus_ON	#E0E0E0	
 Aspergillus_G	#E0E0E0	
 Astrorhiza_G	#E0E0E0	
-Aureococcus_G	#1B7A2B	Primer designed
-Auxenochlorella_G	#1B7A2B	Primer designed
+Aureococcus_G	#E0E0E0	
+Auxenochlorella_G	#E0E0E0	
 Babesia6_ON	#E0E0E0	
-Babesiidae.U.genus_ON	#1B7A2B	Primer designed
-Balamuthia_G	#1B7A2B	Primer designed
-Barbatosphaeria_G	#1B7A2B	Primer designed
+Babesiidae.U.genus_ON	#E0E0E0	
+Balamuthia_G	#E0E0E0	
+Barbatosphaeria_G	#E0E0E0	
 Basidiomycota.U.genus_ON	#E0E0E0	
-Bathycoccus_G	#1B7A2B	Primer designed
-Batrachochytrium_G	#1B7A2B	Primer designed
-Bellemerea_G	#1B7A2B	Primer designed
-Bicoecaceae_X_ON	#1B7A2B	Primer designed
-Bicoecea.U.genus_ON	#1B7A2B	Primer designed
+Bathycoccus_G	#E0E0E0	
+Batrachochytrium_G	#E0E0E0	
+Bellemerea_G	#E0E0E0	
+Bicoecaceae_X_ON	#E0E0E0	
+Bicoecea.U.genus_ON	#E0E0E0	
 Bigyra.U.genus_ON	#E0E0E0	
 Blastocladiomycetes.U.genus_ON	#E0E0E0	
-Blastocystis_G	#1B7A2B	Primer designed
-Bodo_G	#1B7A2B	Primer designed
-Bosmina_G	#1B7A2B	Primer designed
+Blastocystis_G	#E0E0E0	
+Bodo_G	#E0E0E0	
+Bosmina_G	#E0E0E0	
 Botryococcus_G	#E0E0E0	
-Brachypodium_G	#1B7A2B	Primer designed
+Brachypodium_G	#E0E0E0	
 Branchiopoda.U.genus_ON	#E0E0E0	
 Bullinularia_G	#1B7A2B	Primer designed
-Caenorhabditis_G	#1B7A2B	Primer designed
-Cafeteria_G	#1B7A2B	Primer designed
-Campanella_G	#1B7A2B	Primer designed
+Caenorhabditis_G	#E0E0E0	
+Cafeteria_G	#E0E0E0	
+Campanella_G	#E0E0E0	
 Candida_G	#E0E0E0	
 Cavernomonas_G	#1B7A2B	Primer designed
 Centropages_G	#1B7A2B	Primer designed
 Centroplasthelida_X.U.genus_ON	#E0E0E0	
 Ceratiomyxella_G	#1B7A2B	Primer designed
-Ceratium_G	#1B7A2B	Primer designed
+Ceratium_G	#E0E0E0	
 Cercomonadidae.U.genus_ON	#1B7A2B	Primer designed
 Cercomonadidae_X_ON	#1B7A2B	Primer designed
 Cercomonas_G	#1B7A2B	Primer designed
 Cercozoa.U.genus_ON	#E0E0E0	
-Chaetonotus_G	#1B7A2B	Primer designed
+Chaetonotus_G	#E0E0E0	
 Chaos_G	#1B7A2B	Primer designed
-Chlamydomonadales_X.U.genus_ON	#1B7A2B	Primer designed
-Chlamydomonas_G	#1B7A2B	Primer designed
-Chlorellales_X.U.genus_ON	#1B7A2B	Primer designed
-Chlorociboria_G	#1B7A2B	Primer designed
-Chloroparva_G	#1B7A2B	Primer designed
+Chlamydomonadales_X.U.genus_ON	#E0E0E0	
+Chlamydomonas_G	#E0E0E0	
+Chlorellales_X.U.genus_ON	#E0E0E0	
+Chlorociboria_G	#E0E0E0	
+Chloroparva_G	#E0E0E0	
 Chlorophyceae.U.genus_ON	#E0E0E0	
 Chlorophyta_X.U.genus_ON	#E0E0E0	
-Chloropicon_G	#1B7A2B	Primer designed
-Choanocystis_G	#1B7A2B	Primer designed
+Chloropicon_G	#E0E0E0	
+Choanocystis_G	#E0E0E0	
 Chromadorea_X.U.genus_ON	#E0E0E0	
-Chrysaora_G	#1B7A2B	Primer designed
-Chydorus_G	#1B7A2B	Primer designed
+Chrysaora_G	#E0E0E0	
+Chydorus_G	#E0E0E0	
 Chytridiomycota.U.genus_ON	#E0E0E0	
 Ciliophora.U.genus_ON	#E0E0E0	
 Cladophialophora_G	#E0E0E0	
-Clavicaudoides_G	#1B7A2B	Primer designed
-Coccidioides_G	#1B7A2B	Primer designed
-Coccomyxa_G	#1B7A2B	Primer designed
-Coelomomyces_G	#1B7A2B	Primer designed
+Clavicaudoides_G	#E0E0E0	
+Coccidioides_G	#E0E0E0	
+Coccomyxa_G	#E0E0E0	
+Coelomomyces_G	#E0E0E0	
 Coemansia_G	#E0E0E0	
 Colletotrichum_G	#E0E0E0	
-Collophidium_G	#1B7A2B	Primer designed
+Collophidium_G	#E0E0E0	
 Colpodellida_CHR1_X_ON	#E0E0E0	
-Coniophora_G	#1B7A2B	Primer designed
-Conus_G	#1B7A2B	Primer designed
-Copromyxa_G	#E0E0E0	
-Corynespora_G	#1B7A2B	Primer designed
+Coniophora_G	#E0E0E0	
+Conus_G	#E0E0E0	
+Copromyxa_G	#1B7A2B	Primer designed
+Corynespora_G	#E0E0E0	
 Craniata_X.U.genus_ON	#E0E0E0	
-Crassostrea_G	#1B7A2B	Primer designed
+Crassostrea_G	#E0E0E0	
 Crustacea.U.genus_ON	#E0E0E0	
 Cryomonadida.U.genus_ON	#E0E0E0	
-Cryothecomonas_G	#1B7A2B	Primer designed
-Cryptococcus_G	#1B7A2B	Primer designed
+Cryothecomonas_G	#E0E0E0	
+Cryptococcus_G	#E0E0E0	
 Cryptodifflugia_G	#1B7A2B	Primer designed
 Cryptosporidiidae.U.genus_ON	#E0E0E0	
 Cryptosporidium13_ON	#E0E0E0	
 Cryptosporidium15_ON	#E0E0E0	
-Cryptosporidium1_ON	#1B7A2B	Primer designed
+Cryptosporidium1_ON	#E0E0E0	
 Cryptosporidium4_ON	#E0E0E0	
-Culex_sG	#1B7A2B	Primer designed
-Culiseta_G	#1B7A2B	Primer designed
-Cyanidioschyzon_G	#1B7A2B	Primer designed
+Culex_sG	#E0E0E0	
+Culiseta_G	#E0E0E0	
+Cyanidioschyzon_G	#E0E0E0	
 Cyclops_G	#E0E0E0	
-Cyclotrichium_G	#1B7A2B	Primer designed
-Danio_G	#1B7A2B	Primer designed
+Cyclotrichium_G	#E0E0E0	
+Danio_G	#E0E0E0	
 Daphnia_G	#E0E0E0	
 Debaryomyces_G	#E0E0E0	
-Diaphanosoma_G	#1B7A2B	Primer designed
-Dileptidae_X_ON	#1B7A2B	Primer designed
+Diaphanosoma_G	#E0E0E0	
+Dileptidae_X_ON	#E0E0E0	
 Dinoflagellata.U.genus_ON	#E0E0E0	
 Dinophyceae.U.genus_ON	#E0E0E0	
-Diplophrys_G	#1B7A2B	Primer designed
+Diplophrys_G	#E0E0E0	
 Diptilomiopus_G	#1B7A2B	Primer designed
 Discosea_X.U.genus_ON	#E0E0E0	
-Distigma_G	#1B7A2B	Primer designed
-Ditylenchus_G	#1B7A2B	Primer designed
+Distigma_G	#E0E0E0	
+Ditylenchus_G	#E0E0E0	
 Dothideomycetes.U.genus_ON	#E0E0E0	
 Dothideomycetes_X_ON	#E0E0E0	
-Drosophila_G	#1B7A2B	Primer designed
+Drosophila_G	#E0E0E0	
 Echinamoeba_G	#E0E0E0	
-Ectocarpus_G	#1B7A2B	Primer designed
-Eimeria1_ON	#1B7A2B	Primer designed
+Ectocarpus_G	#E0E0E0	
+Eimeria1_ON	#E0E0E0	
 Elardia.U.genus_ON	#E0E0E0	
-Encentrum_G	#1B7A2B	Primer designed
+Encentrum_G	#E0E0E0	
 Endostelium_G	#E0E0E0	
-Euamoebida.U.genus_ON	#E0E0E0	
+Euamoebida.U.genus_ON	#1B7A2B	Primer designed
 Eudiaptomus_G	#1B7A2B	Primer designed
 Euglenida.U.genus_ON	#E0E0E0	
 Euglenozoa.U.genus_ON	#E0E0E0	
@@ -161,128 +161,128 @@ Eukaryota.U.genus_ON	#E0E0E0
 Eukaryota_D	#E0E0E0	
 Eurotiomycetes.U.genus_ON	#E0E0E0	
 Eurytemora_G	#1B7A2B	Primer designed
-Evaginogenida_X_ON	#1B7A2B	Primer designed
-Exophiala_G	#1B7A2B	Primer designed
+Evaginogenida_X_ON	#E0E0E0	
+Exophiala_G	#E0E0E0	
 Filoreta_G	#E0E0E0	
-Flamella_G	#1B7A2B	Primer designed
-Flamellidae.U.genus_ON	#1B7A2B	Primer designed
+Flamella_G	#E0E0E0	
+Flamellidae.U.genus_ON	#E0E0E0	
 Flectomonas_G	#1B7A2B	Primer designed
 Foraminifera.U.genus_ON	#E0E0E0	
 Fungi.U.genus_ON	#E0E0E0	
-Fusarium_G	#1B7A2B	Primer designed
+Fusarium_G	#E0E0E0	
 Fusiforma_G	#E0E0E0	
-Gadixcellia_G	#1B7A2B	Primer designed
+Gadixcellia_G	#E0E0E0	
 Glissomonadida.U.genus_ON	#1B7A2B	Primer designed
-Glycine_G	#1B7A2B	Primer designed
+Glycine_G	#E0E0E0	
 Gregarina3_ON	#1B7A2B	Primer designed
 Gregarinidae.U.genus_ON	#1B7A2B	Primer designed
-Gromia_G	#1B7A2B	Primer designed
-Guepiniopsis_G	#1B7A2B	Primer designed
-Gyropaigne_G	#1B7A2B	Primer designed
-Halodaphnea_G	#1B7A2B	Primer designed
-Hartmannella_G	#E0E0E0	
-Hartmannellidae.U.genus_ON	#E0E0E0	
-Hartmannulidae_X_ON	#1B7A2B	Primer designed
-Hemimastix_G	#1B7A2B	Primer designed
-Heterodera_G	#1B7A2B	Primer designed
-Heterolepidoderma_G	#1B7A2B	Primer designed
+Gromia_G	#E0E0E0	
+Guepiniopsis_G	#E0E0E0	
+Gyropaigne_G	#E0E0E0	
+Halodaphnea_G	#E0E0E0	
+Hartmannella_G	#1B7A2B	Primer designed
+Hartmannellidae.U.genus_ON	#1B7A2B	Primer designed
+Hartmannulidae_X_ON	#E0E0E0	
+Hemimastix_G	#E0E0E0	
+Heterodera_G	#E0E0E0	
+Heterolepidoderma_G	#E0E0E0	
 Heterolobosea.U.genus_ON	#E0E0E0	
-Hexamita_G	#1B7A2B	Primer designed
-Hexamitidae.U.genus_ON	#1B7A2B	Primer designed
+Hexamita_G	#E0E0E0	
+Hexamitidae.U.genus_ON	#E0E0E0	
 Homo_G	#E0E0E0	
-Hyaloscypha_G	#1B7A2B	Primer designed
+Hyaloscypha_G	#E0E0E0	
 Hyphodiscus_G	#E0E0E0	
-Ichthyophthirius_G	#1B7A2B	Primer designed
+Ichthyophthirius_G	#E0E0E0	
 Insecta.U.genus_ON	#E0E0E0	
-Isaria_G	#1B7A2B	Primer designed
+Isaria_G	#E0E0E0	
 Kinetoplastea.U.genus_ON	#E0E0E0	
 Kinetoplastea_XX.U.genus_ON	#E0E0E0	
-Korotnevella_G	#1B7A2B	Primer designed
-Labyrinthula_G	#1B7A2B	Primer designed
+Korotnevella_G	#E0E0E0	
+Labyrinthula_G	#E0E0E0	
 Labyrinthulomycetes.U.genus_ON	#E0E0E0	
-Lecanicillium_G	#1B7A2B	Primer designed
+Lecanicillium_G	#E0E0E0	
 Lecanoromycetes.U.genus_ON	#E0E0E0	
-Lecidea_G	#1B7A2B	Primer designed
+Lecidea_G	#E0E0E0	
 Leidyana1_ON	#1B7A2B	Primer designed
 Leidyana2_ON	#1B7A2B	Primer designed
 Leohumicola_G	#E0E0E0	
 Leotiomycetes.U.genus_ON	#E0E0E0	
-Leptodora_G	#1B7A2B	Primer designed
-Leptomonas_G	#1B7A2B	Primer designed
-Limnofilidae_X_ON	#1B7A2B	Primer designed
+Leptodora_G	#E0E0E0	
+Leptomonas_G	#E0E0E0	
+Limnofilidae_X_ON	#E0E0E0	
 Limulus_G	#E0E0E0	
 Lipomyces_G	#E0E0E0	
-Loimia_G	#1B7A2B	Primer designed
-Malassezia_G	#1B7A2B	Primer designed
+Loimia_G	#E0E0E0	
+Malassezia_G	#E0E0E0	
 Mammalia.U.genus_ON	#E0E0E0	
 Mammalia_X_ON	#E0E0E0	
-Massaria_G	#1B7A2B	Primer designed
-Massisteria_G	#1B7A2B	Primer designed
+Massaria_G	#E0E0E0	
+Massisteria_G	#E0E0E0	
 Mastigamoeba_G	#E0E0E0	
 Mastigamoebida.U.genus_ON	#E0E0E0	
-Mastigella_G	#1B7A2B	Primer designed
-Mattesia_G	#1B7A2B	Primer designed
-Mayetiola_G	#1B7A2B	Primer designed
+Mastigella_G	#E0E0E0	
+Mattesia_G	#E0E0E0	
+Mayetiola_G	#E0E0E0	
 Metazoa.U.genus_ON	#E0E0E0	
 Metridia_G	#1B7A2B	Primer designed
 Micractinium_G	#E0E0E0	
-Micronuclearia_G	#1B7A2B	Primer designed
+Micronuclearia_G	#E0E0E0	
 Mitosporidium_G	#E0E0E0	
 Mollusca.U.genus_ON	#E0E0E0	
 Monocystis_G	#1B7A2B	Primer designed
 Monoraphidium_G	#E0E0E0	
 Monothalamids_X.U.genus_ON	#E0E0E0	
 Mortierella_G	#E0E0E0	
-Mrakia_G	#1B7A2B	Primer designed
+Mrakia_G	#E0E0E0	
 Mucoromycotina.U.genus_ON	#E0E0E0	
-Nannochloropsis_G	#1B7A2B	Primer designed
-Nassellaria.U.genus_ON	#1B7A2B	Primer designed
-Nebulomonas_G	#1B7A2B	Primer designed
+Nannochloropsis_G	#E0E0E0	
+Nassellaria.U.genus_ON	#E0E0E0	
+Nebulomonas_G	#E0E0E0	
 Nematoda.U.genus_ON	#E0E0E0	
 Nematostelium_G	#1B7A2B	Primer designed
-Nematostella_G	#1B7A2B	Primer designed
-Nemogullmia_G	#1B7A2B	Primer designed
-Neobodo_G	#1B7A2B	Primer designed
-Neobodonida.U.genus_ON	#1B7A2B	Primer designed
+Nematostella_G	#E0E0E0	
+Nemogullmia_G	#E0E0E0	
+Neobodo_G	#E0E0E0	
+Neobodonida.U.genus_ON	#E0E0E0	
 Neocallimastigaceae.U.genus_ON	#E0E0E0	
 Neocallimastix_G	#E0E0E0	
 Neocercomonas_G	#1B7A2B	Primer designed
-Neofabraea_G	#1B7A2B	Primer designed
-Neogregarinorida.U.genus_ON	#1B7A2B	Primer designed
+Neofabraea_G	#E0E0E0	
+Neogregarinorida.U.genus_ON	#E0E0E0	
 Neovahlkampfia_G	#E0E0E0	
 Neurospora_G	#E0E0E0	
-Nibbleromonas_G	#1B7A2B	Primer designed
-Notosolenus_G	#E0E0E0	
-Nucleariidae_Nuclearia_2_X_ON	#1B7A2B	Primer designed
+Nibbleromonas_G	#E0E0E0	
+Notosolenus_G	#1B7A2B	Primer designed
+Nucleariidae_Nuclearia_2_X_ON	#E0E0E0	
 Oligohymenophorea.U.genus_ON	#E0E0E0	
 Opalozoa.U.genus_ON	#E0E0E0	
 Opisthokonta.U.genus_ON	#E0E0E0	
 Oribatida_sO	#E0E0E0	
 Oryza_G	#E0E0E0	
-Ostreococcus_G	#1B7A2B	Primer designed
+Ostreococcus_G	#E0E0E0	
 Panellus_G	#E0E0E0	
 Paracalanus_G	#1B7A2B	Primer designed
 Paracercomonas_G	#1B7A2B	Primer designed
-Paradinium_G	#1B7A2B	Primer designed
-Paramecium_G	#1B7A2B	Primer designed
+Paradinium_G	#E0E0E0	
+Paramecium_G	#E0E0E0	
 Paramicrosporidium_G	#E0E0E0	
-Paramoeba_G	#1B7A2B	Primer designed
-Parhypochthonius_G	#1B7A2B	Primer designed
-Paulinella_G	#1B7A2B	Primer designed
-Pelobiontida.U.genus_ON	#1B7A2B	Primer designed
+Paramoeba_G	#E0E0E0	
+Parhypochthonius_G	#E0E0E0	
+Paulinella_G	#E0E0E0	
+Pelobiontida.U.genus_ON	#E0E0E0	
 Penicillium_G	#E0E0E0	
-Pentapharsodinium_G	#1B7A2B	Primer designed
+Pentapharsodinium_G	#E0E0E0	
 Penthaleus_G	#1B7A2B	Primer designed
 Peritrichia_2.U.genus_ON	#E0E0E0	
-Perkinsida_X.U.genus_ON	#1B7A2B	Primer designed
+Perkinsida_X.U.genus_ON	#E0E0E0	
 Peronosporales.U.genus_ON	#E0E0E0	
 Petalomonadida.U.genus_ON	#E0E0E0	
-Petalomonas_G	#E0E0E0	
+Petalomonas_G	#1B7A2B	Primer designed
 Pezizomycotina.U.genus_ON	#E0E0E0	
-Phaeodactylum_G	#1B7A2B	Primer designed
-Phaeosphaeria_G	#1B7A2B	Primer designed
-Phialophora_G	#1B7A2B	Primer designed
-Philaenus_G	#1B7A2B	Primer designed
+Phaeodactylum_G	#E0E0E0	
+Phaeosphaeria_G	#E0E0E0	
+Phialophora_G	#E0E0E0	
+Philaenus_G	#E0E0E0	
 Phryganella_G	#1B7A2B	Primer designed
 Phryganellina.U.genus_ON	#1B7A2B	Primer designed
 Phyllopharyngea.U.genus_ON	#E0E0E0	
@@ -290,123 +290,123 @@ Physcomitrella_G	#E0E0E0
 Physochila_G	#1B7A2B	Primer designed
 Phytomonas_G	#E0E0E0	
 Phytophthora_G	#E0E0E0	
-Picomonas_G	#1B7A2B	Primer designed
+Picomonas_G	#E0E0E0	
 Piromyces_G	#E0E0E0	
-Plagiostomum_G	#1B7A2B	Primer designed
-Plasmodiidae.U.genus_ON	#1B7A2B	Primer designed
-Plasmodium1_ON	#1B7A2B	Primer designed
+Plagiostomum_G	#E0E0E0	
+Plasmodiidae.U.genus_ON	#E0E0E0	
+Plasmodium1_ON	#E0E0E0	
 Plasmodium2_ON	#E0E0E0	
 Plasmodium4_ON	#E0E0E0	
 Platyhelminthes.U.genus_ON	#E0E0E0	
-Plectonchus_G	#1B7A2B	Primer designed
+Plectonchus_G	#E0E0E0	
 Podospora_G	#E0E0E0	
-Polychaos_G	#E0E0E0	
-Polychytrium_G	#1B7A2B	Primer designed
+Polychaos_G	#1B7A2B	Primer designed
+Polychytrium_G	#E0E0E0	
 Polycystinea.U.genus_ON	#E0E0E0	
 Populus_G	#E0E0E0	
-Pristionchus_G	#1B7A2B	Primer designed
-Prodesmodora_G	#1B7A2B	Primer designed
-Protacanthamoeba_G	#1B7A2B	Primer designed
-Protaspa_G	#1B7A2B	Primer designed
-Pseudovorticella_G	#1B7A2B	Primer designed
-Psora_G	#1B7A2B	Primer designed
-Ptolemeba_G	#E0E0E0	
-Pycnora_G	#1B7A2B	Primer designed
-Pythium_G	#1B7A2B	Primer designed
+Pristionchus_G	#E0E0E0	
+Prodesmodora_G	#E0E0E0	
+Protacanthamoeba_G	#E0E0E0	
+Protaspa_G	#E0E0E0	
+Pseudovorticella_G	#E0E0E0	
+Psora_G	#E0E0E0	
+Ptolemeba_G	#1B7A2B	Primer designed
+Pycnora_G	#E0E0E0	
+Pythium_G	#E0E0E0	
 Radiolaria.U.genus_ON	#E0E0E0	
-Raphidocelis_G	#1B7A2B	Primer designed
+Raphidocelis_G	#E0E0E0	
 Rattus_G	#E0E0E0	
-Rehmannia_G	#1B7A2B	Primer designed
+Rehmannia_G	#E0E0E0	
 Reophax_G	#E0E0E0	
 Rhizaria.U.genus_ON	#E0E0E0	
-Rhizoclosmatium_G	#1B7A2B	Primer designed
-Rhizophagus_G	#1B7A2B	Primer designed
-Rhizophydiales.U.genus_ON	#1B7A2B	Primer designed
-Rhizopus_G	#1B7A2B	Primer designed
-Rhynchomonas_G	#1B7A2B	Primer designed
+Rhizoclosmatium_G	#E0E0E0	
+Rhizophagus_G	#E0E0E0	
+Rhizophydiales.U.genus_ON	#E0E0E0	
+Rhizopus_G	#E0E0E0	
+Rhynchomonas_G	#E0E0E0	
 Ricinus_G	#E0E0E0	
-Rigifila_G	#1B7A2B	Primer designed
+Rigifila_G	#E0E0E0	
 Rigifilida_XXXX.U.genus_ON	#E0E0E0	
-Ripidomyxa_G	#1B7A2B	Primer designed
+Ripidomyxa_G	#E0E0E0	
 Rotifera_XX.U.genus_ON	#E0E0E0	
-Russula_G	#1B7A2B	Primer designed
-Sabatieria_G	#1B7A2B	Primer designed
-Saccamoeba_G	#E0E0E0	
+Russula_G	#E0E0E0	
+Sabatieria_G	#E0E0E0	
+Saccamoeba_G	#1B7A2B	Primer designed
 Saccharomyces_G	#E0E0E0	
 Saccharomycetales.U.genus_ON	#E0E0E0	
 Saccharomycotina.U.genus_ON	#E0E0E0	
-Salpingoecidae_Group_C1_X_ON	#1B7A2B	Primer designed
+Salpingoecidae_Group_C1_X_ON	#E0E0E0	
 Sandona_G	#1B7A2B	Primer designed
-Saprolegnia_G	#1B7A2B	Primer designed
-Sarcocystis10_ON	#1B7A2B	Primer designed
-Sawyeria_G	#1B7A2B	Primer designed
-Schistosoma_G	#1B7A2B	Primer designed
+Saprolegnia_G	#E0E0E0	
+Sarcocystis10_ON	#E0E0E0	
+Sawyeria_G	#E0E0E0	
+Schistosoma_G	#E0E0E0	
 Schizoplasmodiidae.U.genus_ON	#1B7A2B	Primer designed
 Schizoplasmodium_G	#1B7A2B	Primer designed
 Schizosaccharomyces_G	#E0E0E0	
-Scrippsiella_G	#1B7A2B	Primer designed
-Scytomonadidae.U.genus_ON	#E0E0E0	
-Scytomonas_G	#E0E0E0	
-Sessilida.U.genus_ON	#1B7A2B	Primer designed
+Scrippsiella_G	#E0E0E0	
+Scytomonadidae.U.genus_ON	#1B7A2B	Primer designed
+Scytomonas_G	#1B7A2B	Primer designed
+Sessilida.U.genus_ON	#E0E0E0	
 Simocephalus_G	#E0E0E0	
 Skeletonema_G	#E0E0E0	
-Smittium_G	#1B7A2B	Primer designed
+Smittium_G	#E0E0E0	
 Sordariomycetes.U.genus_ON	#E0E0E0	
 Sorghum_bicolor_S	#E0E0E0	
-Spadicoides_G	#1B7A2B	Primer designed
-Spermatozopsis_G	#1B7A2B	Primer designed
-Sphaeropleales.U.genus_ON	#1B7A2B	Primer designed
-Sphaerozoum_G	#1B7A2B	Primer designed
+Spadicoides_G	#E0E0E0	
+Spermatozopsis_G	#E0E0E0	
+Sphaeropleales.U.genus_ON	#E0E0E0	
+Sphaerozoum_G	#E0E0E0	
 Spinibdella_G	#1B7A2B	Primer designed
-Spizellomyces_G	#1B7A2B	Primer designed
-Spumella_G	#1B7A2B	Primer designed
+Spizellomyces_G	#E0E0E0	
+Spumella_G	#E0E0E0	
 Stramenopiles.U.genus_ON	#E0E0E0	
-Strigomonas_G	#1B7A2B	Primer designed
-Stylonychia_G	#1B7A2B	Primer designed
+Strigomonas_G	#E0E0E0	
+Stylonychia_G	#E0E0E0	
 Suctoria.U.genus_ON	#E0E0E0	
 Surapoda_G	#1B7A2B	Primer designed
-Taphrina_G	#1B7A2B	Primer designed
+Taphrina_G	#E0E0E0	
 Taphrinomycotina.U.genus_ON	#E0E0E0	
-Teratosphaeria_G	#1B7A2B	Primer designed
-Tetrachaetum_G	#1B7A2B	Primer designed
+Teratosphaeria_G	#E0E0E0	
+Tetrachaetum_G	#E0E0E0	
 Tetramitia_I.U.genus_ON	#E0E0E0	
-Thalassiosira_G	#1B7A2B	Primer designed
-Thalassiosirales.U.genus_ON	#1B7A2B	Primer designed
-Thamnocephalis_G	#1B7A2B	Primer designed
-Thaumatomonadida.U.genus_ON	#1B7A2B	Primer designed
-Thaumatomonas_G	#1B7A2B	Primer designed
-Theileria1_ON	#1B7A2B	Primer designed
-Tholomura_G	#1B7A2B	Primer designed
-Tilletiopsis_G	#1B7A2B	Primer designed
-Tobrilus_G	#1B7A2B	Primer designed
-Tokophrya_G	#1B7A2B	Primer designed
-Trachelomonas_G	#1B7A2B	Primer designed
+Thalassiosira_G	#E0E0E0	
+Thalassiosirales.U.genus_ON	#E0E0E0	
+Thamnocephalis_G	#E0E0E0	
+Thaumatomonadida.U.genus_ON	#E0E0E0	
+Thaumatomonas_G	#E0E0E0	
+Theileria1_ON	#E0E0E0	
+Tholomura_G	#E0E0E0	
+Tilletiopsis_G	#E0E0E0	
+Tobrilus_G	#E0E0E0	
+Tokophrya_G	#E0E0E0	
+Trachelomonas_G	#E0E0E0	
 Tremellomycetes.U.genus_ON	#E0E0E0	
 Tremellomycetes_X_ON	#E0E0E0	
-Trepomonas_G	#1B7A2B	Primer designed
-Trichocladium_G	#1B7A2B	Primer designed
-Trichosporon_G	#1B7A2B	Primer designed
-Trimitus_G	#1B7A2B	Primer designed
-Trochilia_G	#1B7A2B	Primer designed
-Trypanosoma_G	#1B7A2B	Primer designed
+Trepomonas_G	#E0E0E0	
+Trichocladium_G	#E0E0E0	
+Trichosporon_G	#E0E0E0	
+Trimitus_G	#E0E0E0	
+Trochilia_G	#E0E0E0	
+Trypanosoma_G	#E0E0E0	
 Tubulinea.U.genus_ON	#E0E0E0	
 Tubulinea_X.U.genus_ON	#E0E0E0	
 Tuckermannopsis_G	#E0E0E0	
 Turbellaria.U.genus_ON	#E0E0E0	
-Ubysseya_G	#1B7A2B	Primer designed
-Ulva_G	#1B7A2B	Primer designed
-Urotricha_G	#1B7A2B	Primer designed
-Ustanciosporium_G	#1B7A2B	Primer designed
+Ubysseya_G	#E0E0E0	
+Ulva_G	#E0E0E0	
+Urotricha_G	#E0E0E0	
+Ustanciosporium_G	#E0E0E0	
 Ustilaginomycotina.U.genus_ON	#E0E0E0	
-Vampyrella_G	#1B7A2B	Primer designed
-Vampyrellida.U.genus_ON	#1B7A2B	Primer designed
-Vannella_G	#1B7A2B	Primer designed
-Ventrifissura_G	#1B7A2B	Primer designed
-Venturia_G	#1B7A2B	Primer designed
-Vorticella_G	#1B7A2B	Primer designed
-Xenopus_sG	#1B7A2B	Primer designed
+Vampyrella_G	#E0E0E0	
+Vampyrellida.U.genus_ON	#E0E0E0	
+Vannella_G	#E0E0E0	
+Ventrifissura_G	#E0E0E0	
+Venturia_G	#E0E0E0	
+Vorticella_G	#E0E0E0	
+Xenopus_sG	#E0E0E0	
 Xiphocephalus_G	#1B7A2B	Primer designed
-Zea_G	#1B7A2B	Primer designed
+Zea_G	#E0E0E0	
 Zoopagomycota.U.genus_ON	#E0E0E0	
 Zoopagomycota_XX.U.genus_ON	#E0E0E0	
-Zymoseptoria_G	#1B7A2B	Primer designed
+Zymoseptoria_G	#E0E0E0	

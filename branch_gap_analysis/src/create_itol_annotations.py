@@ -3,21 +3,20 @@
 Create iTOL annotation files for the 18S genus tree.
 
 Approach:
-- Division / family / genus strips: ALL use GENUS-level NF from final_merger
-  18s_ncbi_merged_genus.csv (previously used aggregated parent data).
-- Multibar: EuKCensus census_size_count vs NCBI ncbi_genome_count.
+- **Genus colorstrip**: NF from `18s_final_merger_genus_name_novelty.csv` keyed by
+  census genus (`Name_to_use`).
+- **Family / division colorstrips**: EuKCensus `eukcensus_18S_by_genus.csv`
+  lineages → collect family- and division-rank ancestors; for each genus, use the
+  **most specific** ancestor name that appears in
+  `18s_final_merger_family_name_novelty.csv` or
+  `18s_final_merger_division_name_novelty.csv`. Genera sharing that ancestor get
+  the same color (per tree node, `max` NF when several census rows collide).
+- **Multibar**: census_size_count vs ncbi_genome_count from
+  `18s_ncbi_merged_genus.csv`.
 
 Tree node IDs match build_genus_tree.tree_to_newick (walk the built tree along
 each census lineage). Multiple census rows mapping to the same node are merged:
-  colorstrips / primer: max NF or any-hit; multibar: summed counts.
-
-NF values and census/NCBI counts come from final_merger 18s_ncbi_merged_*.csv.
-
-IMPORTANT FIX (2026-05-04):
-- All three colorstrips (division, family, genus) now use GENUS-LEVEL novelty
-  factors instead of aggregated parent division/family data. This ensures that
-  the colors accurately reflect the actual novelty factor for each genus, not
-  its parent taxon's aggregated statistics.
+  colorstrip / primer: max NF or any-hit; multibar: summed counts.
 
 Uses the same skip rules as build_genus_tree.py (imported should_skip_taxon).
 SHOW_INTERNAL 1 on strips/bars so internal nodes receive data when a census row
@@ -27,8 +26,10 @@ resolves there (e.g. misaligned lineage_ranks in source CSV).
 from __future__ import annotations
 
 import csv
+import math
 import re
 from collections import defaultdict
+from collections.abc import Callable
 from pathlib import Path
 
 from build_genus_tree import (
@@ -40,13 +41,26 @@ from build_genus_tree import (
     should_skip_taxon,
 )
 
-# File paths - relative to repo root
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent.parent  # 00data/
-GENUS_PARSE_FILE = REPO_ROOT / "00_gaps_taxonomic/00parse_database/eukcensus_parse/18S_censusparse/output/eukcensus_18S_by_genus.csv"
-TREE_FILE = REPO_ROOT / "primer_project/branch_gap_analysis/output/18s/tree/eukcensus_18s_genus_tree.nwk"
+# Layout: this file is primer_project/branch_gap_analysis/src/ → PROJA is four levels up.
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent.parent
+OTU_PIPELINE_ROOT = REPO_ROOT / "GitHub" / "otu_assembly_comparative_pipeline-"
+
+GENUS_PARSE_FILE = (
+    OTU_PIPELINE_ROOT
+    / "eukcensus_parse/18S_censusparse/output/eukcensus_18S_by_genus.csv"
+)
+TREE_FILE = (
+    REPO_ROOT
+    / "primer_project/branch_gap_analysis/output/18s/tree/eukcensus_18s_genus_tree.nwk"
+)
 OUTPUT_DIR = REPO_ROOT / "primer_project/branch_gap_analysis/output/18s/tree"
 
-FINAL_MERGER_BASE = REPO_ROOT / "00_gaps_taxonomic/00parse_database/final_merger/outputs"
+# Pre-extracted merger NF tables (name, novelty_factor) in the tree output dir
+GENUS_NF_EXTRACT = OUTPUT_DIR / "18s_final_merger_genus_name_novelty.csv"
+FAMILY_NF_EXTRACT = OUTPUT_DIR / "18s_final_merger_family_name_novelty.csv"
+DIVISION_NF_EXTRACT = OUTPUT_DIR / "18s_final_merger_division_name_novelty.csv"
+
+FINAL_MERGER_BASE = OTU_PIPELINE_ROOT / "final_merger" / "outputs"
 FINAL_MERGER_FILES = {
     'division': FINAL_MERGER_BASE / "18s_ncbi_merged_division.csv",
     'family': FINAL_MERGER_BASE / "18s_ncbi_merged_family.csv",
@@ -108,21 +122,66 @@ def get_nf_color(nf: float) -> str:
         return "#228B22"  # Green - well represented
 
 
-def load_nf_lookup(merger_file: Path, level: str) -> dict:
-    """Load novelty factor data from final_merger file."""
-    nf_data = {}
-    with open(merger_file, 'r') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            taxon_name = row.get(level, '')
-            nf_str = row.get('novelty_factor', '')
-            if taxon_name and nf_str:
-                try:
-                    nf = float(nf_str)
-                    nf_data[taxon_name] = nf
-                except ValueError:
-                    continue
+def _parse_novelty_factor(raw: str) -> float | None:
+    s = raw.strip().lower()
+    if s in ("inf", "infinity"):
+        return float("inf")
+    try:
+        return float(s)
+    except ValueError:
+        return None
+
+
+def load_name_novelty_extract(extract_file: Path, label: str) -> dict[str, float]:
+    """Load ``{name: novelty_factor}`` from a two-column name/novelty_factor CSV."""
+    if not extract_file.is_file():
+        raise FileNotFoundError(
+            f"{label} extract missing: {extract_file}\n"
+            "Generate it under output/18s/tree first."
+        )
+    nf_data: dict[str, float] = {}
+    with extract_file.open(newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            name = (row.get("name") or "").strip()
+            nf = _parse_novelty_factor(row.get("novelty_factor") or "")
+            if name and nf is not None:
+                nf_data[name] = nf
     return nf_data
+
+
+def nf_from_lineage_names(
+    ancestor_names_root_to_tip: list[str],
+    nf_lookup: dict[str, float],
+) -> float | None:
+    """
+    Match the **most tipward** lineage name that exists in ``nf_lookup``.
+    ``ancestor_names`` are in EuKCensus order (root → genus); we try subfamily
+    before family before superfamily, etc.
+    """
+    for name in reversed(ancestor_names_root_to_tip):
+        name = name.strip()
+        if not name:
+            continue
+        nf = nf_lookup.get(name)
+        if nf is not None:
+            return nf
+    return None
+
+
+def nf_merger_with_lineage_fallback(
+    rank_chain: list[str],
+    full_lineage_names: list[str],
+    nf_lookup: dict[str, float],
+) -> float | None:
+    """
+    Prefer ancestors at the requested rank(s) (e.g. family tribes), then any
+    name along the census lineage so rows like ``Mammalia`` in the family
+    merger still apply when ``Hominidae`` is absent.
+    """
+    nf = nf_from_lineage_names(rank_chain, nf_lookup)
+    if nf is not None:
+        return nf
+    return nf_from_lineage_names(full_lineage_names, nf_lookup)
 
 
 def build_genus_data(root: TaxonNode) -> tuple[dict, dict]:
@@ -132,7 +191,7 @@ def build_genus_data(root: TaxonNode) -> tuple[dict, dict]:
 
     Returns:
         Tuple of (genus_data dict, stats dict)
-        genus_data: {genus_name: {'tree_node': node_name, 'divisions': [...], 'families': [...]}}
+        genus_data: {genus_name: {'tree_node', 'divisions', 'families', 'lineage_names'}}
     """
     genus_data = {}
     stats = {'total': 0, 'skipped': 0, 'included': 0, 'path_missing': 0}
@@ -188,7 +247,8 @@ def build_genus_data(root: TaxonNode) -> tuple[dict, dict]:
             genus_data[genus_name] = {
                 'tree_node': tree_node,
                 'divisions': divisions,
-                'families': families
+                'families': families,
+                'lineage_names': [n.strip() for n in names if n.strip()],
             }
 
     return genus_data, stats
@@ -316,48 +376,69 @@ def create_internal_labels(output_file: Path):
     print(f"  Internal labels: {internal_count} nodes → {output_file.name}")
 
 
-def _nf_for_row(level: str, genus_name: str, data: dict, nf_lookup: dict) -> float | None:
+def export_tree_nodes_list(output_file: Path) -> None:
     """
-    Get novelty factor for a genus at a given taxonomic level.
-
-    IMPORTANT: Always returns GENUS-LEVEL NF, not aggregated parent data.
-    The 'level' parameter is only used to determine which final_merger file to consult,
-    but we always look up the specific genus, not its parent division/family.
-
-    This fixes the disconnect where division/family colorstrips were showing
-    aggregated parent data instead of genus-specific novelty factors.
+    Write all Newick node IDs (same tokens as iTOL annotation files) to a TSV.
+    Columns: node_id, is_leaf (yes=no descendants in tree = terminal clade label).
     """
-    # Always look up the genus itself, not its ancestors
-    return nf_lookup.get(genus_name)
+    from Bio import Phylo
+    from io import StringIO
+
+    tree_content = TREE_FILE.read_text()
+    node_pattern = r'([A-Za-z0-9_.-]+_[A-Za-z]+)'
+    node_ids = sorted(set(re.findall(node_pattern, tree_content)))
+
+    tc = tree_content.rstrip()
+    if not tc.endswith(';'):
+        tc += ';'
+    tree = Phylo.read(StringIO(tc), 'newick')
+    terminals = {n.name for n in tree.get_terminals() if n.name}
+
+    with output_file.open('w', newline='', encoding='utf-8') as f:
+        w = csv.writer(f, delimiter='\t')
+        w.writerow(['node_id', 'is_leaf'])
+        for nid in node_ids:
+            w.writerow([nid, 'yes' if nid in terminals else 'no'])
+
+    n_leaf = sum(1 for n in node_ids if n in terminals)
+    print(
+        f"  Tree nodes: {len(node_ids)} total ({n_leaf} leaves) → {output_file.name}"
+    )
 
 
-def create_colorstrip(level: str, genus_data: dict, nf_lookup: dict, output_file: Path):
+def _format_nf_legend_value(nf: float) -> str:
+    if math.isinf(nf):
+        return "inf"
+    return f"{nf:.1f}"
+
+
+def create_colorstrip(
+    genus_data: dict,
+    output_file: Path,
+    dataset_label: str,
+    header_comment: str,
+    get_nf_for_genus_row: Callable[[str, dict], float | None],
+):
     """
     Create iTOL colorstrip — one row per tree node. Multiple census rows that
     map to the same node use max(NF) so iTOL gets a single color per node.
-
-    NOTE: All colorstrips (division, family, genus) now use GENUS-level NF data.
-    The 'level' parameter is only used for naming/labeling purposes.
     """
 
     legend_shapes = "1\t1\t1\t1\t1\t1"
     legend_colors = "#228B22\t#FF8C00\t#DC143C\t#000080\t#4B0082\t#AAAAAA"
     legend_labels = "NF < 1.1\tNF 1.1-2\tNF 2-10\tNF > 10\tCensus Only\tNo Census Data"
 
-    # Update label to clarify this uses genus-level data
-    label_suffix = " (genus-level NF)" if level in ['division', 'family'] else ""
-
     lines = [
         "DATASET_COLORSTRIP",
         "SEPARATOR TAB",
-        f"DATASET_LABEL\t18S {level.title()}{label_suffix}",
+        f"DATASET_LABEL\t{dataset_label}",
         "COLOR\t#CCCCCC",
         "STRIP_WIDTH\t25",
         "MARGIN\t0",
         "BORDER_WIDTH\t0",
         "SHOW_INTERNAL\t1",  # census rows can map to internal nodes
         "",
-        f"# All genera colored by GENUS-LEVEL novelty factors",
+        header_comment,
         "LEGEND_TITLE\tNovelty Factor",
         f"LEGEND_SHAPES\t{legend_shapes}",
         f"LEGEND_COLORS\t{legend_colors}",
@@ -376,14 +457,14 @@ def create_colorstrip(level: str, genus_data: dict, nf_lookup: dict, output_file
     for tree_node in sorted(by_tree):
         nfs: list[float] = []
         for genus_name, data in by_tree[tree_node]:
-            nf = _nf_for_row(level, genus_name, data, nf_lookup)
+            nf = get_nf_for_genus_row(genus_name, data)
             if nf is not None:
                 nfs.append(nf)
 
         if nfs:
             nf = max(nfs)
             color = get_nf_color(nf)
-            lines.append(f"{tree_node}\t{color}\t{nf:.1f}")
+            lines.append(f"{tree_node}\t{color}\t{_format_nf_legend_value(nf)}")
             matched += 1
         else:
             lines.append(f"{tree_node}\t#AAAAAA\t")
@@ -391,7 +472,8 @@ def create_colorstrip(level: str, genus_data: dict, nf_lookup: dict, output_file
 
     output_file.write_text('\n'.join(lines))
     n_nodes = len(by_tree)
-    print(f"  {level.title()}: {n_nodes} tree nodes — {matched} colored, {unmatched} grey → {output_file.name}")
+    short = output_file.name
+    print(f"  {dataset_label}: {n_nodes} tree nodes — {matched} colored, {unmatched} grey → {short}")
 
 
 
@@ -556,11 +638,11 @@ def create_primer_highlight(genus_data: dict, priority_file: Path,
 
 def main():
     print("=" * 70)
-    print("Creating iTOL Annotations (Genera Only)")
+    print("Creating iTOL Annotations")
     print("=" * 70)
     print("\nApproach:")
     print("  - Node IDs = Newick labels from build_genus_tree (per-row tree walk)")
-    print("  - Division / family / genus NF strips; merged counts multibar")
+    print("  - Division / family / genus NF strips (see module docstring)")
     print("  - Duplicate census rows → same node: max NF, summed bar counts")
     print("  - Skip patterns imported from build_genus_tree.should_skip_taxon")
 
@@ -590,23 +672,43 @@ def main():
     internal_labels_file = OUTPUT_DIR / "18s_internal_labels.txt"
     create_internal_labels(internal_labels_file)
 
-    # Create colorstrip annotation for each level
-    # IMPORTANT: All colorstrips now use GENUS-level NF data for accurate representation
-    # Previously, division/family strips showed aggregated parent data which didn't
-    # reflect the actual novelty factor for individual genera
-    print("\nCreating colorstrip annotations:")
-    print("  NOTE: All colorstrips now use GENUS-level novelty factors")
-    print("        (Previously division/family used aggregated parent data)")
+    print("\nExporting tree node list:")
+    export_tree_nodes_list(OUTPUT_DIR / "18s_genus_tree_nodes.tsv")
 
-    # Load genus-level NF data once - used for ALL colorstrips
-    genus_merger_file = FINAL_MERGER_FILES['genus']
-    genus_nf_lookup = load_nf_lookup(genus_merger_file, 'genus')
-    print(f"  Loaded {len(genus_nf_lookup)} genus NF values from {genus_merger_file.name}")
+    print("\nCreating colorstrips (merger NF extracts + EuKCensus lineages):")
+    family_nf = load_name_novelty_extract(FAMILY_NF_EXTRACT, "Family NF")
+    division_nf = load_name_novelty_extract(DIVISION_NF_EXTRACT, "Division NF")
+    genus_nf_lookup = load_name_novelty_extract(GENUS_NF_EXTRACT, "Genus NF")
+    print(
+        f"  Loaded division={len(division_nf)} family={len(family_nf)} "
+        f"genus={len(genus_nf_lookup)} NF rows"
+    )
 
-    # Create all three colorstrips using genus-level data
-    for level in ['division', 'family', 'genus']:
-        output_file = OUTPUT_DIR / f"18s_{level}_colorstrip.txt"
-        create_colorstrip(level, genus_data, genus_nf_lookup, output_file)
+    create_colorstrip(
+        genus_data,
+        OUTPUT_DIR / "18s_division_colorstrip.txt",
+        "18S Division (EuKCensus lineage → merger NF)",
+        "# Division-rank chain first, then full lineage; tipward match in division novelty table",
+        lambda _gn, d: nf_merger_with_lineage_fallback(
+            d["divisions"], d["lineage_names"], division_nf
+        ),
+    )
+    create_colorstrip(
+        genus_data,
+        OUTPUT_DIR / "18s_family_colorstrip.txt",
+        "18S Family (EuKCensus lineage → merger NF)",
+        "# Family-rank chain first, then full lineage; tipward match in family novelty table",
+        lambda _gn, d: nf_merger_with_lineage_fallback(
+            d["families"], d["lineage_names"], family_nf
+        ),
+    )
+    create_colorstrip(
+        genus_data,
+        OUTPUT_DIR / "18s_genus_colorstrip.txt",
+        "18S Genus (merger NF)",
+        "# Genus Name_to_use ↔ genus novelty table",
+        lambda gn, d: genus_nf_lookup.get(gn),
+    )
 
     # Create multibar (EuKCensus census size vs NCBI genome count)
     print("\nCreating EuKCensus vs NCBI bar graph:")

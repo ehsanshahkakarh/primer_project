@@ -22,6 +22,9 @@ pipeline.log
 __pycache__/
 *.pyc
 
+# Local venv for branch_gap_analysis (e.g. biopython for iTOL scripts)
+branch_gap_analysis/.venv/
+
 # Archive (old files)
 branch_gap_analysis/_archive/
 
