@@ -3,18 +3,35 @@
 Create iTOL annotation files for the 18S genus tree.
 
 Approach:
-- Division annotation: Color each GENUS leaf based on its DIVISION's NF value
-- Family annotation: Color each GENUS leaf based on its FAMILY's NF value
-- Genus annotation: Color each GENUS leaf based on its own NF value
+- Division / family / genus strips: NF from final_merger 18s_ncbi_merged_*.csv.
+- Multibar: EuKCensus census_size_count vs NCBI ncbi_genome_count.
 
-Only genera (leaves) are colored - intermediate nodes are not included.
-Filters out unassigned (.U.) and environmental lineage taxa to match tree.
+Tree node IDs match build_genus_tree.tree_to_newick (walk the built tree along
+each census lineage). Multiple census rows mapping to the same node are merged:
+  colorstrips / primer: max NF or any-hit; multibar: summed counts.
+
+NF values and census/NCBI counts come from final_merger 18s_ncbi_merged_*.csv.
+
+Uses the same skip rules as build_genus_tree.py (imported should_skip_taxon).
+SHOW_INTERNAL 1 on strips/bars so internal nodes receive data when a census row
+resolves there (e.g. misaligned lineage_ranks in source CSV).
 """
+
+from __future__ import annotations
 
 import csv
 import re
+from collections import defaultdict
 from pathlib import Path
 
+from build_genus_tree import (
+    TaxonNode,
+    build_tree_from_lineages,
+    clean_lineage_name,
+    clean_name,
+    get_rank_suffix,
+    should_skip_taxon,
+)
 
 # File paths - relative to repo root
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent.parent  # 00data/
@@ -34,29 +51,40 @@ DIVISION_RANKS = {'phylum', 'division', 'clade', 'kingdom', 'subkingdom'}
 # Ranks that count as "family" level
 FAMILY_RANKS = {'family', 'subfamily', 'superfamily', 'tribe', 'subtribe'}
 
-# Patterns to SKIP (same as build_genus_tree.py - NOT .U. unassigned)
-SKIP_PATTERNS = [
-    r'-lineage',           # Environmental lineages: WIM80-lineage, Rhogostoma-lineage
-    r'_X{2,}',             # Multiple X suffix: _XX, _XXX, _XXXX (unassigned)
-    r'_MET[0-9]',          # Metagenomic sequences: _MET10, _MET8
-    r'^Novel-',            # Novel clades: Novel-Gran-6, Novel-clade-10
-    r'^Group-',            # Environmental groups: Group-Te
-    r'-Group-',            # Dino-Group-I, Dino-Group-II
-    r'^OLIGO[0-9]',        # OLIGO designations: OLIGO2_X, OLIGO5
-    r'^ARMOP[0-9]',        # ARMOP designations
-    r'-Clade-[0-9]',       # Unnamed numbered clades: Clade-7, Clade-10
-    r'^Unclassified_',     # Unclassified entries
-    r'^unclassified',      # unclassified sequences/entries
-    r'^epibiont$',         # Generic epibiont designation
-]
+
+def newick_label_for_node(node: TaxonNode) -> str:
+    """Single-node label — must match build_genus_tree.tree_to_newick()."""
+    suf = get_rank_suffix(node.rank)
+    return f"{clean_name(node.name)}_{suf}"
 
 
-def should_skip_taxon(name: str) -> bool:
-    """Check if this taxon should be skipped based on naming patterns."""
-    for pattern in SKIP_PATTERNS:
-        if re.search(pattern, name, re.IGNORECASE):
-            return True
-    return False
+def find_node_for_lineage(
+    root: TaxonNode,
+    names: list[str],
+    ranks: list[str],
+    taxids: list[str],
+) -> TaxonNode | None:
+    """
+    Walk the built tree along one census lineage (same rules as integrate_genus_lineage).
+    Returns the taxon node for this row (leaf or internal), or None if path is missing.
+    """
+    current = root
+    for i, (name, rank, taxid) in enumerate(zip(names, ranks, taxids)):
+        name = name.strip()
+        rank = rank.strip()
+        taxid = taxid.strip() if taxid else ''
+
+        if not name:
+            continue
+
+        if i < len(names) - 1:
+            name = clean_lineage_name(name)
+
+        if name not in current.children:
+            return None
+        current = current.children[name]
+
+    return current if current is not root else None
 
 
 def get_nf_color(nf: float) -> str:
@@ -71,21 +99,6 @@ def get_nf_color(nf: float) -> str:
         return "#FF8C00"  # Orange
     else:
         return "#228B22"  # Green - well represented
-
-
-def clean_name(name: str) -> str:
-    """Clean name to match Newick format."""
-    return (str(name)
-            .replace(" ", "_")
-            .replace("(", "")
-            .replace(")", "")
-            .replace(",", "")
-            .replace(";", "")
-            .replace(":", "_")
-            .replace("'", "")
-            .replace('"', "")
-            .replace("[", "")
-            .replace("]", ""))
 
 
 def load_nf_lookup(merger_file: Path, level: str) -> dict:
@@ -105,17 +118,17 @@ def load_nf_lookup(merger_file: Path, level: str) -> dict:
     return nf_data
 
 
-def build_genus_data() -> tuple[dict, dict]:
+def build_genus_data(root: TaxonNode) -> tuple[dict, dict]:
     """
-    Build mapping from each genus to its tree node name and ancestors.
-    Filters out unassigned (.U.) and environmental lineage taxa.
+    Build mapping from each genus (Name_to_use) to its tree node id and ancestors.
+    tree_node matches build_genus_tree.tree_to_newick labels for that row's taxon.
 
     Returns:
         Tuple of (genus_data dict, stats dict)
         genus_data: {genus_name: {'tree_node': node_name, 'divisions': [...], 'families': [...]}}
     """
     genus_data = {}
-    stats = {'total': 0, 'skipped': 0, 'included': 0}
+    stats = {'total': 0, 'skipped': 0, 'included': 0, 'path_missing': 0}
 
     with open(GENUS_PARSE_FILE, 'r') as f:
         reader = csv.DictReader(f)
@@ -124,41 +137,46 @@ def build_genus_data() -> tuple[dict, dict]:
             genus_name = row.get('Name_to_use', '')
             lineage = row.get('lineage', '')
             lineage_ranks = row.get('lineage_ranks', '')
-            genus_rank = row.get('rank', 'genus')
+            lineage_taxids = row.get('lineage_taxids', '')
 
             if not genus_name or not lineage or not lineage_ranks:
                 stats['skipped'] += 1
                 continue
 
-            # Skip unassigned (.U.) and environmental lineage taxa
+            # Skip environmental lineage taxa (keeps .U. unassigned)
             if should_skip_taxon(genus_name):
                 stats['skipped'] += 1
                 continue
 
             stats['included'] += 1
-            names = lineage.split(';')
-            ranks = lineage_ranks.split(';')
+            names = [x.strip() for x in lineage.split(';')]
+            ranks = [x.strip() for x in lineage_ranks.split(';')]
+            taxids = (
+                [x.strip() for x in lineage_taxids.split(';')]
+                if lineage_taxids
+                else [''] * len(names)
+            )
+            if len(taxids) < len(names):
+                taxids = taxids + [''] * (len(names) - len(taxids))
 
-            # Build the tree node name (same logic as build_genus_tree.py)
-            clean = clean_name(genus_name)
-            if genus_rank == 'genus':
-                tree_node = f"{clean}_G"
-            else:
-                # Census-only taxa get _ON suffix
-                tree_node = f"{clean}_ON"
+            node = find_node_for_lineage(root, names, ranks, taxids)
+            if node is None:
+                stats['path_missing'] += 1
+                continue
+            tree_node = newick_label_for_node(node)
 
             # Collect ALL division-level and family-level ancestors
             divisions = []
             families = []
 
             for name, rank in zip(names, ranks):
-                rank = rank.strip().lower()
-                name = name.strip()
+                rank_l = rank.strip().lower()
+                name_s = name.strip()
 
-                if rank in DIVISION_RANKS and name:
-                    divisions.append(name)
-                if rank in FAMILY_RANKS and name:
-                    families.append(name)
+                if rank_l in DIVISION_RANKS and name_s:
+                    divisions.append(name_s)
+                if rank_l in FAMILY_RANKS and name_s:
+                    families.append(name_s)
 
             genus_data[genus_name] = {
                 'tree_node': tree_node,
@@ -240,13 +258,19 @@ def create_internal_labels(output_file: Path):
     Uses SHOW_INTERNAL 1 to display labels at branching points.
     Format matches old full_taxonomy_internal_labels.txt style.
     """
-    # Read tree to get all node names
-    tree_content = TREE_FILE.read_text()
+    from Bio import Phylo
+    from io import StringIO
+
+    tree_content = TREE_FILE.read_text().rstrip()
+    if not tree_content.endswith(';'):
+        tree_content += ';'
+    tree = Phylo.read(StringIO(tree_content), 'newick')
+    terminal_ids = {n.name for n in tree.get_terminals() if n.name}
 
     # Extract all node names with suffixes
     import re
     node_pattern = r'([A-Za-z0-9_.-]+_[A-Za-z]+)'
-    all_nodes = set(re.findall(node_pattern, tree_content))
+    all_nodes = set(re.findall(node_pattern, TREE_FILE.read_text()))
 
     lines = [
         "DATASET_TEXT",
@@ -268,11 +292,11 @@ def create_internal_labels(output_file: Path):
         if len(parts) != 2:
             continue
 
-        name, suffix = parts
-
-        # Skip genera - we only want internal nodes
-        if suffix == 'G':
+        # Skip terminal leaves (all suffix types: G, ON, sG, …)
+        if node in terminal_ids:
             continue
+
+        name, _suffix = parts
 
         # Clean the name (replace underscores with spaces)
         clean_label = name.replace('_', ' ')
@@ -285,11 +309,22 @@ def create_internal_labels(output_file: Path):
     print(f"  Internal labels: {internal_count} nodes → {output_file.name}")
 
 
+def _nf_for_row(level: str, genus_name: str, data: dict, nf_lookup: dict) -> float | None:
+    if level == 'genus':
+        return nf_lookup.get(genus_name)
+
+    ancestors_key = 'divisions' if level == 'division' else 'families'
+    ancestors = data.get(ancestors_key, [])
+    for ancestor in ancestors:
+        if ancestor in nf_lookup:
+            return nf_lookup[ancestor]
+    return None
+
+
 def create_colorstrip(level: str, genus_data: dict, nf_lookup: dict, output_file: Path):
     """
-    Create iTOL colorstrip - color ONLY genera based on their ancestor's NF.
-
-    genus_data: {genus_name: {'tree_node': ..., 'divisions': [...], 'families': [...]}}
+    Create iTOL colorstrip — one row per tree node. Multiple census rows that
+    map to the same node use max(NF) so iTOL gets a single color per node.
     """
 
     legend_shapes = "1\t1\t1\t1\t1\t1"
@@ -304,7 +339,7 @@ def create_colorstrip(level: str, genus_data: dict, nf_lookup: dict, output_file
         "STRIP_WIDTH\t25",
         "MARGIN\t0",
         "BORDER_WIDTH\t0",
-        "SHOW_INTERNAL\t0",  # Only color leaves (genera)
+        "SHOW_INTERNAL\t1",  # census rows can map to internal nodes
         "",
         f"# All genera colored by their {level}'s NF value",
         "LEGEND_TITLE\tNovelty Factor",
@@ -315,30 +350,22 @@ def create_colorstrip(level: str, genus_data: dict, nf_lookup: dict, output_file
         "DATA"
     ]
 
+    by_tree: dict[str, list[tuple[str, dict]]] = defaultdict(list)
+    for genus_name, data in genus_data.items():
+        by_tree[data['tree_node']].append((genus_name, data))
+
     matched = 0
     unmatched = 0
 
-    # Only iterate over genera (not all tree nodes)
-    for genus_name, data in sorted(genus_data.items()):
-        tree_node = data['tree_node']
-        nf = None
+    for tree_node in sorted(by_tree):
+        nfs: list[float] = []
+        for genus_name, data in by_tree[tree_node]:
+            nf = _nf_for_row(level, genus_name, data, nf_lookup)
+            if nf is not None:
+                nfs.append(nf)
 
-        if level == 'genus':
-            # For genus level, look up the genus directly
-            if genus_name in nf_lookup:
-                nf = nf_lookup[genus_name]
-        else:
-            # For division/family, try ALL ancestors and use first match
-            ancestors_key = 'divisions' if level == 'division' else 'families'
-            ancestors = data.get(ancestors_key, [])
-
-            # Try each ancestor (most general to most specific)
-            for ancestor in ancestors:
-                if ancestor in nf_lookup:
-                    nf = nf_lookup[ancestor]
-                    break  # Use first match found
-
-        if nf is not None:
+        if nfs:
+            nf = max(nfs)
             color = get_nf_color(nf)
             lines.append(f"{tree_node}\t{color}\t{nf:.1f}")
             matched += 1
@@ -347,71 +374,84 @@ def create_colorstrip(level: str, genus_data: dict, nf_lookup: dict, output_file
             unmatched += 1
 
     output_file.write_text('\n'.join(lines))
-    print(f"  {level.title()}: {matched} colored, {unmatched} grey → {output_file.name}")
+    n_nodes = len(by_tree)
+    print(f"  {level.title()}: {n_nodes} tree nodes — {matched} colored, {unmatched} grey → {output_file.name}")
 
 
 
 def create_multibar(genus_data: dict, nf_genus_file: Path, output_file: Path):
     """
-    Create iTOL DATASET_MULTIBAR annotation with OTU counts and species counts
-    for each genus leaf.
+    Create iTOL DATASET_MULTIBAR: EuKCensus cluster size vs NCBI genome count per genus.
 
-    Reads census_otu_count and ncbi_species_count from the genus-level NF file.
+    Reads census_size_count and ncbi_genome_count from the genus-level final_merger file.
+    Bar colors: EuKCensus orange (#FF8C00), NCBI black (#000000).
     """
-    # Load OTU counts and species counts from genus NF file
     genus_counts = {}
     with open(nf_genus_file, 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
             name = row.get('genus', '')
             try:
-                otu = int(row.get('census_otu_count', 0) or 0)
+                census_sz = int(row.get('census_size_count', 0) or 0)
             except (ValueError, TypeError):
-                otu = 0
+                census_sz = 0
             try:
-                species = int(row.get('ncbi_species_count', 0) or 0)
+                ncbi_g = int(row.get('ncbi_genome_count', 0) or 0)
             except (ValueError, TypeError):
-                species = 0
+                ncbi_g = 0
             if name:
-                genus_counts[name] = {'otu': otu, 'species': species}
+                genus_counts[name] = {
+                    'census_size': census_sz,
+                    'ncbi_genomes': ncbi_g,
+                }
+
+    c_euk = "#FF8C00"
+    c_ncbi = "#000000"
 
     lines = [
         "DATASET_MULTIBAR",
         "SEPARATOR TAB",
-        "DATASET_LABEL\tOTU & Species Counts",
+        "DATASET_LABEL\tEuKCensus vs NCBI",
         "COLOR\t#555555",
         "",
-        "# Bar graph showing OTU counts and NCBI species counts per genus",
-        "FIELD_COLORS\t#2196F3\t#FF9800",
-        "FIELD_LABELS\tCensus OTU Count\tNCBI Species Count",
+        "# census_size_count (EuKCensus) and ncbi_genome_count (NCBI) per genus",
+        f"FIELD_COLORS\t{c_euk}\t{c_ncbi}",
+        "FIELD_LABELS\tEuKCensus (census size)\tNCBI (genome count)",
         "ALIGN_FIELDS\t0",
         "WIDTH\t200",
         "HEIGHT_FACTOR\t0.8",
         "BAR_SHIFT\t0",
         "MARGIN\t5",
         "BORDER_WIDTH\t0",
-        "SHOW_INTERNAL\t0",
+        "SHOW_INTERNAL\t1",
         "",
-        "LEGEND_TITLE\tOTU & Species Counts",
+        "LEGEND_TITLE\tCensus size & NCBI genomes",
         "LEGEND_SHAPES\t1\t1",
-        "LEGEND_COLORS\t#2196F3\t#FF9800",
-        "LEGEND_LABELS\tCensus OTU Count\tNCBI Species Count",
+        f"LEGEND_COLORS\t{c_euk}\t{c_ncbi}",
+        "LEGEND_LABELS\tEuKCensus (census size)\tNCBI (genome count)",
         "",
         "DATA",
     ]
 
+    by_tree: dict[str, list[str]] = defaultdict(list)
+    for genus_name, data in genus_data.items():
+        by_tree[data['tree_node']].append(genus_name)
+
     matched = 0
-    for genus_name, data in sorted(genus_data.items()):
-        tree_node = data['tree_node']
-        counts = genus_counts.get(genus_name, {'otu': 0, 'species': 0})
-        otu = counts['otu']
-        species = counts['species']
-        if otu > 0 or species > 0:
-            lines.append(f"{tree_node}\t{otu}\t{species}")
+    for tree_node in sorted(by_tree):
+        v1 = v2 = 0
+        for genus_name in by_tree[tree_node]:
+            counts = genus_counts.get(
+                genus_name, {'census_size': 0, 'ncbi_genomes': 0}
+            )
+            v1 += counts['census_size']
+            v2 += counts['ncbi_genomes']
+        if v1 > 0 or v2 > 0:
+            lines.append(f"{tree_node}\t{v1}\t{v2}")
             matched += 1
 
     output_file.write_text('\n'.join(lines))
-    print(f"  Multibar: {matched} genera with data → {output_file.name}")
+    print(f"  Multibar: {matched} tree nodes with data (from {len(by_tree)} nodes) → {output_file.name}")
 
 
 def create_primer_highlight(genus_data: dict, priority_file: Path,
@@ -469,7 +509,7 @@ def create_primer_highlight(genus_data: dict, priority_file: Path,
         "STRIP_WIDTH\t20",
         "MARGIN\t2",
         "BORDER_WIDTH\t0",
-        "SHOW_INTERNAL\t0",
+        "SHOW_INTERNAL\t1",
         "",
         "# Genera highlighted in green = covered by a successful primer design",
         "LEGEND_TITLE\tPrimer Coverage",
@@ -480,11 +520,14 @@ def create_primer_highlight(genus_data: dict, priority_file: Path,
         "DATA",
     ]
 
+    by_tree: dict[str, list[str]] = defaultdict(list)
+    for genus_name, data in genus_data.items():
+        by_tree[data['tree_node']].append(genus_name)
+
     primer_count = 0
     no_primer_count = 0
-    for genus_name, data in sorted(genus_data.items()):
-        tree_node = data['tree_node']
-        if genus_name in genera_with_primers:
+    for tree_node in sorted(by_tree):
+        if any(g in genera_with_primers for g in by_tree[tree_node]):
             lines.append(f"{tree_node}\t{PRIMER_COLOR}\tPrimer designed")
             primer_count += 1
         else:
@@ -492,7 +535,7 @@ def create_primer_highlight(genus_data: dict, priority_file: Path,
             no_primer_count += 1
 
     output_file.write_text('\n'.join(lines))
-    print(f"  Primer highlight: {primer_count} with primers, {no_primer_count} without → {output_file.name}")
+    print(f"  Primer highlight: {primer_count} tree nodes with primers, {no_primer_count} without → {output_file.name}")
 
 
 def main():
@@ -500,18 +543,26 @@ def main():
     print("Creating iTOL Annotations (Genera Only)")
     print("=" * 70)
     print("\nApproach:")
-    print("  - Division: Color ALL genera by their DIVISION's NF")
-    print("  - Family: Color ALL genera by their FAMILY's NF")
-    print("  - Genus: Color ALL genera by their own NF")
-    print("  - Only genus leaves are colored (not intermediate nodes)")
-    print("  - Filters out unassigned (.U.) and *-lineage taxa")
+    print("  - Node IDs = Newick labels from build_genus_tree (per-row tree walk)")
+    print("  - Division / family / genus NF strips; merged counts multibar")
+    print("  - Duplicate census rows → same node: max NF, summed bar counts")
+    print("  - Skip patterns imported from build_genus_tree.should_skip_taxon")
 
-    # Build genus data with tree node names and ancestors
-    print(f"\nBuilding genus data from: {GENUS_PARSE_FILE.name}")
-    genus_data, stats = build_genus_data()
+    # Build reference tree (same object build_genus_tree.py uses)
+    print(f"\nLoading taxonomy tree from: {GENUS_PARSE_FILE.name}")
+    tree_root, tstats = build_tree_from_lineages(GENUS_PARSE_FILE)
+    print(
+        f"  Tree rows: {tstats['total']} | skipped: {tstats['skipped']} | "
+        f"integrated lineages: {tstats['included']}"
+    )
+
+    print(f"\nBuilding genus → tree node ids from: {GENUS_PARSE_FILE.name}")
+    genus_data, stats = build_genus_data(tree_root)
     print(f"  Total rows: {stats['total']}")
-    print(f"  Skipped (unassigned .U. or *-lineage): {stats['skipped']}")
-    print(f"  Included (proper genera): {stats['included']}")
+    print(f"  Skipped (*-lineage, _XX, etc.): {stats['skipped']}")
+    print(f"  Included (after skip): {stats['included']}")
+    print(f"  Rows with missing tree path: {stats['path_missing']}")
+    print(f"  Annotation rows (genus_data): {len(genus_data)}")
 
     # Create node labels for ALL nodes (Order, Family, Clade, etc.)
     print("\nCreating node labels:")
@@ -532,9 +583,9 @@ def main():
         output_file = OUTPUT_DIR / f"18s_{level}_colorstrip.txt"
         create_colorstrip(level, genus_data, nf_lookup, output_file)
 
-    # Create multibar annotation (OTU counts + species counts)
-    print("\nCreating OTU & Species count bar graph:")
-    multibar_file = OUTPUT_DIR / "18s_otu_species_bars.txt"
+    # Create multibar (EuKCensus census size vs NCBI genome count)
+    print("\nCreating EuKCensus vs NCBI bar graph:")
+    multibar_file = OUTPUT_DIR / "18s_eukcensus_ncbi_bars.txt"
     create_multibar(genus_data, FINAL_MERGER_FILES['genus'], multibar_file)
 
     # Create primer coverage highlight
@@ -544,7 +595,7 @@ def main():
     primer_highlight_file = OUTPUT_DIR / "18s_primer_coverage.txt"
     create_primer_highlight(genus_data, priority_file, primer_results_dir, primer_highlight_file)
 
-    print("\nDone! Upload 18s_genus_tree.nwk to iTOL, then add annotation files.")
+    print("\nDone! Upload 18s_genus_tree.nwk (or eukcensus_18s_genus_tree.nwk; same file) to iTOL.")
 
 
 if __name__ == "__main__":

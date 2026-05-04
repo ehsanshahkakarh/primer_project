@@ -10,17 +10,16 @@ SIZE_FACTOR	1
 DATA
 50_kb_inversion_clade_Cl	50 kb inversion clade	0.5	#444444	bold	1	0
 Acanthamoebidae_F	Acanthamoebidae	0.5	#444444	bold	1	0
-Acanthamoebidae_X_ON	Acanthamoebidae X	0.5	#444444	bold	1	0
-Acantharea_3a_X_ON	Acantharea 3a X	0.5	#444444	bold	1	0
 Acantharea_C	Acantharea	0.5	#444444	bold	1	0
 Acari_sC	Acari	0.5	#444444	bold	1	0
 Acariformes_SO	Acariformes	0.5	#444444	bold	1	0
 Acartiidae_F	Acartiidae	0.5	#444444	bold	1	0
-Acineta_1_ON	Acineta 1	0.5	#444444	bold	1	0
+Acineta_G	Acineta	0.5	#444444	bold	1	0
 Acinetidae_F	Acinetidae	0.5	#444444	bold	1	0
 Aconoidasida_C	Aconoidasida	0.5	#444444	bold	1	0
 Acrogenosporaceae_F	Acrogenosporaceae	0.5	#444444	bold	1	0
 Actiniaria_O	Actiniaria	0.5	#444444	bold	1	0
+Actinocephalidae_F	Actinocephalidae	0.5	#444444	bold	1	0
 Actinophryidae_C	Actinophryidae	0.5	#444444	bold	1	0
 Actinopteri_C	Actinopteri	0.5	#444444	bold	1	0
 Actinopterygii_SC	Actinopterygii	0.5	#444444	bold	1	0
@@ -30,7 +29,6 @@ Adeleorina_sO	Adeleorina	0.5	#444444	bold	1	0
 Agaricales_O	Agaricales	0.5	#444444	bold	1	0
 Agaricineae_sO	Agaricineae	0.5	#444444	bold	1	0
 Agaricomycetes_C	Agaricomycetes	0.5	#444444	bold	1	0
-Agaricomycetes_X_ON	Agaricomycetes X	0.5	#444444	bold	1	0
 Agaricomycetes_incertae_sedis_NR	Agaricomycetes incertae sedis	0.5	#444444	bold	1	0
 Agaricomycetidae_sC	Agaricomycetidae	0.5	#444444	bold	1	0
 Agaricomycotina_sP	Agaricomycotina	0.5	#444444	bold	1	0
@@ -89,7 +87,7 @@ Auchenorrhyncha_sO	Auchenorrhyncha	0.5	#444444	bold	1	0
 Autobranchia_sC	Autobranchia	0.5	#444444	bold	1	0
 Axonolaimoidea_SF	Axonolaimoidea	0.5	#444444	bold	1	0
 BOP_clade_Cl	BOP clade	0.5	#444444	bold	1	0
-Babesia6_ON	Babesia6	0.5	#444444	bold	1	0
+Babesia_G	Babesia	0.5	#444444	bold	1	0
 Babesiidae_F	Babesiidae	0.5	#444444	bold	1	0
 Bacillariophyceae_C	Bacillariophyceae	0.5	#444444	bold	1	0
 Bacillariophycidae_Cl	Bacillariophycidae	0.5	#444444	bold	1	0
@@ -104,7 +102,6 @@ Batrachia_SO	Batrachia	0.5	#444444	bold	1	0
 Bdellidae_F	Bdellidae	0.5	#444444	bold	1	0
 Bdelloidea_SF	Bdelloidea	0.5	#444444	bold	1	0
 Bibionomorpha_iO	Bibionomorpha	0.5	#444444	bold	1	0
-Bicoecaceae_X_ON	Bicoecaceae X	0.5	#444444	bold	1	0
 Bicosoecida_O	Bicosoecida	0.5	#444444	bold	1	0
 Bicosoecidae_F	Bicosoecidae	0.5	#444444	bold	1	0
 Bifurcata_Cl	Bifurcata	0.5	#444444	bold	1	0
@@ -147,7 +144,6 @@ Centroplasthelida_C	Centroplasthelida	0.5	#444444	bold	1	0
 Ceratiaceae_F	Ceratiaceae	0.5	#444444	bold	1	0
 Cercomonadida_O	Cercomonadida	0.5	#444444	bold	1	0
 Cercomonadidae_F	Cercomonadidae	0.5	#444444	bold	1	0
-Cercomonadidae_X_ON	Cercomonadidae X	0.5	#444444	bold	1	0
 Cercopoidea_SF	Cercopoidea	0.5	#444444	bold	1	0
 Cercozoa_P	Cercozoa	0.5	#444444	bold	1	0
 Chaetomiaceae_F	Chaetomiaceae	0.5	#444444	bold	1	0
@@ -191,7 +187,6 @@ Coccomyxidae_F	Coccomyxidae	0.5	#444444	bold	1	0
 Coelomomycetaceae_F	Coelomomycetaceae	0.5	#444444	bold	1	0
 Collodaria_O	Collodaria	0.5	#444444	bold	1	0
 Collophidiidae_F	Collophidiidae	0.5	#444444	bold	1	0
-Colpodellida_CHR1_X_ON	Colpodellida CHR1 X	0.5	#444444	bold	1	0
 Colpodellida_Cl	Colpodellida	0.5	#444444	bold	1	0
 Comesomatidae_F	Comesomatidae	0.5	#444444	bold	1	0
 Conidae_F	Conidae	0.5	#444444	bold	1	0
@@ -203,7 +198,7 @@ Copepoda_sC	Copepoda	0.5	#444444	bold	1	0
 Cordycipitaceae_F	Cordycipitaceae	0.5	#444444	bold	1	0
 Corynesporascaceae_F	Corynesporascaceae	0.5	#444444	bold	1	0
 Coscinodiscophyceae_C	Coscinodiscophyceae	0.5	#444444	bold	1	0
-Craniata_sP	Craniata	0.5	#444444	bold	1	0
+Craniata_S	Craniata	0.5	#444444	bold	1	0
 Craspedida_O	Craspedida	0.5	#444444	bold	1	0
 Crustacea_sP	Crustacea	0.5	#444444	bold	1	0
 Cryomonadida_O	Cryomonadida	0.5	#444444	bold	1	0
@@ -211,12 +206,9 @@ Cryptodifflugiidae_F	Cryptodifflugiidae	0.5	#444444	bold	1	0
 Cryptomycota_P	Cryptomycota	0.5	#444444	bold	1	0
 Cryptomycota_incertae_sedis_NR	Cryptomycota incertae sedis	0.5	#444444	bold	1	0
 Cryptosporidiidae_F	Cryptosporidiidae	0.5	#444444	bold	1	0
-Cryptosporidium13_ON	Cryptosporidium13	0.5	#444444	bold	1	0
-Cryptosporidium15_ON	Cryptosporidium15	0.5	#444444	bold	1	0
-Cryptosporidium1_ON	Cryptosporidium1	0.5	#444444	bold	1	0
-Cryptosporidium4_ON	Cryptosporidium4	0.5	#444444	bold	1	0
+Cryptosporidium_G	Cryptosporidium	0.5	#444444	bold	1	0
 Ctenopoda_iO	Ctenopoda	0.5	#444444	bold	1	0
-Culex_sG	Culex	0.5	#444444	bold	1	0
+Culex_G	Culex	0.5	#444444	bold	1	0
 Culicidae_F	Culicidae	0.5	#444444	bold	1	0
 Culicinae_sF	Culicinae	0.5	#444444	bold	1	0
 Culicini_T	Culicini	0.5	#444444	bold	1	0
@@ -251,7 +243,6 @@ Difflugina_sO	Difflugina	0.5	#444444	bold	1	0
 Digenea_sC	Digenea	0.5	#444444	bold	1	0
 Dikarya_sK	Dikarya	0.5	#444444	bold	1	0
 Dileptidae_F	Dileptidae	0.5	#444444	bold	1	0
-Dileptidae_X_ON	Dileptidae X	0.5	#444444	bold	1	0
 Dinophyceae_C	Dinophyceae	0.5	#444444	bold	1	0
 Diplogasteroidea_SF	Diplogasteroidea	0.5	#444444	bold	1	0
 Diplogasteromorpha_iO	Diplogasteromorpha	0.5	#444444	bold	1	0
@@ -267,7 +258,6 @@ Distigmidae_F	Distigmidae	0.5	#444444	bold	1	0
 Dorylaimia_sC	Dorylaimia	0.5	#444444	bold	1	0
 Dorylaimida_O	Dorylaimida	0.5	#444444	bold	1	0
 Dothideomycetes_C	Dothideomycetes	0.5	#444444	bold	1	0
-Dothideomycetes_X_ON	Dothideomycetes X	0.5	#444444	bold	1	0
 Dothideomycetes_incertae_sedis_NR	Dothideomycetes incertae sedis	0.5	#444444	bold	1	0
 Dothideomycetidae_sC	Dothideomycetidae	0.5	#444444	bold	1	0
 Dunaliellaceae_F	Dunaliellaceae	0.5	#444444	bold	1	0
@@ -280,7 +270,7 @@ Echinamoebidae_F	Echinamoebidae	0.5	#444444	bold	1	0
 Ectocarpaceae_F	Ectocarpaceae	0.5	#444444	bold	1	0
 Ectocarpales_O	Ectocarpales	0.5	#444444	bold	1	0
 Edwardsiidae_F	Edwardsiidae	0.5	#444444	bold	1	0
-Eimeria1_ON	Eimeria1	0.5	#444444	bold	1	0
+Eimeria_G	Eimeria	0.5	#444444	bold	1	0
 Eimeriidae_F	Eimeriidae	0.5	#444444	bold	1	0
 Eimeriorina_sO	Eimeriorina	0.5	#444444	bold	1	0
 Elardia_C	Elardia	0.5	#444444	bold	1	0
@@ -327,7 +317,6 @@ Euteleostomi_Cl	Euteleostomi	0.5	#444444	bold	1	0
 Eutetramitia_Cl	Eutetramitia	0.5	#444444	bold	1	0
 Eutheria_Cl	Eutheria	0.5	#444444	bold	1	0
 Evaginogenida_O	Evaginogenida	0.5	#444444	bold	1	0
-Evaginogenida_X_ON	Evaginogenida X	0.5	#444444	bold	1	0
 Evosea_P	Evosea	0.5	#444444	bold	1	0
 Exobasidiomycetes_C	Exobasidiomycetes	0.5	#444444	bold	1	0
 Fabaceae_F	Fabaceae	0.5	#444444	bold	1	0
@@ -359,7 +348,7 @@ Gnathifera_Cl	Gnathifera	0.5	#444444	bold	1	0
 Gnathostomata_Cl	Gnathostomata	0.5	#444444	bold	1	0
 Gonyaulacales_O	Gonyaulacales	0.5	#444444	bold	1	0
 Granofilosea_Cl	Granofilosea	0.5	#444444	bold	1	0
-Gregarina3_ON	Gregarina3	0.5	#444444	bold	1	0
+Gregarina_G	Gregarina	0.5	#444444	bold	1	0
 Gregarinasina_sC	Gregarinasina	0.5	#444444	bold	1	0
 Gregarinidae_F	Gregarinidae	0.5	#444444	bold	1	0
 Gromiida_O	Gromiida	0.5	#444444	bold	1	0
@@ -377,7 +366,6 @@ Harpellales_O	Harpellales	0.5	#444444	bold	1	0
 Harpellomycetes_C	Harpellomycetes	0.5	#444444	bold	1	0
 Hartmannellidae_F	Hartmannellidae	0.5	#444444	bold	1	0
 Hartmannulidae_F	Hartmannulidae	0.5	#444444	bold	1	0
-Hartmannulidae_X_ON	Hartmannulidae X	0.5	#444444	bold	1	0
 Helotiales_O	Helotiales	0.5	#444444	bold	1	0
 Hemimastigophora_P	Hemimastigophora	0.5	#444444	bold	1	0
 Hemiptera_O	Hemiptera	0.5	#444444	bold	1	0
@@ -426,8 +414,7 @@ Lecanoromycetidae_sC	Lecanoromycetidae	0.5	#444444	bold	1	0
 Lecideaceae_F	Lecideaceae	0.5	#444444	bold	1	0
 Lecideales_O	Lecideales	0.5	#444444	bold	1	0
 Legeriomycetaceae_F	Legeriomycetaceae	0.5	#444444	bold	1	0
-Leidyana1_ON	Leidyana1	0.5	#444444	bold	1	0
-Leidyana2_ON	Leidyana2	0.5	#444444	bold	1	0
+Leidyana_G	Leidyana	0.5	#444444	bold	1	0
 Leidyanidae_F	Leidyanidae	0.5	#444444	bold	1	0
 Leishmaniinae_sF	Leishmaniinae	0.5	#444444	bold	1	0
 Leotiomycetes_C	Leotiomycetes	0.5	#444444	bold	1	0
@@ -438,7 +425,6 @@ Leptomyxida_O	Leptomyxida	0.5	#444444	bold	1	0
 Life_R	Life	0.5	#444444	bold	1	0
 Liliopsida_Cl	Liliopsida	0.5	#444444	bold	1	0
 Limnofilidae_F	Limnofilidae	0.5	#444444	bold	1	0
-Limnofilidae_X_ON	Limnofilidae X	0.5	#444444	bold	1	0
 Limulidae_F	Limulidae	0.5	#444444	bold	1	0
 Lipomycetaceae_F	Lipomycetaceae	0.5	#444444	bold	1	0
 Lipomycetales_O	Lipomycetales	0.5	#444444	bold	1	0
@@ -458,7 +444,6 @@ Malpighiales_O	Malpighiales	0.5	#444444	bold	1	0
 Mamiellales_O	Mamiellales	0.5	#444444	bold	1	0
 Mamiellophyceae_C	Mamiellophyceae	0.5	#444444	bold	1	0
 Mammalia_C	Mammalia	0.5	#444444	bold	1	0
-Mammalia_X_ON	Mammalia X	0.5	#444444	bold	1	0
 Mandibulata_Cl	Mandibulata	0.5	#444444	bold	1	0
 Marasmiineae_sO	Marasmiineae	0.5	#444444	bold	1	0
 Massariaceae_F	Massariaceae	0.5	#444444	bold	1	0
@@ -503,6 +488,7 @@ Myomorpha_sO	Myomorpha	0.5	#444444	bold	1	0
 Myxosporea_sC	Myxosporea	0.5	#444444	bold	1	0
 Myxozoa_C	Myxozoa	0.5	#444444	bold	1	0
 NPAAA_clade_Cl	NPAAA clade	0.5	#444444	bold	1	0
+Nassellaria_O	Nassellaria	0.5	#444444	bold	1	0
 Naviculales_O	Naviculales	0.5	#444444	bold	1	0
 Nebulidae_F	Nebulidae	0.5	#444444	bold	1	0
 Nebulidea_C	Nebulidea	0.5	#444444	bold	1	0
@@ -530,7 +516,6 @@ Nibbleridida_O	Nibbleridida	0.5	#444444	bold	1	0
 Nothopodinae_sF	Nothopodinae	0.5	#444444	bold	1	0
 Nothopodini_T	Nothopodini	0.5	#444444	bold	1	0
 Nucleariidae_F	Nucleariidae	0.5	#444444	bold	1	0
-Nucleariidae_Nuclearia_2_X_ON	Nucleariidae Nuclearia 2 X	0.5	#444444	bold	1	0
 Nygolaimidae_F	Nygolaimidae	0.5	#444444	bold	1	0
 Nygolaimina_sO	Nygolaimina	0.5	#444444	bold	1	0
 Nygolaiminae_sF	Nygolaiminae	0.5	#444444	bold	1	0
@@ -625,9 +610,7 @@ Piroplasmida_O	Piroplasmida	0.5	#444444	bold	1	0
 Plagiopyxidae_F	Plagiopyxidae	0.5	#444444	bold	1	0
 Plagiostomidae_F	Plagiostomidae	0.5	#444444	bold	1	0
 Plasmodiidae_F	Plasmodiidae	0.5	#444444	bold	1	0
-Plasmodium1_ON	Plasmodium1	0.5	#444444	bold	1	0
-Plasmodium2_ON	Plasmodium2	0.5	#444444	bold	1	0
-Plasmodium4_ON	Plasmodium4	0.5	#444444	bold	1	0
+Plasmodium_G	Plasmodium	0.5	#444444	bold	1	0
 Plasmodium_Plasmodium_sG	Plasmodium Plasmodium	0.5	#444444	bold	1	0
 Platyhelminthes_P	Platyhelminthes	0.5	#444444	bold	1	0
 Pleosporales_O	Pleosporales	0.5	#444444	bold	1	0
@@ -695,13 +678,12 @@ Saccharomycotina_sP	Saccharomycotina	0.5	#444444	bold	1	0
 Salicaceae_F	Salicaceae	0.5	#444444	bold	1	0
 Saliceae_T	Saliceae	0.5	#444444	bold	1	0
 Salpingoecidae_F	Salpingoecidae	0.5	#444444	bold	1	0
-Salpingoecidae_Group_C1_X_ON	Salpingoecidae Group C1 X	0.5	#444444	bold	1	0
 Sandonidae_F	Sandonidae	0.5	#444444	bold	1	0
 Saprolegniaceae_F	Saprolegniaceae	0.5	#444444	bold	1	0
 Saprolegniales_O	Saprolegniales	0.5	#444444	bold	1	0
 Sar_Cl	Sar	0.5	#444444	bold	1	0
 Sarcocystidae_F	Sarcocystidae	0.5	#444444	bold	1	0
-Sarcocystis10_ON	Sarcocystis10	0.5	#444444	bold	1	0
+Sarcocystis_G	Sarcocystis	0.5	#444444	bold	1	0
 Sarcopterygii_SC	Sarcopterygii	0.5	#444444	bold	1	0
 Sarcoptiformes_O	Sarcoptiformes	0.5	#444444	bold	1	0
 Sauria_Cl	Sauria	0.5	#444444	bold	1	0
@@ -732,7 +714,7 @@ Sordariales_O	Sordariales	0.5	#444444	bold	1	0
 Sordariomycetes_C	Sordariomycetes	0.5	#444444	bold	1	0
 Sordariomycetidae_sC	Sordariomycetidae	0.5	#444444	bold	1	0
 Sorghinae_sT	Sorghinae	0.5	#444444	bold	1	0
-Sorghum_bicolor_S	Sorghum bicolor	0.5	#444444	bold	1	0
+Sorghum_G	Sorghum	0.5	#444444	bold	1	0
 Spermatophyta_Cl	Spermatophyta	0.5	#444444	bold	1	0
 Sphaeropleales_O	Sphaeropleales	0.5	#444444	bold	1	0
 Sphaerozoidae_F	Sphaerozoidae	0.5	#444444	bold	1	0
@@ -776,7 +758,7 @@ Thalassiosirophycidae_sC	Thalassiosirophycidae	0.5	#444444	bold	1	0
 Thaumatomastigidae_F	Thaumatomastigidae	0.5	#444444	bold	1	0
 Thaumatomonadida_O	Thaumatomonadida	0.5	#444444	bold	1	0
 Thecofilosea_C	Thecofilosea	0.5	#444444	bold	1	0
-Theileria1_ON	Theileria1	0.5	#444444	bold	1	0
+Theileria_G	Theileria	0.5	#444444	bold	1	0
 Theileriidae_F	Theileriidae	0.5	#444444	bold	1	0
 Theria_Cl	Theria	0.5	#444444	bold	1	0
 Tobrilidae_F	Tobrilidae	0.5	#444444	bold	1	0
@@ -789,7 +771,6 @@ Trebouxiophyceae_C	Trebouxiophyceae	0.5	#444444	bold	1	0
 Trebouxiophyceae_incertae_sedis_NR	Trebouxiophyceae incertae sedis	0.5	#444444	bold	1	0
 Trematoda_C	Trematoda	0.5	#444444	bold	1	0
 Tremellomycetes_C	Tremellomycetes	0.5	#444444	bold	1	0
-Tremellomycetes_X_ON	Tremellomycetes X	0.5	#444444	bold	1	0
 Trichosporonaceae_F	Trichosporonaceae	0.5	#444444	bold	1	0
 Trichosporonales_O	Trichosporonales	0.5	#444444	bold	1	0
 Triplonchida_O	Triplonchida	0.5	#444444	bold	1	0
@@ -800,6 +781,7 @@ Trypanosomatidae_F	Trypanosomatidae	0.5	#444444	bold	1	0
 Tubulinea_P	Tubulinea	0.5	#444444	bold	1	0
 Tubulinida_Cl	Tubulinida	0.5	#444444	bold	1	0
 Tubulinida_incertae_sedis_NR	Tubulinida incertae sedis	0.5	#444444	bold	1	0
+Turbellaria_C	Turbellaria	0.5	#444444	bold	1	0
 Tylenchina_sO	Tylenchina	0.5	#444444	bold	1	0
 Tylenchoidea_SF	Tylenchoidea	0.5	#444444	bold	1	0
 Tylenchomorpha_iO	Tylenchomorpha	0.5	#444444	bold	1	0
@@ -823,7 +805,7 @@ Viridiplantae_K	Viridiplantae	0.5	#444444	bold	1	0
 Vorticellidae_F	Vorticellidae	0.5	#444444	bold	1	0
 Xcellidae_F	Xcellidae	0.5	#444444	bold	1	0
 Xenopodinae_sF	Xenopodinae	0.5	#444444	bold	1	0
-Xenopus_sG	Xenopus	0.5	#444444	bold	1	0
+Xenopus_G	Xenopus	0.5	#444444	bold	1	0
 Xenospadicoidaceae_F	Xenospadicoidaceae	0.5	#444444	bold	1	0
 Xenospadicoidales_O	Xenospadicoidales	0.5	#444444	bold	1	0
 Xiphosura_O	Xiphosura	0.5	#444444	bold	1	0
