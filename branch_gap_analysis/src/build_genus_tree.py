@@ -4,7 +4,7 @@ Build a hierarchical tree from 18S census genus data.
 
 This script:
 1. Reads the eukcensus_18S_by_genus.csv file
-2. Filters out unassigned (.U.) and environmental lineage taxa
+2. Filters out environmental lineage taxa (keeps .U. unassigned genera)
 3. Builds a true taxonomic tree using the lineage information
 4. Outputs a Newick tree file for iTOL visualization
 """
@@ -15,7 +15,7 @@ from pathlib import Path
 from dataclasses import dataclass, field
 
 
-# Patterns to SKIP (environmental/census-only taxa - NOT .U. unassigned)
+# Patterns to SKIP (environmental/census-only taxa; .U. unassigned are kept)
 SKIP_PATTERNS = [
     r'-lineage',           # Environmental lineages: WIM80-lineage, Rhogostoma-lineage
     r'_X{2,}$',            # Multiple X suffix: _XX, _XXX, _XXXX (unassigned)
@@ -104,6 +104,35 @@ def get_rank_suffix(rank: str) -> str:
     return suffixes.get(rank, rank[0].upper() if rank else 'X')
 
 
+def integrate_genus_lineage(
+    root: TaxonNode,
+    names: list[str],
+    ranks: list[str],
+    taxids: list[str],
+    otu_count: int,
+    size_count: int,
+) -> None:
+    """Merge one genus-terminal lineage into an existing tree (mutates root)."""
+    current = root
+    for i, (name, rank, taxid) in enumerate(zip(names, ranks, taxids)):
+        name = name.strip()
+        rank = rank.strip()
+        taxid = taxid.strip() if taxid else ''
+
+        if not name:
+            continue
+
+        if i < len(names) - 1:
+            name = clean_lineage_name(name)
+
+        current = current.get_or_create_child(name, rank, taxid)
+
+    if current != root:
+        current.is_terminal = True
+        current.otu_count += otu_count
+        current.size_count += size_count
+
+
 def build_tree_from_lineages(input_file: Path) -> tuple[TaxonNode, dict]:
     """Build hierarchical tree from lineage data.
 
@@ -129,40 +158,17 @@ def build_tree_from_lineages(input_file: Path) -> tuple[TaxonNode, dict]:
                 stats['skipped'] += 1
                 continue
 
-            # Skip unassigned (.U.) and environmental lineage taxa
+            # Skip environmental lineage taxa (keeps .U. unassigned)
             if should_skip_taxon(genus_name):
                 stats['skipped'] += 1
                 continue
 
             stats['included'] += 1
 
-            # Parse lineage components
             names = lineage.split(';')
             ranks = lineage_ranks.split(';')
             taxids = lineage_taxids.split(';') if lineage_taxids else [''] * len(names)
-
-            # Build path through tree, cleaning intermediate names
-            current = root
-            for i, (name, rank, taxid) in enumerate(zip(names, ranks, taxids)):
-                name = name.strip()
-                rank = rank.strip()
-                taxid = taxid.strip() if taxid else ''
-
-                if not name:
-                    continue
-
-                # Clean intermediate lineage names (remove _X, _XX)
-                # but keep terminal genus name as-is for matching
-                if i < len(names) - 1:
-                    name = clean_lineage_name(name)
-
-                current = current.get_or_create_child(name, rank, taxid)
-
-            # Mark terminal node with census data
-            if current != root:
-                current.is_terminal = True
-                current.otu_count += otu_count
-                current.size_count += size_count
+            integrate_genus_lineage(root, names, ranks, taxids, otu_count, size_count)
 
     return root, stats
 
@@ -209,8 +215,9 @@ def print_tree_summary(node: TaxonNode, depth: int = 0, max_depth: int = 3):
 
 def main():
     """Main entry point."""
-    input_file = Path("/Users/ehsankakarh/PROJA/GitHub/otu_assembly_comparative_pipeline-/eukcensus_parse/18S_censusparse/output/eukcensus_18S_by_genus.csv")
-    output_dir = Path("/Users/ehsankakarh/PROJA/primer_project/branch_gap_analysis/output/18s/tree")
+    REPO_ROOT = Path(__file__).resolve().parent.parent.parent.parent  # 00data/
+    input_file = REPO_ROOT / "00_gaps_taxonomic/00parse_database/eukcensus_parse/18S_censusparse/output/eukcensus_18S_by_genus.csv"
+    output_dir = REPO_ROOT / "primer_project/branch_gap_analysis/output/18s/tree"
 
     print("=" * 70)
     print("Building Genus Tree from 18S Census Data")
@@ -222,8 +229,8 @@ def main():
 
     print(f"\nFiltering stats:")
     print(f"  Total rows: {stats['total']}")
-    print(f"  Skipped (unassigned .U. or *-lineage): {stats['skipped']}")
-    print(f"  Included (proper genera): {stats['included']}")
+    print(f"  Skipped (*-lineage, _XX, etc.): {stats['skipped']}")
+    print(f"  Included (genera + .U. unassigned): {stats['included']}")
 
     total, terminal = count_nodes(root)
     print(f"\nTree built: {total} total nodes, {terminal} terminal genera")
