@@ -26,7 +26,9 @@ resolves there (e.g. misaligned lineage_ranks in source CSV).
 from __future__ import annotations
 
 import csv
+import glob
 import math
+import os
 import re
 from collections import defaultdict
 from collections.abc import Callable
@@ -61,6 +63,11 @@ FAMILY_NF_EXTRACT = OUTPUT_DIR / "18s_final_merger_family_name_novelty.csv"
 DIVISION_NF_EXTRACT = OUTPUT_DIR / "18s_final_merger_division_name_novelty.csv"
 
 FINAL_MERGER_BASE = OTU_PIPELINE_ROOT / "final_merger" / "outputs"
+PRIMER_RESULTS_DIR = REPO_ROOT / "primer_project" / "18S_subset" / "primer_results"
+# Greedy umbrella panel (20 groups) — same list that feeds umbrella FASTAs / iterative design
+UMBRELLA_SUMMARY_CSV = (
+    REPO_ROOT / "primer_project" / "18S_subset" / "umbrella_output" / "umbrella_summary.csv"
+)
 FINAL_MERGER_FILES = {
     'division': FINAL_MERGER_BASE / "18s_ncbi_merged_division.csv",
     'family': FINAL_MERGER_BASE / "18s_ncbi_merged_family.csv",
@@ -106,6 +113,21 @@ def find_node_for_lineage(
         current = current.children[name]
 
     return current if current is not root else None
+
+
+def parse_primer_result_dirname(dir_name: str) -> tuple[str, str] | None:
+    """
+    Parse e.g. '002_Arcellinida_order' → ('Arcellinida', 'order').
+    Leading numeric chunk is stripped; trailing underscore segment is the rank.
+    """
+    parts = dir_name.split('_', 1)
+    if len(parts) != 2:
+        return None
+    target_with_rank = parts[1]
+    name_parts = target_with_rank.rsplit('_', 1)
+    if len(name_parts) != 2:
+        return None
+    return name_parts[0], name_parts[1]
 
 
 def get_nf_color(nf: float) -> str:
@@ -319,61 +341,104 @@ def create_node_labels(output_file: Path):
     print(f"  Labels: {len(all_nodes)} nodes → {output_file.name}")
 
 
-def create_internal_labels(output_file: Path):
+def _index_tree_bases_for_umbrellas(tree) -> dict[str, list[str]]:
     """
-    Create iTOL DATASET_TEXT file for INTERNAL nodes only (above genus level).
-    Uses SHOW_INTERNAL 1 to display labels at branching points.
-    Format matches old full_taxonomy_internal_labels.txt style.
+    Map lowercased clean_name(node_base) -> full Newick labels (e.g. Amoebozoa -> [Amoebozoa_Cl]).
+    Only names with a rank suffix (underscore) are indexed.
+    """
+    by_base: dict[str, list[str]] = defaultdict(list)
+    for clade in tree.find_clades():
+        nm = clade.name
+        if not nm or '_' not in nm:
+            continue
+        base, _suf = nm.rsplit('_', 1)
+        by_base[clean_name(base).lower()].append(nm)
+    return by_base
+
+
+def create_internal_labels(output_file: Path, umbrella_summary_csv: Path):
+    """
+    iTOL DATASET_TEXT for the greedy umbrella panel only: rows in
+    primer_project/18S_subset/umbrella_output/umbrella_summary.csv (same 20
+    groups as the *_umbrella.fna inputs used with iterative_cluster* design).
+
+    Resolves each `umbrella` column value to the matching EuKCensus Newick
+    clade (unique by taxon base name). Skips terminals if any matched a leaf.
     """
     from Bio import Phylo
     from io import StringIO
+
+    rows: list[tuple[int, str]] = []
+    with open(umbrella_summary_csv, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            name = (row.get('umbrella') or '').strip()
+            if not name:
+                continue
+            try:
+                rnk = int(row.get('rank') or 0)
+            except ValueError:
+                rnk = 0
+            rows.append((rnk, name))
+    rows.sort(key=lambda x: (x[0], x[1]))
 
     tree_content = TREE_FILE.read_text().rstrip()
     if not tree_content.endswith(';'):
         tree_content += ';'
     tree = Phylo.read(StringIO(tree_content), 'newick')
     terminal_ids = {n.name for n in tree.get_terminals() if n.name}
-
-    # Extract all node names with suffixes
-    import re
-    node_pattern = r'([A-Za-z0-9_.-]+_[A-Za-z]+)'
-    all_nodes = set(re.findall(node_pattern, TREE_FILE.read_text()))
+    by_base = _index_tree_bases_for_umbrellas(tree)
 
     lines = [
         "DATASET_TEXT",
         "SEPARATOR TAB",
-        "DATASET_LABEL\tClade Labels",
+        "DATASET_LABEL\tUmbrella panel clades",
         "COLOR\t#000000",
         "MARGIN\t0",
         "SHOW_INTERNAL\t1",
         "LABELS_BELOW\t0",
         "STRAIGHT_LABELS\t1",
         "SIZE_FACTOR\t1",
-        "DATA"
+        "DATA",
     ]
 
     internal_count = 0
-    for node in sorted(all_nodes):
-        # Split into name and suffix
+    skipped_terminal = 0
+    ambiguous: list[str] = []
+    missing: list[str] = []
+
+    for _rank, umbrella_name in rows:
+        key = clean_name(umbrella_name).lower()
+        candidates = sorted(set(by_base.get(key, [])))
+        if not candidates:
+            missing.append(umbrella_name)
+            continue
+        if len(candidates) > 1:
+            ambiguous.append(f"{umbrella_name}: {candidates}")
+        internal = [c for c in candidates if c not in terminal_ids]
+        node = internal[0] if internal else candidates[0]
+        if node in terminal_ids:
+            skipped_terminal += 1
         parts = node.rsplit('_', 1)
         if len(parts) != 2:
             continue
-
-        # Skip terminal leaves (all suffix types: G, ON, sG, …)
-        if node in terminal_ids:
-            continue
-
         name, _suffix = parts
-
-        # Clean the name (replace underscores with spaces)
         clean_label = name.replace('_', ' ')
-
-        # Format: node_id, label, position (0.5=centered), color, style, size, rotation
         lines.append(f"{node}\t{clean_label}\t0.5\t#444444\tbold\t1\t0")
         internal_count += 1
 
+    if missing:
+        print(
+            f"  Internal labels: {len(missing)} umbrella(s) not on tree: {missing}"
+        )
+    if ambiguous:
+        print(f"  Internal labels: ambiguous base name(s): {ambiguous[:3]}...")
+
     output_file.write_text('\n'.join(lines))
-    print(f"  Internal labels: {internal_count} nodes → {output_file.name}")
+    print(
+        f"  Internal labels: {internal_count} umbrella panel clades → {output_file.name}"
+        + (f" ({skipped_terminal} at terminal)" if skipped_terminal else "")
+    )
 
 
 def export_tree_nodes_list(output_file: Path) -> None:
@@ -561,24 +626,13 @@ def create_primer_highlight(genus_data: dict, priority_file: Path,
     A primer target is successful if its directory contains primer_pairs.csv
     (as opposed to failure_report.txt).
     """
-    import os
-    import glob
-
-    # Find all successful primer target names
+    # Find all successful primer target base names (priority file 'node' column)
     successful_targets = set()
     for pp_file in glob.glob(str(primer_results_dir / "*" / "primer_pairs.csv")):
         dir_name = os.path.basename(os.path.dirname(pp_file))
-        # dir_name like "002_Arcellinida_order" → extract "Arcellinida"
-        parts = dir_name.split('_', 1)  # ['002', 'Arcellinida_order']
-        if len(parts) == 2:
-            # Remove trailing _rank (order, family, subfamily, etc.)
-            target_with_rank = parts[1]
-            # Split from the right on underscore to strip the rank
-            name_parts = target_with_rank.rsplit('_', 1)
-            if len(name_parts) == 2:
-                successful_targets.add(name_parts[0])
-            else:
-                successful_targets.add(target_with_rank)
+        parsed = parse_primer_result_dirname(dir_name)
+        if parsed:
+            successful_targets.add(parsed[0])
 
     print(f"  Found {len(successful_targets)} successful primer targets")
 
@@ -668,9 +722,9 @@ def main():
     create_node_labels(labels_file)
 
     # Create internal labels (above genus level) for iTOL SHOW_INTERNAL display
-    print("\nCreating internal clade labels:")
+    print("\nCreating internal clade labels (umbrella panel from umbrella_summary.csv):")
     internal_labels_file = OUTPUT_DIR / "18s_internal_labels.txt"
-    create_internal_labels(internal_labels_file)
+    create_internal_labels(internal_labels_file, UMBRELLA_SUMMARY_CSV)
 
     print("\nExporting tree node list:")
     export_tree_nodes_list(OUTPUT_DIR / "18s_genus_tree_nodes.tsv")
@@ -717,10 +771,9 @@ def main():
 
     # Create primer coverage highlight
     print("\nCreating primer coverage highlight:")
-    primer_results_dir = REPO_ROOT / "primer_project" / "18S_subset" / "primer_results"
     priority_file = OUTPUT_DIR.parent / "nf_abundance_priority_scores.csv"
     primer_highlight_file = OUTPUT_DIR / "18s_primer_coverage.txt"
-    create_primer_highlight(genus_data, priority_file, primer_results_dir, primer_highlight_file)
+    create_primer_highlight(genus_data, priority_file, PRIMER_RESULTS_DIR, primer_highlight_file)
 
     print("\nDone! Upload 18s_genus_tree.nwk (or eukcensus_18s_genus_tree.nwk; same file) to iTOL.")
 
