@@ -81,17 +81,19 @@ FAMILY_RANKS = {'family', 'subfamily', 'superfamily', 'tribe', 'subtribe'}
 
 # Groups for which we built iterative-cluster greedy umbrella panels.
 # Internal node labels are restricted to exactly these taxa; everything else
-# is suppressed so the tree stays readable.
-UMBRELLA_PANEL_GROUPS = {
-    'alveolata',
-    'amoebozoa',
-    'copepoda',
-    'discoba',
-    'neocopepoda',
-    'rhizaria',
-    'sordariomyceta',
-    'stramenopiles',
+# is suppressed so the tree stays readable. Colors match
+# visuals/plot_greedy_stacked.py so figures remain consistent.
+UMBRELLA_PANEL_COLORS = {
+    'alveolata':       '#F77F00',
+    'amoebozoa':       '#E63946',
+    'copepoda':        '#FCBF49',
+    'discoba':         '#06A77D',
+    'neocopepoda':     '#118AB2',
+    'rhizaria':        '#073B4C',
+    'sordariomyceta':  '#8338EC',
+    'stramenopiles':   '#FF006E',
 }
+UMBRELLA_PANEL_GROUPS = set(UMBRELLA_PANEL_COLORS)
 
 
 def newick_label_for_node(node: TaxonNode) -> str:
@@ -442,7 +444,13 @@ def create_internal_labels(output_file: Path, umbrella_summary_csv: Path):
             continue
         name, _suffix = parts
         clean_label = name.replace('_', ' ')
-        lines.append(f"{node}\t{clean_label}\t0.5\t#444444\tbold\t1\t0")
+        # Panel-specific color when this clade is one of our umbrella targets;
+        # otherwise fall back to muted grey for the remaining umbrella rows.
+        color = UMBRELLA_PANEL_COLORS.get(
+            clean_name(name).lower(), '#666666'
+        )
+        # node_id, label, position(0.5=middle), color, style, size_factor, rotation
+        lines.append(f"{node}\t{clean_label}\t0.5\t{color}\tbold\t3\t0")
         internal_count += 1
 
     if missing:
@@ -457,6 +465,62 @@ def create_internal_labels(output_file: Path, umbrella_summary_csv: Path):
         f"  Internal labels: {internal_count} umbrella panel clades → {output_file.name}"
         + (f" ({skipped_terminal} at terminal)" if skipped_terminal else "")
     )
+
+
+def create_umbrella_clade_highlight(output_file: Path):
+    """
+    iTOL TREE_COLORS file that paints a colored ``range`` across each
+    iterative-cluster umbrella panel clade and colors the whole clade's
+    branches with the same hue. Makes the primer-design target clades
+    visually unmistakable in iTOL.
+
+    Two TREE_COLORS rows per clade:
+      1. ``range``: translucent background band spanning the entire subtree
+      2. ``clade``: solid color on every branch within the subtree
+    """
+    from Bio import Phylo
+    from io import StringIO
+
+    tree_content = TREE_FILE.read_text().rstrip()
+    if not tree_content.endswith(';'):
+        tree_content += ';'
+    tree = Phylo.read(StringIO(tree_content), 'newick')
+    terminal_ids = {n.name for n in tree.get_terminals() if n.name}
+    by_base = _index_tree_bases_for_umbrellas(tree)
+
+    lines = [
+        "TREE_COLORS",
+        "SEPARATOR TAB",
+        "",
+        "# Highlights the eight iterative-cluster umbrella panel clades:",
+        "#   range = colored background band spanning the whole subtree",
+        "#   clade = colors every branch within the subtree",
+        "",
+        "DATA",
+    ]
+
+    matched = 0
+    missing: list[str] = []
+
+    for group_name, color in sorted(UMBRELLA_PANEL_COLORS.items()):
+        candidates = sorted(set(by_base.get(group_name, [])))
+        if not candidates:
+            missing.append(group_name)
+            continue
+        # Prefer an internal node over a terminal so the range covers a clade
+        internal = [c for c in candidates if c not in terminal_ids]
+        node = internal[0] if internal else candidates[0]
+        # Display label = capitalised base name (e.g. amoebozoa → Amoebozoa)
+        display = group_name.capitalize()
+        lines.append(f"{node}\trange\t{color}\t{display} (primer panel)")
+        lines.append(f"{node}\tclade\t{color}\tnormal\t3")
+        matched += 1
+
+    output_file.write_text('\n'.join(lines))
+    msg = f"  Clade highlight: {matched} umbrella clades painted → {output_file.name}"
+    if missing:
+        msg += f"  (missing on tree: {missing})"
+    print(msg)
 
 
 def export_tree_nodes_list(output_file: Path) -> None:
@@ -743,6 +807,11 @@ def main():
     print("\nCreating internal clade labels (umbrella panel from umbrella_summary.csv):")
     internal_labels_file = OUTPUT_DIR / "18s_internal_labels.txt"
     create_internal_labels(internal_labels_file, UMBRELLA_SUMMARY_CSV)
+
+    # Highlight iterative-cluster umbrella panel clades with colored range/clade
+    print("\nCreating umbrella panel clade highlight (TREE_COLORS):")
+    clade_highlight_file = OUTPUT_DIR / "18s_umbrella_clade_highlight.txt"
+    create_umbrella_clade_highlight(clade_highlight_file)
 
     print("\nExporting tree node list:")
     export_tree_nodes_list(OUTPUT_DIR / "18s_genus_tree_nodes.tsv")
