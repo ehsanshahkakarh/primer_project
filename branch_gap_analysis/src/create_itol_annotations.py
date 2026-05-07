@@ -43,9 +43,9 @@ from build_genus_tree import (
     should_skip_taxon,
 )
 
-# Layout: this file is primer_project/branch_gap_analysis/src/ → PROJA is four levels up.
+# Layout: this file is primer_project/branch_gap_analysis/src/ → REPO_ROOT is four levels up.
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent.parent
-OTU_PIPELINE_ROOT = REPO_ROOT / "GitHub" / "otu_assembly_comparative_pipeline-"
+OTU_PIPELINE_ROOT = REPO_ROOT / "00_gaps_taxonomic" / "00parse_database"
 
 GENUS_PARSE_FILE = (
     OTU_PIPELINE_ROOT
