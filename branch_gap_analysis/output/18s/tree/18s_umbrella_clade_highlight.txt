@@ -1,0 +1,22 @@
+TREE_COLORS
+SEPARATOR TAB
+
+# Highlights the eight iterative-cluster umbrella panel clades:
+#   range = colored background band spanning the whole subtree
+#   clade = colors every branch within the subtree
+
+DATA
+Alveolata_Cl	range	#F77F00	Alveolata (primer panel)
+Alveolata_Cl	clade	#F77F00	normal	3
+Amoebozoa_Cl	range	#E63946	Amoebozoa (primer panel)
+Amoebozoa_Cl	clade	#E63946	normal	3
+Copepoda_sC	range	#FCBF49	Copepoda (primer panel)
+Copepoda_sC	clade	#FCBF49	normal	3
+Discoba_Cl	range	#06A77D	Discoba (primer panel)
+Discoba_Cl	clade	#06A77D	normal	3
+Rhizaria_Cl	range	#073B4C	Rhizaria (primer panel)
+Rhizaria_Cl	clade	#073B4C	normal	3
+sordariomyceta_Cl	range	#8338EC	Sordariomyceta (primer panel)
+sordariomyceta_Cl	clade	#8338EC	normal	3
+Stramenopiles_Cl	range	#FF006E	Stramenopiles (primer panel)
+Stramenopiles_Cl	clade	#FF006E	normal	3

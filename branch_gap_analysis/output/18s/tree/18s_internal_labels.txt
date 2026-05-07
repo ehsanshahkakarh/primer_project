@@ -8,23 +8,23 @@ LABELS_BELOW	0
 STRAIGHT_LABELS	1
 SIZE_FACTOR	1
 DATA
-Amoebozoa_Cl	Amoebozoa	0.5	#444444	bold	1	0
-Rhizaria_Cl	Rhizaria	0.5	#444444	bold	1	0
-Intramacronucleata_sP	Intramacronucleata	0.5	#444444	bold	1	0
-Tubulinea_P	Tubulinea	0.5	#444444	bold	1	0
-Sar_Cl	Sar	0.5	#444444	bold	1	0
-Apicomplexa_P	Apicomplexa	0.5	#444444	bold	1	0
-Conoidasida_C	Conoidasida	0.5	#444444	bold	1	0
-Euglenozoa_P	Euglenozoa	0.5	#444444	bold	1	0
-Discoba_Cl	Discoba	0.5	#444444	bold	1	0
-Alveolata_Cl	Alveolata	0.5	#444444	bold	1	0
-Evosea_P	Evosea	0.5	#444444	bold	1	0
-Stramenopiles_Cl	Stramenopiles	0.5	#444444	bold	1	0
-Neocopepoda_iC	Neocopepoda	0.5	#444444	bold	1	0
-Copepoda_sC	Copepoda	0.5	#444444	bold	1	0
-Retaria_Cl	Retaria	0.5	#444444	bold	1	0
-sordariomyceta_Cl	sordariomyceta	0.5	#444444	bold	1	0
-Cercozoa_P	Cercozoa	0.5	#444444	bold	1	0
-Phyllopharyngea_C	Phyllopharyngea	0.5	#444444	bold	1	0
-Elardia_C	Elardia	0.5	#444444	bold	1	0
-Oligohymenophorea_C	Oligohymenophorea	0.5	#444444	bold	1	0
+Amoebozoa_Cl	Amoebozoa	0.5	#E63946	bold	3	0
+Rhizaria_Cl	Rhizaria	0.5	#073B4C	bold	3	0
+Intramacronucleata_sP	Intramacronucleata	0.5	#666666	bold	3	0
+Tubulinea_P	Tubulinea	0.5	#666666	bold	3	0
+Sar_Cl	Sar	0.5	#666666	bold	3	0
+Apicomplexa_P	Apicomplexa	0.5	#666666	bold	3	0
+Conoidasida_C	Conoidasida	0.5	#666666	bold	3	0
+Euglenozoa_P	Euglenozoa	0.5	#666666	bold	3	0
+Discoba_Cl	Discoba	0.5	#06A77D	bold	3	0
+Alveolata_Cl	Alveolata	0.5	#F77F00	bold	3	0
+Evosea_P	Evosea	0.5	#666666	bold	3	0
+Stramenopiles_Cl	Stramenopiles	0.5	#FF006E	bold	3	0
+Neocopepoda_iC	Neocopepoda	0.5	#666666	bold	3	0
+Copepoda_sC	Copepoda	0.5	#FCBF49	bold	3	0
+Retaria_Cl	Retaria	0.5	#666666	bold	3	0
+sordariomyceta_Cl	sordariomyceta	0.5	#8338EC	bold	3	0
+Cercozoa_P	Cercozoa	0.5	#666666	bold	3	0
+Phyllopharyngea_C	Phyllopharyngea	0.5	#666666	bold	3	0
+Elardia_C	Elardia	0.5	#666666	bold	3	0
+Oligohymenophorea_C	Oligohymenophorea	0.5	#666666	bold	3	0
