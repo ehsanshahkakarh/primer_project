@@ -88,7 +88,6 @@ UMBRELLA_PANEL_COLORS = {
     'amoebozoa':       '#E63946',
     'copepoda':        '#FCBF49',
     'discoba':         '#06A77D',
-    'neocopepoda':     '#118AB2',
     'rhizaria':        '#073B4C',
     'sordariomyceta':  '#8338EC',
     'stramenopiles':   '#FF006E',
