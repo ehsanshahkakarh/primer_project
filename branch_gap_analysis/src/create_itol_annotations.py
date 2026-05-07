@@ -79,6 +79,20 @@ DIVISION_RANKS = {'phylum', 'division', 'clade', 'kingdom', 'subkingdom'}
 # Ranks that count as "family" level
 FAMILY_RANKS = {'family', 'subfamily', 'superfamily', 'tribe', 'subtribe'}
 
+# Groups for which we built iterative-cluster greedy umbrella panels.
+# Internal node labels are restricted to exactly these taxa; everything else
+# is suppressed so the tree stays readable.
+UMBRELLA_PANEL_GROUPS = {
+    'alveolata',
+    'amoebozoa',
+    'copepoda',
+    'discoba',
+    'neocopepoda',
+    'rhizaria',
+    'sordariomyceta',
+    'stramenopiles',
+}
+
 
 def newick_label_for_node(node: TaxonNode) -> str:
     """Single-node label — must match build_genus_tree.tree_to_newick()."""
@@ -276,20 +290,18 @@ def build_genus_data(root: TaxonNode) -> tuple[dict, dict]:
     return genus_data, stats
 
 
-def create_node_labels(output_file: Path):
+def create_node_labels(output_file: Path,
+                       allowed_groups: set[str] = UMBRELLA_PANEL_GROUPS):
     """
-    Create iTOL LABELS file for all nodes in the tree.
-    Parses the Newick tree and creates readable labels for all nodes.
+    Create iTOL LABELS file restricted to the iterative-cluster umbrella panel
+    groups (``allowed_groups``, lowercase base names).  Every other internal
+    node is silently skipped so the tree stays readable.
     """
-    # Read tree to get all node names
     tree_content = TREE_FILE.read_text()
 
-    # Extract all node names with suffixes (e.g., Alveolata_Cl, Homo_G)
-    import re
     node_pattern = r'([A-Za-z0-9_.-]+_[A-Za-z]+)'
     all_nodes = set(re.findall(node_pattern, tree_content))
 
-    # Rank suffix to full name mapping
     suffix_to_rank = {
         'D': 'Domain', 'K': 'Kingdom', 'sK': 'Subkingdom',
         'P': 'Phylum', 'sP': 'Subphylum', 'Dv': 'Division',
@@ -309,36 +321,42 @@ def create_node_labels(output_file: Path):
         "DATASET_LABEL\tNode Labels",
         "COLOR\t#000000",
         "",
-        "# Labels for all tree nodes",
+        "# Internal node labels — umbrella panel groups only",
         "# Format: node_id <tab> label <tab> position <tab> color <tab> style <tab> size",
         "",
         "DATA"
     ]
 
+    emitted = 0
+    skipped = 0
     for node in sorted(all_nodes):
-        # Split into name and suffix
         parts = node.rsplit('_', 1)
-        if len(parts) == 2:
-            name, suffix = parts
-            rank_name = suffix_to_rank.get(suffix, '')
+        if len(parts) != 2:
+            skipped += 1
+            continue
 
-            # Clean the name (replace underscores with spaces)
-            clean_label = name.replace('_', ' ')
+        name, suffix = parts
+        # Only label nodes whose base name belongs to an umbrella panel group
+        base_lower = clean_name(name).lower()
+        if base_lower not in allowed_groups:
+            skipped += 1
+            continue
 
-            # Add rank in parentheses if it's informative
-            if rank_name and rank_name not in ['', 'Genus']:
-                label = f"{clean_label} ({rank_name})"
-            else:
-                label = clean_label
+        rank_name = suffix_to_rank.get(suffix, '')
+        clean_label = name.replace('_', ' ')
+        if rank_name and rank_name not in ('', 'Genus'):
+            label = f"{clean_label} ({rank_name})"
         else:
-            label = node.replace('_', ' ')
+            label = clean_label
 
-        # Format: node_id, label, position, color, style, size_factor
-        # position: -1=left, 0=center, 1=right
         lines.append(f"{node}\t{label}\t-1\t#000000\tnormal\t1")
+        emitted += 1
 
     output_file.write_text('\n'.join(lines))
-    print(f"  Labels: {len(all_nodes)} nodes → {output_file.name}")
+    print(
+        f"  Labels: {emitted} umbrella-panel nodes labeled, "
+        f"{skipped} others suppressed → {output_file.name}"
+    )
 
 
 def _index_tree_bases_for_umbrellas(tree) -> dict[str, list[str]]:
